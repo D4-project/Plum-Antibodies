@@ -4,4 +4,6 @@ query: http_favicon_md5:F5A68DB40594839CFC2696197608E2A3 OR http_title:"Cisco Ca
 tags:
 - vendor:cisco
 - product:cisco-sd-wan
-version: 20260520T133458Z
+references:
+- https://www.cisco.com/
+version: 20260916T195759Z

@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:google-page-creator
 - vendor:google
-version: 20260916T000000Z
+references:
+- https://www.google.com/
+version: 20260916T195759Z

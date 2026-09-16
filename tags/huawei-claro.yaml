@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:huawei-claro
 - vendor:huawei
-version: 20260916T000000Z
+references:
+- https://www.huawei.com/
+version: 20260916T195759Z

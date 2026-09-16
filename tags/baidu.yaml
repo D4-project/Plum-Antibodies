@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:baidu
 - vendor:baidu
-version: 20260916T000000Z
+references:
+- https://www.baidu.com/
+version: 20260916T195759Z

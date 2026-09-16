@@ -4,4 +4,6 @@ tags:
 - proto:ftp
 - product:filezilla
 - vendor:filezilla
-version: 20260520T133458Z
+references:
+- https://filezilla-project.org/
+version: 20260916T195759Z

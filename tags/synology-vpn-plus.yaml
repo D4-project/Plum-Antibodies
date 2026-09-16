@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:synology-vpn-plus
 - vendor:synology
-version: 20260916T000000Z
+references:
+- https://www.synology.com/
+version: 20260916T195759Z

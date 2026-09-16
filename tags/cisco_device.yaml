@@ -3,4 +3,6 @@ query: banner.lk:-cisco-
 tags:
 - vendor:cisco
 - product:cisco-device
-version: 20260520T133458Z
+references:
+- https://www.cisco.com/
+version: 20260916T195759Z

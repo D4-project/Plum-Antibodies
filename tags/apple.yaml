@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:apple
 - vendor:apple
-version: 20260916T000000Z
+references:
+- https://www.apple.com/
+version: 20260916T195759Z

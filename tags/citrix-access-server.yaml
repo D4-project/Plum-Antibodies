@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:citrix-access-server
 - vendor:citrix
-version: 20260916T000000Z
+references:
+- https://www.citrix.com/
+version: 20260916T195759Z

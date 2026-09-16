@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:vmware-secure-file-transfer
 - vendor:vmware
-version: 20260916T000000Z
+references:
+- https://www.vmware.com/
+version: 20260916T195759Z

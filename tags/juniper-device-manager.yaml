@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:juniper-device-manager
 - vendor:juniper
-version: 20260916T000000Z
+references:
+- https://www.juniper.net/
+version: 20260916T195759Z

@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:drupal-cms
 - vendor:drupal
-version: 20260916T000000Z
+references:
+- https://www.drupal.org/
+version: 20260916T195759Z

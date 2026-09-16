@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:amazon
 - vendor:amazon
-version: 20260916T000000Z
+references:
+- https://aws.amazon.com/
+version: 20260916T195759Z

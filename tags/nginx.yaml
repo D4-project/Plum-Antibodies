@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:nginx
 - vendor:nginx
-version: 20260916T000000Z
+references:
+- https://nginx.org/
+version: 20260916T195759Z

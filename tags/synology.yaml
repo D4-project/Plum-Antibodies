@@ -6,4 +6,6 @@ tags:
 - vendor:synology
 - vendor:nas
 - product:synology-nas
-version: 20260520T133458Z
+references:
+- https://www.synology.com/
+version: 20260916T195759Z

@@ -7,4 +7,6 @@ tags:
 - product:sophosvpn
 - vendor:sophos
 - type:vpn
-version: 20260916T000000Z
+references:
+- https://www.sophos.com/
+version: 20260916T195759Z

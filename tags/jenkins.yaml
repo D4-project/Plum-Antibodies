@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:jenkins
 - vendor:jenkins
-version: 20260916T000000Z
+references:
+- https://www.jenkins.io/
+version: 20260916T195759Z

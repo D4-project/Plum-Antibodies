@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:asus-aicloud
 - vendor:asus
-version: 20260916T000000Z
+references:
+- https://www.asus.com/
+version: 20260916T195759Z

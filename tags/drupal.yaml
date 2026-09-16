@@ -6,4 +6,6 @@ tags:
 - type:cms
 - product:drupal
 - vendor:drupal
-version: 20260916T000000Z
+references:
+- https://www.drupal.org/
+version: 20260916T195759Z

@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:openvpn
 - vendor:openvpn
-version: 20260916T000000Z
+references:
+- https://openvpn.net/
+version: 20260916T195759Z

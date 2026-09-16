@@ -5,4 +5,6 @@ tags:
 - product:database
 - product:mysql
 - vendor:mysql
-version: 20260911T180000Z
+references:
+- https://www.mysql.com/
+version: 20260916T195759Z

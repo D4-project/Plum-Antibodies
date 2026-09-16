@@ -5,4 +5,6 @@ tags:
 - product:f5
 - type:slb
 - vendor:f5
-version: 20260916T194841Z
+references:
+- https://www.f5.com/
+version: 20260916T195759Z

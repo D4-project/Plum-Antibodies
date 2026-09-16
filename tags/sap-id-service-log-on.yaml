@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:sap-id-service-log-on
 - vendor:sap
-version: 20260916T000000Z
+references:
+- https://www.sap.com/
+version: 20260916T195759Z

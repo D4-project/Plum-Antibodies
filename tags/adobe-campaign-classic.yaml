@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:adobe-campaign-classic
 - vendor:adobe
-version: 20260916T000000Z
+references:
+- https://www.adobe.com/
+version: 20260916T195759Z

@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:xerox-docushare
 - vendor:xerox
-version: 20260916T000000Z
+references:
+- https://www.xerox.com/
+version: 20260916T195759Z

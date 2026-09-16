@@ -6,4 +6,6 @@ tags:
 - type:cms
 - product:wordpress
 - vendor:wordpress
-version: 20260916T000000Z
+references:
+- https://wordpress.org/
+version: 20260916T195759Z

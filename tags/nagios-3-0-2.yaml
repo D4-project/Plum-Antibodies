@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:nagios-3-0-2
 - vendor:nagios
-version: 20260916T000000Z
+references:
+- https://www.nagios.org/
+version: 20260916T195759Z

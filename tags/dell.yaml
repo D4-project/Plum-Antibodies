@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:dell
 - vendor:dell
-version: 20260916T000000Z
+references:
+- https://www.dell.com/
+version: 20260916T195759Z

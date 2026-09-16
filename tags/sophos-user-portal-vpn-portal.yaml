@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:sophos-user-portal-vpn-portal
 - vendor:sophos
-version: 20260916T000000Z
+references:
+- https://www.sophos.com/
+version: 20260916T195759Z

@@ -5,4 +5,6 @@ tags:
 - proto:http
 - product:apache
 - vendor:redhat
-version: 20260916T000000Z
+references:
+- https://www.redhat.com/
+version: 20260916T195759Z

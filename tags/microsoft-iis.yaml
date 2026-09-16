@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:microsoft-iis
 - vendor:microsoft
-version: 20260916T000000Z
+references:
+- https://www.microsoft.com/
+version: 20260916T195759Z

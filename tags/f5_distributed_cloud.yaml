@@ -5,4 +5,6 @@ tags:
 - vendor:f5
 - product:f5-distributed-cloud
 - type:slb
-version: 20260916T194953Z
+references:
+- https://www.f5.com/
+version: 20260916T195759Z

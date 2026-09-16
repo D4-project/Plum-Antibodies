@@ -9,4 +9,6 @@ tags:
 - product:cisco-router
 - product:ios
 - cpe:cisco:ios
-version: 20260916T000000Z
+references:
+- https://www.cisco.com/
+version: 20260916T195759Z

@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:hashicorp-vault
 - vendor:hashicorp
-version: 20260916T000000Z
+references:
+- https://www.hashicorp.com/
+version: 20260916T195759Z

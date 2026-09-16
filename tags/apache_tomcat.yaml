@@ -6,4 +6,6 @@ tags:
 - lang:java
 - product:tomcat
 - vendor:apache
-version: 20260916T000000Z
+references:
+- https://httpd.apache.org/
+version: 20260916T195759Z

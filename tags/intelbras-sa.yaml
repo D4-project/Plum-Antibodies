@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:intelbras-sa
 - vendor:intelbras
-version: 20260916T000000Z
+references:
+- https://www.intelbras.com/
+version: 20260916T195759Z

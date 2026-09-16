@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:siemens-ozw772
 - vendor:siemens
-version: 20260916T000000Z
+references:
+- https://www.siemens.com/
+version: 20260916T195759Z

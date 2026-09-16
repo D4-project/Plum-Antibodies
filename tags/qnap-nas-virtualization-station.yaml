@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:qnap-nas-virtualization-station
 - vendor:qnap
-version: 20260916T000000Z
+references:
+- https://www.qnap.com/
+version: 20260916T195759Z

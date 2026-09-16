@@ -3,4 +3,6 @@ query: banner.bg:ssh-2.0-openssh AND banner.lk:freebsd-
 tags:
 - vendor:freebsd
 - product:freebsd
-version: 20260520T133458Z
+references:
+- https://www.freebsd.org/
+version: 20260916T195759Z

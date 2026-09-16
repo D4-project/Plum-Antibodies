@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:sap-conversational-ai
 - vendor:sap
-version: 20260916T000000Z
+references:
+- https://www.sap.com/
+version: 20260916T195759Z

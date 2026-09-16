@@ -4,4 +4,6 @@ tags:
 - proto:http
 - vendor:zyxel
 - product:zyxel
-version: 20260916T000000Z
+references:
+- https://www.zyxel.com/
+version: 20260916T195759Z

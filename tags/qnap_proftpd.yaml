@@ -5,4 +5,6 @@ tags:
 - product:proftpd
 - vendor:qnap
 - vendor:nas
-version: 20260520T133458Z
+references:
+- https://www.qnap.com/
+version: 20260916T195759Z

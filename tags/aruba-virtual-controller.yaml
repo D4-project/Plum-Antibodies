@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:aruba-virtual-controller
 - vendor:aruba
-version: 20260916T000000Z
+references:
+- https://www.arubanetworks.com/
+version: 20260916T195759Z

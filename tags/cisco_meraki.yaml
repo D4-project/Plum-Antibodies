@@ -4,4 +4,6 @@ tags:
 - proto:http
 - vendor:cisco
 - product:meraki
-version: 20260916T000000Z
+references:
+- https://www.cisco.com/
+version: 20260916T195759Z

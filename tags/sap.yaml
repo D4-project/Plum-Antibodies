@@ -3,4 +3,6 @@ query: http_title.bg:"SAP Commerce Cloud" OR x509_subject.lk:"SAP Trust Communit
 tags:
 - product:sap
 - vendor:sap
-version: 20260909T000000Z
+references:
+- https://www.sap.com/
+version: 20260916T195759Z

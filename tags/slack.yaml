@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:slack
 - vendor:slack
-version: 20260916T000000Z
+references:
+- https://slack.com/
+version: 20260916T195759Z

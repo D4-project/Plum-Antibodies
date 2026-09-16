@@ -4,4 +4,6 @@ tags:
 - proto:http
 - product:zabbix
 - vendor:zabbix
-version: 20260916T000000Z
+references:
+- https://www.zabbix.com/
+version: 20260916T195759Z
