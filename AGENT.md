@@ -11,6 +11,13 @@ changes here focused on rule content, naming, queries, and versions. The
 operational import and reindex commands are documented in
 `documentation/tagging.md`.
 
+## Documentation language
+
+All repository documentation, comments intended for maintainers, commit-facing
+examples, and new explanatory text must be written in English. Keep code
+identifiers, YAML values, and product names unchanged when they are part of a
+technical contract.
+
 ## YAML rule contract
 
 Each rule contains:

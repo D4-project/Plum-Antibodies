@@ -1,21 +1,20 @@
 # Plum-Antibodies
 
-Plum-Antibodies contient les règles YAML utilisées par
-[Plum-Island](https://github.com/D4-project/Plum-Island) pour détecter et
-classifier des services à partir des rapports produits par les scanners.
+Plum-Antibodies contains the YAML rules used by
+[Plum-Island](https://github.com/D4-project/Plum-Island) to detect and classify
+services from scanner reports.
 
-Lorsqu’un rapport de scan est reçu, Plum-Island extrait ses champs techniques
-(bannières, titres HTTP, favicons, certificats, protocoles, etc.). Les règles
-de ce dépôt recherchent des correspondances dans ces champs et ajoutent des
-tags normalisés comme `product:nginx`, `vendor:cisco` ou `proto:ssh`.
+When a scan report is received, Plum-Island extracts technical fields such as
+banners, HTTP titles, favicons, certificates, and protocols. The rules in this
+repository search those fields for matches and add normalized tags such as
+`product:nginx`, `vendor:cisco`, or `proto:ssh`.
 
-Les règles sont stockées dans [`tags/`](tags/) au format YAML. Chaque règle
-décrit :
+Rules are stored as YAML files in [`tags/`](tags/). Each rule defines:
 
-- une description lisible ;
-- une requête de recherche ;
-- les tags à appliquer ;
-- une version UTC utilisée lors des imports.
+- a human-readable description;
+- a search query;
+- the tags to apply;
+- a UTC version used during imports.
 
 Exemple :
 
@@ -30,29 +29,29 @@ version: 20260428T170756Z
 
 ## Documentation
 
-- [Guide des règles de tags](documentation/tagging.md)
-- [Syntaxe des recherches Plum-Island](https://github.com/D4-project/Plum-Island/blob/main/documentation/search.md)
-- [Outils d’import et de réindexation](https://github.com/D4-project/Plum-Island/blob/main/documentation/tools.md#tag-tools)
-- [Installation de Plum-Island et initialisation du sous-module](https://github.com/D4-project/Plum-Island/blob/main/documentation/installation.md)
+- [Tag rule guide](documentation/tagging.md)
+- [Plum-Island search syntax](https://github.com/D4-project/Plum-Island/blob/main/documentation/search.md)
+- [Import and reindex tools](https://github.com/D4-project/Plum-Island/blob/main/documentation/tools.md#tag-tools)
+- [Plum-Island installation and submodule setup](https://github.com/D4-project/Plum-Island/blob/main/documentation/installation.md)
 
-La syntaxe utilisée dans le champ `query` est celle de la recherche Plum-Island.
-Consultez sa documentation avant de créer une règle, notamment pour les
-opérateurs exacts, `.bg`/`.begin`, `.lk`/`.like`, `AND`, `OR` et `NOT`.
+The `query` field uses Plum-Island's search syntax. Read its documentation
+before creating a rule, especially for exact operators, `.bg`/`.begin`,
+`.lk`/`.like`, `AND`, `OR`, and `NOT`.
 
 ## Utilisation comme sous-module
 
-Plum-Island monte ce dépôt dans `webapp/tags/`. Les règles sont donc visibles
-dans l’application sous `webapp/tags/tags/`.
+Plum-Island mounts this repository at `webapp/tags/`. The rules are therefore
+available to the application under `webapp/tags/tags/`.
 
 ```bash
 git clone --recurse-submodules https://github.com/D4-project/Plum-Island.git
 ```
 
-Pour mettre à jour les règles dans une installation existante :
+To update the rules in an existing checkout:
 
 ```bash
 git -C webapp/tags pull --ff-only origin main
 ```
 
-Après une modification de règle, importez les règles puis réindexez les
-documents existants avec les outils de Plum-Island.
+After changing a rule, import the rules and reindex existing documents with the
+Plum-Island tools.
