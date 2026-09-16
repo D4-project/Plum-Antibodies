@@ -46,9 +46,10 @@ For a detection-only YAML change:
 
 1. edit only the relevant file under `tags/`;
 2. update its UTC `version`;
-3. update the release notes when the change is user-visible;
-4. commit and push Plum-Antibodies;
-5. update the Plum-Island submodule pointer when the application should use it.
+3. run `tools/sanity-check.py` and fix every warning;
+4. update the release notes when the change is user-visible;
+5. commit and push Plum-Antibodies;
+6. update the Plum-Island submodule pointer when the application should use it.
 
 Do not add automated tests for detection-only rule changes. Add or update
 tests in Plum-Island when parser, indexer, query, or tag-engine behavior

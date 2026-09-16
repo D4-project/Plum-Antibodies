@@ -55,3 +55,22 @@ git -C webapp/tags pull --ff-only origin main
 
 After changing a rule, import the rules and reindex existing documents with the
 Plum-Island tools.
+
+## Sanity check
+
+Run the checker from the root of this repository before committing rule
+changes:
+
+```bash
+python3 tools/sanity-check.py
+```
+
+It loads every YAML rule, validates the required fields and version, checks
+the allowed search fields and query syntax, and prints the tags that each rule
+will apply on one line. It exits with a non-zero status when a warning is
+found. The script requires PyYAML; the Plum-Island virtual environment already
+provides it:
+
+```bash
+.venv/bin/python webapp/tags/tools/sanity-check.py
+```
