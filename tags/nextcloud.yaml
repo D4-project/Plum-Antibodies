@@ -1,6 +1,7 @@
 description: NextCloud
 query: http_title.bg:Nextcloud or http_cookiename.bg:oc_sessionPassphrase
 tags:
+- proto:http
 - product:nextcloud
 - vendor:nextcloud
-version: 20260520T133458Z
+version: 20260916T000000Z

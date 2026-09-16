@@ -1,0 +1,7 @@
+description: CradlePoint
+query: http_favicon_mmhash:-1457536113
+tags:
+- proto:http
+- product:cradlepoint
+- vendor:cradlepoint
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: Sierra Wireless Ace Manager (Airlink)
+query: http_favicon_mmhash:-1571472432
+tags:
+- proto:http
+- product:sierra-wireless-ace-manager-airlink
+- vendor:sierra
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: Ruckus Wireless
+query: http_favicon_mmhash:-2069844696
+tags:
+- proto:http
+- product:ruckus-wireless
+- vendor:ruckus
+version: 20260916T000000Z

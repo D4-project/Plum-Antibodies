@@ -1,0 +1,7 @@
+description: Juniper Device Manager
+query: http_favicon_mmhash:2141724739
+tags:
+- proto:http
+- product:juniper-device-manager
+- vendor:juniper
+version: 20260916T000000Z

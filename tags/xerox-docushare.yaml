@@ -1,0 +1,7 @@
+description: Xerox DocuShare
+query: http_favicon_md5:28893699241094742C3C2D4196CD1ACB
+tags:
+- proto:http
+- product:xerox-docushare
+- vendor:xerox
+version: 20260916T000000Z

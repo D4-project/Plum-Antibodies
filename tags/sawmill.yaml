@@ -1,0 +1,7 @@
+description: Sawmill
+query: http_favicon_md5:5A77E47FA23554A4166D2303580B0733
+tags:
+- proto:http
+- product:sawmill
+- vendor:sawmill
+version: 20260916T000000Z

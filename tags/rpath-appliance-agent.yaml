@@ -1,0 +1,7 @@
+description: rPath Appliance Agent
+query: http_favicon_md5:4C3373870496151FD02A6F1185B0BB68
+tags:
+- proto:http
+- product:rpath-appliance-agent
+- vendor:rpath
+version: 20260916T000000Z

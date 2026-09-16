@@ -1,0 +1,7 @@
+description: Form.io
+query: http_favicon_mmhash:1319699698
+tags:
+- proto:http
+- product:form-io
+- vendor:form
+version: 20260916T000000Z

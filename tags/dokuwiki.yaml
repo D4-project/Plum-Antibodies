@@ -1,0 +1,7 @@
+description: DokuWiki
+query: http_favicon_mmhash:-630493013
+tags:
+- proto:http
+- product:dokuwiki
+- vendor:dokuwiki
+version: 20260916T000000Z

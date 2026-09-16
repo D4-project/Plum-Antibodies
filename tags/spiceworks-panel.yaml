@@ -1,0 +1,7 @@
+description: Spiceworks (panel)
+query: http_favicon_mmhash:-2117390767
+tags:
+- proto:http
+- product:spiceworks-panel
+- vendor:spiceworks
+version: 20260916T000000Z

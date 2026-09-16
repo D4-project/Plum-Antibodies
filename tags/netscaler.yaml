@@ -3,6 +3,7 @@ query: http_favicon_path.bg:"/vpn/images/AccessGateway.ico" OR http_title.bg:"Ne
   Gateway" OR http_title.bg:"NetScaler AAA" OR http_title.lk:"/logon/LogonPoint/tmindex.html"
   OR http_title.lk:"/logonpoint/tmindex.html"
 tags:
+- proto:http
 - vendor:citrix
 - product:netscaler
-version: 20260520T133458Z
+version: 20260916T000000Z

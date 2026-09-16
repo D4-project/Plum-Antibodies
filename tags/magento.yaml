@@ -1,0 +1,7 @@
+description: Magento
+query: http_favicon_mmhash:-38580010
+tags:
+- proto:http
+- product:magento
+- vendor:magento
+version: 20260916T000000Z

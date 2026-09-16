@@ -1,0 +1,7 @@
+description: STARFACE VoIP Software
+query: http_favicon_mmhash:-332324409
+tags:
+- proto:http
+- product:starface-voip-software
+- vendor:starface
+version: 20260916T000000Z

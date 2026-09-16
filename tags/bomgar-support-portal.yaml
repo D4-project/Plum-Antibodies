@@ -1,0 +1,7 @@
+description: BOMGAR Support Portal
+query: http_favicon_mmhash:829321644
+tags:
+- proto:http
+- product:bomgar-support-portal
+- vendor:bomgar
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: torrentflux (2.4) - themes/BlueFlux/
+query: http_favicon_md5:D1BC9681DCE4AD805C17BD1F0F5CEE97
+tags:
+- proto:http
+- product:torrentflux-2-4-themes-blueflux
+- vendor:torrentflux
+version: 20260916T000000Z

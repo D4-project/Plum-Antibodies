@@ -1,0 +1,7 @@
+description: Skype
+query: http_favicon_mmhash:-1807411396
+tags:
+- proto:http
+- product:skype
+- vendor:skype
+version: 20260916T000000Z

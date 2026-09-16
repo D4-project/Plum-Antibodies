@@ -1,0 +1,7 @@
+description: Paradox IP Module
+query: http_favicon_mmhash:727253975
+tags:
+- proto:http
+- product:paradox-ip-module
+- vendor:paradox
+version: 20260916T000000Z

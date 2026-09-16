@@ -1,0 +1,7 @@
+description: StruxureWare (Schneider Electric)
+query: http_favicon_mmhash:979634648
+tags:
+- proto:http
+- product:struxureware-schneider-electric
+- vendor:struxureware
+version: 20260916T000000Z

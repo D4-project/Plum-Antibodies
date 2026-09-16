@@ -1,0 +1,7 @@
+description: Netgear (Network)
+query: http_favicon_mmhash:1047213685
+tags:
+- proto:http
+- product:netgear-network
+- vendor:netgear
+version: 20260916T000000Z

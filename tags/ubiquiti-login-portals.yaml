@@ -1,0 +1,7 @@
+description: Ubiquiti Login Portals
+query: http_favicon_mmhash:-1446794564
+tags:
+- proto:http
+- product:ubiquiti-login-portals
+- vendor:ubiquiti
+version: 20260916T000000Z

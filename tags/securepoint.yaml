@@ -1,0 +1,7 @@
+description: Securepoint
+query: http_favicon_mmhash:1051648103
+tags:
+- proto:http
+- product:securepoint
+- vendor:securepoint
+version: 20260916T000000Z

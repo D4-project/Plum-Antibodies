@@ -1,0 +1,7 @@
+description: gforge (4.6.99+svn6496) - webcalendar
+query: http_favicon_md5:857281E82EA34ABBB79B9B9C752E33D2
+tags:
+- proto:http
+- product:gforge-4-6-99-svn6496-webcalendar
+- vendor:gforge
+version: 20260916T000000Z

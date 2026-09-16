@@ -1,0 +1,7 @@
+description: SchoolCenter CMS
+query: http_favicon_md5:61E029C99ABC5CF058ABC77562A69F98
+tags:
+- proto:http
+- product:schoolcenter-cms
+- vendor:schoolcenter
+version: 20260916T000000Z

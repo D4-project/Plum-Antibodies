@@ -1,0 +1,7 @@
+description: Squid Proxy Server x
+query: http_favicon_md5:A967C8BFDE9EA0869637294B679B7251
+tags:
+- proto:http
+- product:squid-proxy-server-x
+- vendor:squid
+version: 20260916T000000Z

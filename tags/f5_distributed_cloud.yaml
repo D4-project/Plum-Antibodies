@@ -1,7 +1,8 @@
 description: F5 Distributed Cloud
 query: http_server:"volt-adc"
 tags:
+- proto:http
 - vendor:f5
 - product:f5-distributed-cloud
 - type:load-balancer
-version: 20260522T170038Z
+version: 20260916T000000Z

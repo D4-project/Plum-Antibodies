@@ -1,0 +1,7 @@
+description: Trimble Device Embedded Web Server
+query: http_favicon_md5:EE4A637A1257B2430649D6750CDA6EBA
+tags:
+- proto:http
+- product:trimble-device-embedded-web-server
+- vendor:trimble
+version: 20260916T000000Z

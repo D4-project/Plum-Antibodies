@@ -1,0 +1,7 @@
+description: Seafile
+query: http_favicon_mmhash:-12700016
+tags:
+- proto:http
+- product:seafile
+- vendor:seafile
+version: 20260916T000000Z

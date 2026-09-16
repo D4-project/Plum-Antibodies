@@ -1,0 +1,7 @@
+description: Sentora
+query: http_favicon_mmhash:-2054889066
+tags:
+- proto:http
+- product:sentora
+- vendor:sentora
+version: 20260916T000000Z

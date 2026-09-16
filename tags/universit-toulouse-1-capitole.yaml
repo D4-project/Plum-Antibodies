@@ -1,0 +1,7 @@
+description: "Universit\xE9 Toulouse 1 Capitole"
+query: http_favicon_mmhash:1632780968
+tags:
+- proto:http
+- product:universit-toulouse-1-capitole
+- vendor:universit
+version: 20260916T000000Z

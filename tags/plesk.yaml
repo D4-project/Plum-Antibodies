@@ -1,0 +1,8 @@
+description: Plesk
+query: http_favicon_mmhash:-134375033 OR http_favicon_mmhash:-1050786453 OR http_favicon_mmhash:-981606721
+  OR http_headval:x-powered-by.lk:plesklin
+tags:
+- proto:http
+- product:plesk
+- vendor:plesk
+version: 20260916T000000Z

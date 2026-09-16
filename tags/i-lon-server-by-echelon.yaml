@@ -1,0 +1,7 @@
+description: i.LON server by Echelon
+query: http_favicon_md5:BE6FB62815509BD707E69EE8DAD874A1
+tags:
+- proto:http
+- product:i-lon-server-by-echelon
+- vendor:i
+version: 20260916T000000Z

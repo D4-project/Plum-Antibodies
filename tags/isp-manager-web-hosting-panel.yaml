@@ -1,0 +1,7 @@
+description: ISP Manager (Web Hosting Panel)
+query: http_favicon_mmhash:-1151675028
+tags:
+- proto:http
+- product:isp-manager-web-hosting-panel
+- vendor:isp
+version: 20260916T000000Z

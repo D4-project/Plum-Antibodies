@@ -1,0 +1,7 @@
+description: JIRA
+query: http_favicon_mmhash:855273746
+tags:
+- proto:http
+- product:jira
+- vendor:jira
+version: 20260916T000000Z

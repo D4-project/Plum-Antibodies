@@ -1,0 +1,8 @@
+description: Vigor Router
+query: http_favicon_mmhash:104189364
+tags:
+- proto:http
+- product:vigor
+- type:router
+- vendor:vigor
+version: 20260916T000000Z

@@ -1,6 +1,7 @@
 description: WildFly
 query: http_favicon_mmhash:-1666561833
 tags:
+- proto:http
 - product:wildfly
 - vendor:wildfly
-version: 20260520T133458Z
+version: 20260916T000000Z

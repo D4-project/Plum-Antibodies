@@ -1,0 +1,7 @@
+description: JustHost
+query: http_favicon_mmhash:1734609466
+tags:
+- proto:http
+- product:justhost
+- vendor:justhost
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: Sunny WebBox
+query: http_favicon_mmhash:1975413433
+tags:
+- proto:http
+- product:sunny-webbox
+- vendor:sunny
+version: 20260916T000000Z

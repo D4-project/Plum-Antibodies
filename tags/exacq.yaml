@@ -1,0 +1,7 @@
+description: Exacq
+query: http_favicon_mmhash:476213314
+tags:
+- proto:http
+- product:exacq
+- vendor:exacq
+version: 20260916T000000Z

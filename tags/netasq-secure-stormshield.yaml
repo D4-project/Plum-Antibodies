@@ -1,0 +1,7 @@
+description: NETASQ - Secure / Stormshield
+query: http_favicon_mmhash:-1929912510
+tags:
+- proto:http
+- product:netasq-secure-stormshield
+- vendor:netasq
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: Netis (network devices)
+query: http_favicon_mmhash:-594256627
+tags:
+- proto:http
+- product:netis-network-devices
+- vendor:netis
+version: 20260916T000000Z

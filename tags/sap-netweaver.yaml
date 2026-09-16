@@ -1,0 +1,7 @@
+description: SAP Netweaver
+query: http_favicon_mmhash:-266008933
+tags:
+- proto:http
+- product:sap-netweaver
+- vendor:sap
+version: 20260916T000000Z

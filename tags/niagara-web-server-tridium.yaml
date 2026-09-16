@@ -1,0 +1,7 @@
+description: Niagara Web Server / Tridium
+query: http_favicon_mmhash:1991562061
+tags:
+- proto:http
+- product:niagara-web-server-tridium
+- vendor:niagara
+version: 20260916T000000Z

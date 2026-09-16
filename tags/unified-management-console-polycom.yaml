@@ -1,0 +1,7 @@
+description: Unified Management Console (Polycom)
+query: http_favicon_mmhash:-1775553655
+tags:
+- proto:http
+- product:unified-management-console-polycom
+- vendor:unified
+version: 20260916T000000Z

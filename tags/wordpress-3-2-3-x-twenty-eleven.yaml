@@ -1,0 +1,9 @@
+description: 'WordPress 3.2-3.x : Twenty Eleven'
+query: http_favicon_md5:28A122AA74F6929B0994FC544555C0B1
+tags:
+- proto:http
+- product:wordpress-3-2-3-x-twenty-eleven
+- type:cms
+- product:wordpress
+- vendor:wordpress
+version: 20260916T000000Z

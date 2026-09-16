@@ -1,7 +1,8 @@
 description: Radware
 query: http_headval:www-authenticate.lk:radware
 tags:
+- proto:http
 - product:radware
 - type:firewall
 - vendor:radware
-version: 20260520T133458Z
+version: 20260916T000000Z

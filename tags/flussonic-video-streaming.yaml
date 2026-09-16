@@ -1,0 +1,7 @@
+description: Flussonic (Video Streaming)
+query: http_favicon_mmhash:-393788031
+tags:
+- proto:http
+- product:flussonic-video-streaming
+- vendor:flussonic
+version: 20260916T000000Z

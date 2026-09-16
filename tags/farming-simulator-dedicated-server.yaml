@@ -1,0 +1,7 @@
+description: Farming Simulator Dedicated Server
+query: http_favicon_mmhash:509789953
+tags:
+- proto:http
+- product:farming-simulator-dedicated-server
+- vendor:farming
+version: 20260916T000000Z

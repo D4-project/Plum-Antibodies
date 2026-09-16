@@ -1,0 +1,7 @@
+description: Fortinet - Forticlient
+query: http_favicon_mmhash:945408572
+tags:
+- proto:http
+- product:fortinet-forticlient
+- vendor:fortinet
+version: 20260916T000000Z

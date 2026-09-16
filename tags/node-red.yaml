@@ -1,0 +1,7 @@
+description: Node-RED
+query: http_favicon_mmhash:321591353
+tags:
+- proto:http
+- product:node-red
+- vendor:node
+version: 20260916T000000Z

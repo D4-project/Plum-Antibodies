@@ -1,0 +1,7 @@
+description: SocialText
+query: http_favicon_md5:506190FC55CEAA132F1BC305ED8472CA
+tags:
+- proto:http
+- product:socialtext
+- vendor:socialtext
+version: 20260916T000000Z

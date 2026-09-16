@@ -1,0 +1,7 @@
+description: Untangle
+query: http_favicon_mmhash:1103599349
+tags:
+- proto:http
+- product:untangle
+- vendor:untangle
+version: 20260916T000000Z

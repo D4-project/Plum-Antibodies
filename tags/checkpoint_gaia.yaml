@@ -1,7 +1,8 @@
 description: Checkpoint (Gaia)
 query: http_favicon_mmhash:-1822098181
 tags:
+- proto:http
 - product:checkpoint
 - product:checkpoint-gaia
 - vendor:checkpoint
-version: 20260520T133458Z
+version: 20260916T000000Z

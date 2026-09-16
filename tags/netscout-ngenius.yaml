@@ -1,0 +1,7 @@
+description: NetScout NGenius
+query: http_favicon_md5:A46BC7FC42979E9B343335BDD86D1C3E
+tags:
+- proto:http
+- product:netscout-ngenius
+- vendor:netscout
+version: 20260916T000000Z

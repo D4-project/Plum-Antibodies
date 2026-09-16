@@ -1,0 +1,7 @@
+description: IBM Notes
+query: http_favicon_mmhash:728788645
+tags:
+- proto:http
+- product:ibm-notes
+- vendor:ibm
+version: 20260916T000000Z

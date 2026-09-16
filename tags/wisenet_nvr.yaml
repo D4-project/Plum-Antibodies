@@ -1,7 +1,8 @@
 description: Wisenet NVR
 query: http_headval:www-authenticate.lk:"wisenet nvr"
 tags:
+- proto:http
 - product:wisenet-nvr
 - type:camera
 - vendor:hanwha
-version: 20260520T133458Z
+version: 20260916T000000Z

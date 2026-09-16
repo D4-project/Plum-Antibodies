@@ -1,0 +1,7 @@
+description: TCN
+query: http_favicon_mmhash:-702384832
+tags:
+- proto:http
+- product:tcn
+- vendor:tcn
+version: 20260916T000000Z

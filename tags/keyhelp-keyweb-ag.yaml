@@ -1,0 +1,7 @@
+description: KeyHelp (Keyweb AG)
+query: http_favicon_mmhash:-1267819858 OR http_favicon_mmhash:726817668
+tags:
+- proto:http
+- product:keyhelp-keyweb-ag
+- vendor:keyhelp
+version: 20260916T000000Z

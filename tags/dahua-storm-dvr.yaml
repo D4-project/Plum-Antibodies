@@ -1,0 +1,7 @@
+description: Dahua Storm (DVR)
+query: http_favicon_mmhash:1281253102
+tags:
+- proto:http
+- product:dahua-storm-dvr
+- vendor:dahua
+version: 20260916T000000Z

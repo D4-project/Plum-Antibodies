@@ -1,0 +1,7 @@
+description: CommuniGate
+query: http_favicon_mmhash:-1588746893
+tags:
+- proto:http
+- product:communigate
+- vendor:communigate
+version: 20260916T000000Z

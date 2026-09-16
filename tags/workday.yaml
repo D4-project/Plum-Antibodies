@@ -1,0 +1,7 @@
+description: Workday
+query: http_favicon_mmhash:-459291760
+tags:
+- proto:http
+- product:workday
+- vendor:workday
+version: 20260916T000000Z

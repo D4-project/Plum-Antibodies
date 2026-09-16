@@ -1,0 +1,7 @@
+description: Jenkins
+query: http_favicon_mmhash:81586312
+tags:
+- proto:http
+- product:jenkins
+- vendor:jenkins
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: Plex
+query: http_favicon_md5:0F584138AACFB79AABA7E2539FC4E642
+tags:
+- proto:http
+- product:plex
+- vendor:plex
+version: 20260916T000000Z

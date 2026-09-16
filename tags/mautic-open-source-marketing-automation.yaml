@@ -1,0 +1,7 @@
+description: Mautic (Open Source Marketing Automation)
+query: http_favicon_mmhash:1273982002
+tags:
+- proto:http
+- product:mautic-open-source-marketing-automation
+- vendor:mautic
+version: 20260916T000000Z

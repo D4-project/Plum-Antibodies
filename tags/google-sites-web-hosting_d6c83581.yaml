@@ -1,0 +1,7 @@
+description: Google Sites web hosting
+query: http_favicon_md5:D6C8358104C64B2A3415F2F779C01EF2
+tags:
+- proto:http
+- product:google-sites-web-hosting
+- vendor:google
+version: 20260916T000000Z

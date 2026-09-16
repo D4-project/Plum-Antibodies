@@ -1,0 +1,7 @@
+description: Mailcow
+query: http_favicon_mmhash:2146763496
+tags:
+- proto:http
+- product:mailcow
+- vendor:mailcow
+version: 20260916T000000Z

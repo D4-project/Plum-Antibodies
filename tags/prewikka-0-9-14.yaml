@@ -1,0 +1,7 @@
+description: prewikka (0.9.14)
+query: http_favicon_md5:BA84999DFC070065F37A082AB0E36017
+tags:
+- proto:http
+- product:prewikka-0-9-14
+- vendor:prewikka
+version: 20260916T000000Z

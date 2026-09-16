@@ -1,0 +1,7 @@
+description: XOOPS CMS
+query: http_favicon_md5:389A8816C5B87685DE7D8D5FEC96C85B
+tags:
+- proto:http
+- product:xoops-cms
+- vendor:xoops
+version: 20260916T000000Z

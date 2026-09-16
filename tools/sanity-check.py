@@ -224,6 +224,12 @@ def main() -> int:
         action="store_true",
         help="print type tags for each rule and a unique sorted summary",
     )
+    parser.add_argument(
+        "--proto",
+        dest="show_protocols",
+        action="store_true",
+        help="print protocol tags for each rule and a unique sorted summary",
+    )
     args = parser.parse_args()
     paths = sorted(args.rules_dir.glob("*.yaml"))
     if not paths:
@@ -232,6 +238,7 @@ def main() -> int:
 
     failures = 0
     found_types: set[str] = set()
+    found_protocols: set[str] = set()
     for path in paths:
         try:
             tags = validate_rule(path)
@@ -240,11 +247,19 @@ def main() -> int:
             warnings.warn(f"{path.name}: {error}", stacklevel=0)
             print(f"WARNING {path.name}: invalid rule", flush=True)
             continue
-        if args.show_types:
+        if args.show_types or args.show_protocols:
             type_tags = [tag for tag in tags if tag.startswith("type:")]
+            protocol_tags = [tag for tag in tags if tag.startswith("proto:")]
             found_types.update(type_tags)
-            display = ", ".join(type_tags) if type_tags else "(none)"
-            print(f"{path.name}: types -> {display}", flush=True)
+            found_protocols.update(protocol_tags)
+            details = []
+            if args.show_types:
+                details.append(f"types -> {', '.join(type_tags) if type_tags else '(none)'}")
+            if args.show_protocols:
+                details.append(
+                    f"protocols -> {', '.join(protocol_tags) if protocol_tags else '(none)'}"
+                )
+            print(f"{path.name}: {' | '.join(details)}", flush=True)
         else:
             print(f"OK {path.name}: tags -> {', '.join(tags)}", flush=True)
 
@@ -253,6 +268,10 @@ def main() -> int:
         print("Unique types found:")
         for type_tag in sorted(found_types):
             print(type_tag)
+    if args.show_protocols:
+        print("Unique protocols found:")
+        for protocol_tag in sorted(found_protocols):
+            print(protocol_tag)
     return 1 if failures else 0
 
 

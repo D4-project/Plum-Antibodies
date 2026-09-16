@@ -1,0 +1,7 @@
+description: BIG-IP
+query: http_favicon_mmhash:878647854
+tags:
+- proto:http
+- product:f5
+- vendor:f5
+version: 20260916T000000Z

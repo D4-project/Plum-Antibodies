@@ -1,0 +1,7 @@
+description: Proofpoint
+query: http_favicon_mmhash:-1630354993
+tags:
+- proto:http
+- product:proofpoint
+- vendor:proofpoint
+version: 20260916T000000Z

@@ -1,0 +1,6 @@
+description: "\u767B\u5F55 - AMH"
+query: http_favicon_mmhash:1822002133
+tags:
+- proto:http
+- product:amh
+version: 20260916T000000Z

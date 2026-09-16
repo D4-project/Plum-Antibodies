@@ -1,0 +1,7 @@
+description: Atlassian Jira Bug Tracker
+query: http_favicon_md5:04D89D5B7A290334F5CE37C7E8B6A349
+tags:
+- proto:http
+- product:atlassian-jira-bug-tracker
+- vendor:atlassian
+version: 20260916T000000Z

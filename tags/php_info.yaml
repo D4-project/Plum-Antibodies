@@ -1,6 +1,7 @@
 description: PHP Info
 query: http_title.lk:phpinfo()
 tags:
+- proto:http
 - vuln:phpinfo
 - lang:php
-version: 20260520T133458Z
+version: 20260916T000000Z

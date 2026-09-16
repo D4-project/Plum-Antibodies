@@ -1,0 +1,7 @@
+description: INSTAR Full-HD IP-Camera
+query: http_favicon_mmhash:-1748763891
+tags:
+- proto:http
+- product:instar-full-hd-ip
+- vendor:camera
+version: 20260916T000000Z

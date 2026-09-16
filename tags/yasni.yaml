@@ -1,0 +1,7 @@
+description: Yasni
+query: http_favicon_mmhash:-178685903
+tags:
+- proto:http
+- product:yasni
+- vendor:yasni
+version: 20260916T000000Z

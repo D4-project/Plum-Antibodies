@@ -1,0 +1,7 @@
+description: gosa (2.5.16.1)
+query: http_favicon_md5:ECAB73F909DDD28E482ABABE810447C8
+tags:
+- proto:http
+- product:gosa-2-5-16-1
+- vendor:gosa
+version: 20260916T000000Z

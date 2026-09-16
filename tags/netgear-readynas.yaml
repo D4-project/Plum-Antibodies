@@ -1,0 +1,7 @@
+description: NETGEAR ReadyNAS
+query: http_favicon_mmhash:-137295400
+tags:
+- proto:http
+- product:netgear-readynas
+- vendor:netgear
+version: 20260916T000000Z

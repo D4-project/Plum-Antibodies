@@ -1,0 +1,7 @@
+description: Etherpad
+query: http_favicon_md5:FA2B274FAB800AF436EE688E97DA4AC4
+tags:
+- proto:http
+- product:etherpad
+- vendor:etherpad
+version: 20260916T000000Z

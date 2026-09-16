@@ -1,0 +1,7 @@
+description: Ligowave (network)
+query: http_favicon_mmhash:1467395679
+tags:
+- proto:http
+- product:ligowave-network
+- vendor:ligowave
+version: 20260916T000000Z

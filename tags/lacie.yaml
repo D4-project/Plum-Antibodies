@@ -1,0 +1,7 @@
+description: LaCie
+query: http_favicon_mmhash:-1277814690
+tags:
+- proto:http
+- product:lacie
+- vendor:lacie
+version: 20260916T000000Z

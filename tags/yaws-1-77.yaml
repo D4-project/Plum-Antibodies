@@ -1,0 +1,7 @@
+description: yaws (1.77)
+query: http_favicon_md5:81FEAC35654318FB16D1A567B8B941E7
+tags:
+- proto:http
+- product:yaws-1-77
+- vendor:yaws
+version: 20260916T000000Z

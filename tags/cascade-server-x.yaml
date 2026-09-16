@@ -1,0 +1,7 @@
+description: Cascade Server x
+query: http_favicon_md5:5D27143FC38439BABA39BA5615CBE9EF
+tags:
+- proto:http
+- product:cascade-server-x
+- vendor:cascade
+version: 20260916T000000Z

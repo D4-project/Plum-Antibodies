@@ -1,0 +1,7 @@
+description: ownCloud
+query: http_favicon_mmhash:-1616115760
+tags:
+- proto:http
+- product:owncloud
+- vendor:owncloud
+version: 20260916T000000Z

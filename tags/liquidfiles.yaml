@@ -1,0 +1,7 @@
+description: LiquidFiles
+query: http_favicon_mmhash:541087742
+tags:
+- proto:http
+- product:liquidfiles
+- vendor:liquidfiles
+version: 20260916T000000Z

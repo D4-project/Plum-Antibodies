@@ -1,0 +1,7 @@
+description: phpSysInfo 3.0.7
+query: http_favicon_md5:A456DD2BAE5746BEB68814A5AC977048
+tags:
+- proto:http
+- product:phpsysinfo-3-0-7
+- vendor:phpsysinfo
+version: 20260916T000000Z

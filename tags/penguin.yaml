@@ -1,0 +1,7 @@
+description: penguin
+query: http_favicon_md5:6399CC480D494BF1FCD7D16C42B1C11B
+tags:
+- proto:http
+- product:penguin
+- vendor:penguin
+version: 20260916T000000Z

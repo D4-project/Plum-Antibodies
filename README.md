@@ -93,3 +93,10 @@ end:
 ```bash
 .venv/bin/python tools/sanity-check.py --type
 ```
+
+Use `--proto` to print protocol tags and their unique sorted summary. The two
+options can be combined:
+
+```bash
+.venv/bin/python tools/sanity-check.py --type --proto
+```

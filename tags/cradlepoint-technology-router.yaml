@@ -1,0 +1,8 @@
+description: CradlePoint Technology (Router)
+query: http_favicon_mmhash:1466912879
+tags:
+- proto:http
+- type:router
+- product:cradlepoint-technology
+- vendor:cradlepoint
+version: 20260916T000000Z

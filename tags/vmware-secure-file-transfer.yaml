@@ -1,0 +1,7 @@
+description: Vmware Secure File Transfer
+query: http_favicon_mmhash:1642701741
+tags:
+- proto:http
+- product:vmware-secure-file-transfer
+- vendor:vmware
+version: 20260916T000000Z

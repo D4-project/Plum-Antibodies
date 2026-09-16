@@ -1,0 +1,7 @@
+description: 'CenturyLink Modem GUI Login (eg: Technicolor)'
+query: http_favicon_mmhash:-1908556829
+tags:
+- proto:http
+- product:centurylink-modem-gui-login-eg-technicolor
+- vendor:centurylink
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: JupyterHub
+query: http_favicon_mmhash:1248917303
+tags:
+- proto:http
+- product:jupyterhub
+- vendor:jupyterhub
+version: 20260916T000000Z

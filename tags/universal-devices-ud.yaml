@@ -1,0 +1,7 @@
+description: Universal Devices (UD)
+query: http_favicon_mmhash:16202868
+tags:
+- proto:http
+- product:universal-devices-ud
+- vendor:universal
+version: 20260916T000000Z

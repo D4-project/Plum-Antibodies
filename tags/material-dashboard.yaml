@@ -1,0 +1,7 @@
+description: Material Dashboard
+query: http_favicon_mmhash:1913538826
+tags:
+- proto:http
+- product:material-dashboard
+- vendor:material
+version: 20260916T000000Z

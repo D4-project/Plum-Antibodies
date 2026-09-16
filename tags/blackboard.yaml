@@ -1,0 +1,7 @@
+description: Blackboard
+query: http_favicon_mmhash:-1593651747
+tags:
+- proto:http
+- product:blackboard
+- vendor:blackboard
+version: 20260916T000000Z

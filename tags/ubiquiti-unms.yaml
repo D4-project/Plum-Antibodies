@@ -1,0 +1,7 @@
+description: Ubiquiti UNMS
+query: http_favicon_mmhash:1157789622
+tags:
+- proto:http
+- product:ubiquiti-unms
+- vendor:ubiquiti
+version: 20260916T000000Z

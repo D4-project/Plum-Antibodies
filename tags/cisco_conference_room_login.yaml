@@ -1,6 +1,7 @@
 description: Cisco (eg:Conference Room Login Page)
 query: http_favicon_mmhash:-646322113
 tags:
+- proto:http
 - vendor:cisco
 - product:conference-room-login
-version: 20260520T133458Z
+version: 20260916T000000Z

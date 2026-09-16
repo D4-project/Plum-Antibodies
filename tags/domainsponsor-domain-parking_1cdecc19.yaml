@@ -1,0 +1,7 @@
+description: DomainSponsor domain parking
+query: http_favicon_md5:1CDECC190B122A232E64945332DE0546
+tags:
+- proto:http
+- product:domainsponsor-domain-parking
+- vendor:domainsponsor
+version: 20260916T000000Z

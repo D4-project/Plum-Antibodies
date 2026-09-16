@@ -1,0 +1,7 @@
+description: Bitnami
+query: http_favicon_mmhash:-1607644090
+tags:
+- proto:http
+- product:bitnami
+- vendor:bitnami
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: Thomson/Speedtouch Device
+query: http_favicon_md5:BEFCDED36AEC1E59EA624582FCB3225C
+tags:
+- proto:http
+- product:thomson-speedtouch-device
+- vendor:thomson
+version: 20260916T000000Z

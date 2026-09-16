@@ -1,0 +1,7 @@
+description: Cambium Networks
+query: http_favicon_mmhash:-435817905
+tags:
+- proto:http
+- product:cambium-networks
+- vendor:cambium
+version: 20260916T000000Z

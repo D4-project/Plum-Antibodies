@@ -1,0 +1,7 @@
+description: Shinobi (CCTV)
+query: http_favicon_mmhash:-10974981
+tags:
+- proto:http
+- product:shinobi-cctv
+- vendor:shinobi
+version: 20260916T000000Z

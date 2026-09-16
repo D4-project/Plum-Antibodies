@@ -1,0 +1,7 @@
+description: ClaimTime (Ramsell Public Health & Safety)
+query: http_favicon_mmhash:-687783882
+tags:
+- proto:http
+- product:claimtime-ramsell-public-health-and-safety
+- vendor:claimtime
+version: 20260916T000000Z

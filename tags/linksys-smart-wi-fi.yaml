@@ -1,0 +1,7 @@
+description: Linksys Smart Wi-Fi
+query: http_favicon_mmhash:-2063036701
+tags:
+- proto:http
+- product:linksys-smart-wi-fi
+- vendor:linksys
+version: 20260916T000000Z

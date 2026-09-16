@@ -1,5 +1,6 @@
 description: ScreenConnect
 query: http_server.bg:screenconnect/
 tags:
+- proto:http
 - product:screenconnect
-version: 20260908T000000Z
+version: 20260916T000000Z

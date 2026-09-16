@@ -1,0 +1,9 @@
+description: Wordpress Multi-User (MU)
+query: http_favicon_md5:95103D0EABCD541527A86F23B636E794
+tags:
+- proto:http
+- product:wordpress-multi-user-mu
+- type:cms
+- product:wordpress
+- vendor:wordpress
+version: 20260916T000000Z

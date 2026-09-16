@@ -1,0 +1,8 @@
+description: NetScreen WebUI or 3Com Router
+query: http_favicon_md5:F1876A80546B3986DBB79BAD727B0374
+tags:
+- proto:http
+- product:netscreen-or-3com
+- type:router
+- vendor:netscreen
+version: 20260916T000000Z

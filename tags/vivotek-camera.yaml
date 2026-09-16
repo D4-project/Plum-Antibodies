@@ -1,0 +1,7 @@
+description: Vivotek (Camera)
+query: http_favicon_mmhash:-1654229048
+tags:
+- proto:http
+- product:vivotek
+- vendor:camera
+version: 20260916T000000Z

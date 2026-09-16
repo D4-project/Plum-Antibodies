@@ -1,0 +1,7 @@
+description: QNAP NAS Virtualization Station
+query: http_favicon_mmhash:-1041180225
+tags:
+- proto:http
+- product:qnap-nas-virtualization-station
+- vendor:qnap
+version: 20260916T000000Z

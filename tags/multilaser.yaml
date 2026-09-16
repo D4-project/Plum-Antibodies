@@ -1,0 +1,7 @@
+description: Multilaser
+query: http_favicon_mmhash:916642917
+tags:
+- proto:http
+- product:multilaser
+- vendor:multilaser
+version: 20260916T000000Z

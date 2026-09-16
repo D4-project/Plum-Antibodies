@@ -1,0 +1,7 @@
+description: Ubiquiti Ubiquiti M Series / AirOS
+query: http_favicon_md5:09A1E50DC3369E031B97F38ABDDD10C8
+tags:
+- proto:http
+- product:ubiquiti-ubiquiti-m-series-airos
+- vendor:ubiquiti
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: ISP Manager
+query: http_favicon_mmhash:-986678507
+tags:
+- proto:http
+- product:isp-manager
+- vendor:isp
+version: 20260916T000000Z

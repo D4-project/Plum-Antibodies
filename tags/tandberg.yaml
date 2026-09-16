@@ -1,0 +1,7 @@
+description: Tandberg
+query: http_favicon_mmhash:97604680
+tags:
+- proto:http
+- product:tandberg
+- vendor:tandberg
+version: 20260916T000000Z

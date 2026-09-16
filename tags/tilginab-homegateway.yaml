@@ -1,0 +1,7 @@
+description: TilginAB (HomeGateway)
+query: http_favicon_mmhash:-1346447358
+tags:
+- proto:http
+- product:tilginab-homegateway
+- vendor:tilginab
+version: 20260916T000000Z

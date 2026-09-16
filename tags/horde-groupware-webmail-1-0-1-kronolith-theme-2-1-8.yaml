@@ -1,0 +1,7 @@
+description: Horde Groupware Webmail 1.0.1 (Kronolith Theme, 2.1.8)
+query: http_favicon_md5:A5B126CDEAA3081F77A22B3E43730942
+tags:
+- proto:http
+- product:horde-groupware-webmail-1-0-1-kronolith-theme-2-1-8
+- vendor:horde
+version: 20260916T000000Z

@@ -1,6 +1,7 @@
 description: Cisco Expressway
 query: http_server:CE_E OR http_server:CE_C
 tags:
+- proto:http
 - vendor:cisco
 - product:cisco-expressway
 - product:expressway

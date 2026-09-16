@@ -1,0 +1,7 @@
+description: FreePBX x
+query: http_favicon_md5:D134378A39C722E941AC25EED91CA93B
+tags:
+- proto:http
+- product:freepbx-x
+- vendor:freepbx
+version: 20260916T000000Z

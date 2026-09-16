@@ -1,0 +1,7 @@
+description: Netgear (Infrant) ReadyNAS NV+
+query: http_favicon_md5:7B0D4BC0CA1659D54469E5013A08D240
+tags:
+- proto:http
+- product:netgear-infrant-readynas-nv
+- vendor:netgear
+version: 20260916T000000Z

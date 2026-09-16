@@ -1,0 +1,7 @@
+description: Lucee!
+query: http_favicon_mmhash:784872924
+tags:
+- proto:http
+- product:lucee
+- vendor:lucee
+version: 20260916T000000Z

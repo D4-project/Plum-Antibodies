@@ -1,0 +1,7 @@
+description: Honeywell
+query: http_favicon_mmhash:903086190
+tags:
+- proto:http
+- product:honeywell
+- vendor:honeywell
+version: 20260916T000000Z

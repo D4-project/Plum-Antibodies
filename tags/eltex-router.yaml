@@ -1,0 +1,8 @@
+description: Eltex (Router)
+query: http_favicon_mmhash:1877797890
+tags:
+- proto:http
+- product:eltex
+- type:router
+- vendor:eltex
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: LimeSurvey
+query: http_favicon_md5:F89ABD3F358CB964D6B753A5A9DA49CF
+tags:
+- proto:http
+- product:limesurvey
+- vendor:limesurvey
+version: 20260916T000000Z

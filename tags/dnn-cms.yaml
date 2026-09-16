@@ -1,0 +1,7 @@
+description: DNN (CMS)
+query: http_favicon_mmhash:-1465479343
+tags:
+- proto:http
+- product:dnn-cms
+- vendor:dnn
+version: 20260916T000000Z

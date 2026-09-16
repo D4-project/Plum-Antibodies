@@ -1,0 +1,7 @@
+description: Traccar GPS tracking
+query: http_favicon_mmhash:-335153896
+tags:
+- proto:http
+- product:traccar-gps-tracking
+- vendor:traccar
+version: 20260916T000000Z

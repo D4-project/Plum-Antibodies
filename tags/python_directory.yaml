@@ -1,6 +1,7 @@
 description: Python Simple HTTP directory listing
 query: http_title.lk:"listing" http_server.bg:"SimpleHTTP"
 tags:
+- proto:http
 - vuln:opendir
 - lang:python
-version: 20260520T133458Z
+version: 20260916T000000Z

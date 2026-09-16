@@ -1,0 +1,7 @@
+description: Kayako SupportSuite
+query: http_favicon_md5:FF3B533B061CEE7CFBCA693CC362C34A
+tags:
+- proto:http
+- product:kayako-supportsuite
+- vendor:kayako
+version: 20260916T000000Z

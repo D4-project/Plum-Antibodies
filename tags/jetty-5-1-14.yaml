@@ -1,0 +1,7 @@
+description: jetty (5.1.14)
+query: http_favicon_md5:ED7D5C39C69262F4BA95418D4F909B10
+tags:
+- proto:http
+- product:jetty-5-1-14
+- vendor:jetty
+version: 20260916T000000Z

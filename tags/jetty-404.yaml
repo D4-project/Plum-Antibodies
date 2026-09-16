@@ -1,0 +1,7 @@
+description: Jetty 404
+query: http_favicon_mmhash:-629047854
+tags:
+- proto:http
+- product:jetty-404
+- vendor:jetty
+version: 20260916T000000Z

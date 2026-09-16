@@ -1,0 +1,7 @@
+description: Ubiquiti Aircube
+query: http_favicon_mmhash:1249285083
+tags:
+- proto:http
+- product:ubiquiti-aircube
+- vendor:ubiquiti
+version: 20260916T000000Z

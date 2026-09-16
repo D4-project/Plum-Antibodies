@@ -1,0 +1,7 @@
+description: Lenel
+query: http_favicon_mmhash:538585915
+tags:
+- proto:http
+- product:lenel
+- vendor:lenel
+version: 20260916T000000Z

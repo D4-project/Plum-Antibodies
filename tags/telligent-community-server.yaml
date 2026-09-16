@@ -1,0 +1,7 @@
+description: Telligent Community Server
+query: http_favicon_md5:5EC8D0ECF7B505BB04AB3AC81535E062
+tags:
+- proto:http
+- product:telligent-community-server
+- vendor:telligent
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: 'Websockets test page (eg: port 5900)'
+query: http_favicon_mmhash:-291579889
+tags:
+- proto:http
+- product:websockets-test-page-eg-port-5900
+- vendor:websockets
+version: 20260916T000000Z

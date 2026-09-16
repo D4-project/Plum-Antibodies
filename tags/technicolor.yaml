@@ -1,0 +1,7 @@
+description: Technicolor
+query: http_favicon_mmhash:1594377337 OR http_favicon_mmhash:-2138771289
+tags:
+- proto:http
+- product:technicolor
+- vendor:technicolor
+version: 20260916T000000Z

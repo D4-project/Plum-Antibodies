@@ -1,0 +1,7 @@
+description: WHM
+query: http_favicon_mmhash:-649378830
+tags:
+- proto:http
+- product:whm
+- vendor:whm
+version: 20260916T000000Z

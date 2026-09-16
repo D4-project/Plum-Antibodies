@@ -1,0 +1,7 @@
+description: Slack
+query: http_favicon_mmhash:-43161126
+tags:
+- proto:http
+- product:slack
+- vendor:slack
+version: 20260916T000000Z

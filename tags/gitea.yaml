@@ -1,0 +1,7 @@
+description: Gitea
+query: 'http_favicon_mmhash:1969970750 OR http_title.lk:"Gitea: Git with a cup of tea"'
+tags:
+- proto:http
+- product:gitea
+- vendor:gitea
+version: 20260916T000000Z

@@ -1,0 +1,7 @@
+description: ALIBI NVR
+query: http_favicon_mmhash:1876585825
+tags:
+- proto:http
+- product:alibi-nvr
+- vendor:alibi
+version: 20260916T000000Z

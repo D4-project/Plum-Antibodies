@@ -1,0 +1,7 @@
+description: Barracuda
+query: http_favicon_mmhash:1436966696
+tags:
+- proto:http
+- product:barracuda
+- vendor:barracuda
+version: 20260916T000000Z

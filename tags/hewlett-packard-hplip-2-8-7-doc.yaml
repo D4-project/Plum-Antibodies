@@ -1,0 +1,7 @@
+description: Hewlett-Packard HPLIP (2.8.7) - doc
+query: http_favicon_md5:39308A30527336E59D1D166D48C7742C
+tags:
+- proto:http
+- product:hewlett-packard-hplip-2-8-7-doc
+- vendor:hewlett
+version: 20260916T000000Z

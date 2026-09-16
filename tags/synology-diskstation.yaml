@@ -1,0 +1,7 @@
+description: Synology DiskStation
+query: http_favicon_mmhash:149371702
+tags:
+- proto:http
+- product:synology-diskstation
+- vendor:synology
+version: 20260916T000000Z

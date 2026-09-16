@@ -1,0 +1,7 @@
+description: D-Link x
+query: http_favicon_md5:107579220745D3B21461C23024D6C4A3
+tags:
+- proto:http
+- product:d-link-x
+- vendor:dlink
+version: 20260916T000000Z

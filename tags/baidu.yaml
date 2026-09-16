@@ -1,0 +1,7 @@
+description: Baidu
+query: http_favicon_mmhash:1118684072
+tags:
+- proto:http
+- product:baidu
+- vendor:baidu
+version: 20260916T000000Z

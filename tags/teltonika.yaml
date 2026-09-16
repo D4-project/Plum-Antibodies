@@ -1,0 +1,7 @@
+description: Teltonika
+query: http_favicon_mmhash:119741608 OR http_favicon_mmhash:-1612496354
+tags:
+- proto:http
+- product:teltonika
+- vendor:teltonika
+version: 20260916T000000Z

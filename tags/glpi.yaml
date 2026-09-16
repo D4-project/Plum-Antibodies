@@ -1,0 +1,7 @@
+description: GLPI
+query: http_favicon_mmhash:-1474875778
+tags:
+- proto:http
+- product:glpi
+- vendor:glpi
+version: 20260916T000000Z

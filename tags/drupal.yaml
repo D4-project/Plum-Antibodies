@@ -1,8 +1,9 @@
 description: Drupal CMS
 query: http_favicon_mmhash:-167656799 OR http_favicon_mmhash:1174841451 OR http_headval:x-generator.bg:drupal
 tags:
+- proto:http
 - lang:php
 - type:cms
 - product:drupal
 - vendor:drupal
-version: 20260520T133458Z
+version: 20260916T000000Z

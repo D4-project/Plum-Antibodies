@@ -1,0 +1,7 @@
+description: ADB Broadband S.p.A. (Network)
+query: http_favicon_mmhash:-587741716
+tags:
+- proto:http
+- product:adb-broadband-s-p-a-network
+- vendor:adb
+version: 20260916T000000Z

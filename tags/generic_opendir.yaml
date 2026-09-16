@@ -1,5 +1,6 @@
 description: Open file listing
 query: http_title.bg:"index of"
 tags:
+- proto:http
 - vuln:opendir
-version: 20260520T133458Z
+version: 20260916T000000Z

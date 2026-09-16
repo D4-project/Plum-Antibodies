@@ -1,6 +1,7 @@
 description: Lighttpd
 query: http_server.lk:lighttpd
 tags:
+- proto:http
 - product:lighttpd
 - vendor:lighttpd
-version: 20260909T000000Z
+version: 20260916T000000Z

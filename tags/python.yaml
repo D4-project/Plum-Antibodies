@@ -1,5 +1,6 @@
 description: Python Language
 query: http_server.lk:python/ OR http_server.lk:werkzeug/ OR http_server.bg:wisp-server-python
 tags:
+- proto:http
 - lang:python
-version: 20260520T133458Z
+version: 20260916T000000Z

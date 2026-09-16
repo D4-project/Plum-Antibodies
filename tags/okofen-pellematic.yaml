@@ -1,0 +1,7 @@
+description: OkoFEN Pellematic
+query: http_favicon_mmhash:-625364318
+tags:
+- proto:http
+- product:okofen-pellematic
+- vendor:okofen
+version: 20260916T000000Z

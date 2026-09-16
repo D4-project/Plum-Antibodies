@@ -1,0 +1,7 @@
+description: Fortinet
+query: http_favicon_md5:E462005902F81094AB3DE44E4381DE19
+tags:
+- proto:http
+- product:fortinet
+- vendor:fortinet
+version: 20260916T000000Z

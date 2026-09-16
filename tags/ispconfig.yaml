@@ -1,0 +1,7 @@
+description: ISPConfig
+query: http_favicon_mmhash:483383992
+tags:
+- proto:http
+- product:ispconfig
+- vendor:ispconfig
+version: 20260916T000000Z
