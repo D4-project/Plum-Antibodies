@@ -16,7 +16,7 @@ Rules are stored as YAML files in [`tags/`](tags/). Each rule defines:
 - the tags to apply;
 - a UTC version used during imports.
 
-Exemple :
+Example:
 
 ```yaml
 description: HashiCorp Vault
@@ -38,7 +38,7 @@ The `query` field uses Plum-Island's search syntax. Read its documentation
 before creating a rule, especially for exact operators, `.bg`/`.begin`,
 `.lk`/`.like`, `AND`, `OR`, and `NOT`.
 
-## Utilisation comme sous-module
+## Submodule usage
 
 Plum-Island mounts this repository at `webapp/tags/`. The rules are therefore
 available to the application under `webapp/tags/tags/`.
@@ -62,14 +62,17 @@ Run the checker from the root of this repository before committing rule
 changes:
 
 ```bash
-python3 tools/sanity-check.py
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python tools/sanity-check.py
 ```
 
 It loads every YAML rule, validates the required fields and version, checks
 the allowed search fields and query syntax, and prints the tags that each rule
 will apply on one line. It exits with a non-zero status when a warning is
-found. The script requires PyYAML; the Plum-Island virtual environment already
-provides it:
+found. For development tooling, install `requirements-dev.txt` instead. When
+running from a Plum-Island checkout, the Plum-Island virtual environment can
+also execute the submodule copy:
 
 ```bash
 .venv/bin/python webapp/tags/tools/sanity-check.py

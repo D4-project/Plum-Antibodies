@@ -11,6 +11,10 @@ changes here focused on rule content, naming, queries, and versions. The
 operational import and reindex commands are documented in
 `documentation/tagging.md`.
 
+Install runtime dependencies with `pip install -r requirements.txt`. Use
+`pip install -r requirements-dev.txt` when working on validation or repository
+maintenance tooling.
+
 ## Documentation language
 
 All repository documentation, comments intended for maintainers, commit-facing
