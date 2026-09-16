@@ -1,7 +1,8 @@
 description: F5 BIG-IP
-query: http_cookiename.bg:TS0 OR http_server.lk:bigip OR http_title.lk:"big-ip logout"
+query: http_favicon_mmhash:878647854 OR http_cookiename.bg:TS0 OR http_server.lk:bigip OR http_title.lk:"big-ip logout"
 tags:
 - proto:http
 - product:f5
+- type:slb
 - vendor:f5
-version: 20260916T000000Z
+version: 20260916T194841Z
