@@ -15,6 +15,7 @@ Rules are stored as YAML files in [`tags/`](tags/). Each rule defines:
 - a search query;
 - the tags to apply;
 - a UTC version used during imports.
+- optional HTTP(S) reference links supporting the detection.
 
 Example:
 

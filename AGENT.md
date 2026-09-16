@@ -53,7 +53,11 @@ Each rule contains:
 - `description`: human-readable rule description;
 - `query`: structured Plum Island search query;
 - `tags`: one or more normalized `<namespace>:<value>` tag values;
-- `version`: recommended UTC timestamp in `YYYYMMDDTHHMMSSZ` format.
+- `version`: recommended UTC timestamp in `YYYYMMDDTHHMMSSZ` format;
+- `references`: optional list of HTTP(S) links supporting the detection.
+
+`references` is metadata for maintainers and does not affect query matching.
+When present, every entry must be a valid HTTP(S) link.
 
 When changing an existing rule's `description`, `query`, or `tags`, update its
 `version`. Plum Island only replaces an existing SQLite rule when the YAML

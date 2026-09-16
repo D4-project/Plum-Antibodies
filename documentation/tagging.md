@@ -35,6 +35,12 @@ Fields:
 | `query` | yes | Structured search query using the same syntax as the search UI |
 | `tags` | yes | List of tags to apply |
 | `version` | recommended | UTC timestamp (`YYYYMMDDTHHMMSSZ`) used during imports |
+| `references` | no | List of HTTP(S) links supporting the detection rule |
+
+`references` is optional. When present, it must be a YAML list containing one
+or more HTTP(S) links to advisories, vendor documentation, or other sources
+supporting the rule. References are metadata for maintainers and are not used
+as part of query matching.
 
 ## Query matching operators
 

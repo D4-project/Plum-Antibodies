@@ -56,6 +56,7 @@ VALUE_MODIFIERS = {".lk", ".like", ".bg", ".begin"}
 EXACT_ONLY_FIELDS = {"tag"}
 VERSION_RE = re.compile(r"^\d{8}T\d{6}Z$")
 HTTP_HEADER_RE = re.compile(r"^[!#$%&'*+\-.^_`|~0-9a-z]+$")
+LINK_RE = re.compile(r"^https?://\S+$", re.IGNORECASE)
 
 
 class RuleError(ValueError):
@@ -185,6 +186,15 @@ def normalize_tags(raw_tags: object) -> list[str]:
     return tags
 
 
+def validate_references(raw_references: object) -> None:
+    """Validate optional rule references as a list of HTTP(S) links."""
+    if not isinstance(raw_references, list) or not raw_references:
+        raise RuleError("references must be a YAML list of links")
+    for reference in raw_references:
+        if not isinstance(reference, str) or not LINK_RE.fullmatch(reference.strip()):
+            raise RuleError(f"invalid reference link: {reference!r}")
+
+
 def validate_rule(path: Path) -> list[str]:
     try:
         payload = yaml.safe_load(path.read_text(encoding="utf-8"))
@@ -202,6 +212,8 @@ def validate_rule(path: Path) -> list[str]:
         raise RuleError("description must be a non-empty string")
     validate_query(payload["query"])
     tags = normalize_tags(payload["tags"])
+    if "references" in payload:
+        validate_references(payload["references"])
 
     version = payload["version"]
     if not isinstance(version, str) or not VERSION_RE.fullmatch(version):

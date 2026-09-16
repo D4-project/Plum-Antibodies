@@ -58,11 +58,31 @@ def test_valid_rule_returns_normalized_tags(tmp_path):
         "tags:\n"
         "- product:example\n"
         "- type:service\n"
+        "references:\n"
+        "- https://example.com/advisory\n"
         "version: 20260916T000000Z\n",
         encoding="utf-8",
     )
 
     assert sanity_check.validate_rule(rule_path) == ["product:example", "type:service"]
+
+
+@pytest.mark.parametrize("references", ["https://example.com", ["ftp://example.com"]])
+def test_invalid_references_are_rejected(tmp_path, references):
+    """Reject non-list references and links outside HTTP(S)."""
+    rule_path = tmp_path / "invalid-references.yaml"
+    rule_path.write_text(
+        "description: Example\n"
+        "query: banner:Example\n"
+        "tags:\n"
+        "- type:service\n"
+        f"references: {references!r}\n"
+        "version: 20260916T000000Z\n",
+        encoding="utf-8",
+    )
+
+    with pytest.raises(sanity_check.RuleError, match="references"):
+        sanity_check.validate_rule(rule_path)
 
 
 def test_rule_without_version_is_rejected(tmp_path):
