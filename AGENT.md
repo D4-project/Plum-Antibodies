@@ -15,6 +15,30 @@ Install runtime dependencies with `pip install -r requirements.txt`. Use
 `pip install -r requirements-dev.txt` when working on validation or repository
 maintenance tooling.
 
+## Code quality
+
+Keep code changes regression-free. Before committing Python changes, run the
+relevant tests and the following checks from the repository root:
+
+```bash
+.venv/bin/python -m black tools
+.venv/bin/python -m py_compile tools/sanity-check.py
+PYLINTHOME=/tmp/pylint .venv/bin/python -m pylint tools
+```
+
+Do not introduce new Black or Pylint violations. Preserve existing behavior
+unless a rule or validation change explicitly requires a behavior change, and
+document that change in the commit and relevant documentation.
+
+Every public function and every non-trivial helper must have an English
+docstring describing its purpose, inputs, outputs, and important validation or
+failure behavior. Keep comments focused on intent and invariants rather than
+restating the code.
+
+Keep each source file below 1000 lines. Split new functionality into focused
+modules before a file reaches that limit; do not create a large catch-all
+module to avoid making the split.
+
 ## Documentation language
 
 All repository documentation, comments intended for maintainers, commit-facing

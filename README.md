@@ -78,6 +78,15 @@ also execute the submodule copy:
 .venv/bin/python webapp/tags/tools/sanity-check.py
 ```
 
+The development requirements also provide Black and Pylint for code-quality
+checks. See [`AGENT.md`](AGENT.md) for the contribution and file-size rules.
+
+Run the code tests with:
+
+```bash
+.venv/bin/python -m pytest tests/
+```
+
 To print the `type:*` tags for each rule and a unique sorted summary at the
 end:
 
