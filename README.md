@@ -77,3 +77,10 @@ also execute the submodule copy:
 ```bash
 .venv/bin/python webapp/tags/tools/sanity-check.py
 ```
+
+To print the `type:*` tags for each rule and a unique sorted summary at the
+end:
+
+```bash
+.venv/bin/python tools/sanity-check.py --type
+```

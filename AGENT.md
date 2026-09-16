@@ -55,6 +55,9 @@ For a detection-only YAML change:
 5. commit and push Plum-Antibodies;
 6. update the Plum-Island submodule pointer when the application should use it.
 
+Use `tools/sanity-check.py --type` when reviewing asset-family coverage. It
+prints each rule's `type:*` tags and a unique sorted summary at the end.
+
 Do not add automated tests for detection-only rule changes. Add or update
 tests in Plum-Island when parser, indexer, query, or tag-engine behavior
 changes. After importing changed rules, reindex existing documents when

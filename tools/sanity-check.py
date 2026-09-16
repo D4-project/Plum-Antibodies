@@ -218,6 +218,12 @@ def main() -> int:
         default=Path(__file__).resolve().parents[1] / "tags",
         help="directory containing YAML rules (default: ../tags)",
     )
+    parser.add_argument(
+        "--type",
+        dest="show_types",
+        action="store_true",
+        help="print type tags for each rule and a unique sorted summary",
+    )
     args = parser.parse_args()
     paths = sorted(args.rules_dir.glob("*.yaml"))
     if not paths:
@@ -225,6 +231,7 @@ def main() -> int:
         return 2
 
     failures = 0
+    found_types: set[str] = set()
     for path in paths:
         try:
             tags = validate_rule(path)
@@ -233,9 +240,19 @@ def main() -> int:
             warnings.warn(f"{path.name}: {error}", stacklevel=0)
             print(f"WARNING {path.name}: invalid rule", flush=True)
             continue
-        print(f"OK {path.name}: tags -> {', '.join(tags)}", flush=True)
+        if args.show_types:
+            type_tags = [tag for tag in tags if tag.startswith("type:")]
+            found_types.update(type_tags)
+            display = ", ".join(type_tags) if type_tags else "(none)"
+            print(f"{path.name}: types -> {display}", flush=True)
+        else:
+            print(f"OK {path.name}: tags -> {', '.join(tags)}", flush=True)
 
     print(f"Checked {len(paths)} rules: {len(paths) - failures} OK, {failures} warning(s).")
+    if args.show_types:
+        print("Unique types found:")
+        for type_tag in sorted(found_types):
+            print(type_tag)
     return 1 if failures else 0
 
 
