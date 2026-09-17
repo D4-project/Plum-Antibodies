@@ -1,0 +1,8 @@
+description: LANCOM 2100EF
+query: http_title.bg:"LANCOM 2100EF"
+tags:
+- proto:http
+- product:lancom-2100ef
+- type:router
+- vendor:lancom
+version: 20260917T192743Z

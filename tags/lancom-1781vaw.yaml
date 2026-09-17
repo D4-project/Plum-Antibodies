@@ -1,0 +1,8 @@
+description: LANCOM 1781VAW
+query: http_title.bg:"LANCOM 1781VAW"
+tags:
+- proto:http
+- product:lancom-1781vaw
+- type:router
+- vendor:lancom
+version: 20260917T192743Z

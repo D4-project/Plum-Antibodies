@@ -1,0 +1,10 @@
+description: LANCOM 1781A
+query: http_title.bg:"LANCOM 1781A"
+tags:
+- proto:http
+- product:lancom-1781a
+- type:router
+- vendor:lancom
+references:
+- https://rs-nc.rohde-schwarz.com/fileadmin/produkte/lc_1781A/1781A_EN.pdf
+version: 20260917T192743Z

@@ -1,0 +1,8 @@
+description: LANCOM 1781-4G
+query: http_title.bg:"LANCOM 1781-4G"
+tags:
+- proto:http
+- product:lancom-1781-4g
+- type:router
+- vendor:lancom
+version: 20260917T192743Z

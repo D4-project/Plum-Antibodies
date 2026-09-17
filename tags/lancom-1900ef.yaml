@@ -1,0 +1,8 @@
+description: LANCOM 1900EF
+query: http_title.bg:"LANCOM 1900EF"
+tags:
+- proto:http
+- product:lancom-1900ef
+- type:router
+- vendor:lancom
+version: 20260917T192743Z

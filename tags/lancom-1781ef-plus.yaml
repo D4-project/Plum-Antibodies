@@ -1,0 +1,8 @@
+description: LANCOM 1781EF+
+query: http_title.bg:"LANCOM 1781EF+"
+tags:
+- proto:http
+- product:lancom-1781ef-plus
+- type:router
+- vendor:lancom
+version: 20260917T192743Z

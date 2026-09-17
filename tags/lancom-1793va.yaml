@@ -1,0 +1,8 @@
+description: LANCOM 1793VA
+query: http_title.bg:"LANCOM 1793VA"
+tags:
+- proto:http
+- product:lancom-1793va
+- type:router
+- vendor:lancom
+version: 20260917T192743Z
