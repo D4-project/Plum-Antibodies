@@ -1,0 +1,11 @@
+description: Clubee CMS
+query: http_favicon_mmhash:-166582447 OR http_favicon_md5:4fcfb0c70060bcaf5a606f8ae2513eed
+  OR http_favicon_sha256:d33e016e5bb13a0f41a3891131007611f5ac6f48e7b2953b4737a7fb6f4e5c0e
+tags:
+- proto:http
+- product:clubee
+- vendor:clubee
+- type:cms
+references:
+- https://get.clubee.com/
+version: 20260917T000000Z
