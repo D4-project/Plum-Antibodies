@@ -53,6 +53,11 @@ def test_normalize_tags_accepts_existing_product_punctuation():
     assert sanity_check.normalize_tags(["product:Fritz!Box"]) == ["product:fritz!box"]
 
 
+def test_normalize_tags_collapses_matching_rule_duplicates():
+    """Keep a tag once when several matching rules apply it."""
+    assert sanity_check.normalize_tags(["proto:ssh", "PROTO:SSH"]) == ["proto:ssh"]
+
+
 @pytest.mark.parametrize("tag", ["product", "product:bad tag", ":nginx"])
 def test_invalid_tag_syntax_is_rejected(tag):
     """Reject tag values outside the shared tag syntax."""

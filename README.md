@@ -112,7 +112,7 @@ The validator accepts normalized `namespace:value` values, normalizes case,
 and accepts the legacy `tag:namespace:value` input form. Values cannot contain
 whitespace; namespaces begin with a letter; values begin with an alphanumeric
 character and may contain letters, digits, `!`, `.`, `_`, `-`, `/`, and `:`.
-`validate_tags()` also rejects an empty collection and duplicates after
+`validate_tags()` rejects an empty collection and collapses duplicates after
 normalization. Internal document processing can explicitly use
 `allow_empty=True` when a scan has no tags.
 

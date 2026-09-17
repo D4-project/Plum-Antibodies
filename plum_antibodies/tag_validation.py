@@ -38,7 +38,7 @@ def validate_tags(raw_tags, *, allow_empty=False):
     ``raw_tags`` accepts a string or an iterable of tag strings. At least one
     tag is required by default; set ``allow_empty`` for document-tag collection
     paths where an empty result is valid. Duplicate tags after normalization
-    are always rejected.
+    are collapsed while retaining their first occurrence.
     """
     if raw_tags is None and allow_empty:
         return []
@@ -63,7 +63,7 @@ def validate_tags(raw_tags, *, allow_empty=False):
     for raw_tag in raw_tags:
         tag = validate_tag(raw_tag)
         if tag in seen:
-            raise TagValidationError(f"duplicate tag: {tag}")
+            continue
         seen.add(tag)
         tags.append(tag)
     return tags
