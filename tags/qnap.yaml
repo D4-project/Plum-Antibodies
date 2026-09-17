@@ -1,9 +1,10 @@
 description: Qnap Nas
 query: x509_subject.lk:"QNAP NAS"
 tags:
+- proto:tls
 - vendor:qnap
 - vendor:nas
 - product:qnap-nas
 references:
 - https://www.qnap.com/
-version: 20260916T195759Z
+version: 20260917T060331Z
