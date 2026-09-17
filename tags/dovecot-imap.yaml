@@ -1,0 +1,7 @@
+description: Dovecot IMAP server
+query: banner.bg:"* OK" AND banner.lk:imap4 AND banner.lk:dovecot
+tags:
+- product:dovecot
+- proto:imap
+- vendor:dovecot
+version: 20260917T000000Z
