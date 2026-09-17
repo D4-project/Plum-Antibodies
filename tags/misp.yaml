@@ -1,0 +1,10 @@
+description: MISP
+query: http_title:"Users - MISP" OR http_favicon_mmhash:-137577333 OR http_favicon_md5:00d481db9645bda02a7f2306a8515489
+  OR http_favicon_sha256:7bd6c2a8a299944318a9894c5ede93a0ebc84d68e9a40a6003f2d760ce5581c0
+tags:
+- proto:http
+- product:misp
+- vendor:circl
+references:
+- https://www.misp-project.org/
+version: 20260917T161456Z

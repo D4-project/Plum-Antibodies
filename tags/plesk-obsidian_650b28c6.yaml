@@ -1,7 +1,0 @@
-description: Plesk Obsidian
-query: http_favicon_md5:650B28C6CF1B473AED15BA26BAD1DA92
-tags:
-- proto:http
-- product:plesk-obsidian
-- vendor:plesk
-version: 20260916T000000Z

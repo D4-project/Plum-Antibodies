@@ -1,5 +1,7 @@
 description: F5 BIG-IP
-query: http_favicon_mmhash:878647854 OR http_cookiename.bg:TS0 OR http_server.lk:bigip OR http_title.lk:"big-ip logout"
+query: http_favicon_mmhash:878647854 OR http_favicon_md5:486373b021971d0a95af04c811799e21
+  OR http_favicon_sha256:492d59030435c1398699fe177a0d1c859d92cd4e284236974f785ece8988fe21
+  OR http_cookiename.bg:TS0 OR http_server.lk:bigip OR http_title.lk:"big-ip logout"
 tags:
 - proto:http
 - product:f5
@@ -7,4 +9,4 @@ tags:
 - vendor:f5
 references:
 - https://www.f5.com/
-version: 20260916T195759Z
+version: 20260917T152308Z
