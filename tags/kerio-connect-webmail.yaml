@@ -1,7 +1,12 @@
 description: Kerio Connect (Webmail)
-query: http_favicon_mmhash:-677167908 OR http_favicon_mmhash:-1678298769
+query: http_favicon_mmhash:-677167908 OR http_favicon_mmhash:-1678298769 OR http_favicon_mmhash:1320585097
+  OR http_favicon_md5:1a3b74e9bf89145d7055f8b6b548b392
+  OR http_favicon_sha256:74939969f426f9cf312b31402f817e00a49a9f93c3fe76b4ce28d27046f9325d
 tags:
 - proto:http
 - product:kerio-connect-webmail
+- type:webmail
 - vendor:kerio
-version: 20260916T000000Z
+references:
+- https://kerioconnect.it/
+version: 20260917T195031Z

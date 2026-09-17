@@ -1,9 +1,9 @@
 description: Microsoft IIS
-query: http_favicon_mmhash:-1414475558
+query: http_favicon_mmhash:-1414475558 OR http_server.bg:microsoft-iis
 tags:
 - proto:http
 - product:microsoft-iis
 - vendor:microsoft
 references:
 - https://www.microsoft.com/
-version: 20260916T195759Z
+version: 20260917T200119Z

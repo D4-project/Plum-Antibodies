@@ -1,11 +1,14 @@
 description: Synology Nas
 query: http_title.lk:"-&nbsp;synology&nbsp;" OR http_title:"hello! welcome to synology
   web station!" OR http_title:"hallo! herzlich willkommen bei synology web station!"
-  or x509_issuer:"synology inc. ca"
+  OR x509_issuer:"synology inc. ca"
+  OR x509_issuer:"cn=synology inc. ca, o=synology inc., l=taipel, c=tw"
+  OR x509_issuer:"cn=synology inc. ca, o=synology inc., l=taipei, c=tw"
+  OR x509_issuer:"cn=synology inc. ca, ou=certificate authority, o=synology inc., l=taipei, st=taiwan, c=tw, emailaddress=product@synology.com"
 tags:
 - vendor:synology
-- vendor:nas
 - product:synology-nas
+- type:nas
 references:
 - https://www.synology.com/
-version: 20260916T195759Z
+version: 20260917T202553Z

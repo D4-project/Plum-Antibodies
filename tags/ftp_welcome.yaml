@@ -1,6 +1,6 @@
 description: FTP generic welcome banner
 query: banner.bg:"220 welcome" AND banner.lk:"ftp server" OR banner.bg:"220 welcome"
-  AND banner.lk:"ftp service"
+  AND banner.lk:"ftp service" OR banner.bg:220 AND banner.lk:"ftp server ready."
 tags:
 - proto:ftp
-version: 20260520T133458Z
+version: 20260917T195544Z
