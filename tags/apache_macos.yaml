@@ -2,8 +2,8 @@ description: Apache on Mac OS X
 query: http_favicon_md5:73778A17B0D22FFBB7D6C445A7947B92
 tags:
 - proto:http
-- product:apache
+- product:httpd
 - vendor:apache
 references:
 - https://httpd.apache.org/
-version: 20260916T195759Z
+version: 20260917T000000Z

@@ -1,9 +1,9 @@
-description: Apache
+description: Apache HTTPD
 query: http_server.bg:"Apache/"
 tags:
 - proto:http
-- product:apache
+- product:httpd
 - vendor:apache
 references:
 - https://httpd.apache.org/
-version: 20260916T195759Z
+version: 20260917T000000Z
