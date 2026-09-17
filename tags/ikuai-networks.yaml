@@ -1,7 +1,9 @@
 description: iKuai Networks
-query: http_favicon_mmhash:-271448102
+query: http_favicon_mmhash:-271448102 OR http_favicon_md5:c1af9e622eae1dcb95ef44f996bf6228
+  OR http_favicon_sha256:d3d824132e193448374ae4640d0c331e171fb0abdb5a29429f2798d432bade93
 tags:
 - proto:http
 - product:ikuai-networks
+- type:router
 - vendor:ikuai
-version: 20260916T000000Z
+version: 20260917T173617Z
