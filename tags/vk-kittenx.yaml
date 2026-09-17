@@ -1,0 +1,9 @@
+description: VK KittenX
+query: http_server:kittenx
+tags:
+- proto:http
+- product:kittenx
+- vendor:vk
+references:
+- https://vk.com/
+version: 20260917T222623Z

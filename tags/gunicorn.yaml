@@ -1,0 +1,9 @@
+description: Gunicorn
+query: http_server:gunicorn
+tags:
+- proto:http
+- product:gunicorn
+- vendor:gunicorn
+references:
+- https://gunicorn.org/
+version: 20260917T222623Z

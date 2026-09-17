@@ -1,0 +1,9 @@
+description: Vercel
+query: http_server:vercel
+tags:
+- proto:http
+- product:vercel
+- vendor:vercel
+references:
+- https://vercel.com/
+version: 20260917T222623Z

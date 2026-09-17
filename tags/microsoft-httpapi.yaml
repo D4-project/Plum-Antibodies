@@ -1,0 +1,9 @@
+description: Microsoft HTTPAPI
+query: http_server.bg:microsoft-httpapi
+tags:
+- proto:http
+- product:microsoft-httpapi
+- vendor:microsoft
+references:
+- https://learn.microsoft.com/en-us/windows/win32/http/http-api-version-2-0
+version: 20260917T222623Z

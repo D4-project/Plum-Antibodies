@@ -1,0 +1,9 @@
+description: Cloudflare
+query: http_server:cloudflare
+tags:
+- proto:http
+- product:cloudflare
+- vendor:cloudflare
+references:
+- https://www.cloudflare.com/products/cdn/
+version: 20260917T222623Z

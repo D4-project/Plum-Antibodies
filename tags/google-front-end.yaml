@@ -1,0 +1,9 @@
+description: Google Front End
+query: http_server:gse
+tags:
+- proto:http
+- product:google-front-end
+- vendor:google
+references:
+- https://cloud.google.com/
+version: 20260917T222623Z

@@ -1,0 +1,9 @@
+description: Angie
+query: http_server:angie
+tags:
+- proto:http
+- product:angie
+- vendor:angie
+references:
+- https://angie.software/en/
+version: 20260917T222623Z

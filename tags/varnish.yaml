@@ -1,0 +1,10 @@
+description: Varnish Cache
+query: http_server:varnish
+tags:
+- proto:http
+- product:varnish
+- type:proxy
+- vendor:varnish
+references:
+- https://www.varnish-software.com/
+version: 20260917T223010Z

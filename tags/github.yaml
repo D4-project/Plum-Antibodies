@@ -1,0 +1,9 @@
+description: GitHub
+query: http_server:github.com
+tags:
+- proto:http
+- product:github
+- vendor:github
+references:
+- https://github.com/
+version: 20260917T222623Z

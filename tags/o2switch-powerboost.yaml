@@ -1,0 +1,9 @@
+description: o2switch PowerBoost
+query: http_server:o2switch-powerboost-v3
+tags:
+- proto:http
+- product:powerboost
+- vendor:o2switch
+references:
+- https://www.o2switch.fr/
+version: 20260917T222623Z

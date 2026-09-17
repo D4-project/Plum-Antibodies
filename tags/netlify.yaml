@@ -1,0 +1,9 @@
+description: Netlify
+query: http_server:netlify
+tags:
+- proto:http
+- product:netlify
+- vendor:netlify
+references:
+- https://www.netlify.com/
+version: 20260917T222623Z

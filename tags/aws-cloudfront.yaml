@@ -1,0 +1,9 @@
+description: Amazon CloudFront
+query: http_server:cloudfront
+tags:
+- proto:http
+- product:cloudfront
+- vendor:amazon
+references:
+- https://aws.amazon.com/cloudfront/
+version: 20260917T222623Z

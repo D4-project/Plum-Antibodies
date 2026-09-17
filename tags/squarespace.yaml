@@ -1,0 +1,9 @@
+description: Squarespace
+query: http_server:squarespace
+tags:
+- proto:http
+- product:squarespace
+- vendor:squarespace
+references:
+- https://www.squarespace.com/
+version: 20260917T222623Z

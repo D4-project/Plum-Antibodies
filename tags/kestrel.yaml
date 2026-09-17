@@ -1,0 +1,9 @@
+description: ASP.NET Core Kestrel
+query: http_server:kestrel
+tags:
+- proto:http
+- product:kestrel
+- vendor:microsoft
+references:
+- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel
+version: 20260917T222623Z

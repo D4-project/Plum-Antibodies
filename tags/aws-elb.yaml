@@ -1,0 +1,10 @@
+description: Amazon Elastic Load Balancing
+query: http_server.bg:awselb
+tags:
+- proto:http
+- product:elastic-load-balancing
+- type:slb
+- vendor:amazon
+references:
+- https://aws.amazon.com/elasticloadbalancing/
+version: 20260917T222623Z

@@ -1,0 +1,9 @@
+description: OVHcloud
+query: http_server:ovhcloud
+tags:
+- proto:http
+- product:ovhcloud
+- vendor:ovh
+references:
+- https://www.ovhcloud.com/
+version: 20260917T222623Z

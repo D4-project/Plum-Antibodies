@@ -1,0 +1,9 @@
+description: pCloud CloudHTTPd
+query: http_server.bg:cloudhttpd
+tags:
+- proto:http
+- product:cloudhttpd
+- vendor:pcloud
+references:
+- https://www.pcloud.com/
+version: 20260917T222623Z

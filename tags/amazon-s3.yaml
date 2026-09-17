@@ -1,0 +1,9 @@
+description: Amazon S3
+query: http_server:amazons3
+tags:
+- proto:http
+- product:s3
+- vendor:amazon
+references:
+- https://aws.amazon.com/s3/
+version: 20260917T222623Z

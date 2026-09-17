@@ -1,0 +1,9 @@
+description: Hostinger CDN
+query: http_server:hcdn
+tags:
+- proto:http
+- product:hostinger-cdn
+- vendor:hostinger
+references:
+- https://www.hostinger.com/cdn
+version: 20260917T222623Z

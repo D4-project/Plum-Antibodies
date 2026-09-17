@@ -1,0 +1,9 @@
+description: Caddy
+query: http_server:caddy
+tags:
+- proto:http
+- product:caddy
+- vendor:caddy
+references:
+- https://caddyserver.com/
+version: 20260917T222623Z

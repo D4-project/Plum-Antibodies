@@ -1,0 +1,9 @@
+description: Akamai Ghost
+query: http_server:akamaighost
+tags:
+- proto:http
+- product:akamai-ghost
+- vendor:akamai
+references:
+- https://www.akamai.com/products/content-delivery-network
+version: 20260917T222623Z
