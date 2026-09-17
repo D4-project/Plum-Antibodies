@@ -5,7 +5,6 @@ from pathlib import Path
 
 import pytest
 
-
 SCRIPT_PATH = Path(__file__).parents[1] / "tools" / "sanity-check.py"
 SPEC = importlib.util.spec_from_file_location("sanity_check", SCRIPT_PATH)
 sanity_check = importlib.util.module_from_spec(SPEC)
@@ -47,6 +46,18 @@ def test_normalize_tags_matches_runtime_tag_normalization():
         "vendor:cisco",
         "type:router",
     ]
+
+
+def test_normalize_tags_accepts_existing_product_punctuation():
+    """Accept punctuation already used by legitimate product tag values."""
+    assert sanity_check.normalize_tags(["product:Fritz!Box"]) == ["product:fritz!box"]
+
+
+@pytest.mark.parametrize("tag", ["product", "product:bad tag", ":nginx"])
+def test_invalid_tag_syntax_is_rejected(tag):
+    """Reject tag values outside the shared tag syntax."""
+    with pytest.raises(sanity_check.RuleError, match="namespace:value"):
+        sanity_check.normalize_tags([tag])
 
 
 def test_valid_rule_returns_normalized_tags(tmp_path):

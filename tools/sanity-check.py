@@ -10,6 +10,15 @@ import sys
 import warnings
 from pathlib import Path
 
+REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
+if str(REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPOSITORY_ROOT))
+
+from plum_antibodies import (  # pylint: disable=wrong-import-position
+    TagValidationError,
+    validate_tags,
+)
+
 try:
     import yaml
 except ModuleNotFoundError as error:  # pragma: no cover - environment setup
@@ -164,26 +173,11 @@ def validate_query(query: object) -> None:
 
 
 def normalize_tags(raw_tags: object) -> list[str]:
-    if isinstance(raw_tags, str):
-        raw_tags = [raw_tags]
-    if not isinstance(raw_tags, list) or not raw_tags:
-        raise RuleError("tags must be a non-empty YAML list")
-
-    tags = []
-    seen = set()
-    for raw_tag in raw_tags:
-        if not isinstance(raw_tag, str):
-            raise RuleError("every tag must be a string")
-        tag = raw_tag.strip().lower()
-        while tag.startswith("tag:") and tag.count(":") >= 2:
-            tag = tag.split(":", 1)[1].strip()
-        if not tag:
-            raise RuleError("tags cannot contain empty values")
-        if tag in seen:
-            raise RuleError(f"duplicate tag: {tag}")
-        seen.add(tag)
-        tags.append(tag)
-    return tags
+    """Normalize rule tags through the shared public validation library."""
+    try:
+        return validate_tags(raw_tags)
+    except TagValidationError as error:
+        raise RuleError(str(error)) from error
 
 
 def validate_references(raw_references: object) -> None:
@@ -208,7 +202,10 @@ def validate_rule(path: Path) -> list[str]:
         if field not in payload:
             raise RuleError(f"missing required field: {field}")
 
-    if not isinstance(payload["description"], str) or not payload["description"].strip():
+    if (
+        not isinstance(payload["description"], str)
+        or not payload["description"].strip()
+    ):
         raise RuleError("description must be a non-empty string")
     validate_query(payload["query"])
     tags = normalize_tags(payload["tags"])
@@ -266,7 +263,9 @@ def main() -> int:
             found_protocols.update(protocol_tags)
             details = []
             if args.show_types:
-                details.append(f"types -> {', '.join(type_tags) if type_tags else '(none)'}")
+                details.append(
+                    f"types -> {', '.join(type_tags) if type_tags else '(none)'}"
+                )
             if args.show_protocols:
                 details.append(
                     f"protocols -> {', '.join(protocol_tags) if protocol_tags else '(none)'}"
@@ -275,7 +274,9 @@ def main() -> int:
         else:
             print(f"OK {path.name}: tags -> {', '.join(tags)}", flush=True)
 
-    print(f"Checked {len(paths)} rules: {len(paths) - failures} OK, {failures} warning(s).")
+    print(
+        f"Checked {len(paths)} rules: {len(paths) - failures} OK, {failures} warning(s)."
+    )
     if args.show_types:
         print("Unique types found:")
         for type_tag in sorted(found_types):

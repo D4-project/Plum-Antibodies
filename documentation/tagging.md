@@ -171,6 +171,9 @@ proto:http
 ## Tag naming
 
 Stored YAML and SQLite tag values use the normalized `<namespace>:<value>` format.
+Their syntax is validated by the public `plum_antibodies` Python library before
+the sanity checker or Plum-Island inserts them. See the [library usage
+example](../README.md#tag-validation-library) for installation and imports.
 Common namespaces:
 
 - `vendor:*` for vendor, project, or organization names

@@ -82,6 +82,40 @@ also execute the submodule copy:
 The development requirements also provide Black and Pylint for code-quality
 checks. See [`AGENT.md`](AGENT.md) for the contribution and file-size rules.
 
+## Tag validation library
+
+This repository also provides the canonical Python validator used by both
+Plum-Island and this sanity checker. Install the repository as a package from
+its checkout:
+
+```bash
+python3 -m pip install -e .
+```
+
+Consumers can then validate tags before persisting a rule:
+
+```python
+from plum_antibodies import TagValidationError, validate_tag, validate_tags
+
+tag = validate_tag("Product:Nginx")
+# "product:nginx"
+
+tags = validate_tags(["proto:http", "type:web-server"])
+
+try:
+    validate_tag("product:bad tag")
+except TagValidationError as error:
+    print(error)
+```
+
+The validator accepts normalized `namespace:value` values, normalizes case,
+and accepts the legacy `tag:namespace:value` input form. Values cannot contain
+whitespace; namespaces begin with a letter; values begin with an alphanumeric
+character and may contain letters, digits, `!`, `.`, `_`, `-`, `/`, and `:`.
+`validate_tags()` also rejects an empty collection and duplicates after
+normalization. Internal document processing can explicitly use
+`allow_empty=True` when a scan has no tags.
+
 Run the code tests with:
 
 ```bash
