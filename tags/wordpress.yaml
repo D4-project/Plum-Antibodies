@@ -4,6 +4,8 @@ query: http_favicon_md5:B231AD66A2A9B0EB06F72C4C88973039 OR http_favicon_md5:D5F
   OR http_headval:x-powered-by.bg:wordpress OR http_favicon_mmhash:530492348
   OR http_favicon_md5:dcab89b8e04bf53fcd7f6a44a8cb4fae
   OR http_favicon_sha256:c965a500f698483526faf92ac286047cecd825608cd1d83276de392b30a13a83
+  OR http_favicon_mmhash:1198047028 OR http_favicon_md5:000bf649cc8f6bf27cfb04d1bcdcd3c7
+  OR http_favicon_sha256:6bdb369337ac2496761c6f063bffea0aa6a91d4662279c399071a468251f51f0
 tags:
 - proto:http
 - lang:php
@@ -12,4 +14,4 @@ tags:
 - vendor:wordpress
 references:
 - https://wordpress.org/
-version: 20260917T193200Z
+version: 20260917T203255Z
