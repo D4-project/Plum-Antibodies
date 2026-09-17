@@ -1,0 +1,9 @@
+description: Uvicorn
+query: http_server:uvicorn
+tags:
+- proto:http
+- product:uvicorn
+- vendor:uvicorn
+references:
+- https://uvicorn.dev/server-behavior/
+version: 20260917T174614Z
