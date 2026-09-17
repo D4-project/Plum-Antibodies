@@ -3,5 +3,5 @@ query: http_favicon_mmhash:252728887
 tags:
 - proto:http
 - product:dd-wrt-dd-wrt-milli-httpd
-- vendor:dd
-version: 20260916T000000Z
+- vendor:dd-wrt
+version: 20260917T214140Z

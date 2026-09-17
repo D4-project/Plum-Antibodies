@@ -4,5 +4,5 @@ tags:
 - product:ws-ftp
 - proto:ssh
 - product:sftp
-- vendor:ws
-version: 20260520T133458Z
+- vendor:ipswitch
+version: 20260917T214140Z

@@ -3,5 +3,8 @@ query: http_favicon_md5:81ED5FA6453CF406D1D82233BA355B9A
 tags:
 - proto:http
 - product:e-zekiel-church-cms
-- vendor:e
-version: 20260916T000000Z
+- type:cms
+- vendor:ministry-brands
+references:
+- https://account.e-zekiel.com/
+version: 20260917T211525Z

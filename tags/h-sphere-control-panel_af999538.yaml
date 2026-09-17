@@ -3,5 +3,7 @@ query: http_favicon_md5:AF999538CD3D4D0370F3EA92E0A6070F
 tags:
 - proto:http
 - product:h-sphere-control-panel
-- vendor:h
-version: 20260916T000000Z
+- vendor:positive-software
+references:
+- https://www.psoft.net/hsdocumentation.html
+version: 20260917T213801Z

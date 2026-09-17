@@ -3,5 +3,7 @@ query: http_favicon_mmhash:-329747115
 tags:
 - proto:http
 - product:c-lodop
-- vendor:c
-version: 20260916T000000Z
+- vendor:mtsoftware
+references:
+- https://www.lodop.net/
+version: 20260917T211423Z

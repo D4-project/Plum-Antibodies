@@ -1,0 +1,9 @@
+description: Trend Micro InterScan Messaging Security Virtual Appliance
+query: banner.bg:"220 ESMTP IMSVA"
+tags:
+- proto:smtp
+- product:imsva
+- vendor:trendmicro
+references:
+- https://docs.trendmicro.com/all/ent/imsva/v9.0/en-us/imsva_9.0_olh/imsva_imsx_abt.html
+version: 20260917T212856Z
