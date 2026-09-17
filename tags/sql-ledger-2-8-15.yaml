@@ -3,5 +3,7 @@ query: http_favicon_md5:0E2503A23068AAC350F16143D30A1273
 tags:
 - proto:http
 - product:sql-ledger-2-8-15
-- vendor:sql
-version: 20260916T000000Z
+- vendor:dws-systems
+references:
+- https://www.sql-ledger.com/
+version: 20260917T220223Z

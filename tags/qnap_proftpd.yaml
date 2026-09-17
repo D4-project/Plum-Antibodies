@@ -4,7 +4,7 @@ tags:
 - proto:ftp
 - product:proftpd
 - vendor:qnap
-- vendor:nas
+- type:nas
 references:
 - https://www.qnap.com/
-version: 20260916T195759Z
+version: 20260917T215735Z

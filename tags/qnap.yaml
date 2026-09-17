@@ -3,8 +3,8 @@ query: x509_subject.lk:"QNAP NAS"
 tags:
 - proto:tls
 - vendor:qnap
-- vendor:nas
 - product:qnap-nas
+- type:nas
 references:
 - https://www.qnap.com/
-version: 20260917T060331Z
+version: 20260917T215735Z
