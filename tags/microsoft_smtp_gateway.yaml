@@ -1,6 +1,7 @@
 description: Microsoft SMTP mail gateway
 query: banner.lk:"microsoft esmtp mail"
 tags:
+- proto:smtp
 - vendor:windows
 - product:smtp
-version: 20260520T133458Z
+version: 20260917T000000Z

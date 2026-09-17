@@ -1,8 +1,9 @@
 description: FreeBsd
 query: banner.bg:ssh-2.0-openssh AND banner.lk:freebsd-
 tags:
+- proto:ssh
 - vendor:freebsd
 - product:freebsd
 references:
 - https://www.freebsd.org/
-version: 20260916T195759Z
+version: 20260917T000000Z

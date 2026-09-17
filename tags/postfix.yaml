@@ -1,5 +1,8 @@
 description: Postfix SMTP server
 query: banner.bg:220 AND banner.lk:"esmtp postfix"
 tags:
+- proto:smtp
 - product:postfix
-version: 20260915T123711Z
+references:
+- https://www.postfix.org/
+version: 20260917T000000Z

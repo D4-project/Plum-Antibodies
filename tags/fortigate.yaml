@@ -7,4 +7,5 @@ tags:
 - type:firewall
 references:
 - https://www.fortinet.com/
-version: 20260916T195759Z
+- https://www.fortinet.com/fr/products/next-generation-firewall
+version: 20260917T000000Z

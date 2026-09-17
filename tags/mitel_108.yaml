@@ -4,4 +4,7 @@ query: http_title.lk:"mitel 108" OR banner.lk:"mitel108 login" OR x509_subject.l
 tags:
 - vendor:pbx
 - product:mitel
-version: 20260520T133458Z
+- type:telephony
+references:
+- https://www.mitel.com/fr-fr/produits/business-phones
+version: 20260917T000000Z
