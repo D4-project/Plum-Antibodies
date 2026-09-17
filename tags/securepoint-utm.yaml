@@ -1,0 +1,12 @@
+description: Securepoint UTM
+query: http_title:UTM OR http_title.bg:"Securepoint UTM" OR http_favicon_mmhash:279720073
+  OR http_favicon_md5:770300f31a3fe01dec31d25d55249251
+  OR http_favicon_sha256:3a28a4497753f591baa82688c02f51f90278b6aba54ad500f37c7efc2cfd141a
+tags:
+- proto:http
+- product:securepoint-utm
+- type:firewall
+- vendor:securepoint
+references:
+- https://www.securepoint.de/en/
+version: 20260917T162004Z
