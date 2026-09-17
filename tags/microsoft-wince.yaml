@@ -1,0 +1,9 @@
+description: Microsoft Windows CE
+query: http_server.bg:microsoft-wince
+tags:
+- proto:http
+- product:windows-ce
+- vendor:microsoft
+references:
+- https://learn.microsoft.com/en-us/lifecycle/products/windows-embedded-ce-60
+version: 20260917T221404Z

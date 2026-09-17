@@ -1,0 +1,10 @@
+description: BARTEC SYSCOM MR3000
+query: http_headval:www-authenticate.lk:"mr3000 webui"
+tags:
+- proto:http
+- product:mr3000
+- vendor:bartec-syscom
+- type:iot
+references:
+- https://www.syscom.ch/wp-content/uploads/Bartec-Syscom-Product-Line-Brochure.pdf
+version: 20260917T221000Z

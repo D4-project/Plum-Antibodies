@@ -3,4 +3,7 @@ query: http_headval:www-authenticate.lk:"openclaw ui"
 tags:
 - proto:http
 - product:openclaw-ui
-version: 20260916T000000Z
+- vendor:openclaw
+references:
+- https://openclaw.ai/
+version: 20260917T222132Z
