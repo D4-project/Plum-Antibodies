@@ -15,6 +15,8 @@ Use quotes for values containing spaces. Every `OR` group must contain a positiv
 
 ## Value matching
 
+- Rule matching is case-insensitive: query values and indexed field values are
+  normalized to lowercase before comparison.
 - Exact matching has no modifier and is fastest.
 - `.bg` or `.begin` matches from the beginning of a value.
 - `.lk` or `.like` matches anywhere in a value.

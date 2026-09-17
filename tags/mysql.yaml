@@ -1,6 +1,7 @@
 description: MySQL
 query: banner.bg:"J\x00\x00\x00\x0A" AND banner.lk:"this MySQL server" OR banner.bg:"G\x00\x00\x00\xFF"
   AND banner.lk:"this MySQL server" OR banner.bg:"I\x00\x00\x00\x0A" OR banner.lk:"\x00mysql_native_password"
+  OR banner.lk:"is not allowed to connect to this MySQL server"
 tags:
 - proto:sql
 - product:database
@@ -8,4 +9,4 @@ tags:
 - vendor:mysql
 references:
 - https://www.mysql.com/
-version: 20260917T000000Z
+version: 20260917T162953Z

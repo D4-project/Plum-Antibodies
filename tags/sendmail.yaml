@@ -1,0 +1,7 @@
+description: Sendmail
+query: banner.bg:220 AND banner.lk:"esmtp sendmail"
+tags:
+- proto:smtp
+- product:sendmail
+- vendor:sendmail
+version: 20260917T162839Z
