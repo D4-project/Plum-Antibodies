@@ -1,3 +1,4 @@
+name: vsftpd
 description: vsftpd
 uuid: 970d0890-14f9-5136-985f-bee2a49b6d51
 query: banner.bg:"220 (vsftpd "
@@ -5,4 +6,4 @@ tags:
 - proto:ftp
 - product:vsftpd
 - vendor:vsftpd
-version: 20260918T051351Z
+version: 20260918T052023Z

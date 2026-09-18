@@ -5,6 +5,7 @@ Plum-Island applies computed tags to scan documents through rules maintained in 
 Rules are YAML files in `tags/`; each filename is its rule name.
 
 ```yaml
+name: hashicorp-vault
 description: HashiCorp Vault
 uuid: afb4ef43-da13-5a98-b80e-499e2f908ef1
 query: http_favicon_mmhash:747250914 AND http_title.bg:Vault
@@ -16,6 +17,7 @@ version: 20260428T170756Z
 
 | Field | Required | Description |
 | ----- | -------- | ----------- |
+| `name` | yes | Lowercase rule slug, 25 characters maximum. |
 | `description` | yes | Human-readable rule description. |
 | `uuid` | yes | Unique canonical UUID. |
 | `query` | yes | Query using documented [syntax](query-syntax.md). |
@@ -24,6 +26,13 @@ version: 20260428T170756Z
 | `references` | no | HTTP(S) links supporting detection. |
 
 `references` are maintainer metadata; they do not affect matching.
+
+## Rule names
+
+Every rule has a short lowercase slug (`a-z`, `0-9`, `-`), maximum 25 characters.
+Generate names from filenames with `python3 tools/add-rule-names.py`; long filenames
+are truncated to 25 characters. Names may be duplicated. The sanity checker requires
+the field and validates its format.
 
 ## Rule UUIDs
 

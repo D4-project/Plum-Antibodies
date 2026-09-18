@@ -1,3 +1,4 @@
+name: karma-alertmanager
 description: Karma Alertmanager UI
 uuid: 368793bd-b44f-5358-b437-b869e46cbbc7
 query: http_headval:www-authenticate.lk:"karma alertmanager ui"
@@ -6,4 +7,4 @@ tags:
 - product:karma-alertmanager
 - type:supervision
 - vendor:karma
-version: 20260918T051351Z
+version: 20260918T052023Z

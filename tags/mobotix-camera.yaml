@@ -1,3 +1,4 @@
+name: mobotix-camera
 description: MOBOTIX Camera
 uuid: cdb55c54-6cdb-5e51-9970-2f46407e04f8
 query: http_favicon_mmhash:661332347 OR http_headval:www-authenticate.lk:"mobotix camera user"
@@ -8,4 +9,4 @@ tags:
 - vendor:mobotix
 references:
 - https://www.mobotix.com/en/mobotix-products
-version: 20260918T051351Z
+version: 20260918T052023Z

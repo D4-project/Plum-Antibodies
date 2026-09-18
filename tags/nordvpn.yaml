@@ -1,3 +1,4 @@
+name: nordvpn
 description: NordVPN
 uuid: 80858bc1-06df-55d8-992e-0981fbf76c58
 query: domain:nordvpn.com AND port:8443
@@ -5,4 +6,4 @@ tags:
 - product:nordvpn
 - vendor:nordvpn
 - type:vpn
-version: 20260918T051351Z
+version: 20260918T052023Z

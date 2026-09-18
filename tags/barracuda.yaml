@@ -1,3 +1,4 @@
+name: barracuda
 description: Barracuda
 uuid: 83afbe70-c70a-5047-a83f-bcd36cfd99ac
 query: http_favicon_mmhash:1436966696
@@ -7,4 +8,4 @@ tags:
 - vendor:barracuda
 references:
 - https://www.barracuda.com/
-version: 20260918T051351Z
+version: 20260918T052023Z

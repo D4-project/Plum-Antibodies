@@ -1,3 +1,4 @@
+name: plesk
 description: Plesk
 uuid: 63af9823-7d2e-5be2-b6ee-3c6a3959b8e7
 query: http_favicon_mmhash:-134375033 OR http_favicon_mmhash:-1050786453 OR http_favicon_mmhash:-981606721
@@ -14,4 +15,4 @@ tags:
 - vendor:plesk
 references:
 - https://docs.plesk.com/en-US/onyx/advanced-administration-guide-linux/introduction-to-plesk.68554/
-version: 20260918T051351Z
+version: 20260918T052023Z

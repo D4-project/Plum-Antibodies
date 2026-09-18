@@ -1,3 +1,4 @@
+name: ws-ftp-ssh
 description: WS_FTP SSH
 uuid: cd2779b7-ac64-5cc9-b86c-03efbda57517
 query: banner.bg:ssh-2.0-ws_ftp-ssh_
@@ -6,4 +7,4 @@ tags:
 - proto:ssh
 - product:sftp
 - vendor:ipswitch
-version: 20260918T051351Z
+version: 20260918T052023Z

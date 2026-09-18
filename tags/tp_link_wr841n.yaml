@@ -1,3 +1,4 @@
+name: tp-link-wr841n
 description: TP-Link WR841N router
 uuid: c33c013b-21a2-5216-854b-96a4d119b561
 query: http_headval:www-authenticate.lk:"tp-link wireless n router wr841n"
@@ -6,4 +7,4 @@ tags:
 - product:wr841n
 - type:router
 - vendor:tp-link
-version: 20260918T051351Z
+version: 20260918T052023Z

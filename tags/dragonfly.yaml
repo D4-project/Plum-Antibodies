@@ -1,3 +1,4 @@
+name: dragonfly
 description: Dragonfly
 uuid: bdf81461-fbe5-5db9-91f6-6133f73fe784
 query: http_favicon_md5:4CBB2CFC30A089B29CD06179F9CC82FF
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:dragonfly
 - vendor:dragonfly
-version: 20260918T051351Z
+version: 20260918T052023Z

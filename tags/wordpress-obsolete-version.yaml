@@ -1,3 +1,4 @@
+name: wordpress-obsolete-versio
 description: Wordpress - obsolete version
 uuid: 6dcfde52-fb2f-57e8-88de-c256ddb7f719
 query: http_favicon_md5:6CEC5A9C106D45E458FC680F70DF91B0
@@ -9,4 +10,4 @@ tags:
 - vendor:wordpress
 references:
 - https://wordpress.org/
-version: 20260918T051351Z
+version: 20260918T052023Z

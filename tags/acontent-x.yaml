@@ -1,3 +1,4 @@
+name: acontent-x
 description: AContent x
 uuid: b768f65d-586e-5056-a72b-31e19eb729d9
 query: http_favicon_md5:28C34462A074C5311492759435549468
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:acontent-x
 - vendor:acontent
-version: 20260918T051351Z
+version: 20260918T052023Z

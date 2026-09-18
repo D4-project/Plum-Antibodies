@@ -1,3 +1,4 @@
+name: fc2-blog-hosting-f30b5ed2
 description: FC2 blog hosting
 uuid: c7e5ef5b-f088-5a7c-a486-2a0fa3dbcc59
 query: http_favicon_md5:F30B5ED270A57EABEA60BEB935E2B800
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:fc2-blog-hosting
 - vendor:fc2
-version: 20260918T051351Z
+version: 20260918T052023Z

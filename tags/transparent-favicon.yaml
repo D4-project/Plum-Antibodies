@@ -1,3 +1,4 @@
+name: transparent-favicon
 description: Transparent favicon
 uuid: 37fcf598-a128-59db-b36e-05f106f280d7
 query: http_favicon_mmhash:1274734426 OR http_favicon_md5:c6acedaff906029fc5455d9ec52c7f42
@@ -5,4 +6,4 @@ query: http_favicon_mmhash:1274734426 OR http_favicon_md5:c6acedaff906029fc5455d
 tags:
 - proto:http
 - product:transparent-favicon
-version: 20260918T051351Z
+version: 20260918T052023Z

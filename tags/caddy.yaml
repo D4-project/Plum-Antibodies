@@ -1,3 +1,4 @@
+name: caddy
 description: Caddy
 uuid: 498aff7f-8167-5106-9d79-82ee5c758599
 query: http_server:caddy
@@ -7,4 +8,4 @@ tags:
 - vendor:caddy
 references:
 - https://caddyserver.com/
-version: 20260918T051351Z
+version: 20260918T052023Z

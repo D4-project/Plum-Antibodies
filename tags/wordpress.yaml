@@ -1,3 +1,4 @@
+name: wordpress
 description: Wordpress
 uuid: aa556678-187d-508f-82f8-0255355e6758
 query: http_favicon_md5:B231AD66A2A9B0EB06F72C4C88973039 OR http_favicon_md5:D5FE5CBCC31CFF5F8AC010DB72EB000C
@@ -15,4 +16,4 @@ tags:
 - vendor:wordpress
 references:
 - https://wordpress.org/
-version: 20260918T051351Z
+version: 20260918T052023Z

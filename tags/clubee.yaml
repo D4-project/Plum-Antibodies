@@ -1,3 +1,4 @@
+name: clubee
 description: Clubee CMS
 uuid: e44f862e-ac0b-58f5-a811-f0101fa9576f
 query: http_favicon_mmhash:-166582447 OR http_favicon_md5:4fcfb0c70060bcaf5a606f8ae2513eed
@@ -9,4 +10,4 @@ tags:
 - type:cms
 references:
 - https://get.clubee.com/
-version: 20260918T051351Z
+version: 20260918T052023Z

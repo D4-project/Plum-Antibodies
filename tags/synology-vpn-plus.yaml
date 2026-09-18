@@ -1,3 +1,4 @@
+name: synology-vpn-plus
 description: Synology VPN Plus
 uuid: 5bdebbcf-9867-5dc1-a707-96be4c0da30a
 query: http_favicon_mmhash:1235070469
@@ -7,4 +8,4 @@ tags:
 - vendor:synology
 references:
 - https://www.synology.com/
-version: 20260918T051351Z
+version: 20260918T052023Z

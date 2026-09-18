@@ -1,3 +1,4 @@
+name: mariadb
 description: MariaDB
 uuid: 48a5c0d9-cf18-5a6b-9100-526aff7db9a7
 query: "banner.bg:\"I\\x00\\x00\\x00\\xFF\" and banner.lk:\"MariaDB\" OR banner.bg:\"\
@@ -7,4 +8,4 @@ tags:
 - type:database
 - product:mariadb
 - vendor:mariadb
-version: 20260918T051351Z
+version: 20260918T052023Z

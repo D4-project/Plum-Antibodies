@@ -1,3 +1,4 @@
+name: sophos-vpn
 description: Sophos VPN
 uuid: b33b39fa-8301-51c9-9f81-69fa244f45f7
 query: http_favicon_mmhash:553933550 OR http_favicon_md5:01B785147724520AEC8C968266995141 OR
@@ -10,4 +11,4 @@ tags:
 - type:vpn
 references:
 - https://www.sophos.com/
-version: 20260918T051351Z
+version: 20260918T052023Z

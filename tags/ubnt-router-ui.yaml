@@ -1,3 +1,4 @@
+name: ubnt-router-ui
 description: UBNT Router UI
 uuid: f0c3d959-e420-5dd6-80a6-2eb367643d0b
 query: http_favicon_mmhash:-1677255344
@@ -6,4 +7,4 @@ tags:
 - product:ubnt
 - type:router
 - vendor:ubnt
-version: 20260918T051351Z
+version: 20260918T052023Z

@@ -1,3 +1,4 @@
+name: aws-elb
 description: Amazon Elastic Load Balancing
 uuid: b0eec11b-ee50-5d50-aaa8-4f1ff1e71b31
 query: http_server.bg:awselb
@@ -8,4 +9,4 @@ tags:
 - vendor:amazon
 references:
 - https://aws.amazon.com/elasticloadbalancing/
-version: 20260918T051351Z
+version: 20260918T052023Z

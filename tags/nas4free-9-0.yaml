@@ -1,3 +1,4 @@
+name: nas4free-9-0
 description: NAS4Free 9.0
 uuid: fe1bc877-4968-5d87-93a9-342b1c666d31
 query: http_favicon_md5:B88C0EEDC72D3BF4E86C2AA0A6BA6F7B
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:nas4free-9-0
 - vendor:nas4free
-version: 20260918T051351Z
+version: 20260918T052023Z

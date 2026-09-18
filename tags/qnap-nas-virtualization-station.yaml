@@ -1,3 +1,4 @@
+name: qnap-nas-virtualization-s
 description: QNAP NAS Virtualization Station
 uuid: 723c46d4-57f1-57f7-9176-8a6d239ca74d
 query: http_favicon_mmhash:-1041180225
@@ -7,4 +8,4 @@ tags:
 - vendor:qnap
 references:
 - https://www.qnap.com/
-version: 20260918T051351Z
+version: 20260918T052023Z

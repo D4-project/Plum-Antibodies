@@ -1,3 +1,4 @@
+name: realtek
 description: Realtek
 uuid: bf637e32-5c32-58e4-ae1e-a70634a394e8
 query: http_favicon_mmhash:2055322029
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:realtek
 - vendor:realtek
-version: 20260918T051351Z
+version: 20260918T052023Z

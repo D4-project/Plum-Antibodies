@@ -1,3 +1,4 @@
+name: icecast-streaming-media-s
 description: Icecast Streaming Media Server
 uuid: b99d318f-97cc-5421-a113-6f7b7400273b
 query: http_favicon_mmhash:1424295654
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:icecast-streaming-media-server
 - vendor:icecast
-version: 20260918T051351Z
+version: 20260918T052023Z

@@ -1,3 +1,4 @@
+name: mythplugins-0-21-0-fixes1
 description: mythplugins (0.21.0+fixes18722)
 uuid: d01ebf42-e75d-59c1-bf83-eb28a7b36905
 query: http_favicon_md5:21D80D9730A56B26DC9D252FFABB2987
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:mythplugins-0-21-0-fixes18722
 - vendor:mythplugins
-version: 20260918T051351Z
+version: 20260918T052023Z

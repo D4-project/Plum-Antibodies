@@ -1,3 +1,4 @@
+name: smartlan-g
 description: SmartLAN/G
 uuid: e3fd76db-e5e3-5c50-a52a-21da45acce6b
 query: http_favicon_mmhash:-644617577
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:smartlan-g
 - vendor:smartlan
-version: 20260918T051351Z
+version: 20260918T052023Z

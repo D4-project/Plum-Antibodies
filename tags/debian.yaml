@@ -1,3 +1,4 @@
+name: debian
 description: Debian
 uuid: d68bd172-a9b4-513d-94c2-ba7b9f87ad46
 query: banner.bg:ssh-2.0-openssh AND banner.lk:debian or banner.bg:"+OK Dovecot" AND
@@ -5,4 +6,4 @@ query: banner.bg:ssh-2.0-openssh AND banner.lk:debian or banner.bg:"+OK Dovecot"
 tags:
 - vendor:debian
 - product:debian
-version: 20260918T051351Z
+version: 20260918T052023Z

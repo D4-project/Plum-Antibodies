@@ -1,3 +1,4 @@
+name: aruba-virtual-controller
 description: Aruba (Virtual Controller)
 uuid: 0c81eb42-7a85-5bdf-ab10-30a9de67149f
 query: http_favicon_mmhash:1142227528
@@ -7,4 +8,4 @@ tags:
 - vendor:aruba
 references:
 - https://www.arubanetworks.com/
-version: 20260918T051351Z
+version: 20260918T052023Z

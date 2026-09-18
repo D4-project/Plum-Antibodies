@@ -1,3 +1,4 @@
+name: ricoh
 description: Ricoh
 uuid: a46f375d-4a11-58f4-adda-c2c678c8a809
 query: http_favicon_mmhash:1135165421
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:ricoh
 - vendor:ricoh
-version: 20260918T051351Z
+version: 20260918T052023Z

@@ -1,3 +1,4 @@
+name: domainsponsor-domain-park
 description: DomainSponsor domain parking
 uuid: acf9dfbd-396e-5ee8-aff3-487b86bbe444
 query: http_favicon_md5:1CDECC190B122A232E64945332DE0546
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:domainsponsor-domain-parking
 - vendor:domainsponsor
-version: 20260918T051351Z
+version: 20260918T052023Z

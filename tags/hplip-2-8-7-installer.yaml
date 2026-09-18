@@ -1,3 +1,4 @@
+name: hplip-2-8-7-installer
 description: hplip (2.8.7) - installer
 uuid: 191bbe34-14e2-502f-92fd-2a3a6c4f61ef
 query: http_favicon_md5:5E99522B02F6ECADBB3665202357D775
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:hplip-2-8-7-installer
 - vendor:hplip
-version: 20260918T051351Z
+version: 20260918T052023Z

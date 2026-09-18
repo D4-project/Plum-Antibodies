@@ -1,3 +1,4 @@
+name: cloudflare
 description: Cloudflare
 uuid: 2af7e159-3914-5646-82a1-f7abf5422d29
 query: http_server:cloudflare
@@ -7,4 +8,4 @@ tags:
 - vendor:cloudflare
 references:
 - https://www.cloudflare.com/products/cdn/
-version: 20260918T051351Z
+version: 20260918T052023Z

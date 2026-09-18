@@ -1,3 +1,4 @@
+name: c2-onimai
 description: Onimai RAT C2 certificate
 uuid: b99527e4-3845-54ee-b292-850c82d991f0
 query: x509_issuer_cn:"Onimai Academies CA"
@@ -6,4 +7,4 @@ tags:
 - product:onimai-rat
 - vendor:onimai
 - type:c2
-version: 20260918T051351Z
+version: 20260918T052023Z

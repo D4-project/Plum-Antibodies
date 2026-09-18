@@ -1,3 +1,4 @@
+name: php-info
 description: PHP Info
 uuid: 36b1dd26-35f0-5a90-b495-44f03d06caf9
 query: http_title.lk:phpinfo()
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - vuln:phpinfo
 - lang:php
-version: 20260918T051351Z
+version: 20260918T052023Z

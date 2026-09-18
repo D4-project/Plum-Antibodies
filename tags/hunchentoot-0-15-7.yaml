@@ -1,3 +1,4 @@
+name: hunchentoot-0-15-7
 description: hunchentoot (0.15.7)
 uuid: 8b8b576b-2feb-5d1b-93fa-0fa1dbe635c7
 query: http_favicon_md5:43D4AA56DC796067B442C95976A864FD
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:hunchentoot-0-15-7
 - vendor:hunchentoot
-version: 20260918T051351Z
+version: 20260918T052023Z

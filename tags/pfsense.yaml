@@ -1,3 +1,4 @@
+name: pfsense
 description: pfSense
 uuid: 89ac71d3-1e5c-55a4-b959-a7e8ea0a0c74
 query: http_favicon_mmhash:1405460984 OR http_favicon_mmhash:1015545776 OR http_favicon_md5:5567e9ce23e5549e0fcd7195f3882816
@@ -9,4 +10,4 @@ tags:
 - type:firewall
 references:
 - https://www.pfsense.org/
-version: 20260918T051351Z
+version: 20260918T052023Z

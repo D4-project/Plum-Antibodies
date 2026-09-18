@@ -1,3 +1,4 @@
+name: tc-group
 description: TC-Group
 uuid: 910b7ded-4da8-5ead-b05e-11b6f1781d37
 query: http_favicon_mmhash:-1734573358
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:tc-group
 - vendor:tc-group
-version: 20260918T051351Z
+version: 20260918T052023Z

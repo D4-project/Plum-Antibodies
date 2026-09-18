@@ -1,3 +1,4 @@
+name: gpon-gateway
 description: GPON Home Gateway
 uuid: 5af2c684-16b4-5af7-905c-a7ccbd06b7c9
 query: http_title.lk:"GPON Home Gateway"
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - vendor:gpon-gateway
 - product:gpon-home-gateway
-version: 20260918T051351Z
+version: 20260918T052023Z

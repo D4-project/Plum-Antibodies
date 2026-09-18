@@ -1,3 +1,4 @@
+name: netcomwireless-network
 description: NetComWireless (Network)
 uuid: bdd55ac1-f3a3-523f-9184-fd899a659ff1
 query: http_favicon_mmhash:5542029
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:netcomwireless-network
 - vendor:netcomwireless
-version: 20260918T051351Z
+version: 20260918T052023Z

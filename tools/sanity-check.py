@@ -67,6 +67,7 @@ EXACT_ONLY_FIELDS = {"tag"}
 VERSION_RE = re.compile(r"^\d{8}T\d{6}Z$")
 HTTP_HEADER_RE = re.compile(r"^[!#$%&'*+\-.^_`|~0-9a-z]+$")
 LINK_RE = re.compile(r"^https?://\S+$", re.IGNORECASE)
+NAME_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,24}$")
 
 
 class RuleError(ValueError):
@@ -199,7 +200,7 @@ def validate_rule(path: Path) -> tuple[list[str], str]:
     if not isinstance(payload, dict):
         raise RuleError("top level must be a YAML mapping")
 
-    for field in ("description", "uuid", "query", "tags", "version"):
+    for field in ("name", "description", "uuid", "query", "tags", "version"):
         if field not in payload:
             raise RuleError(f"missing required field: {field}")
 
@@ -208,6 +209,9 @@ def validate_rule(path: Path) -> tuple[list[str], str]:
         or not payload["description"].strip()
     ):
         raise RuleError("description must be a non-empty string")
+    name = payload["name"]
+    if not isinstance(name, str) or not NAME_RE.fullmatch(name):
+        raise RuleError("name must be a lowercase slug of at most 25 characters")
     rule_uuid = payload["uuid"]
     if not isinstance(rule_uuid, str):
         raise RuleError("uuid must be a canonical UUID string")

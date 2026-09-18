@@ -1,3 +1,4 @@
+name: ossia-provision-sr-webcam
 description: Ossia (Provision SR) / Webcam/IP Camera
 uuid: 03719ff4-6319-5d21-86c3-bbd984ca8f5c
 query: http_favicon_mmhash:-374235895
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:ossia-provision
 - vendor:camera
-version: 20260918T051351Z
+version: 20260918T052023Z

@@ -1,3 +1,4 @@
+name: microsoft-httpapi
 description: Microsoft HTTPAPI
 uuid: 05d1f5a9-62d6-5315-9d00-c1e92f144ce7
 query: http_server.bg:microsoft-httpapi
@@ -7,4 +8,4 @@ tags:
 - vendor:microsoft
 references:
 - https://learn.microsoft.com/en-us/windows/win32/http/http-api-version-2-0
-version: 20260918T051351Z
+version: 20260918T052023Z

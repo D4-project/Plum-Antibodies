@@ -1,3 +1,4 @@
+name: mediatomb-0-11-0
 description: mediatomb (0.11.0)
 uuid: e50a5d6d-2f9c-58af-aba0-a8bcdba085a8
 query: http_favicon_md5:F972C37BF444FB1925A2C97812E2C1EB
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:mediatomb-0-11-0
 - vendor:mediatomb
-version: 20260918T051351Z
+version: 20260918T052023Z

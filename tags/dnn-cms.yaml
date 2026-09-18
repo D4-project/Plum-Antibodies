@@ -1,3 +1,4 @@
+name: dnn-cms
 description: DNN (CMS)
 uuid: 646ef5f5-95d9-56f5-b932-7abcbbe39cfd
 query: http_favicon_mmhash:-1465479343
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:dnn-cms
 - vendor:dnn
-version: 20260918T051351Z
+version: 20260918T052023Z

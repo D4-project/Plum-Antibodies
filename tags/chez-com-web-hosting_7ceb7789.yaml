@@ -1,3 +1,4 @@
+name: chez-com-web-hosting-7ceb
 description: Chez.com web hosting
 uuid: 53cd135a-ee9c-50af-bb8b-1c9752471228
 query: http_favicon_md5:7CEB7789D54A151FDC75C59925351B7B
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:chez-com-web-hosting
 - vendor:chez
-version: 20260918T051351Z
+version: 20260918T052023Z

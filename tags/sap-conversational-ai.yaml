@@ -1,3 +1,4 @@
+name: sap-conversational-ai
 description: SAP Conversational AI
 uuid: 853813ac-1c25-540a-8623-b1f2d3bda4a1
 query: http_favicon_mmhash:1347937389
@@ -7,4 +8,4 @@ tags:
 - vendor:sap
 references:
 - https://www.sap.com/
-version: 20260918T051351Z
+version: 20260918T052023Z

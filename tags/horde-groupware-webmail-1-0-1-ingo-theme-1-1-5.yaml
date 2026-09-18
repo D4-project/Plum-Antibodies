@@ -1,3 +1,4 @@
+name: horde-groupware-webmail-1
 description: Horde Groupware Webmail 1.0.1 (Ingo Theme, 1.1.5)
 uuid: 91533881-f98e-5c0b-b04f-e403e675fdc8
 query: http_favicon_md5:919E132A62EA07FCE13881470BA70293
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:horde-groupware-webmail-1-0-1-ingo-theme-1-1-5
 - vendor:horde
-version: 20260918T051351Z
+version: 20260918T052023Z

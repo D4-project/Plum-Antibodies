@@ -1,3 +1,4 @@
+name: isp-manager-web-hosting-p
 description: ISP Manager (Web Hosting Panel)
 uuid: a5ef0980-1a58-5d07-a7f7-4c0355fc088e
 query: http_favicon_mmhash:-1151675028
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:isp-manager-web-hosting-panel
 - vendor:isp
-version: 20260918T051351Z
+version: 20260918T052023Z

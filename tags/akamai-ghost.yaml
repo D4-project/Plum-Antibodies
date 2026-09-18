@@ -1,3 +1,4 @@
+name: akamai-ghost
 description: Akamai Ghost
 uuid: 8a580297-3829-5df5-a5ab-71825fcf3c43
 query: http_server:akamaighost
@@ -7,4 +8,4 @@ tags:
 - vendor:akamai
 references:
 - https://www.akamai.com/products/content-delivery-network
-version: 20260918T051351Z
+version: 20260918T052023Z

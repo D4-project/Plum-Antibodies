@@ -1,3 +1,4 @@
+name: wireguard
 description: WireGuard
 uuid: caabf78a-5eb6-5905-a49d-ff2dceda1c37
 query: http_favicon_mmhash:595842577 OR http_favicon_md5:4f0cfecac2f1c4418e254f8588f8e1de
@@ -9,4 +10,4 @@ tags:
 - vendor:wireguard
 references:
 - https://www.wireguard.com/
-version: 20260918T051351Z
+version: 20260918T052023Z

@@ -1,3 +1,4 @@
+name: o2switch-powerboost
 description: o2switch PowerBoost
 uuid: c18310bf-ed25-53a0-b4fb-473b3d74f78c
 query: http_server:o2switch-powerboost-v3
@@ -7,4 +8,4 @@ tags:
 - vendor:o2switch
 references:
 - https://www.o2switch.fr/
-version: 20260918T051351Z
+version: 20260918T052023Z

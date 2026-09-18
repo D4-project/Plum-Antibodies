@@ -1,3 +1,4 @@
+name: avtech-ip-surveillance-ca
 description: Avtech IP Surveillance (Camera)
 uuid: f351a121-90c8-547a-8966-43e652eae12c
 query: http_favicon_mmhash:-194439630
@@ -5,4 +6,4 @@ tags:
 - proto:http
 - product:avtech-ip-surveillance
 - vendor:camera
-version: 20260918T051351Z
+version: 20260918T052023Z

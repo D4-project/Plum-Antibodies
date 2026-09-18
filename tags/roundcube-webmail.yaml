@@ -1,3 +1,4 @@
+name: roundcube-webmail
 description: Roundcube Webmail
 uuid: 142e5207-410b-57a5-8922-c7a3b25d1839
 query: http_favicon_mmhash:-976235259 OR http_favicon_mmhash:-2140379067 OR http_favicon_mmhash:-1754690812
@@ -7,4 +8,4 @@ tags:
 - proto:http
 - product:roundcube-webmail
 - vendor:roundcube
-version: 20260918T051351Z
+version: 20260918T052023Z
