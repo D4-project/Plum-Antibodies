@@ -1,5 +1,5 @@
 name: securepoint-utm
-description: Securepoint UTM
+description: Detect Securepoint UTM (firewall)
 uuid: e88db22a-966f-5364-b100-7dd1839d6410
 query: http_title:UTM OR http_title.bg:"Securepoint UTM" OR http_favicon_mmhash:279720073
   OR http_favicon_md5:770300f31a3fe01dec31d25d55249251
@@ -11,4 +11,4 @@ tags:
 - vendor:securepoint
 references:
 - https://www.securepoint.de/en/
-version: 20260918T052023Z
+version: 20260918T053418Z

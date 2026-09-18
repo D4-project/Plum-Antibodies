@@ -1,5 +1,5 @@
 name: c2-shadowpad
-description: ShadowPad C2 certificate
+description: Detect ShadowPad C2 certificate
 uuid: 1aeb43c4-212d-5215-a976-c5c75079ad00
 query: x509_subject.lk:"CN=myServer, OU=mygroup, O=myorganization, L=mycity, ST=myprovince, C=CN"
 tags:
@@ -7,4 +7,4 @@ tags:
 - product:shadowpad
 - vendor:shadowpad
 - type:c2
-version: 20260918T052023Z
+version: 20260918T053418Z

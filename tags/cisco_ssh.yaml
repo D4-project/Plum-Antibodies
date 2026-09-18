@@ -1,5 +1,5 @@
 name: cisco-ssh
-description: Cisco SSH
+description: Detect Cisco SSH (router)
 uuid: a9347f95-8124-55b2-95a5-e0fa5ba526c8
 query: banner.bg:ssh-2.0-cisco-
 tags:
@@ -9,4 +9,4 @@ tags:
 - product:cisco-ssh
 references:
 - https://www.cisco.com/
-version: 20260918T052023Z
+version: 20260918T053418Z

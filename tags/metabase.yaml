@@ -1,9 +1,9 @@
 name: metabase
-description: Metabase
+description: Detect Metabase
 uuid: 7703219b-9812-5034-9d87-c6f3db29b853
 query: http_favicon_mmhash:1953726032
 tags:
 - proto:http
 - product:metabase
 - vendor:metabase
-version: 20260918T052023Z
+version: 20260918T053418Z

@@ -1,5 +1,5 @@
 name: drupal-2-x-4-x
-description: Drupal 2.x-4.x
+description: Detect Drupal 2.x-4.x (CMS)
 uuid: 4af8d5ad-f8ef-5189-ae4f-acf64c21f5a4
 query: http_favicon_md5:A4819787DB1DABE1A6B669D5D6DF3BFD
 tags:
@@ -9,4 +9,4 @@ tags:
 - vendor:drupal
 references:
 - https://www.drupal.org/
-version: 20260918T052023Z
+version: 20260918T053418Z

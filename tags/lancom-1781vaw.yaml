@@ -1,5 +1,5 @@
 name: lancom-1781vaw
-description: LANCOM 1781VAW
+description: Detect LANCOM 1781VAW (router)
 uuid: df6b85a5-5b95-5117-ba98-e492a720e622
 query: http_title.bg:"LANCOM 1781VAW"
 tags:
@@ -7,4 +7,4 @@ tags:
 - product:lancom-1781vaw
 - type:router
 - vendor:lancom
-version: 20260918T052023Z
+version: 20260918T053418Z

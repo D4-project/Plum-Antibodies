@@ -1,5 +1,5 @@
 name: lancom-2100ef
-description: LANCOM 2100EF
+description: Detect LANCOM 2100EF (router)
 uuid: 99a83590-8356-50e1-af43-3b1728511e0e
 query: http_title.bg:"LANCOM 2100EF"
 tags:
@@ -7,4 +7,4 @@ tags:
 - product:lancom-2100ef
 - type:router
 - vendor:lancom
-version: 20260918T052023Z
+version: 20260918T053418Z

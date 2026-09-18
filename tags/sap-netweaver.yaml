@@ -1,5 +1,5 @@
 name: sap-netweaver
-description: SAP Netweaver
+description: Detect SAP Netweaver
 uuid: f1044c5b-e2f1-566f-bd0c-40b66231699b
 query: http_favicon_mmhash:-266008933
 tags:
@@ -8,4 +8,4 @@ tags:
 - vendor:sap
 references:
 - https://www.sap.com/
-version: 20260918T052023Z
+version: 20260918T053418Z

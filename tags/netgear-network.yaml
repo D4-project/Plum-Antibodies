@@ -1,5 +1,5 @@
 name: netgear-network
-description: Netgear (Network)
+description: Detect Netgear (Network)
 uuid: 9b104c55-a039-5442-bd5c-ba615aae033d
 query: http_favicon_mmhash:1047213685
 tags:
@@ -8,4 +8,4 @@ tags:
 - vendor:netgear
 references:
 - https://www.netgear.com/
-version: 20260918T052023Z
+version: 20260918T053418Z

@@ -1,5 +1,5 @@
 name: lancom-1781-4g
-description: LANCOM 1781-4G
+description: Detect LANCOM 1781-4G (router)
 uuid: 0b30142e-4b17-5aa6-8d84-2b746b8015c6
 query: http_title.bg:"LANCOM 1781-4G"
 tags:
@@ -7,4 +7,4 @@ tags:
 - product:lancom-1781-4g
 - type:router
 - vendor:lancom
-version: 20260918T052023Z
+version: 20260918T053418Z

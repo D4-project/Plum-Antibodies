@@ -18,7 +18,7 @@ version: 20260428T170756Z
 | Field | Required | Description |
 | ----- | -------- | ----------- |
 | `name` | yes | Lowercase rule slug, 25 characters maximum. |
-| `description` | yes | Human-readable rule description. |
+| `description` | yes | Human-readable detection statement, beginning with `Detect`. |
 | `uuid` | yes | Unique canonical UUID. |
 | `query` | yes | Query using documented [syntax](query-syntax.md). |
 | `tags` | yes | One or more normalized tags. |
@@ -26,6 +26,10 @@ version: 20260428T170756Z
 | `references` | no | HTTP(S) links supporting detection. |
 
 `references` are maintainer metadata; they do not affect matching.
+
+Descriptions should use `Detect <product or vendor>` and append a useful asset type
+when it is not already evident; for example, `Detect F5 BIG-IP (load balancer)`.
+Run `python3 tools/normalize-rule-descriptions.py` to apply this convention.
 
 ## Rule names
 

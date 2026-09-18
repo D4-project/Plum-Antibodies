@@ -1,5 +1,5 @@
 name: opensearch-security
-description: OpenSearch Security
+description: Detect OpenSearch Security (database)
 uuid: 214ce2f0-2fdd-5a55-bdaf-19c6c90c2d07
 query: http_headval:www-authenticate.lk:"opensearch security"
 tags:
@@ -7,4 +7,4 @@ tags:
 - product:opensearch-security
 - type:database
 - vendor:opensearch
-version: 20260918T052023Z
+version: 20260918T053418Z

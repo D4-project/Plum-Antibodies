@@ -1,5 +1,5 @@
 name: misp
-description: MISP
+description: Detect MISP
 uuid: 54682d4e-0afd-5368-8621-8f2cf3d97c8e
 query: http_title:"Users - MISP" OR http_favicon_mmhash:-137577333 OR http_favicon_md5:00d481db9645bda02a7f2306a8515489
   OR http_favicon_sha256:7bd6c2a8a299944318a9894c5ede93a0ebc84d68e9a40a6003f2d760ce5581c0
@@ -11,4 +11,4 @@ tags:
 - vendor:circl
 references:
 - https://www.misp-project.org/
-version: 20260918T052023Z
+version: 20260918T053418Z

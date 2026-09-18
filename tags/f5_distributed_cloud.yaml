@@ -1,5 +1,5 @@
 name: f5-distributed-cloud
-description: F5 Distributed Cloud
+description: Detect F5 Distributed Cloud (load balancer)
 uuid: e318b8a3-d31a-5156-a66d-2b5cc25b567a
 query: http_server:"volt-adc"
 tags:
@@ -9,4 +9,4 @@ tags:
 - type:slb
 references:
 - https://www.f5.com/
-version: 20260918T052023Z
+version: 20260918T053418Z

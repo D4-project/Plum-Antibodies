@@ -1,5 +1,5 @@
 name: varnish
-description: Varnish Cache
+description: Detect Varnish Cache (proxy)
 uuid: a90c1351-15c5-541b-8374-63d0328a0712
 query: http_server:varnish
 tags:
@@ -9,4 +9,4 @@ tags:
 - vendor:varnish
 references:
 - https://www.varnish-software.com/
-version: 20260918T052023Z
+version: 20260918T053418Z

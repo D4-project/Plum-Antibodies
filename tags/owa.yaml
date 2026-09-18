@@ -1,5 +1,5 @@
 name: owa
-description: Outlook Web Access
+description: Detect Outlook Web Access (webmail)
 uuid: 0d65b2fd-8cfd-56bf-8f56-76b0a047bd2b
 query: http_favicon_mmhash:1768726119 OR http_favicon_mmhash:1356662359 OR http_title.lk:"/owa/auth/"
   OR http_favicon_mmhash:-330653729 OR http_favicon_md5:A1EADAF7974E7CE9889A5D7A07844590
@@ -12,4 +12,4 @@ tags:
 - type:webmail
 - vendor:windows
 - product:outlook
-version: 20260918T052023Z
+version: 20260918T053418Z

@@ -1,5 +1,5 @@
 name: netlify
-description: Netlify
+description: Detect Netlify
 uuid: a91e605b-3078-5f0d-9c2b-50c7265717c0
 query: http_server:netlify
 tags:
@@ -8,4 +8,4 @@ tags:
 - vendor:netlify
 references:
 - https://www.netlify.com/
-version: 20260918T052023Z
+version: 20260918T053418Z

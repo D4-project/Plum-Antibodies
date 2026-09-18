@@ -1,5 +1,5 @@
 name: fortinet-forticlient
-description: Fortinet - Forticlient
+description: Detect Fortinet - Forticlient
 uuid: 9666ed03-6204-5d48-af51-c5fa7e5b90a0
 query: http_favicon_mmhash:945408572
 tags:
@@ -8,4 +8,4 @@ tags:
 - vendor:fortinet
 references:
 - https://www.fortinet.com/
-version: 20260918T052023Z
+version: 20260918T053418Z

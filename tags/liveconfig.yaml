@@ -1,5 +1,5 @@
 name: liveconfig
-description: LiveConfig
+description: Detect LiveConfig
 uuid: ebfb49d4-854c-5b21-9387-b166dde1d123
 query: http_title:"LiveConfig - Login" OR http_favicon_mmhash:-50934878 OR http_favicon_md5:219235d8f35c0852ce6d2a3783b9cf10
   OR http_favicon_sha256:fe36549958231cff9af8f794d7945b48982e1383492d15e60603cd4acca8e6d6 OR x509_subject_cn:LiveConfig
@@ -12,4 +12,4 @@ tags:
 - vendor:liveconfig
 references:
 - https://www.liveconfig.com/en/
-version: 20260918T052023Z
+version: 20260918T053418Z

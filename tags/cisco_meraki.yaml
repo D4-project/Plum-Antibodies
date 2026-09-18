@@ -1,5 +1,5 @@
 name: cisco-meraki
-description: Cisco Meraki
+description: Detect Cisco Meraki
 uuid: 9e0ea9c1-97b9-5a20-8241-2d5c67a20849
 query: http_favicon_mmhash:163842882
 tags:
@@ -8,4 +8,4 @@ tags:
 - product:meraki
 references:
 - https://www.cisco.com/
-version: 20260918T052023Z
+version: 20260918T053418Z

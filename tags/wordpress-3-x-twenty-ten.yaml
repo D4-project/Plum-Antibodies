@@ -1,5 +1,5 @@
 name: wordpress-3-x-twenty-ten
-description: 'WordPress 3.x : Twenty Ten'
+description: "Detect WordPress 3.x : Twenty Ten (CMS)"
 uuid: d4a4e451-49b8-5042-a75e-86f102f573b7
 query: http_favicon_md5:3EAD5AFA19537170BB980924397B70D6
 tags:
@@ -10,4 +10,4 @@ tags:
 - vendor:wordpress
 references:
 - https://wordpress.org/
-version: 20260918T052023Z
+version: 20260918T053418Z

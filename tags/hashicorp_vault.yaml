@@ -1,5 +1,5 @@
 name: hashicorp-vault
-description: HashiCorp Vault
+description: Detect HashiCorp Vault
 uuid: afb4ef43-da13-5a98-b80e-499e2f908ef1
 query: http_favicon_mmhash:747250914 AND http_title.bg:Vault
 tags:
@@ -8,4 +8,4 @@ tags:
 - vendor:hashicorp
 references:
 - https://www.hashicorp.com/
-version: 20260918T052023Z
+version: 20260918T053418Z

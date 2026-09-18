@@ -1,5 +1,5 @@
 name: kerio-connect-imap
-description: Kerio Connect (IMAP)
+description: Detect Kerio Connect (IMAP)
 uuid: 7ceacfc8-0b6e-5c3b-8b14-3f84d9c94940
 query: banner.bg:"* OK Kerio Connect"
 tags:
@@ -8,4 +8,4 @@ tags:
 - vendor:kerio
 references:
 - https://kerioconnect.it/
-version: 20260918T052023Z
+version: 20260918T053418Z
