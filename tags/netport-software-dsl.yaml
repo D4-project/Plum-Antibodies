@@ -1,7 +1,8 @@
 description: Netport Software (DSL)
+uuid: b523dfeb-b454-5bbb-8f86-392777dc9dec
 query: http_favicon_mmhash:-1124868062
 tags:
 - proto:http
 - product:netport-software-dsl
 - vendor:netport
-version: 20260916T000000Z
+version: 20260918T051351Z

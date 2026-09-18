@@ -1,7 +1,8 @@
 description: Doteasy web hosting
+uuid: 316d96a1-ef3d-55bd-931d-469377b3c2e0
 query: http_favicon_md5:6C4EC806C82AB04D6B7D857E6FB68F95
 tags:
 - proto:http
 - product:doteasy-web-hosting
 - vendor:doteasy
-version: 20260916T000000Z
+version: 20260918T051351Z

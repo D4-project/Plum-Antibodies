@@ -1,4 +1,5 @@
 description: Wyse Management Suite
+uuid: 44d52539-bc44-52a7-8955-babb77d4804f
 query: http_title.bg:"Wyse Management Suite"
 tags:
 - proto:http
@@ -6,4 +7,4 @@ tags:
 - product:wyse-management-suite
 references:
 - https://www.dell.com/
-version: 20260916T195759Z
+version: 20260918T051351Z

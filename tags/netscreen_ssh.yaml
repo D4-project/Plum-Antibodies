@@ -1,8 +1,9 @@
 description: NetScreen SSH
+uuid: fd15eca5-a828-5216-809a-eef09b5b346b
 query: banner.bg:ssh-2.0-netscreen
 tags:
 - vendor:netscreen
 - type:firewall
 - proto:ssh
 - product:netscreen-ssh
-version: 20260520T133458Z
+version: 20260918T051351Z

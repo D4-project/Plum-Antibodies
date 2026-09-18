@@ -1,4 +1,5 @@
 description: Dlink Webcam
+uuid: fbe831d6-d247-5666-9943-cd3a7ee13801
 query: http_favicon_mmhash:31972968 OR http_favicon_mmhash:-1354933624 OR http_favicon_mmhash:1221759509
   OR http_favicon_mmhash:1144925962 OR http_headval:www-authenticate.lk:dcs-2332l
   OR http_headval:www-authenticate.lk:dcs-2670l OR http_headval:www-authenticate.lk:dcs-5000l_67
@@ -12,4 +13,4 @@ tags:
 - product:dlink-webcam
 - type:camera
 - vendor:dlink
-version: 20260917T220631Z
+version: 20260918T051351Z

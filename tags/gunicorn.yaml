@@ -1,4 +1,5 @@
 description: Gunicorn
+uuid: c481be64-bbf3-54a3-9e72-14d563c26251
 query: http_server:gunicorn
 tags:
 - proto:http
@@ -6,4 +7,4 @@ tags:
 - vendor:gunicorn
 references:
 - https://gunicorn.org/
-version: 20260917T222623Z
+version: 20260918T051351Z

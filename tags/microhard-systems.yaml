@@ -1,7 +1,8 @@
 description: Microhard Systems
+uuid: 0577e9ca-fe84-5822-92dc-f5565eade9cf
 query: http_favicon_mmhash:-1723752240
 tags:
 - proto:http
 - product:microhard-systems
 - vendor:microhard
-version: 20260916T000000Z
+version: 20260918T051351Z

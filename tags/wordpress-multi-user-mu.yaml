@@ -1,4 +1,5 @@
 description: Wordpress Multi-User (MU)
+uuid: ebd33f14-c330-5588-a8a2-fcdd948d871e
 query: http_favicon_md5:95103D0EABCD541527A86F23B636E794
 tags:
 - proto:http
@@ -8,4 +9,4 @@ tags:
 - vendor:wordpress
 references:
 - https://wordpress.org/
-version: 20260916T195759Z
+version: 20260918T051351Z

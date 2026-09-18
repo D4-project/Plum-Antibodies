@@ -1,4 +1,5 @@
 description: Apache Tomcat (6.0.18), Alfresco Enterprise Content Management System
+uuid: 0025c529-d805-520b-9876-89b97fc86281
 query: http_favicon_md5:D80E364C0D3138C7ECD75BF9896F2CAD
 tags:
 - proto:http
@@ -9,4 +10,4 @@ tags:
 - vendor:apache
 references:
 - https://httpd.apache.org/
-version: 20260916T195759Z
+version: 20260918T051351Z

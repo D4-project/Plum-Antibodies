@@ -1,4 +1,5 @@
 description: Cisco ASA
+uuid: 7f327ad2-f710-5f80-8136-745e0601afd7
 query: x509_issuer:"cn=asa temporary self signed certificate"
 tags:
 - proto:tls
@@ -7,4 +8,4 @@ tags:
 - type:firewall
 references:
 - https://www.cisco.com/
-version: 20260917T060331Z
+version: 20260918T051351Z

@@ -1,7 +1,8 @@
 description: Tandberg
+uuid: 7c932c6c-7e97-56c6-8672-72852605c5f8
 query: http_favicon_mmhash:97604680
 tags:
 - proto:http
 - product:tandberg
 - vendor:tandberg
-version: 20260916T000000Z
+version: 20260918T051351Z

@@ -1,7 +1,8 @@
 description: ekmpowershop web store
+uuid: ab64106a-8951-5f14-b8d0-9abd4b856fcc
 query: http_favicon_md5:BC96CB8D0841380F3504BB5584F78198
 tags:
 - proto:http
 - product:ekmpowershop-web-store
 - vendor:ekmpowershop
-version: 20260916T000000Z
+version: 20260918T051351Z

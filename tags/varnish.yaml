@@ -1,4 +1,5 @@
 description: Varnish Cache
+uuid: a90c1351-15c5-541b-8374-63d0328a0712
 query: http_server:varnish
 tags:
 - proto:http
@@ -7,4 +8,4 @@ tags:
 - vendor:varnish
 references:
 - https://www.varnish-software.com/
-version: 20260917T223010Z
+version: 20260918T051351Z

@@ -1,8 +1,9 @@
 description: Orcus RAT C2 certificate
+uuid: 93639bd1-0884-5970-8f52-a089bf24b62e
 query: x509_issuer_cn:"Orcus Server" OR x509_issuer_cn:"OrcusServerCertificate"
 tags:
 - proto:tls
 - product:orcus-rat
 - vendor:orcus
 - type:c2
-version: 20260917T060331Z
+version: 20260918T051351Z

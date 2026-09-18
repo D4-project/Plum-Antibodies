@@ -1,7 +1,8 @@
 description: Mitel Networks (MiCollab End User Portal)
+uuid: e8fad338-3270-528e-903e-fbd88335d652
 query: http_favicon_mmhash:-1922044295
 tags:
 - proto:http
 - product:mitel-networks-micollab-end-user-portal
 - vendor:mitel
-version: 20260916T000000Z
+version: 20260918T051351Z

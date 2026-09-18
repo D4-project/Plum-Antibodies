@@ -1,8 +1,9 @@
 description: Lancom SSH
+uuid: 3c898919-95f3-57b4-99b6-f472b67c3cab
 query: banner.bg:ssh-2.0-lancom
 tags:
 - vendor:lancom
 - type:router
 - proto:ssh
 - product:lancom-ssh
-version: 20260520T133458Z
+version: 20260918T051351Z

@@ -1,4 +1,5 @@
 description: F5 Distributed Cloud
+uuid: e318b8a3-d31a-5156-a66d-2b5cc25b567a
 query: http_server:"volt-adc"
 tags:
 - proto:http
@@ -7,4 +8,4 @@ tags:
 - type:slb
 references:
 - https://www.f5.com/
-version: 20260916T195759Z
+version: 20260918T051351Z

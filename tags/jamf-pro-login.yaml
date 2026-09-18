@@ -1,7 +1,8 @@
 description: Jamf Pro Login
+uuid: 426f5fd8-e1ef-5a7d-ba76-36c8a6d87322
 query: http_favicon_mmhash:1262005940
 tags:
 - proto:http
 - product:jamf-pro-login
 - vendor:jamf
-version: 20260916T000000Z
+version: 20260918T051351Z

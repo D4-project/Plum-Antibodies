@@ -1,8 +1,9 @@
 description: LANCOM 1781EF+
+uuid: c01f0646-6d89-52a6-b48c-d244eb2941f1
 query: http_title.bg:"LANCOM 1781EF+"
 tags:
 - proto:http
 - product:lancom-1781ef-plus
 - type:router
 - vendor:lancom
-version: 20260917T192743Z
+version: 20260918T051351Z

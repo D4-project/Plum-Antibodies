@@ -1,6 +1,6 @@
 # Sanity checker
 
-Run the checker before committing rule changes. It validates every YAML rule, including required fields, versions, query syntax, references, and normalized tags.
+Run the checker before committing rule changes. It validates every YAML rule, including required fields, unique UUID values, versions, query syntax, references, and normalized tags.
 
 ```bash
 python3 -m venv .venv

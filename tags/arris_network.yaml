@@ -1,8 +1,9 @@
 description: ARRIS (Network)
+uuid: caf1efd0-faf1-5aef-88fe-8f9f245c28a2
 query: http_favicon_mmhash:-360566773
 tags:
 - proto:http
 - vendor:arris
 - type:router
 - product:arris
-version: 20260916T000000Z
+version: 20260918T051351Z

@@ -6,6 +6,7 @@ Rules are YAML files in `tags/`; each filename is its rule name.
 
 ```yaml
 description: HashiCorp Vault
+uuid: afb4ef43-da13-5a98-b80e-499e2f908ef1
 query: http_favicon_mmhash:747250914 AND http_title.bg:Vault
 tags:
 - product:hashicorp-vault
@@ -16,12 +17,22 @@ version: 20260428T170756Z
 | Field | Required | Description |
 | ----- | -------- | ----------- |
 | `description` | yes | Human-readable rule description. |
+| `uuid` | yes | Unique canonical UUID. |
 | `query` | yes | Query using documented [syntax](query-syntax.md). |
 | `tags` | yes | One or more normalized tags. |
 | `version` | yes | UTC timestamp: `YYYYMMDDTHHMMSSZ`. |
 | `references` | no | HTTP(S) links supporting detection. |
 
 `references` are maintainer metadata; they do not affect matching.
+
+## Rule UUIDs
+
+Every rule has a unique, canonical UUID. It is opaque metadata and does not depend
+on the filename; a random UUID4 is suitable for a new rule.
+
+Run `python3 tools/add-rule-uuids.py` to populate missing UUIDs. It preserves existing
+UUIDs and updates versions only for changed rules. The sanity checker rejects missing,
+malformed, or duplicate UUIDs.
 
 ## Versions
 

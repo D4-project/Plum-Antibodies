@@ -1,8 +1,9 @@
 description: Crestron SSH
+uuid: 02a6a315-69a6-52fb-ad22-6cf5e61d6ad9
 query: banner.bg:ssh-2.0-crestronssh
 tags:
 - vendor:crestron
 - vendor:video
 - proto:ssh
 - product:crestron-ssh
-version: 20260520T133458Z
+version: 20260918T051351Z

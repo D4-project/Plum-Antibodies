@@ -1,4 +1,5 @@
 description: GlobalProtect
+uuid: b6b17c55-0532-5f97-8aeb-bd64a65a9ac8
 query: http_title.lk:"/global-protect/login.esp"
 tags:
 - proto:http
@@ -7,4 +8,4 @@ tags:
 - vendor:palo-alto
 references:
 - https://www.paloaltonetworks.com/
-version: 20260916T195759Z
+version: 20260918T051351Z

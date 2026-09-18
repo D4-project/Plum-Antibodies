@@ -1,7 +1,8 @@
 description: Multilaser
+uuid: b75e6690-0cbb-5657-8f53-3dfa84726d55
 query: http_favicon_mmhash:916642917
 tags:
 - proto:http
 - product:multilaser
 - vendor:multilaser
-version: 20260916T000000Z
+version: 20260918T051351Z

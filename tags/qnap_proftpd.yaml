@@ -1,4 +1,5 @@
 description: QNAP ProFTPD FTP server
+uuid: 5e8eeaf6-e7c4-5172-8d26-c5a158cbfac9
 query: banner.bg:"220 nasftpd turbo station" AND banner.lk:proftpd
 tags:
 - proto:ftp
@@ -7,4 +8,4 @@ tags:
 - type:nas
 references:
 - https://www.qnap.com/
-version: 20260917T215735Z
+version: 20260918T051351Z

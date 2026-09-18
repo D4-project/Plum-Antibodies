@@ -1,7 +1,8 @@
 description: Lenel
+uuid: 1f8b66bf-ac9a-56b6-9a6d-b19952fa0334
 query: http_favicon_mmhash:538585915
 tags:
 - proto:http
 - product:lenel
 - vendor:lenel
-version: 20260916T000000Z
+version: 20260918T051351Z

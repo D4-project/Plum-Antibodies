@@ -1,4 +1,5 @@
 description: Cisco Meraki Dashboard
+uuid: a8451ab2-9465-5794-9fae-db864e971804
 query: http_favicon_mmhash:804949239
 tags:
 - proto:http
@@ -6,4 +7,4 @@ tags:
 - product:meraki-dashboard
 references:
 - https://www.cisco.com/
-version: 20260916T195759Z
+version: 20260918T051351Z

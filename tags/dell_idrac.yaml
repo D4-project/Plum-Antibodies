@@ -1,4 +1,5 @@
 description: Dell Idrac
+uuid: ce56c835-ad27-548c-8fec-67a159be0a49
 query: http_title.lk:restgui/index.html OR http_title.lk:restgui/start.html or x509_subject.bg:idrac-
 tags:
 - type:supervision
@@ -6,4 +7,4 @@ tags:
 - product:idrac
 references:
 - https://www.dell.com/
-version: 20260916T195759Z
+version: 20260918T051351Z

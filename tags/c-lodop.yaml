@@ -1,4 +1,5 @@
 description: C-Lodop
+uuid: f589d8b0-d6d5-563e-9d51-07ff41a333b0
 query: http_favicon_mmhash:-329747115
 tags:
 - proto:http
@@ -6,4 +7,4 @@ tags:
 - vendor:mtsoftware
 references:
 - https://www.lodop.net/
-version: 20260917T211423Z
+version: 20260918T051351Z

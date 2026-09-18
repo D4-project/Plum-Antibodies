@@ -1,7 +1,8 @@
 description: Axcient Replibit Management Server
+uuid: 215acc60-aded-5d9c-9e86-8fced6c78d94
 query: http_favicon_mmhash:475379699
 tags:
 - proto:http
 - product:axcient-replibit-management-server
 - vendor:axcient
-version: 20260916T000000Z
+version: 20260918T051351Z

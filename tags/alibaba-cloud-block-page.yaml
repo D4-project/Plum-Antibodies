@@ -1,7 +1,8 @@
 description: Alibaba Cloud (Block Page)
+uuid: 98fcc2ff-4428-539e-ab7b-5081faba722c
 query: http_favicon_mmhash:1227052603
 tags:
 - proto:http
 - product:alibaba-cloud-block-page
 - vendor:alibaba
-version: 20260916T000000Z
+version: 20260918T051351Z

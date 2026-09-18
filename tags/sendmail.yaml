@@ -1,7 +1,8 @@
 description: Sendmail
+uuid: 249a5629-44c4-5020-b073-99b9a4a9bd0d
 query: banner.bg:220 AND banner.lk:"esmtp sendmail"
 tags:
 - proto:smtp
 - product:sendmail
 - vendor:sendmail
-version: 20260917T162839Z
+version: 20260918T051351Z

@@ -1,7 +1,8 @@
 description: hover domain forwarding
+uuid: 595da9f5-a286-5ef5-8e46-eb7446a072ca
 query: http_favicon_md5:292B586171617B56E77EE694485B1052
 tags:
 - proto:http
 - product:hover-domain-forwarding
 - vendor:hover
-version: 20260916T000000Z
+version: 20260918T051351Z

@@ -1,8 +1,9 @@
 description: Dlink Router
+uuid: 4ccec88d-d4b4-5751-810a-0d1a0c83724e
 query: http_favicon_mmhash:1037387972
 tags:
 - proto:http
 - product:dlink
 - type:router
 - vendor:dlink
-version: 20260916T000000Z
+version: 20260918T051351Z

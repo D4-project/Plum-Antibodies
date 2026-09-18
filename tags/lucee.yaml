@@ -1,7 +1,8 @@
 description: Lucee!
+uuid: 68662bee-6b36-53d0-b1b9-1b41bfdf130f
 query: http_favicon_mmhash:784872924
 tags:
 - proto:http
 - product:lucee
 - vendor:lucee
-version: 20260916T000000Z
+version: 20260918T051351Z

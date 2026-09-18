@@ -1,7 +1,8 @@
 description: CommuniGate
+uuid: 15314506-33ec-58cb-9e91-49df04dce495
 query: http_favicon_mmhash:-1588746893
 tags:
 - proto:http
 - product:communigate
 - vendor:communigate
-version: 20260916T000000Z
+version: 20260918T051351Z

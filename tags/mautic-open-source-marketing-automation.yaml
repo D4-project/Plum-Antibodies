@@ -1,7 +1,8 @@
 description: Mautic (Open Source Marketing Automation)
+uuid: 0823f65e-fc83-5e52-a17e-027f676a4d22
 query: http_favicon_mmhash:1273982002
 tags:
 - proto:http
 - product:mautic-open-source-marketing-automation
 - vendor:mautic
-version: 20260916T000000Z
+version: 20260918T051351Z

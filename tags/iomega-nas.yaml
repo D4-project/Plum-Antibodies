@@ -1,4 +1,5 @@
 description: iomega NAS
+uuid: 4bfb33fc-61a0-57ec-826b-4bbd800a68c3
 query: http_favicon_mmhash:-689902428 OR http_favicon_mmhash:-600508822 OR http_favicon_mmhash:656868270
   OR http_favicon_mmhash:-2056503929 OR http_favicon_mmhash:-1656695885 OR http_favicon_mmhash:331870709
   OR http_favicon_mmhash:1241049726 OR http_favicon_mmhash:998138196 OR http_favicon_mmhash:322531336
@@ -7,4 +8,4 @@ tags:
 - proto:http
 - product:iomega-nas
 - vendor:iomega
-version: 20260916T000000Z
+version: 20260918T051351Z

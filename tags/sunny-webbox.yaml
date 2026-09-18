@@ -1,7 +1,8 @@
 description: Sunny WebBox
+uuid: a0817e45-c93f-52b1-84eb-b59746fde5a5
 query: http_favicon_mmhash:1975413433
 tags:
 - proto:http
 - product:sunny-webbox
 - vendor:sunny
-version: 20260916T000000Z
+version: 20260918T051351Z

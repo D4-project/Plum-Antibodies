@@ -1,7 +1,8 @@
 description: Okazik[.]pl
+uuid: 98c10264-3907-5df4-af4f-740798de2634
 query: http_favicon_mmhash:-1583478052
 tags:
 - proto:http
 - product:okazik-pl
 - vendor:okazik
-version: 20260916T000000Z
+version: 20260918T051351Z

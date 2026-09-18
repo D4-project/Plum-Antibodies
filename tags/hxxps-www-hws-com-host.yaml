@@ -1,7 +1,8 @@
 description: hxxps://www.hws[.com/?host
+uuid: 69f3a78a-44ba-5556-bc6e-1a7b8073ffe1
 query: http_favicon_mmhash:1188645141
 tags:
 - proto:http
 - product:hxxps-www-hws-com-host
 - vendor:hxxps
-version: 20260916T000000Z
+version: 20260918T051351Z

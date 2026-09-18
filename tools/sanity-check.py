@@ -8,6 +8,7 @@ import re
 import shlex
 import sys
 import warnings
+from uuid import UUID
 from pathlib import Path
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
@@ -189,7 +190,7 @@ def validate_references(raw_references: object) -> None:
             raise RuleError(f"invalid reference link: {reference!r}")
 
 
-def validate_rule(path: Path) -> list[str]:
+def validate_rule(path: Path) -> tuple[list[str], str]:
     try:
         payload = yaml.safe_load(path.read_text(encoding="utf-8"))
     except (OSError, yaml.YAMLError) as error:
@@ -198,7 +199,7 @@ def validate_rule(path: Path) -> list[str]:
     if not isinstance(payload, dict):
         raise RuleError("top level must be a YAML mapping")
 
-    for field in ("description", "query", "tags", "version"):
+    for field in ("description", "uuid", "query", "tags", "version"):
         if field not in payload:
             raise RuleError(f"missing required field: {field}")
 
@@ -207,6 +208,15 @@ def validate_rule(path: Path) -> list[str]:
         or not payload["description"].strip()
     ):
         raise RuleError("description must be a non-empty string")
+    rule_uuid = payload["uuid"]
+    if not isinstance(rule_uuid, str):
+        raise RuleError("uuid must be a canonical UUID string")
+    try:
+        parsed_uuid = UUID(rule_uuid)
+    except ValueError as error:
+        raise RuleError("uuid must be a canonical UUID string") from error
+    if str(parsed_uuid) != rule_uuid:
+        raise RuleError("uuid must be a canonical UUID string")
     validate_query(payload["query"])
     tags = normalize_tags(payload["tags"])
     if "references" in payload:
@@ -215,7 +225,7 @@ def validate_rule(path: Path) -> list[str]:
     version = payload["version"]
     if not isinstance(version, str) or not VERSION_RE.fullmatch(version):
         raise RuleError("version must use YYYYMMDDTHHMMSSZ")
-    return tags
+    return tags, rule_uuid
 
 
 def main() -> int:
@@ -248,14 +258,24 @@ def main() -> int:
     failures = 0
     found_types: set[str] = set()
     found_protocols: set[str] = set()
+    seen_uuids: dict[str, Path] = {}
     for path in paths:
         try:
-            tags = validate_rule(path)
+            tags, rule_uuid = validate_rule(path)
         except RuleError as error:
             failures += 1
             warnings.warn(f"{path.name}: {error}", stacklevel=0)
             print(f"WARNING {path.name}: invalid rule", flush=True)
             continue
+        if rule_uuid in seen_uuids:
+            failures += 1
+            warnings.warn(
+                f"{path.name}: duplicate uuid also used by {seen_uuids[rule_uuid].name}",
+                stacklevel=0,
+            )
+            print(f"WARNING {path.name}: invalid rule", flush=True)
+            continue
+        seen_uuids[rule_uuid] = path
         if args.show_types or args.show_protocols:
             type_tags = [tag for tag in tags if tag.startswith("type:")]
             protocol_tags = [tag for tag in tags if tag.startswith("proto:")]

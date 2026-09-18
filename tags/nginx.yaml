@@ -1,4 +1,5 @@
 description: Nginx
+uuid: 9bc0d1f2-3c09-597d-9508-5e3d7367d824
 query: 'http_server.bg:nginx OR http_title.bg:"welcome to nginx!"'
 tags:
 - proto:http
@@ -6,4 +7,4 @@ tags:
 - vendor:nginx
 references:
 - https://nginx.org/
-version: 20260916T195759Z
+version: 20260918T051351Z

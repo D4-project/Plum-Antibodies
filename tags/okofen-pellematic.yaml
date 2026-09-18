@@ -1,7 +1,8 @@
 description: OkoFEN Pellematic
+uuid: a268e9ad-0b20-5b30-a036-fd10d2906646
 query: http_favicon_mmhash:-625364318
 tags:
 - proto:http
 - product:okofen-pellematic
 - vendor:okofen
-version: 20260916T000000Z
+version: 20260918T051351Z

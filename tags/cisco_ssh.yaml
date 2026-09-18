@@ -1,4 +1,5 @@
 description: Cisco SSH
+uuid: a9347f95-8124-55b2-95a5-e0fa5ba526c8
 query: banner.bg:ssh-2.0-cisco-
 tags:
 - vendor:cisco
@@ -7,4 +8,4 @@ tags:
 - product:cisco-ssh
 references:
 - https://www.cisco.com/
-version: 20260916T195759Z
+version: 20260918T051351Z

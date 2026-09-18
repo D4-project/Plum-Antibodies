@@ -1,8 +1,9 @@
 description: LANCOM 1900EF
+uuid: b0ec9435-d3c8-5a5e-ac45-73665daa662a
 query: http_title.bg:"LANCOM 1900EF"
 tags:
 - proto:http
 - product:lancom-1900ef
 - type:router
 - vendor:lancom
-version: 20260917T192743Z
+version: 20260918T051351Z

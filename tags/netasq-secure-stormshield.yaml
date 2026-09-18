@@ -1,7 +1,8 @@
 description: NETASQ - Secure / Stormshield
+uuid: 158d5f18-e71c-500c-ba3e-0ab441595f19
 query: http_favicon_mmhash:-1929912510
 tags:
 - proto:http
 - product:netasq-secure-stormshield
 - vendor:netasq
-version: 20260916T000000Z
+version: 20260918T051351Z

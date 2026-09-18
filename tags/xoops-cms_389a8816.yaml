@@ -1,7 +1,8 @@
 description: XOOPS CMS
+uuid: f43d5de8-2b14-562b-ae3c-0eec6b01a9fb
 query: http_favicon_md5:389A8816C5B87685DE7D8D5FEC96C85B
 tags:
 - proto:http
 - product:xoops-cms
 - vendor:xoops
-version: 20260916T000000Z
+version: 20260918T051351Z

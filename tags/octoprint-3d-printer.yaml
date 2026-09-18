@@ -1,7 +1,8 @@
 description: Octoprint (3D printer)
+uuid: cacb58a2-405a-5240-bdb2-64dcb66082e8
 query: http_favicon_mmhash:1307375944
 tags:
 - proto:http
 - product:octoprint-3d-printer
 - vendor:octoprint
-version: 20260916T000000Z
+version: 20260918T051351Z

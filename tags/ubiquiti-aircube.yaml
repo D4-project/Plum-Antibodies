@@ -1,7 +1,8 @@
 description: Ubiquiti Aircube
+uuid: e5421eaa-30a9-54e8-9686-fcfe79358bbb
 query: http_favicon_mmhash:1249285083
 tags:
 - proto:http
 - product:ubiquiti-aircube
 - vendor:ubiquiti
-version: 20260916T000000Z
+version: 20260918T051351Z

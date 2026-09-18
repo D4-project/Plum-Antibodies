@@ -1,8 +1,9 @@
 description: Eltex (Router)
+uuid: 48babd7b-380c-5445-bf62-2b53cd5d1c89
 query: http_favicon_mmhash:1877797890
 tags:
 - proto:http
 - product:eltex
 - type:router
 - vendor:eltex
-version: 20260916T000000Z
+version: 20260918T051351Z

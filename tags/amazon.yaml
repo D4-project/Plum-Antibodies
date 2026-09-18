@@ -1,4 +1,5 @@
 description: Amazon
+uuid: b2951e1a-10de-5b6a-9829-099166bc6fd9
 query: http_favicon_mmhash:-1544605732 OR http_favicon_mmhash:716989053
 tags:
 - proto:http
@@ -6,4 +7,4 @@ tags:
 - vendor:amazon
 references:
 - https://aws.amazon.com/
-version: 20260916T195759Z
+version: 20260918T051351Z

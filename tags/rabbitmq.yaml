@@ -1,7 +1,8 @@
 description: RabbitMQ
+uuid: 96262b69-2a5d-5eec-bd0e-20613ebedf8d
 query: http_favicon_mmhash:1064742722
 tags:
 - proto:http
 - product:rabbitmq
 - vendor:rabbitmq
-version: 20260916T000000Z
+version: 20260918T051351Z

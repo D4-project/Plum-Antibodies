@@ -1,7 +1,8 @@
 description: Entronix Energy Management Platform
+uuid: 8b7a1be4-42c8-564e-b6fa-529cb974afa8
 query: http_favicon_mmhash:-368490461
 tags:
 - proto:http
 - product:entronix-energy-management-platform
 - vendor:entronix
-version: 20260916T000000Z
+version: 20260918T051351Z

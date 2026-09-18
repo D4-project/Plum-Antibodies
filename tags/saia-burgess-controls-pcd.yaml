@@ -1,7 +1,8 @@
 description: Saia Burgess Controls - PCD
+uuid: c6c5cbf2-d0fe-5394-bbff-11383a623f22
 query: http_favicon_mmhash:-1547576879
 tags:
 - proto:http
 - product:saia-burgess-controls-pcd
 - vendor:saia
-version: 20260916T000000Z
+version: 20260918T051351Z

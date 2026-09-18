@@ -1,7 +1,8 @@
 description: Domain Technology Control 0.17.x-0.24.x
+uuid: ca1e6795-1f18-56eb-9911-f0de56da1307
 query: http_favicon_md5:C86974467C2AC7B6902189944F812B9A
 tags:
 - proto:http
 - product:domain-technology-control-0-17-x-0-24-x
 - vendor:domain
-version: 20260916T000000Z
+version: 20260918T051351Z

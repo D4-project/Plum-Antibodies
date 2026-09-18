@@ -1,7 +1,8 @@
 description: ClaimTime (Ramsell Public Health & Safety)
+uuid: b0e06349-224c-5e34-b09d-1357cc976bc8
 query: http_favicon_mmhash:-687783882
 tags:
 - proto:http
 - product:claimtime-ramsell-public-health-and-safety
 - vendor:claimtime
-version: 20260916T000000Z
+version: 20260918T051351Z
