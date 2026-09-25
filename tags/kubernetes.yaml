@@ -1,0 +1,11 @@
+name: kubernetes
+description: Detect Kubernetes
+uuid: e80a8653-1867-45d5-a475-0aba5175f655
+query: http_header:x-kubernetes-pf-flowschema-uid OR http_header:x-kubernetes-pf-prioritylevel-uid
+tags:
+- proto:http
+- product:kubernetes
+- vendor:kubernetes
+references:
+- https://kubernetes.io/docs/concepts/cluster-administration/flow-control/
+version: 20260925T093700Z
