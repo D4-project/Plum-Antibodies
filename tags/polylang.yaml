@@ -1,7 +1,7 @@
 name: polylang
 description: Detect Polylang (CMS)
 uuid: 15222ef3-6300-54cd-92b0-c5d4e95e8238
-query: http_headval:x-redirect-by.bg:polylang
+query: http_headval:x-redirect-by.bg:polylang OR http_cookiename:pll_language
 tags:
 - proto:http
 - product:polylang
@@ -9,4 +9,6 @@ tags:
 - type:cms
 - lang:php
 - vendor:polylang
-version: 20260918T053418Z
+references:
+- https://polylang.pro/
+version: 20261001T130239Z
