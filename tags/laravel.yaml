@@ -1,0 +1,12 @@
+name: laravel
+description: Detect Laravel
+uuid: 3345f812-cfb1-4c39-b3c7-e3347e1703bd
+query: http_cookiename:laravel_session
+tags:
+- proto:http
+- lang:php
+- product:laravel
+- vendor:laravel
+references:
+- https://laravel.com/
+version: 20261001T130902Z
