@@ -1,0 +1,13 @@
+name: fritz-repeater
+description: Detect FRITZ!Repeater
+uuid: 661ee459-cf80-468c-a156-2cbee5e23b76
+query: http_title.bg:"FRITZ!Repeater" OR http_favicon_mmhash:-1997862060 OR http_favicon_md5:b0e51161620ada5ab38a81dfcdcac4ca
+  OR http_favicon_sha256:d45d834b6cb9d9b06728905a7cf1b18da392b77cce33f4577d6d3865583352ec
+  OR x509_san.lk:"dns:fritz.repeater" OR x509_san.lk:"dns:www.fritz.repeater"
+tags:
+- vendor:avm
+- product:fritz-repeater
+- type:iot
+references:
+- https://fritz.com/en-lu/collections/mesh-wifi-extender
+version: 20261012T124455Z
