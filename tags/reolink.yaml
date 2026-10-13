@@ -1,9 +1,13 @@
 name: reolink
 description: Detect Reolink
 uuid: 2e5bc4bc-184c-5dda-b603-f0b253370595
-query: http_favicon_mmhash:-38705358
+query: http_favicon_mmhash:-38705358 OR http_favicon_mmhash:14682897 OR http_favicon_md5:bef51ce276b323d7c01f47a42c813c71
+  OR http_favicon_sha256:402560b1749dad33581536f2b600987ab8168ff7744af94485edf4bbed35ac6f
+  OR http_title:Reolink
 tags:
 - proto:http
 - product:reolink
 - vendor:reolink
-version: 20260918T053418Z
+references:
+- https://reolink.com/
+version: 20261013T072609Z

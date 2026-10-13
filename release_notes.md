@@ -5,3 +5,4 @@
 - Add Ivanti Connect Secure detection from HTTP titles.
 - Add FRITZ!Repeater detection.
 - Add Danfoss StoreView detection.
+- Extend Reolink detection.
