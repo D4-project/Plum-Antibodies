@@ -1,0 +1,12 @@
+name: default-installation
+description: Detect Nginx default installation
+uuid: ddae5e9a-8d9a-4049-90cb-c179bbaffe4d
+query: http_title:"welcome to nginx!"
+tags:
+- proto:http
+- product:nginx
+- vendor:nginx
+- vuln:default_page
+references:
+- https://nginx.org/
+version: 20261013T090342Z

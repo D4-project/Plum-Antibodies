@@ -8,3 +8,4 @@
 - Extend Reolink detection.
 - Add Home Assistant detection.
 - Extend OpenVPN detection.
+- Tag Nginx default installation pages.
