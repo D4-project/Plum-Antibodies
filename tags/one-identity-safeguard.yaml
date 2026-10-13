@@ -1,0 +1,14 @@
+name: one-identity-safeguard
+description: Detect One Identity Safeguard (PAM)
+uuid: c661fb7e-ae82-4061-ae8d-d3fdc13924b3
+query: http_favicon_mmhash:232833720 OR http_favicon_md5:4128ce3296a8f20801178de659bff6be
+  OR http_favicon_sha256:7f710cc83256a385bf28800dcf28e9da18b53e544c626519c3a28ef103e5180d
+  OR http_title:"Safeguard for Privileged Passwords"
+tags:
+- proto:http
+- vendor:one-identity
+- product:safeguard-for-privileged-passwords
+- type:pam
+references:
+- https://www.oneidentity.com/one-identity-safeguard/
+version: 20261013T094305Z

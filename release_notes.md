@@ -9,3 +9,4 @@
 - Add Home Assistant detection.
 - Extend OpenVPN detection.
 - Tag Nginx default installation pages.
+- Add One Identity Safeguard detection.
