@@ -1,0 +1,11 @@
+name: passbolt
+description: Detect Passbolt
+uuid: 4ef71b94-5dd9-48db-bcdd-c3a7ebeb5ba6
+query: http_title:"passbolt | open source password manager for teams"
+tags:
+- proto:http
+- product:passbolt
+- vendor:passbolt
+references:
+- https://www.passbolt.com/
+version: 20261013T101324Z

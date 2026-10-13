@@ -10,4 +10,5 @@
 - Extend OpenVPN detection.
 - Tag Nginx default installation pages.
 - Split SonicWall firewall and SMA detection.
+- Add Passbolt detection.
 - Add One Identity Safeguard detection.
