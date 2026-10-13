@@ -1,0 +1,14 @@
+name: danfoss-storeview
+description: Detect Danfoss StoreView (IoT)
+uuid: 53e463e0-77fc-4152-899b-601e5096ce5f
+query: http_favicon_mmhash:-853297641 OR http_favicon_md5:b78be264b6fc5a537501c3562a0cda05
+  OR http_favicon_sha256:b3cda0bca6b842f23352989f58c165b37426a24e1ea58156de9055ae75ef4f6d
+  OR http_title:"Danfoss StoreView" OR x509_subject_cn.bg:danfoss
+tags:
+- proto:http
+- vendor:danfoss
+- product:storeview
+- type:iot
+references:
+- https://www.danfoss.com/en/products/dcs/monitoring-and-services/storeview-web/storeview-web-full-remote-access-to-your-ak-sm800a-and-ak-sm800/
+version: 20261013T072146Z
