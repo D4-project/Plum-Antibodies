@@ -9,4 +9,5 @@
 - Add Home Assistant detection.
 - Extend OpenVPN detection.
 - Tag Nginx default installation pages.
+- Split SonicWall firewall and SMA detection.
 - Add One Identity Safeguard detection.

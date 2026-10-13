@@ -1,0 +1,10 @@
+name: sonicwall-sma
+description: Detect SonicWall SMA (VPN)
+uuid: 5ba862ef-626b-4a11-ad5b-0d65b4c9d8bd
+query: http_server.bg:"sma/"
+tags:
+- proto:http
+- product:sonicwall-sma
+- type:vpn
+- vendor:sonicwall
+version: 20261013T090948Z
