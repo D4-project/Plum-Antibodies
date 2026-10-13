@@ -1,10 +1,13 @@
 name: openvpn
 description: Detect OpenVPN
 uuid: 08e5bb81-62fc-5ea4-8c6d-1ed5c8cb9140
-query: http_favicon_mmhash:396533629
+query: http_favicon_mmhash:396533629 OR http_favicon_md5:32a8c07c149098f52cda6c0d6b19fdce
+  OR http_favicon_sha256:b63c06fc9bee3e2135aedbb6f96b44c777b75a00ad8d3df8dcf572f9ab2bde75
+  OR http_server:openvpn-as OR x509_issuer_cn.lk:"openvpn web ca"
 tags:
 - proto:http
 - product:openvpn
+- type:vpn
 - vendor:openvpn
 references:
 - https://openvpn.net/

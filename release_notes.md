@@ -7,3 +7,4 @@
 - Add Danfoss StoreView detection.
 - Extend Reolink detection.
 - Add Home Assistant detection.
+- Extend OpenVPN detection.
