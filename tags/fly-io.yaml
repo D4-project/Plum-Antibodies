@@ -1,0 +1,11 @@
+name: fly-io
+description: Detect Fly.io
+uuid: 25f93656-2400-481a-b28b-e40e8736397d
+query: http_headval:via.bg:"1.1 fly.io"
+tags:
+- proto:http
+- product:fly-io
+- vendor:fly-io
+references:
+- https://fly.io/
+version: 20261013T163154Z
