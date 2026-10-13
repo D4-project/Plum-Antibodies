@@ -1,0 +1,13 @@
+name: home-assistant
+description: Detect Home Assistant (IoT)
+uuid: 2825f4c9-141a-4003-9ec4-b9fbcab0534e
+query: http_title:"home assistant" OR http_favicon_mmhash:1303369757 OR http_favicon_md5:fc6a1a20ee39513aef22d305e44ada93
+  OR http_favicon_sha256:f42768e7c9cdf4883b1f40fc14f944158359470b1f5e3bb069d356c0f481239c
+tags:
+- proto:http
+- product:home-assistant
+- type:iot
+- vendor:home-assistant
+references:
+- https://www.home-assistant.io/
+version: 20261013T083341Z

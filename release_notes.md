@@ -6,3 +6,4 @@
 - Add FRITZ!Repeater detection.
 - Add Danfoss StoreView detection.
 - Extend Reolink detection.
+- Add Home Assistant detection.
