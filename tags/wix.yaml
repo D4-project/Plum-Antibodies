@@ -1,0 +1,12 @@
+name: wix
+description: Detect Wix (CMS)
+uuid: d073c409-c254-4002-a9c0-02844cc64403
+query: http_header:x-wix-request-id
+tags:
+- proto:http
+- product:wix
+- type:cms
+- vendor:wix
+references:
+- https://www.wix.com/
+version: 20261014T083057Z
