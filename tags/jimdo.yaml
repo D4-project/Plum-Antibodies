@@ -1,0 +1,12 @@
+name: jimdo
+description: Detect Jimdo
+uuid: 4ea64c58-e3bd-4ca3-b5ed-689e13fe4221
+query: http_header:x-jimdo-wid
+tags:
+- proto:http
+- product:jimdo
+- type:cms
+- vendor:jimdo
+references:
+- https://www.jimdo.com/
+version: 20261014T082308Z
