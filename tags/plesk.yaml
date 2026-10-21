@@ -7,7 +7,7 @@ query: http_favicon_mmhash:-134375033 OR http_favicon_mmhash:-1050786453 OR http
   OR http_favicon_mmhash:-543959912 OR http_favicon_md5:37c3be2657b0bb5fd6304feec6b46dfa
   OR http_favicon_sha256:cd2556dea000705b2772e7ef5ed561fcb563210f3b80c824403f9278b0d65c51
   OR http_favicon_md5:650B28C6CF1B473AED15BA26BAD1DA92
-  OR http_headval:x-powered-by.lk:plesklin OR http_server:sw-cp-server
+  OR http_headval:x-powered-by.lk:plesklin
   OR http_title:"Webhostingcontrolpanel (WCP)"
 tags:
 - proto:http
@@ -15,4 +15,4 @@ tags:
 - vendor:plesk
 references:
 - https://docs.plesk.com/en-US/onyx/advanced-administration-guide-linux/introduction-to-plesk.68554/
-version: 20260918T053418Z
+version: 20261021T125559Z

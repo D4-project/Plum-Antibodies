@@ -3,7 +3,8 @@ description: Detect NextCloud
 uuid: 15d51da5-f29c-5fb8-85ad-7fe9892703b7
 query: http_title.bg:Nextcloud or http_cookiename.bg:oc_sessionPassphrase
 tags:
+- lang:php
 - proto:http
 - product:nextcloud
 - vendor:nextcloud
-version: 20260918T053418Z
+version: 20261021T125313Z

@@ -1,0 +1,13 @@
+name: plesk-panel
+description: Detect Plesk administration panel
+uuid: b2919640-6aaf-4c8e-94b0-e976f31c1f08
+query: http_server:sw-cp-server
+tags:
+- lang:php
+- proto:http
+- product:plesk
+- vendor:plesk
+references:
+- https://docs.plesk.com/en-US/onyx/advanced-administration-guide-linux/introduction-to-plesk.68554/
+- https://support.plesk.com/hc/en-us/articles/12377744787991-Plesk-for-Linux-services-logs-and-configuration-files
+version: 20261021T125559Z

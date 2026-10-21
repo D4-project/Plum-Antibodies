@@ -3,7 +3,8 @@ description: Detect Moodle (1.8.2, 1.9.x, Cornflower Theme, /theme/cornflower/fa
 uuid: bd6e06a9-5d40-5fda-a7fb-c9b9ce9707a6
 query: http_favicon_md5:B6652D5D71F6F04A88A8443A8821510F
 tags:
+- lang:php
 - proto:http
 - product:moodle-1-8-2-1-9-x-cornflower-theme-theme-cornflower-favicon-ico
 - vendor:moodle
-version: 20260918T053418Z
+version: 20261021T125313Z

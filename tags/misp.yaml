@@ -7,9 +7,10 @@ query: http_title:"Users - MISP" OR http_favicon_mmhash:-137577333 OR http_favic
   OR http_favicon_sha256:e801d042173ceda45c6ca9b36153ecdaa890eaa9ef214f98adfc2dac82904cb1
   OR http_cookiename.bg:misp-
 tags:
+- lang:php
 - proto:http
 - product:misp
 - vendor:circl
 references:
 - https://www.misp-project.org/
-version: 20261001T141758Z
+version: 20261021T125313Z
