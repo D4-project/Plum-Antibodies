@@ -7,4 +7,5 @@ tags:
 - product:subrion-cms-x
 - type:cms
 - vendor:subrion
+- lang:php
 version: 20260918T053418Z

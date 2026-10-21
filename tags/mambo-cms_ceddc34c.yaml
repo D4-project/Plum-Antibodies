@@ -6,4 +6,5 @@ tags:
 - proto:http
 - product:mambo-cms
 - vendor:mambo
+- lang:php
 version: 20260918T053418Z

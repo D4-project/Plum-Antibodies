@@ -5,4 +5,5 @@ query: http_favicon_md5:63740175DAE089E479A70C5E6591946C
 tags:
 - proto:http
 - product:the-lyceum-project
+- lang:php
 version: 20260918T053418Z

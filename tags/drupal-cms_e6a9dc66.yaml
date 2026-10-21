@@ -6,6 +6,7 @@ tags:
 - proto:http
 - product:drupal-cms
 - vendor:drupal
+- lang:php
 references:
 - https://www.drupal.org/
 version: 20260918T053418Z

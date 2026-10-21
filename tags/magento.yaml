@@ -6,4 +6,5 @@ tags:
 - proto:http
 - product:magento
 - vendor:magento
+- lang:php
 version: 20260918T053418Z

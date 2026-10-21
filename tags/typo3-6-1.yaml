@@ -7,4 +7,5 @@ tags:
 - product:typo3-6-1
 - type:cms
 - vendor:typo3
+- lang:php
 version: 20260918T053418Z

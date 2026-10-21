@@ -6,4 +6,5 @@ tags:
 - proto:http
 - product:xoops-cms
 - vendor:xoops
+- lang:php
 version: 20260918T053418Z
