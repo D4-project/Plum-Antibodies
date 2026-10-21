@@ -6,4 +6,5 @@ tags:
 - proto:http
 - product:alexander-palmo-simple-php-blog
 - vendor:alexander
+- lang:php
 version: 20260918T053418Z

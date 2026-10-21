@@ -6,4 +6,5 @@ tags:
 - proto:http
 - product:phpsysinfo-3-0-7
 - vendor:phpsysinfo
+- lang:php
 version: 20260918T053418Z

@@ -6,4 +6,5 @@ tags:
 - proto:http
 - product:phpmyadmin-4-6-x
 - vendor:phpmyadmin
+- lang:php
 version: 20260918T053418Z
