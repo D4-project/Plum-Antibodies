@@ -1,5 +1,6 @@
 # Release notes
 
+- Add ReactPHP HTTP server detection from the `Server: ReactPHP/` prefix; does not identify EventLoop-only usage or servers hiding this header.
 - Add Laravel detection from the `laravel_session` HTTP cookie.
 - Add MISP detection from HTTP cookie names prefixed with `misp-`.
 - Add Ivanti Connect Secure detection from HTTP titles.

@@ -1,0 +1,13 @@
+name: reactphp
+description: Detect ReactPHP HTTP server (framework)
+uuid: 7d33b99d-92df-45bf-93b2-0bbfd176e9ae
+query: http_server.bg:ReactPHP/
+tags:
+- proto:http
+- product:reactphp
+- vendor:reactphp
+- type:framework
+- lang:php
+references:
+- https://reactphp.org/http/
+version: 20261022T140117Z
