@@ -1,0 +1,14 @@
+name: nette
+description: Detect Nette Framework
+uuid: bf19ad07-ab91-4617-978a-8c0e7ed94c95
+query: http_headval:x-powered-by.bg:"Nette Framework"
+tags:
+- proto:http
+- product:nette
+- vendor:nette
+- type:framework
+- lang:php
+references:
+- https://nette.org/
+- https://doc.nette.org/en/http/configuration
+version: 20261022T140535Z
