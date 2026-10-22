@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Mezzio skeleton homepage detection from the exact HTTP title `Home - mezzio`.
 - Add Nette Framework detection from the `X-Powered-By: Nette Framework` prefix, independent of version.
 - Add ReactPHP HTTP server detection from the `Server: ReactPHP/` prefix; does not identify EventLoop-only usage or servers hiding this header.
 - Add Laravel detection from the `laravel_session` HTTP cookie.

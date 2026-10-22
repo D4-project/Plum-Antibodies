@@ -1,0 +1,14 @@
+name: mezzio
+description: Detect Mezzio framework skeleton homepage
+uuid: 0b3ba40a-0558-4c6c-a1ee-de28e7585681
+query: http_title:"Home - mezzio"
+tags:
+- proto:http
+- product:mezzio
+- vendor:laminas
+- type:framework
+- lang:php
+references:
+- https://docs.mezzio.dev/
+- https://github.com/mezzio/mezzio-skeleton/tree/3.19.x/src/MezzioInstaller/Resources/templates
+version: 20261022T151727Z
