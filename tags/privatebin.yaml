@@ -1,0 +1,18 @@
+name: privatebin
+description: Detect PrivateBin encrypted paste sharing
+uuid: d19dbeab-b07c-4aed-9d7d-464dfd1931fe
+query: http_title:PrivateBin
+  OR http_favicon_mmhash:-661175192
+  OR http_favicon_md5:f3165a418a5790526df5e55c24b72251
+  OR http_favicon_sha256:dc374ef8dd0036f3a6f433c5fa257a8b2efd009f6d47669ebd2dc484f2f0ad78
+tags:
+- proto:http
+- product:privatebin
+- vendor:privatebin
+- type:file-sharing
+- lang:php
+references:
+- https://privatebin.info/
+- https://github.com/PrivateBin/PrivateBin
+- https://github.com/PrivateBin/PrivateBin/blob/1.3.4/img/favicon-32x32.png
+version: 20261023T101131Z
