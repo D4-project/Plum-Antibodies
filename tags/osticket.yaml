@@ -1,7 +1,8 @@
 name: osticket
 description: Detect osTicket helpdesk
 uuid: 85884859-15c2-4e8e-95b3-ad81ba531cb7
-query: http_title:"osTicket :: Agent Login"
+query: >-
+  http_title:"osTicket :: Agent Login"
   OR http_favicon_mmhash:-272135793
   OR http_favicon_md5:d84666b7f0c1cef1e20892e33308c913
   OR http_favicon_sha256:8c4afa1000ffb9e4778562170a91383212137a9c3d24198364232b281abf60a1
@@ -15,4 +16,4 @@ references:
 - https://osticket.com/
 - https://github.com/osTicket/osTicket
 - https://github.com/osTicket/osTicket/blob/develop/images/oscar-favicon-32x32.png
-version: 20261023T105827Z
+version: 20261023T105928Z
