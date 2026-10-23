@@ -1,0 +1,19 @@
+name: akaunting
+description: Detect Akaunting accounting ERP
+uuid: 7bcfcea4-6b1f-4a94-8744-e23b1d80e728
+query: http_cookiename:akaunting_session
+  OR http_favicon_mmhash:2068655046
+  OR http_favicon_md5:8948471f2a453c0f7fa2a14e0c623f8b
+  OR http_favicon_sha256:a1d00b3dfc33dbd22c88c36dde822fa12713a9b7c43768de68dcfe663e2d36ef
+tags:
+- proto:http
+- product:akaunting
+- vendor:akaunting
+- type:erp
+- lang:php
+references:
+- https://akaunting.com/
+- https://github.com/akaunting/akaunting
+- https://github.com/akaunting/akaunting/blob/master/config/session.php
+- https://github.com/akaunting/akaunting/blob/master/public/img/favicon.ico
+version: 20261023T114934Z
