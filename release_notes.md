@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Issabel detection from its login-page title or official favicon MD5, confirmed in historical scans.
 - Add SimpleSAMLphp detection from its installation-page title or favicon fingerprints, confirmed in historical scans.
 - Add Shlink detection from its exact error-page title or backend favicon fingerprints.
 - Add YOURLS detection from its default HTTP title prefix, confirmed in historical scans.

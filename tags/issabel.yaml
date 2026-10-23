@@ -1,0 +1,16 @@
+name: issabel
+description: Detect Issabel telephony management
+uuid: cebd72aa-778d-49b7-b8e3-a86c357f8fcc
+query: http_title:"Issabel - Login page"
+  OR http_favicon_md5:0e2728371ad2b2d62a77dc81b54ed904
+tags:
+- proto:http
+- product:issabel
+- vendor:issabel
+- type:telephony
+- lang:php
+references:
+- https://www.issabel.org/
+- https://github.com/IssabelFoundation/framework/blob/master/framework/html/index.php
+- https://github.com/IssabelFoundation/framework/blob/master/framework/html/favicon.ico
+version: 20261023T091654Z
