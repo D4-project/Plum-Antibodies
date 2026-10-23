@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Adminer detection from its exact login-page title or official inline favicon MD5/SHA-256; title confirmed in historical scans.
 - Add phpIPAM detection from its login title or official favicon fingerprints, confirmed in a historical raw scan.
 - Add phpList detection from official favicon fingerprints, confirmed in historical scans.
 - Add PostfixAdmin detection from its HTTP title prefix or official favicon fingerprints, confirmed in historical scans.

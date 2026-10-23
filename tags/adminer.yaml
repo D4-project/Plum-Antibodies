@@ -1,0 +1,16 @@
+name: adminer
+description: Detect Adminer database management
+uuid: 980950e1-77a2-4988-af33-efe201173117
+query: http_title:"Login - Adminer"
+  OR http_favicon_md5:70a10937b5a312a0dc62fe3fd381b448
+  OR http_favicon_sha256:a02d759a36f4d3a7a0b37b328d1b05a711f4814920eaf59bf73111b133b1a31b
+tags:
+- proto:http
+- product:adminer
+- vendor:adminer
+- type:database-management
+- lang:php
+references:
+- https://www.adminer.org/
+- https://github.com/vrana/adminer/blob/master/adminer/include/design.inc.php
+version: 20261023T094252Z
