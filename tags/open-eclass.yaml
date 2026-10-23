@@ -1,0 +1,17 @@
+name: open-eclass
+description: Detect Open eClass learning management system
+uuid: ace5aa2e-e561-484a-84ec-8838ac83c3ca
+query: http_title:"Open eClass"
+  OR http_favicon_mmhash:92165562
+  OR http_favicon_md5:183332fd5e85c2301c881baeec7f62ee
+  OR http_favicon_sha256:2fc267e2f6766b96073492d64c44683794da64663be5c9f0fb8f6738f8d0f3dc
+tags:
+- proto:http
+- product:open-eclass
+- vendor:gunet
+- type:lms
+- lang:php
+references:
+- https://www.openeclass.org/
+- https://github.com/gunet/openeclass/blob/master/resources/favicon/openeclass_128x128.png
+version: 20261023T095826Z
