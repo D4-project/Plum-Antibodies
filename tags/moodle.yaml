@@ -1,10 +1,15 @@
 name: moodle
-description: Detect Moodle
+description: Detect Moodle learning management system
 uuid: 7c149387-4878-5b4b-893c-b7c5f9f23f12
 query: http_favicon_mmhash:-438482901
+  OR http_cookiename:MoodleSession
 tags:
 - lang:php
 - proto:http
 - product:moodle
 - vendor:moodle
-version: 20261021T125313Z
+- type:lms
+references:
+- https://moodle.org/
+- https://github.com/moodle/moodle/blob/MOODLE_405_STABLE/lib/classes/session/manager.php
+version: 20261023T184639Z
