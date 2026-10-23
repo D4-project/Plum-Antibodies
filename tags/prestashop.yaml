@@ -1,0 +1,15 @@
+name: prestashop
+description: Detect PrestaShop ecommerce
+uuid: 3b9ce87e-772b-4e83-8083-36502f37640d
+query: http_cookiename.bg:PrestaShop-
+tags:
+- proto:http
+- product:prestashop
+- vendor:prestashop
+- type:ecommerce
+- lang:php
+references:
+- https://prestashop.com/
+- https://github.com/PrestaShop/PrestaShop
+- https://github.com/PrestaShop/PrestaShop/blob/develop/classes/Cookie.php
+version: 20261023T115851Z
