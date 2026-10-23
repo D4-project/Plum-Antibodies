@@ -1,0 +1,16 @@
+name: spip
+description: Detect SPIP CMS
+uuid: 22d0e23f-1dfd-414d-a45b-4a14c92c1dae
+query: http_header:x-spip-cache
+  OR http_headval:composed-by.bg:"SPIP "
+tags:
+- proto:http
+- product:spip
+- vendor:spip
+- type:cms
+- lang:php
+references:
+- https://www.spip.net/
+- https://code.spip.net/ecrire/
+- https://contrib.spip.net/Masquer-les-en-tetes-Headers-HTTP-avec-Update-Headers
+version: 20261023T152318Z

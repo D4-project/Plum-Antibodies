@@ -1,7 +1,7 @@
 name: grommunio-web
 description: Detect grommunio Web webmail
 uuid: 36e48f17-af3b-45eb-b1a5-4af9e56bf37a
-query: http_title:"grommunio Web"
+query: http_title.bg:"grommunio Web"
   OR http_cookiename:__Secure-GROMMUNIO_WEB
 tags:
 - proto:http
@@ -13,4 +13,4 @@ references:
 - https://grommunio.com/
 - https://github.com/grommunio/grommunio-web
 - https://github.com/grommunio/grommunio-web/blob/master/config.php.dist
-version: 20261023T124025Z
+version: 20261023T152318Z

@@ -1,7 +1,7 @@
 name: simplesamlphp
 description: Detect SimpleSAMLphp identity and access management
 uuid: 3891bd9c-595f-41b1-ab46-4391bd8dd03e
-query: http_title:"SimpleSAMLphp installation page"
+query: http_title.bg:"SimpleSAMLphp installation page"
   OR http_favicon_mmhash:-556981179
   OR http_favicon_md5:6f78f1c79deeef56c30d714f36d24dac
   OR http_favicon_sha256:2cd531b6e23d97fda2d117807e8fde9bb85279ea783b5122c68373e21ad946c1
@@ -15,4 +15,4 @@ references:
 - https://simplesamlphp.org/
 - https://github.com/simplesamlphp/simplesamlphp/blob/v1.19.9/www/resources/icons/favicon.ico
 - https://github.com/simplesamlphp/simplesamlphp/blob/v1.19.9/modules/core/templates/frontpage_welcome.tpl.php
-version: 20261023T091228Z
+version: 20261023T152318Z

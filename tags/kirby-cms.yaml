@@ -1,0 +1,14 @@
+name: kirby-cms
+description: Detect Kirby CMS debugger
+uuid: 92890db2-d953-4e55-9854-6474ccdbfbea
+query: http_title:"Kirby CMS Debugger"
+tags:
+- proto:http
+- product:kirby-cms
+- vendor:kirby
+- type:cms
+- lang:php
+references:
+- https://getkirby.com/
+- https://github.com/getkirby/kirby/blob/main/src/Cms/AppErrors.php
+version: 20261023T152318Z

@@ -1,5 +1,7 @@
 # Release notes
 
+- Recover Symfony, SPIP, Contao, FileCloud, PmWiki, Kirby, WHMCS, phpBB, Concrete CMS and Drupal Commerce detections from verified historical markers, including automatically collected rule headers.
+- Fix eight title branches to match scanner output that includes a redirect destination.
 - Add grommunio Web detection from its exact title or secure session cookie, excluding the separate administration panel favicon.
 - Add RainLoop webmail detection from its exact Server header or official favicon fingerprints, confirmed in historical scans.
 - Add Craft CMS detection from its exact X-Powered-By header value, confirmed in historical scans and official PHP source.

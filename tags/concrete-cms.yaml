@@ -1,0 +1,14 @@
+name: concrete-cms
+description: Detect Concrete CMS
+uuid: b41729f3-9851-44c7-9e9a-074989c5ff65
+query: http_cookiename:CONCRETE5
+tags:
+- proto:http
+- product:concrete-cms
+- vendor:portlandlabs
+- type:cms
+- lang:php
+references:
+- https://www.concretecms.org/
+- https://documentation.concretecms.org/9-x/developers/introduction/version-history/90-release-notes
+version: 20261023T152318Z

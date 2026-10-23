@@ -1,0 +1,17 @@
+name: contao-cms
+description: Detect Contao CMS
+uuid: 700a598e-d4de-4371-b382-69fb5c23eef5
+query: http_header:contao-cache
+  OR http_header:contao-page-layout
+  OR http_header:contao-merge-cache-control
+tags:
+- proto:http
+- product:contao-cms
+- vendor:contao
+- type:cms
+- lang:php
+references:
+- https://contao.org/
+- https://github.com/contao/contao
+- https://github.com/contao/contao/blob/42b43382fc469a75880d3f9dbfa5e6169559b580/manager-bundle/src/HttpKernel/ContaoCache.php
+version: 20261023T152318Z

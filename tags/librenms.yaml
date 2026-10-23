@@ -1,7 +1,7 @@
 name: librenms
 description: Detect LibreNMS network monitoring
 uuid: 228d42ab-15e4-4fe7-9130-4a7eb7eb4dbc
-query: http_title:LibreNMS
+query: http_title.bg:LibreNMS
   OR http_favicon_mmhash:567727144
   OR http_favicon_md5:47b51975a37b8582e8514d89df9956a5
   OR http_favicon_sha256:36554058ff7969e1cb8e08a41164acf8bd3bea333e989c36da78b04b9998c41b
@@ -14,4 +14,4 @@ tags:
 references:
 - https://www.librenms.org/
 - https://github.com/librenms/librenms/blob/master/html/images/favicon-32x32.png
-version: 20261023T095343Z
+version: 20261023T152318Z

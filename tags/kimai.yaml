@@ -1,7 +1,7 @@
 name: kimai
 description: Detect Kimai time tracking
 uuid: 27db6fd4-bfae-4711-a473-33f8d0597b2d
-query: http_title:Kimai
+query: http_title.bg:Kimai
   OR http_favicon_mmhash:-1170849627
   OR http_favicon_md5:62609a91e0ffc87615032bb0107c8ca1
   OR http_favicon_sha256:0ae4b630d8615601f494cc46a8f4d475b39d0dea67d13b50aed507fedf7e87f7
@@ -15,4 +15,4 @@ references:
 - https://www.kimai.org/
 - https://github.com/kimai/kimai
 - https://github.com/kimai/kimai/blob/main/public/favicon.ico
-version: 20261023T101722Z
+version: 20261023T152318Z

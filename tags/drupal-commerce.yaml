@@ -1,0 +1,15 @@
+name: drupal-commerce
+description: Detect Drupal Commerce ecommerce
+uuid: eb84cffd-4ea9-466f-9677-72e851dc7b8d
+query: http_header:x-commerce-core
+tags:
+- proto:http
+- product:drupal-commerce
+- product:drupal
+- vendor:centarro
+- type:ecommerce
+- lang:php
+references:
+- https://drupalcommerce.org/
+- https://www.drupal.org/project/commerce
+version: 20261023T152318Z

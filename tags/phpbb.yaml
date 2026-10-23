@@ -1,0 +1,14 @@
+name: phpbb
+description: Detect phpBB forum
+uuid: 0ba2001f-5a13-4f92-b0b0-0db105a4cdcd
+query: http_cookiename.bg:phpbb3_
+tags:
+- proto:http
+- product:phpbb
+- vendor:phpbb
+- type:forum
+- lang:php
+references:
+- https://www.phpbb.com/
+- https://github.com/phpbb/phpbb/blob/3.3.x/phpBB/phpbb/install/module/install_database/task/add_config_settings.php
+version: 20261023T152318Z

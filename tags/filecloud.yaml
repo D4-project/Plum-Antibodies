@@ -1,0 +1,15 @@
+name: filecloud
+description: Detect FileCloud file sharing
+uuid: bb640442-9fb5-47c9-849c-9a469fcd50ca
+query: http_headval:access-control-allow-origin:"https://ffol.filecloud.com"
+  OR http_headval:access-control-allow-origin:ffol.filecloud.com
+tags:
+- proto:http
+- product:filecloud
+- vendor:filecloud
+- type:file-sharing
+- lang:php
+references:
+- https://www.filecloud.com/
+- https://docs.filecloud.com/fcdoc/latest/server/upgrade-notes/windows-upgrading-versions-23-252-to-the-latest-version
+version: 20261023T152318Z

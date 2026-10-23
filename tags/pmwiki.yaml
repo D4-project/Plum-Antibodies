@@ -1,0 +1,14 @@
+name: pmwiki
+description: Detect PmWiki wiki
+uuid: f55450d1-b2f8-40a1-a156-4edd1e60cf5d
+query: http_title.lk:"/pmwiki.php?"
+tags:
+- proto:http
+- product:pmwiki
+- vendor:pmwiki
+- type:wiki
+- lang:php
+references:
+- https://www.pmwiki.org/
+- https://www.pmwiki.org/wiki/PmWiki/Requirements
+version: 20261023T152318Z

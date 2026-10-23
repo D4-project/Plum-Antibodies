@@ -1,0 +1,14 @@
+name: whmcs
+description: Detect WHMCS billing
+uuid: dae332aa-742a-4664-a391-95549e4c3b02
+query: http_cookiename.bg:WHMCS
+tags:
+- proto:http
+- product:whmcs
+- vendor:whmcs
+- type:billing
+- lang:php
+references:
+- https://www.whmcs.com/
+- https://docs.whmcs.com/9-0/customization/sessions/
+version: 20261023T152318Z

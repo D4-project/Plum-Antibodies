@@ -1,7 +1,7 @@
 name: freescout
 description: Detect FreeScout helpdesk
 uuid: cf6381a2-45d1-4e61-adcb-c5caf34c51e4
-query: http_title:FreeScout
+query: http_title.bg:FreeScout
   OR http_favicon_mmhash:2125055480
   OR http_favicon_md5:687f867b905685947bda76d182f9a716
   OR http_favicon_sha256:a19532c325ce87dba6f2ab74e4929bd719de5e7a7ffd34a2615453fddc931c51
@@ -15,4 +15,4 @@ references:
 - https://freescout.net/
 - https://github.com/freescout-help-desk/freescout
 - https://github.com/freescout-help-desk/freescout/blob/dist/public/favicon.ico
-version: 20261023T113954Z
+version: 20261023T152318Z
