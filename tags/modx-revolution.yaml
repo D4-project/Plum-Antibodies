@@ -1,0 +1,15 @@
+name: modx-revolution
+description: Detect MODX Revolution CMS
+uuid: a7948b7e-4de3-44b6-b364-e6c1b7ff447d
+query: http_headval:x-powered-by:"MODX Revolution"
+tags:
+- proto:http
+- product:modx-revolution
+- vendor:modx
+- type:cms
+- lang:php
+references:
+- https://modx.com/
+- https://github.com/modxcms/revolution
+- https://docs.modx.com/3.x/en/building-sites/settings/send_poweredby_header
+version: 20261023T122144Z

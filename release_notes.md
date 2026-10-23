@@ -1,5 +1,6 @@
 # Release notes
 
+- Add MODX Revolution CMS detection from its exact X-Powered-By header value, confirmed in historical scans.
 - Add October CMS detection from its exact session cookie name, confirmed in historical scans and official PHP source.
 - Add ProcessWire CMS detection from its exact X-Powered-By header value, confirmed in historical scans and official PHP source.
 - Add Statamic CMS detection from its exact X-Powered-By header value, confirmed in historical scans and official PHP source.
