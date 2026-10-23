@@ -1,0 +1,17 @@
+name: postfixadmin
+description: Detect PostfixAdmin mail management
+uuid: cb8cdae5-5213-467d-b329-3b09f76fc580
+query: http_title.bg:"Postfix Admin - "
+  OR http_favicon_mmhash:1563218345
+  OR http_favicon_md5:7ef46eef9ae16e4e78fbf0abdbeb525c
+  OR http_favicon_sha256:c6946eb970bb4b5098de408d2aa67c071213e71dc31c9746cf63084a79e61f8d
+tags:
+- proto:http
+- product:postfixadmin
+- vendor:postfixadmin
+- type:mail-management
+- lang:php
+references:
+- https://github.com/postfixadmin/postfixadmin
+- https://github.com/postfixadmin/postfixadmin/blob/master/public/images/favicon.ico
+version: 20261023T093454Z
