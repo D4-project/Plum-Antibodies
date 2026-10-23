@@ -1,0 +1,14 @@
+name: yourls
+description: Detect YOURLS URL shortener
+uuid: 46a74c95-5b7b-4dd9-81e6-ae65b3d86728
+query: http_title.bg:"YOURLS &mdash; Your Own URL Shortener"
+tags:
+- proto:http
+- product:yourls
+- vendor:yourls
+- type:url-shortener
+- lang:php
+references:
+- https://yourls.org/
+- https://github.com/YOURLS/YOURLS/blob/master/includes/functions-html.php
+version: 20261023T090010Z
