@@ -1,0 +1,15 @@
+name: xenforo
+description: Detect XenForo forum
+uuid: 42e747d7-0d68-448f-8580-773020463e85
+query: http_cookiename:xf_session
+tags:
+- proto:http
+- product:xenforo
+- vendor:xenforo
+- type:forum
+- lang:php
+references:
+- https://xenforo.com/
+- https://xenforo.com/community/help/cookies/
+- https://docs.xenforo.com/devs
+version: 20261023T162142Z

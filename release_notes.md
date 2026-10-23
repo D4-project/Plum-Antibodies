@@ -1,5 +1,6 @@
 # Release notes
 
+- Add XenForo forum detection from its exact xf_session cookie, confirmed in historical scans and official documentation.
 - Add SquirrelMail webmail detection from its exact SQMSESSID session cookie, confirmed in historical scans and official PHP configuration.
 - Add OpenCart ecommerce detection from its exact OCSESSID session cookie, confirmed in historical scans and official PHP configuration.
 - Recover Symfony, SPIP, Contao, FileCloud, PmWiki, Kirby, WHMCS, phpBB, Concrete CMS and Drupal Commerce detections from verified historical markers, including automatically collected rule headers.
