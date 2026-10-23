@@ -1,0 +1,15 @@
+name: codeigniter
+description: Detect CodeIgniter framework
+uuid: 7e7b8d14-f13a-4e83-9167-96ba705b23fd
+query: http_cookiename:ci_session OR http_title.bg:"Welcome to CodeIgniter"
+tags:
+- proto:http
+- product:codeigniter
+- vendor:codeigniter
+- type:framework
+- lang:php
+references:
+- https://codeigniter.com/
+- https://codeigniter.com/user_guide/libraries/sessions.html
+- https://github.com/codeigniter4/appstarter/blob/master/app/Views/welcome_message.php
+version: 20261023T075141Z

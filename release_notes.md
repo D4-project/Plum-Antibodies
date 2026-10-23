@@ -1,5 +1,6 @@
 # Release notes
 
+- Add CodeIgniter framework detection from the `ci_session` cookie or the `Welcome to CodeIgniter` HTTP title prefix.
 - Add Laminas MVC skeleton detection from the exact HTTP title `Laminas MVC Skeleton`.
 - Add Mezzio skeleton homepage detection from the exact HTTP title `Home - mezzio`.
 - Add Nette Framework detection from the `X-Powered-By: Nette Framework` prefix, independent of version.
