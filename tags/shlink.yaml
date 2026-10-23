@@ -1,0 +1,18 @@
+name: shlink
+description: Detect Shlink URL shortener
+uuid: 4d2a845f-2d63-459c-bf54-d08efe3344ea
+query: http_title:"Not Found | Shlink"
+  OR http_favicon_mmhash:-174992103
+  OR http_favicon_md5:4646bf4b8311ba71421cea80bb244275
+  OR http_favicon_sha256:0edc7b4cb96600bb633c73fbfefa1b9ff7414b9357460b28e536e27fd3a5a5bb
+tags:
+- proto:http
+- product:shlink
+- vendor:shlink
+- type:url-shortener
+- lang:php
+references:
+- https://shlink.io/
+- https://github.com/shlinkio/shlink/blob/develop/module/Core/templates/404.html
+- https://github.com/shlinkio/shlink/blob/develop/public/favicon.ico
+version: 20261023T090739Z
