@@ -1,5 +1,6 @@
 # Release notes
 
+- Add MediaWiki detection from the exact mediawiki_session cookie name, confirmed in historical scans.
 - Add Flarum forum detection from its exact session cookie name, confirmed in historical scans and official PHP source.
 - Add OXID eShop detection from the exact country cookie observed in historical scans.
 - Add PrestaShop ecommerce detection from its cookie name prefix, confirmed in historical scans and official PHP source.
