@@ -1,5 +1,6 @@
 # Release notes
 
+- Add phpIPAM detection from its login title or official favicon fingerprints, confirmed in a historical raw scan.
 - Add phpList detection from official favicon fingerprints, confirmed in historical scans.
 - Add PostfixAdmin detection from its HTTP title prefix or official favicon fingerprints, confirmed in historical scans.
 - Add CyberPanel detection from its exact login-page title, preserving surrounding spaces and identifying the Python-based panel.
