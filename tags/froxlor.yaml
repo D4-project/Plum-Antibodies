@@ -1,0 +1,14 @@
+name: froxlor
+description: Detect Froxlor hosting control panel
+uuid: bfe86e67-547d-42a8-ad5c-72a9bd75f90e
+query: http_title:Froxlor
+tags:
+- proto:http
+- product:froxlor
+- vendor:froxlor
+- type:hosting-panel
+- lang:php
+references:
+- https://froxlor.org/
+- https://github.com/froxlor/froxlor/blob/main/composer.json
+version: 20261023T092357Z
