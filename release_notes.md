@@ -1,5 +1,6 @@
 # Release notes
 
+- Add grommunio Web detection from its exact title or secure session cookie, excluding the separate administration panel favicon.
 - Add RainLoop webmail detection from its exact Server header or official favicon fingerprints, confirmed in historical scans.
 - Add Craft CMS detection from its exact X-Powered-By header value, confirmed in historical scans and official PHP source.
 - Add Grav CMS detection from its session cookie prefix, confirmed in historical scans and official PHP configuration.
