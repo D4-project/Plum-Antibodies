@@ -1,5 +1,6 @@
 # Release notes
 
+- Add historical osCommerce-family ecommerce detection from its exact osCsid session cookie, without inferring a release.
 - Add CS-Cart ecommerce detection from its session cookie prefix, covering shared CS-Cart/Multi-Vendor markers without inferring an edition or release.
 - Add XenForo forum detection from its exact xf_session cookie, confirmed in historical scans and official documentation.
 - Add SquirrelMail webmail detection from its exact SQMSESSID session cookie, confirmed in historical scans and official PHP configuration.

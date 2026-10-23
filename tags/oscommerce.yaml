@@ -1,0 +1,14 @@
+name: oscommerce
+description: Detect osCommerce ecommerce
+uuid: 971c957a-f0fb-4acc-822b-24cec57d7591
+query: http_cookiename:osCsid
+tags:
+- proto:http
+- product:oscommerce
+- vendor:oscommerce
+- type:ecommerce
+- lang:php
+references:
+- https://www.oscommerce.com/
+- https://github.com/osCommerce/oscommerce2/blob/v2.3.4/catalog/includes/application_top.php
+version: 20261023T164007Z
