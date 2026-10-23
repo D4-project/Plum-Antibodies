@@ -1,0 +1,17 @@
+name: expressionengine
+description: Detect ExpressionEngine CMS
+uuid: 61b4e59c-7858-48cc-9983-4099da0f633d
+query: http_cookiename:exp_tracker
+  OR http_cookiename:exp_last_visit
+  OR http_cookiename:exp_last_activity
+  OR http_cookiename:exp_csrf_token
+tags:
+- proto:http
+- product:expressionengine
+- vendor:packettide
+- type:cms
+- lang:php
+references:
+- https://expressionengine.com/
+- https://docs.expressionengine.com/v6/general/cookies.html
+version: 20261023T164532Z
