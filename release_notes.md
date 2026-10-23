@@ -1,5 +1,6 @@
 # Release notes
 
+- Add FreeScout helpdesk detection from its exact HTTP title or official favicon fingerprints, confirmed in historical scans.
 - Add osTicket helpdesk detection from its exact agent login title or official favicon fingerprints, confirmed in historical scans.
 - Add Kimai time-tracking detection from its exact HTTP title or official favicon fingerprints, confirmed in historical scans.
 - Add PrivateBin detection from its exact HTTP title or official historical favicon fingerprints, confirmed in historical scans.
