@@ -1,5 +1,6 @@
 # Release notes
 
+- Add ResourceSpace digital asset management detection from its HTTP title prefix or official favicon fingerprints, confirmed in historical scans.
 - Add Open eClass detection from its exact HTTP title or official favicon fingerprints, confirmed in historical scans.
 - Add LibreNMS detection from its HTTP title or official favicon fingerprints, confirmed in historical scans.
 - Add MailWatch mail-management detection from its exact page titles or the two official repository favicon MD5s, excluding the site-specific icon.
