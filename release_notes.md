@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Invoice Ninja billing detection from its exact HTTP title or official favicon MD5, confirmed in a historical scan.
 - Add FreeScout helpdesk detection from its exact HTTP title or official favicon fingerprints, confirmed in historical scans.
 - Add osTicket helpdesk detection from its exact agent login title or official favicon fingerprints, confirmed in historical scans.
 - Add Kimai time-tracking detection from its exact HTTP title or official favicon fingerprints, confirmed in historical scans.

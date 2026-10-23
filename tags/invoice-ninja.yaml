@@ -1,0 +1,16 @@
+name: invoice-ninja
+description: Detect Invoice Ninja billing
+uuid: 9813598c-d8ea-414c-baa8-ed904712db17
+query: http_title:"Invoice Ninja"
+  OR http_favicon_md5:51636d3a390451561744c42188ccd628
+tags:
+- proto:http
+- product:invoice-ninja
+- vendor:invoice-ninja
+- type:billing
+- lang:php
+references:
+- https://invoiceninja.com/
+- https://github.com/invoiceninja/invoiceninja
+- https://github.com/invoiceninja/invoiceninja/blob/v5-stable/public/favicon.ico
+version: 20261023T114502Z
