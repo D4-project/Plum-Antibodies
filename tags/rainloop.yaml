@@ -1,0 +1,18 @@
+name: rainloop
+description: Detect RainLoop webmail
+uuid: 42e07eb1-0c51-428f-92cc-30894b51a548
+query: http_server:RainLoop
+  OR http_favicon_mmhash:777315340
+  OR http_favicon_md5:a1a4fe7fbe6a26393cafd49b4f4b6cf0
+  OR http_favicon_sha256:99974c0a09cceeb7a4999e0971c05b0355152257a70cf518cee09f05281b2c30
+tags:
+- proto:http
+- product:rainloop
+- vendor:rainloop
+- type:webmail
+- lang:php
+references:
+- https://www.rainloop.net/
+- https://github.com/RainLoop/rainloop-webmail
+- https://github.com/RainLoop/rainloop-webmail/blob/master/assets/apple-touch-icon.png
+version: 20261023T123751Z

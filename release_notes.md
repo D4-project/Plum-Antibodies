@@ -1,5 +1,6 @@
 # Release notes
 
+- Add RainLoop webmail detection from its exact Server header or official favicon fingerprints, confirmed in historical scans.
 - Add Craft CMS detection from its exact X-Powered-By header value, confirmed in historical scans and official PHP source.
 - Add Grav CMS detection from its session cookie prefix, confirmed in historical scans and official PHP configuration.
 - Add Ibexa DXP detection from the Ibexa Experience X-Powered-By prefix, independent of version and confirmed in historical scans.
