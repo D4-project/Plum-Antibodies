@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Laminas MVC skeleton detection from the exact HTTP title `Laminas MVC Skeleton`.
 - Add Mezzio skeleton homepage detection from the exact HTTP title `Home - mezzio`.
 - Add Nette Framework detection from the `X-Powered-By: Nette Framework` prefix, independent of version.
 - Add ReactPHP HTTP server detection from the `Server: ReactPHP/` prefix; does not identify EventLoop-only usage or servers hiding this header.

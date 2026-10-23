@@ -1,0 +1,14 @@
+name: laminas-mvc
+description: Detect Laminas MVC framework skeleton
+uuid: 05a4a41f-604e-4546-892d-03a6721842b0
+query: http_title:"Laminas MVC Skeleton"
+tags:
+- proto:http
+- product:laminas-mvc
+- vendor:laminas
+- type:framework
+- lang:php
+references:
+- https://docs.laminas.dev/laminas-mvc/
+- https://github.com/laminas/laminas-mvc-skeleton/blob/2.5.x/module/Application/view/layout/layout.phtml
+version: 20261023T071221Z
