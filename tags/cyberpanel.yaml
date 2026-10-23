@@ -1,0 +1,15 @@
+name: cyberpanel
+description: Detect CyberPanel hosting control panel
+uuid: 3f6ce408-0c27-4294-b482-3d9471e03002
+query: http_title:" Login - CyberPanel "
+tags:
+- proto:http
+- product:cyberpanel
+- vendor:cyberpanel
+- type:hosting-panel
+- lang:python
+references:
+- https://cyberpanel.net/
+- https://github.com/usmannasir/cyberpanel/blob/stable/loginSystem/templates/loginSystem/login.html
+- https://github.com/usmannasir/cyberpanel/blob/stable/manage.py
+version: 20261023T093304Z
