@@ -1,5 +1,6 @@
 # Release notes
 
+- Add DirectAdmin panel detection from its login title or favicon fingerprints without inferring hosted-site PHP usage.
 - Add Froxlor hosting panel detection from its exact HTTP title, confirmed in historical scans.
 - Add Issabel detection from its login-page title or official favicon MD5, confirmed in historical scans.
 - Add SimpleSAMLphp detection from its installation-page title or favicon fingerprints, confirmed in historical scans.

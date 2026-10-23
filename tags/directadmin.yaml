@@ -1,0 +1,16 @@
+name: directadmin
+description: Detect DirectAdmin hosting control panel
+uuid: 0c1a730b-387d-48df-a61b-2a4da50f6e7a
+query: http_title:"DirectAdmin Login"
+  OR http_favicon_mmhash:-2078200982
+  OR http_favicon_md5:870c96f1f3165dd0edc0e56ec10c51de
+  OR http_favicon_sha256:cdfb04d1ac83bd934e4efa8de01667bb16e00a3dd11ab8072f2a12fc8c40e8db
+tags:
+- proto:http
+- product:directadmin
+- vendor:directadmin
+- type:hosting-panel
+references:
+- https://www.directadmin.com/
+- https://docs.directadmin.com/directadmin/skins-and-templates/customizing-login-page.html
+version: 20261023T092923Z
