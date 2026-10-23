@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Sulu CMS detection from its X-Generator header prefix, independent of version and confirmed in historical scans.
 - Add BookStack wiki detection from its exact session cookie name, confirmed in historical scans and official PHP source.
 - Add MediaWiki detection from the exact mediawiki_session cookie name, confirmed in historical scans.
 - Add Flarum forum detection from its exact session cookie name, confirmed in historical scans and official PHP source.

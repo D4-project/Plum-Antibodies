@@ -1,0 +1,14 @@
+name: sulu-cms
+description: Detect Sulu CMS
+uuid: 5132b632-cde5-4c7d-a9f4-bd44c2ac340b
+query: http_headval:x-generator.bg:Sulu/
+tags:
+- proto:http
+- product:sulu-cms
+- vendor:sulu
+- type:cms
+- lang:php
+references:
+- https://sulu.io/
+- https://github.com/sulu/sulu
+version: 20261023T121148Z
