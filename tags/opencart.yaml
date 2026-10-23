@@ -1,0 +1,14 @@
+name: opencart
+description: Detect OpenCart ecommerce
+uuid: 9c23f3c5-ef18-474e-8006-d236cba0da8a
+query: http_cookiename:OCSESSID
+tags:
+- proto:http
+- product:opencart
+- vendor:opencart
+- type:ecommerce
+- lang:php
+references:
+- https://www.opencart.com/
+- https://github.com/opencart/opencart/blob/3.0.x.x/upload/system/config/default.php
+version: 20261023T161618Z

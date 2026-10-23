@@ -1,5 +1,6 @@
 # Release notes
 
+- Add OpenCart ecommerce detection from its exact OCSESSID session cookie, confirmed in historical scans and official PHP configuration.
 - Recover Symfony, SPIP, Contao, FileCloud, PmWiki, Kirby, WHMCS, phpBB, Concrete CMS and Drupal Commerce detections from verified historical markers, including automatically collected rule headers.
 - Fix eight title branches to match scanner output that includes a redirect destination.
 - Add grommunio Web detection from its exact title or secure session cookie, excluding the separate administration panel favicon.
