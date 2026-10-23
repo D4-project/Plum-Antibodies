@@ -1,0 +1,18 @@
+name: mailwatch
+description: Detect MailWatch mail monitoring
+uuid: 2eb6d763-d34e-4ae9-a9ba-93ec189196f4
+query: http_title:MailWatch
+  OR http_title:"MailWatch Login Page"
+  OR http_favicon_md5:2f5eb01e63ffc8840d0f0bf765470cdc
+  OR http_favicon_md5:6b439e5b372738dc7e5fd902ae1cd507
+tags:
+- proto:http
+- product:mailwatch
+- vendor:mailwatch
+- type:mail-management
+- lang:php
+references:
+- https://github.com/mailwatch/MailWatch
+- https://github.com/mailwatch/MailWatch/blob/1.2/mailscanner/favicon.ico
+- https://github.com/mailwatch/MailWatch/blob/1.2/mailscanner/images/favicon.png
+version: 20261023T094944Z
