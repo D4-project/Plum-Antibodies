@@ -1,0 +1,15 @@
+name: craft-cms
+description: Detect Craft CMS
+uuid: ec8cf20f-35d5-45dd-8c25-838b6c67f945
+query: http_headval:x-powered-by:"Craft CMS"
+tags:
+- proto:http
+- product:craft-cms
+- vendor:pixel-and-tonic
+- type:cms
+- lang:php
+references:
+- https://craftcms.com/
+- https://github.com/craftcms/cms
+- https://github.com/craftcms/cms/blob/develop/src/web/Application.php
+version: 20261023T123341Z
