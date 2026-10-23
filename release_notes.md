@@ -1,5 +1,6 @@
 # Release notes
 
+- Add phpList detection from official favicon fingerprints, confirmed in historical scans.
 - Add PostfixAdmin detection from its HTTP title prefix or official favicon fingerprints, confirmed in historical scans.
 - Add CyberPanel detection from its exact login-page title, preserving surrounding spaces and identifying the Python-based panel.
 - Add DirectAdmin panel detection from its login title or favicon fingerprints without inferring hosted-site PHP usage.

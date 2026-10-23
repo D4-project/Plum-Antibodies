@@ -1,0 +1,16 @@
+name: phplist
+description: Detect phpList mailing list management
+uuid: 77667834-afc9-4f1d-9aa9-d9eb4c67d545
+query: http_favicon_mmhash:1708774937
+  OR http_favicon_md5:97a5ff8b7823f194c901a4fe327c8a3f
+  OR http_favicon_sha256:e1288a830e8d9d460523ce05d74887734786bbcc788eda592bc3665ee2b0a679
+tags:
+- proto:http
+- product:phplist
+- vendor:phplist
+- type:mail-management
+- lang:php
+references:
+- https://www.phplist.org/
+- https://github.com/phpList/phplist3/blob/main/public_html/lists/images/phplist.ico
+version: 20261023T093627Z
