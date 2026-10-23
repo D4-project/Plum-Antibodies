@@ -1,0 +1,15 @@
+name: flarum
+description: Detect Flarum discussion forum
+uuid: b6d9bc94-9519-4138-aa2d-6fa541994b3a
+query: http_cookiename:flarum_session
+tags:
+- proto:http
+- product:flarum
+- vendor:flarum
+- type:forum
+- lang:php
+references:
+- https://flarum.org/
+- https://github.com/flarum/framework
+- https://github.com/flarum/framework/blob/2.x/framework/core/src/Http/CookieFactory.php
+version: 20261023T120426Z
