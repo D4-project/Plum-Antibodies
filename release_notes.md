@@ -1,5 +1,6 @@
 # Release notes
 
+- Extend Node-RED favicon detection with official MD5 and SHA-256 alternatives and its product URL.
 - Add ExpressionEngine CMS detection from four exact default cookie names, confirmed in historical scans and official documentation.
 - Add historical osCommerce-family ecommerce detection from its exact osCsid session cookie, without inferring a release.
 - Add CS-Cart ecommerce detection from its session cookie prefix, covering shared CS-Cart/Multi-Vendor markers without inferring an edition or release.
