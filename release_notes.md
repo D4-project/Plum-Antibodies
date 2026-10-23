@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Grav CMS detection from its session cookie prefix, confirmed in historical scans and official PHP configuration.
 - Add Ibexa DXP detection from the Ibexa Experience X-Powered-By prefix, independent of version and confirmed in historical scans.
 - Add MODX Revolution CMS detection from its exact X-Powered-By header value, confirmed in historical scans.
 - Add October CMS detection from its exact session cookie name, confirmed in historical scans and official PHP source.
