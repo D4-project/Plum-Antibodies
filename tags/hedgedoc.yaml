@@ -1,0 +1,15 @@
+name: hedgedoc
+description: Detect HedgeDoc collaborative editor
+uuid: 0cdec14a-8b48-4ca1-bc86-9d5765b5b5ed
+query: http_title.bg:HedgeDoc
+  OR http_favicon_mmhash:-1519337185
+  OR http_favicon_md5:cbd507ff5ee11e0f7d1e6229cc4eb30b
+  OR http_favicon_sha256:15d0b17f0778a25f3d9d33ca4139f3aa347e89c62a0264843d8dbef29d10ce1f
+tags:
+- proto:http
+- product:hedgedoc
+- vendor:hedgedoc
+- type:collaboration
+references:
+- https://hedgedoc.org/
+version: 20261023T182102Z
