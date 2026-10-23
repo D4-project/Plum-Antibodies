@@ -1,0 +1,14 @@
+name: squirrelmail
+description: Detect SquirrelMail webmail
+uuid: b9045a8e-c870-4c04-a829-544889c0c5dc
+query: http_cookiename:SQMSESSID
+tags:
+- proto:http
+- product:squirrelmail
+- vendor:squirrelmail
+- type:webmail
+- lang:php
+references:
+- https://www.squirrelmail.org/
+- https://www.squirrelmail.org/docs/admin/admin-3.html
+version: 20261023T161907Z
