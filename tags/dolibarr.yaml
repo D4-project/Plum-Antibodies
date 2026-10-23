@@ -1,0 +1,15 @@
+name: dolibarr
+description: Detect Dolibarr ERP and CRM
+uuid: 230e7a50-af73-4714-a5b7-4185d26671f9
+query: http_cookiename.bg:DOLSESSID_
+tags:
+- proto:http
+- product:dolibarr
+- vendor:dolibarr
+- type:erp
+- lang:php
+references:
+- https://www.dolibarr.org/
+- https://github.com/Dolibarr/dolibarr
+- https://github.com/Dolibarr/dolibarr/blob/develop/htdocs/main.inc.php
+version: 20261023T114705Z

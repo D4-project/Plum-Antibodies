@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Dolibarr ERP/CRM detection from its instance-specific session cookie prefix, confirmed in historical scans and official PHP source.
 - Add Invoice Ninja billing detection from its exact HTTP title or official favicon MD5, confirmed in a historical scan.
 - Add FreeScout helpdesk detection from its exact HTTP title or official favicon fingerprints, confirmed in historical scans.
 - Add osTicket helpdesk detection from its exact agent login title or official favicon fingerprints, confirmed in historical scans.
