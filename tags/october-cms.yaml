@@ -1,0 +1,15 @@
+name: october-cms
+description: Detect October CMS
+uuid: 81d9bd01-f681-45c7-ab28-8cb3e8826532
+query: http_cookiename:october_session
+tags:
+- proto:http
+- product:october-cms
+- vendor:october-cms
+- type:cms
+- lang:php
+references:
+- https://octobercms.com/
+- https://github.com/octobercms/october
+- https://github.com/octobercms/october/blob/master/config/session.php
+version: 20261023T121934Z

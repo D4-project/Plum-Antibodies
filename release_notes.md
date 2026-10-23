@@ -1,5 +1,6 @@
 # Release notes
 
+- Add October CMS detection from its exact session cookie name, confirmed in historical scans and official PHP source.
 - Add ProcessWire CMS detection from its exact X-Powered-By header value, confirmed in historical scans and official PHP source.
 - Add Statamic CMS detection from its exact X-Powered-By header value, confirmed in historical scans and official PHP source.
 - Add Sulu CMS detection from its X-Generator header prefix, independent of version and confirmed in historical scans.
