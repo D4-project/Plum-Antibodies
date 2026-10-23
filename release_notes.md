@@ -1,5 +1,6 @@
 # Release notes
 
+- Add legacy eZ Publish CMS detection from its exact X-Powered-By value or session cookie prefix, confirmed in historical scans.
 - Extend phpIPAM detection with its exact default session cookie, confirmed in a historical scan and official PHP configuration.
 - Add HedgeDoc collaborative editor detection from its title prefix or three favicon fingerprints, confirmed in historical scans.
 - Extend Node-RED favicon detection with official MD5 and SHA-256 alternatives and its product URL.
