@@ -1,5 +1,6 @@
 # Release notes
 
+- Add OXID eShop detection from the exact country cookie observed in historical scans.
 - Add PrestaShop ecommerce detection from its cookie name prefix, confirmed in historical scans and official PHP source.
 - Add WooCommerce ecommerce and WordPress detection from its session cookie prefix, confirmed in historical scans and official PHP source.
 - Add Sugar CRM detection from its exact SugarCRM HTTP title, confirmed in historical PHP-backed responses.

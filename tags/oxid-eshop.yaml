@@ -1,0 +1,14 @@
+name: oxid-eshop
+description: Detect OXID eShop ecommerce
+uuid: 2adcbcb3-64ba-42df-8b36-31c816ab862e
+query: http_cookiename:oxid_oxbaseshop_country
+tags:
+- proto:http
+- product:oxid-eshop
+- vendor:oxid-esales
+- type:ecommerce
+- lang:php
+references:
+- https://www.oxid-esales.com/
+- https://github.com/OXID-eSales/oxideshop_ce
+version: 20261023T120100Z
