@@ -1,5 +1,6 @@
 # Release notes
 
+- Add WooCommerce ecommerce and WordPress detection from its session cookie prefix, confirmed in historical scans and official PHP source.
 - Add Sugar CRM detection from its exact SugarCRM HTTP title, confirmed in historical PHP-backed responses.
 - Add SuiteCRM detection from its exact HTTP title or official favicon fingerprints, confirmed in historical scans.
 - Add Akaunting accounting ERP detection from its session cookie or official favicon fingerprints; cookie confirmed in historical scans.

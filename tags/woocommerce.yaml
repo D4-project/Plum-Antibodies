@@ -1,0 +1,16 @@
+name: woocommerce
+description: Detect WooCommerce ecommerce
+uuid: 252249f9-9e26-4054-b3ae-6b52d40d55e2
+query: http_cookiename.bg:wp_woocommerce_session_
+tags:
+- proto:http
+- product:woocommerce
+- product:wordpress
+- vendor:automattic
+- type:ecommerce
+- lang:php
+references:
+- https://woocommerce.com/
+- https://github.com/woocommerce/woocommerce
+- https://github.com/woocommerce/woocommerce/blob/trunk/plugins/woocommerce/includes/class-wc-session-handler.php
+version: 20261023T115629Z
