@@ -1,5 +1,6 @@
 # Release notes
 
+- Extend phpMyAdmin detection with three exact session-cookie variants, including the secure HTTPS name, and add database-management classification.
 - Extend Moodle detection with its exact default session cookie, add LMS classification and official references.
 - Extend Adminer database-management detection with its exact adminer_sid session cookie, confirmed in historical scans and official PHP source.
 - Consolidate DokuWiki favicon and cookie detection, add its wiki type and remove the unsupported 2008 version rule; retire the old imported UUID as documented in operations.
