@@ -1,0 +1,14 @@
+name: statamic-cms
+description: Detect Statamic CMS
+uuid: 292fd734-7a88-4717-acf8-6f0074cf96e3
+query: http_headval:x-powered-by:Statamic
+tags:
+- proto:http
+- product:statamic-cms
+- vendor:statamic
+- type:cms
+- lang:php
+references:
+- https://statamic.com/
+- https://github.com/statamic/cms
+version: 20261023T121355Z
