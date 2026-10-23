@@ -3,6 +3,7 @@ description: Detect phpIPAM network management
 uuid: d2db9cf6-c35f-43b4-b109-51401da40284
 query: >-
   http_title.bg:"phpipam :: login"
+  OR http_cookiename:phpipam
   OR http_favicon_mmhash:-2084151106
   OR http_favicon_md5:851615f43921f017a297184922b4fbfd
   OR http_favicon_sha256:83a7c1dd20e2a1a05d75a87b2f71c80fc7645f2f81d439a7a70030593ee8b634
@@ -15,4 +16,5 @@ tags:
 references:
 - https://phpipam.net/
 - https://github.com/phpipam/phpipam/blob/master/css/images/favicon.png
-version: 20261023T152318Z
+- https://github.com/phpipam/phpipam/blob/master/config.dist.php
+version: 20261023T182554Z

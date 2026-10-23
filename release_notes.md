@@ -1,5 +1,6 @@
 # Release notes
 
+- Extend phpIPAM detection with its exact default session cookie, confirmed in a historical scan and official PHP configuration.
 - Add HedgeDoc collaborative editor detection from its title prefix or three favicon fingerprints, confirmed in historical scans.
 - Extend Node-RED favicon detection with official MD5 and SHA-256 alternatives and its product URL.
 - Add ExpressionEngine CMS detection from four exact default cookie names, confirmed in historical scans and official documentation.
