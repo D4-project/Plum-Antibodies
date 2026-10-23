@@ -1,0 +1,14 @@
+name: sugar
+description: Detect Sugar customer management
+uuid: 3a3ae73c-7bd8-4196-81d1-8c06e2d62d94
+query: http_title:SugarCRM
+tags:
+- proto:http
+- product:sugar
+- vendor:sugarcrm
+- type:crm
+- lang:php
+references:
+- https://www.sugarcrm.com/
+- https://support.sugarai.com/resources/supported_platforms/
+version: 20261023T115357Z
