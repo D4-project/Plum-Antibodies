@@ -1,0 +1,14 @@
+name: cs-cart
+description: Detect CS-Cart ecommerce
+uuid: 890117a2-b00e-4b4d-90f2-3974e1a996d7
+query: http_cookiename.bg:sid_customer_
+tags:
+- proto:http
+- product:cs-cart
+- vendor:cs-cart
+- type:ecommerce
+- lang:php
+references:
+- https://www.cs-cart.com/
+- https://docs.cs-cart.com/latest/install/system_requirements.html
+version: 20261023T162514Z
