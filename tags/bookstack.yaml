@@ -1,0 +1,15 @@
+name: bookstack
+description: Detect BookStack documentation wiki
+uuid: 4b25b765-e3b6-4d74-a1c6-77a651226baa
+query: http_cookiename:bookstack_session
+tags:
+- proto:http
+- product:bookstack
+- vendor:bookstack
+- type:wiki
+- lang:php
+references:
+- https://www.bookstackapp.com/
+- https://github.com/BookStackApp/BookStack
+- https://github.com/BookStackApp/BookStack/blob/development/app/Config/session.php
+version: 20261023T120936Z
