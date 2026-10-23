@@ -1,5 +1,6 @@
 # Release notes
 
+- Add LibreNMS detection from its HTTP title or official favicon fingerprints, confirmed in historical scans.
 - Add MailWatch mail-management detection from its exact page titles or the two official repository favicon MD5s, excluding the site-specific icon.
 - Add Adminer detection from its exact login-page title or official inline favicon MD5/SHA-256; title confirmed in historical scans.
 - Add phpIPAM detection from its login title or official favicon fingerprints, confirmed in a historical raw scan.
