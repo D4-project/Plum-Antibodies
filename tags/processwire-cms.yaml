@@ -1,0 +1,14 @@
+name: processwire-cms
+description: Detect ProcessWire CMS
+uuid: c17caec5-b906-4722-b0c3-0843f021fcd4
+query: http_headval:x-powered-by:"ProcessWire CMS"
+tags:
+- proto:http
+- product:processwire-cms
+- vendor:processwire
+- type:cms
+- lang:php
+references:
+- https://processwire.com/
+- https://github.com/processwire/processwire
+version: 20261023T121729Z
