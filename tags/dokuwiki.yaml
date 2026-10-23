@@ -1,10 +1,17 @@
 name: dokuwiki
-description: Detect DokuWiki
+description: Detect DokuWiki wiki
 uuid: 2aed88a9-663d-50e6-ae3a-019ba035b718
 query: http_favicon_mmhash:-630493013
+  OR http_favicon_md5:3ef81fad2a3deaeb19f02c9cf67ed8eb
+  OR http_favicon_sha256:3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1
+  OR http_cookiename:DokuWiki
 tags:
 - proto:http
 - product:dokuwiki
 - vendor:dokuwiki
+- type:wiki
 - lang:php
-version: 20260918T053418Z
+references:
+- https://www.dokuwiki.org/
+- https://github.com/dokuwiki/dokuwiki/blob/master/inc/init.php
+version: 20261023T183501Z

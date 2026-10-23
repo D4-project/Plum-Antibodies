@@ -20,3 +20,18 @@ Import and reindex commands run from the root of a Plum-Island checkout:
 ```
 
 Import one rule with `--tags-file webapp/tags/tags/<rule>.yaml`, or preview an import with `--all --dry-run`. Use [Plum-Island tag-tools documentation](https://github.com/D4-project/Plum-Island/blob/main/documentation/tools.md#tag-tools) for complete import, delete, rollback, and reindex procedures.
+
+## Retired rules
+
+Deleting a YAML file does not remove an already imported SQLite rule. Remove
+the retired rule with `tools/tag_mgmt.py delete --id <database-rule-id>` or
+`delete --tags-file <archived-yaml>`, then import its replacement and reindex.
+The database rule ID is distinct from the stable UUID below.
+
+| Retired YAML | Retired UUID | Replacement |
+| --- | --- | --- |
+| `dokuwiki-0-0-20080505.yaml` | `95d71f4a-e3d0-5330-807d-1d8bdaf7ed64` | `dokuwiki.yaml` (`2aed88a9-663d-50e6-ae3a-019ba035b718`) |
+
+The retired DokuWiki fingerprint is also present in the official 2020 release
+and cannot identify the 2008 version. Retiring the imported rule and reindexing
+removes that unsupported version attribution from historical documents.
