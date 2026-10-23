@@ -1,0 +1,14 @@
+name: paymenter
+description: Detect Paymenter billing platform
+uuid: 942e6d4b-48d3-47f5-85e0-22497ce0436e
+query: http_cookiename:paymenter_session
+tags:
+- proto:http
+- product:paymenter
+- vendor:paymenter
+- type:billing
+- lang:php
+references:
+- https://paymenter.org/
+- https://github.com/Paymenter/Paymenter/blob/master/config/session.php
+version: 20261023T185831Z
