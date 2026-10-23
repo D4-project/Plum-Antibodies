@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Kimai time-tracking detection from its exact HTTP title or official favicon fingerprints, confirmed in historical scans.
 - Add PrivateBin detection from its exact HTTP title or official historical favicon fingerprints, confirmed in historical scans.
 - Add legacy Pydio/AjaXplorer PHP file-sharing detection from its session cookie, without inferring a release or identifying Pydio Cells.
 - Add ResourceSpace digital asset management detection from its HTTP title prefix or official favicon fingerprints, confirmed in historical scans.
