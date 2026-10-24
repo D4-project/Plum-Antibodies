@@ -2,9 +2,18 @@ name: glpi
 description: Detect GLPI
 uuid: a437ba24-61bc-5940-8b22-f6e1ea576dcb
 query: http_favicon_mmhash:-1474875778
+  OR http_favicon_md5:c01d32d71c01c8426d635c68c4648b09
+  OR http_favicon_sha256:5db71e7fdd17bf36108977e65e19f3490a2ca13d1314b0a6ae2d089e475686d2
+  OR http_cookiename.bg:glpi_
+  OR http_title.bg:"Authentication - GLPI"
 tags:
 - lang:php
 - proto:http
 - product:glpi
 - vendor:glpi
-version: 20261021T125313Z
+- type:helpdesk
+references:
+- https://www.glpi-project.org/
+- https://github.com/glpi-project/glpi/blob/main/src/Glpi/Application/SystemConfigurator.php
+- https://github.com/glpi-project/glpi/blob/main/public/pics/favicon.ico
+version: 20261024T113059Z
