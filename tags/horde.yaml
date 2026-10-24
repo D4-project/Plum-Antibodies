@@ -1,0 +1,17 @@
+name: horde
+description: Detect Horde application framework
+uuid: dd8c5056-c5c2-4fd9-9d3a-df3ffec0e03b
+query: >-
+  http_cookiename:Horde
+  OR http_title.bg:"Horde :: Log in"
+tags:
+- proto:http
+- product:horde
+- vendor:horde
+- type:framework
+- lang:php
+references:
+- https://www.horde.org/
+- https://github.com/horde/base/blob/FRAMEWORK_5_2/README
+- https://github.com/horde/base/blob/FRAMEWORK_5_2/config/conf.xml
+version: 20261024T081838Z

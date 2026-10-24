@@ -1,5 +1,6 @@
 # Release notes
 
+- Add generic Horde PHP framework detection from its exact session cookie or login title prefix, without inferring a module or release.
 - Add Paymenter billing-platform detection from its exact session-cookie name, confirmed in a historical scan and official PHP configuration.
 - Extend phpMyAdmin detection with three exact session-cookie variants, including the secure HTTPS name, and add database-management classification.
 - Extend Moodle detection with its exact default session cookie, add LMS classification and official references.
