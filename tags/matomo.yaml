@@ -1,0 +1,17 @@
+name: matomo
+description: Detect Matomo web analytics
+uuid: ad481af0-a7a7-46b7-a99f-d80ac5f321e0
+query: http_cookiename:MATOMO_SESSID
+  OR http_title:"Sign in - Matomo"
+  OR http_cookiename:PIWIK_SESSID AND http_title.lk:Matomo
+tags:
+- proto:http
+- product:matomo
+- vendor:innocraft
+- type:analytics
+- lang:php
+references:
+- https://matomo.org/
+- https://github.com/matomo-org/matomo/blob/6.x-dev/core/Session.php
+- https://matomo.org/faq/new-to-piwik/who-is-innocraft/
+version: 20261024T082939Z
