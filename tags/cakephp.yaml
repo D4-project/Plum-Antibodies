@@ -1,0 +1,15 @@
+name: cakephp
+description: Detect CakePHP framework
+uuid: 1e4f2bfb-6c2c-4889-94f8-cdda57bcb9c9
+query: http_cookiename:CAKEPHP
+tags:
+- proto:http
+- product:cakephp
+- vendor:cakephp
+- type:framework
+- lang:php
+references:
+- https://cakephp.org/
+- https://book.cakephp.org/2.x/development/sessions.html
+- https://github.com/cakephp/cakephp/blob/2.10.24/lib/Cake/Model/Datasource/CakeSession.php
+version: 20261024T084756Z
