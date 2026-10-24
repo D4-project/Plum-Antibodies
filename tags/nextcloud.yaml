@@ -1,10 +1,17 @@
 name: nextcloud
-description: Detect NextCloud
+description: Detect Nextcloud
 uuid: 15d51da5-f29c-5fb8-85ad-7fe9892703b7
-query: http_title.bg:Nextcloud or http_cookiename.bg:oc_sessionPassphrase
+query: http_title.bg:Nextcloud
+  OR http_cookiename:nc_sameSiteCookielax
+  OR http_cookiename:nc_sameSiteCookiestrict
+  OR http_cookiename:__Host-nc_sameSiteCookielax
+  OR http_cookiename:__Host-nc_sameSiteCookiestrict
 tags:
 - lang:php
 - proto:http
 - product:nextcloud
 - vendor:nextcloud
-version: 20261021T125313Z
+references:
+- https://nextcloud.com/
+- https://github.com/nextcloud/server/blob/master/lib/OC.php
+version: 20261024T090431Z
