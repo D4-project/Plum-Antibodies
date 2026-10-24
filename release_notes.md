@@ -1,5 +1,6 @@
 # Release notes
 
+- Extend Yii detection with its exact CSRF cookie, normalize its product tag to yii and add framework classification.
 - Add generic CakePHP framework detection from its exact CAKEPHP session cookie, without inferring a release.
 - Extend WordPress detection with favicon paths containing /wp-content/uploads as an independent alternative.
 - Add Matomo PHP analytics detection from its session cookie or login title, with an explicitly qualified legacy-cookie alternative.

@@ -1,10 +1,16 @@
 name: yii-php-framework-default
-description: Detect Yii PHP Framework (Default Favicon)
+description: Detect Yii PHP framework
 uuid: 3c27b3d3-10d1-545a-b8c0-df911b762c99
 query: http_favicon_mmhash:-1298108480
+  OR http_cookiename:YII_CSRF_TOKEN
 tags:
 - proto:http
-- product:yii-php-framework-default-favicon
+- product:yii
 - vendor:yii
+- type:framework
 - lang:php
-version: 20260918T053418Z
+references:
+- https://www.yiiframework.com/
+- https://www.yiiframework.com/doc/api/1.1/CHttpRequest#csrfTokenName-detail
+- https://github.com/yiisoft/yii/blob/master/framework/web/CHttpRequest.php
+version: 20261024T085321Z
