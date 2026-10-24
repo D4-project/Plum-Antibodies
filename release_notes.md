@@ -1,5 +1,6 @@
 # Release notes
 
+- Extend ownCloud detection with its login title prefix and three official favicon fingerprints, confirmed in a historical scan.
 - Replace Nextcloud's shared ownCloud session-cookie marker with exact Nextcloud same-site cookie names, including secure host-prefixed variants, to avoid ownCloud false positives.
 - Extend Yii detection with its exact CSRF cookie, normalize its product tag to yii and add framework classification.
 - Add generic CakePHP framework detection from its exact CAKEPHP session cookie, without inferring a release.

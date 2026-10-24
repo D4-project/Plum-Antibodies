@@ -2,9 +2,17 @@ name: owncloud
 description: Detect ownCloud
 uuid: 8a633645-4260-5baa-9093-11b5d7e0d3dc
 query: http_favicon_mmhash:-1616115760
+  OR http_favicon_mmhash:663892747
+  OR http_favicon_md5:3ba82751ea1b778d45c7c62137eb6fd1
+  OR http_favicon_sha256:ad1156e437e7f2b6a1ae5de77ca60a835ee3ed5c3068a7a049695d07bf1cc60b
+  OR http_title.bg:ownCloud
 tags:
 - lang:php
 - proto:http
 - product:owncloud
 - vendor:owncloud
-version: 20261021T125313Z
+references:
+- https://owncloud.com/
+- https://github.com/owncloud/core/blob/master/core/img/favicon.ico
+- https://github.com/owncloud/core/blob/master/lib/private/legacy/defaults.php
+version: 20261024T092752Z
