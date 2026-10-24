@@ -2,11 +2,18 @@ name: zabbix
 description: Detect Zabbix
 uuid: 61b0fb87-a5f8-5656-add5-a5100101d3a0
 query: http_favicon_mmhash:892542951
+  OR http_favicon_md5:0fbe700fd7d07ec8d30ef8b3ac261484
+  OR http_favicon_sha256:22b06a141c425c92951056805f46691c4cd8e7547ed90b8836a282950d4b4be2
+  OR http_cookiename:zbx_session
 tags:
 - lang:php
 - proto:http
 - product:zabbix
 - vendor:zabbix
+- type:monitoring
 references:
 - https://www.zabbix.com/
-version: 20261021T125313Z
+- https://www.zabbix.com/documentation/current/en/manual/web_interface/cookies
+- https://github.com/zabbix/zabbix/blob/master/ui/include/defines.inc.php
+- https://github.com/zabbix/zabbix/blob/master/ui/favicon.ico
+version: 20261024T103136Z
