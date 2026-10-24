@@ -1,5 +1,6 @@
 # Release notes
 
+- Extend WordPress detection with favicon paths containing /wp-content/uploads as an independent alternative.
 - Add Matomo PHP analytics detection from its session cookie or login title, with an explicitly qualified legacy-cookie alternative.
 - Add generic Horde PHP framework detection from its exact session cookie or login title prefix, without inferring a module or release.
 - Add Paymenter billing-platform detection from its exact session-cookie name, confirmed in a historical scan and official PHP configuration.
