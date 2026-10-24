@@ -1,9 +1,20 @@
-name: mantis-bug-tracker-1-2-9
-description: Detect Mantis Bug Tracker 1.2.9-1.2.15
+name: mantisbt
+description: Detect MantisBT
 uuid: 00ab3fbc-4f83-5f3e-ba2c-1dca5431db01
-query: http_favicon_md5:701BB703B31F99DA18251CA2E557EDF0
+query: http_favicon_mmhash:662709064
+  OR http_favicon_md5:701bb703b31f99da18251ca2e557edf0
+  OR http_favicon_sha256:9a351c5d106e1c48aa380515f5ef99c00fa6052752494095bf05715898965c5e
+  OR http_favicon_md5:ebe293e1746858d2548bca99c43e4969
+  OR http_favicon_sha256:b86764db1a0bebde28464c339eebf3b981b0452c77b6e714640140f4f8ff738a
+  OR http_title.bg:MantisBT
 tags:
 - proto:http
-- product:mantis-bug-tracker-1-2-9-1-2-15
-- vendor:mantis
-version: 20260918T053418Z
+- product:mantisbt
+- vendor:mantisbt
+- lang:php
+- type:issue-tracker
+references:
+- https://www.mantisbt.org/
+- https://github.com/mantisbt/mantisbt/blob/master/images/favicon.ico
+- https://github.com/mantisbt/mantisbt/blob/release-1.1.2/images/favicon.ico
+version: 20261024T124904Z

@@ -1,5 +1,6 @@
 # Release notes
 
+- Consolidate MantisBT favicon and title detection under generic product/vendor tags, preserve both historical favicon families and retire unsupported release attribution; document imported-rule cleanup.
 - Extend GLPI detection with its session-cookie prefix, login title, official favicon MD5 and SHA-256 alternatives, and helpdesk classification, confirmed in historical scans.
 - Extend Zabbix detection with its exact frontend session cookie, favicon MD5 and SHA-256 alternatives, and monitoring classification, confirmed in a historical scan.
 - Extend ownCloud detection with its login title prefix and three official favicon fingerprints, confirmed in a historical scan.

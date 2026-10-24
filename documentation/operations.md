@@ -31,7 +31,15 @@ The database rule ID is distinct from the stable UUID below.
 | Retired YAML | Retired UUID | Replacement |
 | --- | --- | --- |
 | `dokuwiki-0-0-20080505.yaml` | `95d71f4a-e3d0-5330-807d-1d8bdaf7ed64` | `dokuwiki.yaml` (`2aed88a9-663d-50e6-ae3a-019ba035b718`) |
+| `mantis-bug-tracker-1-1-2-bugs-images-favicon-ico.yaml` | `510060d8-5281-5920-8130-e4165b91cd32` | `mantis-bug-tracker-1-2-9-1-2-15.yaml` (`00ab3fbc-4f83-5f3e-ba2c-1dca5431db01`) |
 
 The retired DokuWiki fingerprint is also present in the official 2020 release
 and cannot identify the 2008 version. Retiring the imported rule and reindexing
 removes that unsupported version attribution from historical documents.
+
+The MantisBT replacement preserves both historical favicon families under the
+generic `product:mantisbt` tag. The favicon previously attributed to releases
+1.2.9–1.2.15 is still shipped by current upstream and cannot establish those
+versions. Remove the retired imported rule, import the updated primary rule,
+and reindex to replace the old product and vendor tags. The primary filename
+remains unchanged for compatibility; its name and description are generic.
