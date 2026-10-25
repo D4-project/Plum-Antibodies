@@ -2,7 +2,8 @@ name: roundcube
 description: Detect Roundcube (webmail)
 uuid: 66f32699-c142-54bd-b527-02a63a923478
 query: http_cookiename.bg:roundcube
-  OR http_favicon_mmhash:-976235259 OR http_favicon_mmhash:-2140379067
+  OR http_favicon_mmhash:-976235259
+  OR http_favicon_mmhash:-2140379067
   OR http_favicon_mmhash:-1754690812
   OR http_favicon_md5:924a68d347c80d0e502157e83812bb23
   OR http_favicon_sha256:7b30e499996ec4631848d3509d803d9311f5d71999212f2f4c1ca7af8f24eb69
@@ -10,10 +11,16 @@ query: http_cookiename.bg:roundcube
   OR http_favicon_md5:228BA3F6D946AF4298B080E5C934487C
   OR http_favicon_md5:EF9C0362BF20A086BB7C2E8EA346B9F0
   OR http_favicon_md5:F1AC749564D5BA793550EC6BDC472E7C
+  OR http_title.bg:"Roundcube Webmail ::"
 tags:
 - proto:http
 - type:webmail
 - product:roundcube
 - vendor:roundcube
 - lang:php
-version: 20261022T114336Z
+references:
+- https://roundcube.net/
+- https://github.com/roundcube/roundcubemail/blob/release-1.6/config/defaults.inc.php
+- https://github.com/roundcube/roundcubemail/blob/release-1.6/skins/elastic/images/favicon.ico
+- https://github.com/roundcube/larry/blob/master/images/favicon.ico
+version: 20261025T074344Z
