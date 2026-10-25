@@ -32,6 +32,9 @@ The database rule ID is distinct from the stable UUID below.
 | --- | --- | --- |
 | `dokuwiki-0-0-20080505.yaml` | `95d71f4a-e3d0-5330-807d-1d8bdaf7ed64` | `dokuwiki.yaml` (`2aed88a9-663d-50e6-ae3a-019ba035b718`) |
 | `mantis-bug-tracker-1-1-2-bugs-images-favicon-ico.yaml` | `510060d8-5281-5920-8130-e4165b91cd32` | `mantis-bug-tracker-1-2-9-1-2-15.yaml` (`00ab3fbc-4f83-5f3e-ba2c-1dca5431db01`) |
+| `drupal-2-x-4-x.yaml` | `4af8d5ad-f8ef-5189-ae4f-acf64c21f5a4` | `drupal.yaml` (`85483dc3-fd56-5443-9ca9-e4388dff6152`) |
+| `drupal-7-x.yaml` | `b5a4448b-1e16-5d19-b358-06f5991d572b` | `drupal.yaml` (`85483dc3-fd56-5443-9ca9-e4388dff6152`) |
+| `drupal-cms_e6a9dc66.yaml` | `b0f43bde-df6b-56e4-92e6-5812924506a4` | `drupal.yaml` (`85483dc3-fd56-5443-9ca9-e4388dff6152`) |
 
 The retired DokuWiki fingerprint is also present in the official 2020 release
 and cannot identify the 2008 version. Retiring the imported rule and reindexing
@@ -43,3 +46,9 @@ generic `product:mantisbt` tag. The favicon previously attributed to releases
 versions. Remove the retired imported rule, import the updated primary rule,
 and reindex to replace the old product and vendor tags. The primary filename
 remains unchanged for compatibility; its name and description are generic.
+
+The Drupal replacement preserves every predicate from the three retired rules
+under `product:drupal`. Favicon fingerprints alone do not establish the old
+release labels or the newer Drupal CMS distribution. Remove all three retired
+imported rules, import `drupal.yaml`, and reindex to replace their historical
+product tags. The separate Drupal Commerce rule remains active.

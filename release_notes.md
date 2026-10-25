@@ -1,5 +1,6 @@
 # Release notes
 
+- Consolidate four overlapping Drupal rules into generic CMS detection, preserve every existing predicate, add three official favicon fingerprints and document retirement of three imported UUIDs.
 - Add Piwigo PHP photo-gallery detection from its exact session cookie or three official favicon fingerprints, confirmed together in a historical Plum scan.
 - Generalize TYPO3 CMS detection with its exact frontend session cookie and three official favicon fingerprints, preserving the original predicate and replacing unsupported release attribution.
 - Extend vBulletin forum detection with its exact default session cookie and branded title substring, confirmed in a historical Plum scan; add PHP and forum classification.

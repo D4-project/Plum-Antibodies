@@ -1,8 +1,17 @@
 name: drupal
 description: Detect Drupal CMS
 uuid: 85483dc3-fd56-5443-9ca9-e4388dff6152
-query: http_favicon_mmhash:-167656799 OR http_favicon_mmhash:1174841451 OR http_headval:x-generator.bg:drupal
-  OR http_header:x-drupal-dynamic-cache OR http_header:x-drupal-cache
+query: http_favicon_mmhash:-167656799
+  OR http_favicon_mmhash:1174841451
+  OR http_favicon_md5:a4819787db1dabe1a6b669d5d6df3bfd
+  OR http_favicon_md5:b6341dfc213100c61db4fb8775878cec
+  OR http_favicon_md5:e6a9dc66179d8c9f34288b16a02f987e
+  OR http_favicon_mmhash:1015329088
+  OR http_favicon_md5:fe22dd2bb09daccf58256611ac491469
+  OR http_favicon_sha256:299a899d58416e84ead0d75af019bd1d6a7c12d931372e16b0d2fee5cfb74f7b
+  OR http_headval:x-generator.bg:drupal
+  OR http_header:x-drupal-dynamic-cache
+  OR http_header:x-drupal-cache
 tags:
 - proto:http
 - lang:php
@@ -11,4 +20,6 @@ tags:
 - vendor:drupal
 references:
 - https://www.drupal.org/
-version: 20261013T162737Z
+- https://www.drupal.org/docs/administering-a-drupal-site/internal-page-cache
+- https://github.com/drupal/drupal/blob/main/core/misc/favicon.ico
+version: 20261025T074013Z
