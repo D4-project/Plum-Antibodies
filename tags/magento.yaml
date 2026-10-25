@@ -1,10 +1,19 @@
 name: magento
-description: Detect Magento
+description: Detect Magento ecommerce
 uuid: 6acdb21f-665d-51ab-b4eb-e603e5964cc8
 query: http_favicon_mmhash:-38580010
+  OR http_favicon_mmhash:1923124308
+  OR http_favicon_md5:643d3106699aa425269dbe0bb7768440
+  OR http_favicon_sha256:d6b35085fda75d7999494a442d3b98d7b6e4596f35207e4ee2c1dea6d331731a
+  OR http_cookiename:X-Magento-Vary
 tags:
 - proto:http
 - product:magento
 - vendor:magento
 - lang:php
-version: 20260918T053418Z
+- type:ecommerce
+references:
+- https://github.com/magento/magento2
+- https://github.com/magento/magento2/blob/2.4-develop/lib/internal/Magento/Framework/App/Response/Http.php
+- https://github.com/magento/magento2/blob/2.4-develop/app/code/Magento/Theme/view/frontend/web/favicon.ico
+version: 20261025T072138Z

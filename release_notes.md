@@ -1,5 +1,6 @@
 # Release notes
 
+- Extend generic Magento ecommerce detection with its exact vary cookie and three official frontend favicon fingerprints, without inferring an edition or release.
 - Extend Joomla CMS detection with the exact title of its official PHP incompatibility page, confirmed in a historical scan.
 - Consolidate MantisBT favicon and title detection under generic product/vendor tags, preserve both historical favicon families and retire unsupported release attribution; document imported-rule cleanup.
 - Extend GLPI detection with its session-cookie prefix, login title, official favicon MD5 and SHA-256 alternatives, and helpdesk classification, confirmed in historical scans.
