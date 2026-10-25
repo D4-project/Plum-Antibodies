@@ -1,0 +1,18 @@
+name: piwigo
+description: Detect Piwigo photo gallery
+uuid: 4d5524a9-64c6-499f-a624-693e63c38279
+query: http_cookiename:pwg_id
+  OR http_favicon_mmhash:464037959
+  OR http_favicon_md5:ff2fba2e9c7c6045e9f07edd469a0c85
+  OR http_favicon_sha256:3f575a15148184e26ff74aaba6983deb3b1851c42c2d7817eaae5c21f1181b36
+tags:
+- proto:http
+- product:piwigo
+- vendor:piwigo
+- type:gallery
+- lang:php
+references:
+- https://piwigo.org/
+- https://github.com/Piwigo/Piwigo/blob/master/include/config_default.inc.php
+- https://github.com/Piwigo/Piwigo/blob/master/themes/default/icon/favicon.ico
+version: 20261025T073646Z
