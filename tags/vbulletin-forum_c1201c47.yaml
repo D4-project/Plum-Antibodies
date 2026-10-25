@@ -2,8 +2,16 @@ name: vbulletin-forum-c1201c47
 description: Detect vBulletin forum
 uuid: 1568ec8e-128d-5e01-8f2c-ddcfe2101bc1
 query: http_favicon_md5:C1201C47C81081C7F0930503CAE7F71A
+  OR http_cookiename:bbsessionhash
+  OR http_title.lk:" - Powered by vBulletin"
 tags:
 - proto:http
 - product:vbulletin-forum
 - vendor:vbulletin
-version: 20260918T053418Z
+- lang:php
+- type:forum
+references:
+- https://www.vbulletin.com/
+- https://dev.vbulletin.com/docs/onepage/
+- https://github.com/urbanadventurer/WhatWeb/blob/master/plugins/vbulletin.rb
+version: 20261025T072835Z
