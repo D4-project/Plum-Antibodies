@@ -1,5 +1,6 @@
 # Release notes
 
+- Generalize TYPO3 CMS detection with its exact frontend session cookie and three official favicon fingerprints, preserving the original predicate and replacing unsupported release attribution.
 - Extend vBulletin forum detection with its exact default session cookie and branded title substring, confirmed in a historical Plum scan; add PHP and forum classification.
 - Extend generic Magento ecommerce detection with its exact vary cookie and three official frontend favicon fingerprints, without inferring an edition or release.
 - Extend Joomla CMS detection with the exact title of its official PHP incompatibility page, confirmed in a historical scan.
