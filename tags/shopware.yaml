@@ -1,0 +1,18 @@
+name: shopware
+description: Detect Shopware ecommerce
+uuid: efd471b2-139a-4dc1-bec0-1f8ceb3bbe36
+query: http_cookiename:sw-cache-hash
+  OR http_favicon_mmhash:-941679677
+  OR http_favicon_md5:d6d44396a68390904b1957d16d0fa9a3
+  OR http_favicon_sha256:6832f6d16d9d7609ff4c47accbf8ab930efce39e41d1a06b68a1993f579751cf
+tags:
+- proto:http
+- product:shopware
+- vendor:shopware
+- type:ecommerce
+- lang:php
+references:
+- https://www.shopware.com/
+- https://github.com/shopware/shopware/blob/trunk/src/Core/Framework/Adapter/Cache/Http/HttpCacheKeyGenerator.php
+- https://github.com/shopware/shopware/blob/trunk/src/Storefront/Resources/app/storefront/dist/assets/logo/favicon.png
+version: 20261025T091618Z

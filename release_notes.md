@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Shopware PHP ecommerce detection from its exact cache cookie or three official storefront favicon fingerprints, recovering a historical application sample while excluding branded hosting panels.
 - Extend Roundcube webmail detection with its stock login-title prefix, preserving all cookie and favicon alternatives and adding official references.
 - Consolidate four overlapping Drupal rules into generic CMS detection, preserve every existing predicate, add three official favicon fingerprints and document retirement of three imported UUIDs.
 - Add Piwigo PHP photo-gallery detection from its exact session cookie or three official favicon fingerprints, confirmed together in a historical Plum scan.
