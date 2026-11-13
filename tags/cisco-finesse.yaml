@@ -1,0 +1,11 @@
+name: cisco-finesse
+description: Detect Cisco Finesse
+uuid: 94b539f1-ab4a-41b3-b8d9-39893b5b96b1
+query: http_title.bg:"Sign in to Cisco Finesse"
+tags:
+- proto:http
+- vendor:cisco
+- product:cisco-finesse
+references:
+- https://github.com/projectdiscovery/nuclei-templates/blob/284011e2bdb299c882d62a3fb6466f73a3b8d4e8/http/exposed-panels/cisco/cisco-finesse-login.yaml
+version: 20261113T094159Z

@@ -1,0 +1,12 @@
+name: cisco-unified-cm
+description: Detect Cisco Unified Communications Manager (VoIP)
+uuid: 63d4ef0a-d300-4f13-a803-1fc1f18a7023
+query: http_title.bg:"Cisco Unified CM Console"
+tags:
+- proto:http
+- vendor:cisco
+- product:cisco-unified-cm
+- type:voip
+references:
+- https://github.com/projectdiscovery/nuclei-templates/blob/284011e2bdb299c882d62a3fb6466f73a3b8d4e8/http/exposed-panels/cisco-cm-panel.yaml
+version: 20261113T094159Z

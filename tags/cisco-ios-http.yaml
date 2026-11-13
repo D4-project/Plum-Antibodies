@@ -1,0 +1,13 @@
+name: cisco-ios-http
+description: Detect Cisco IOS HTTP management
+uuid: 69b46371-8c2d-4f2f-b993-017cdb77c7f9
+# IOS HTTP markers are shared by multiple device families.
+query: http_server.bg:cisco-IOS/ OR http_server.bg:"cisco-IOS Technologies/"
+  OR http_headval:www-authenticate:'Basic realm="level 15 access"'
+tags:
+- proto:http
+- vendor:cisco
+- product:ios
+references:
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L7122
+version: 20261113T094159Z

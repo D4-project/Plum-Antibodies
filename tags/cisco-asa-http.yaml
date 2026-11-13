@@ -1,0 +1,13 @@
+name: cisco-asa-http
+description: Detect Cisco ASA HTTP server (firewall)
+uuid: 349582d5-dd8f-4435-80d0-a3eb3d295bc0
+query: http_server.bg:"Cisco AWARE"
+tags:
+- proto:http
+- vendor:cisco
+- product:cisco-asa
+- type:firewall
+references:
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L8348
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L12183
+version: 20261113T094159Z

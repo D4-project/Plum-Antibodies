@@ -1,0 +1,12 @@
+name: cisco-wlc-ssh
+description: Detect Cisco Wireless LAN Controller SSH
+uuid: 05aeeccc-604f-49ba-bc7f-b68b457ab80b
+query: banner.bg:SSH-2.0-CISCO_WLC
+tags:
+- proto:ssh
+- vendor:cisco
+- product:cisco-wlc
+- type:wireless-controller
+references:
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L3741
+version: 20261113T094159Z

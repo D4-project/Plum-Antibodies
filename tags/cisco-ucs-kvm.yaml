@@ -1,0 +1,11 @@
+name: cisco-ucs-kvm
+description: Detect Cisco UCS KVM Direct
+uuid: 191d902e-70a0-455d-a0e7-bd8e3381f844
+query: http_title.bg:"Cisco UCS KVM Direct"
+tags:
+- proto:http
+- vendor:cisco
+- product:cisco-ucs-kvm
+references:
+- https://github.com/projectdiscovery/nuclei-templates/blob/284011e2bdb299c882d62a3fb6466f73a3b8d4e8/http/exposed-panels/cisco/cisco-ucs-kvm-login.yaml
+version: 20261113T094159Z

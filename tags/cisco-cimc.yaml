@@ -1,0 +1,11 @@
+name: cisco-cimc
+description: Detect Cisco Integrated Management Controller
+uuid: d6ed0a4f-5133-46fc-9d19-4db9f683cc3c
+query: http_title.bg:"Cisco Integrated Management Controller Login"
+tags:
+- proto:http
+- vendor:cisco
+- product:cisco-cimc
+references:
+- https://github.com/projectdiscovery/nuclei-templates/blob/284011e2bdb299c882d62a3fb6466f73a3b8d4e8/http/exposed-panels/cisco/cisco-integrated-login.yaml
+version: 20261113T094159Z
