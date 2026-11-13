@@ -1,0 +1,15 @@
+name: mikrotik-ssh
+description: Detect MikroTik SSH
+uuid: 4d6f3972-43ea-4197-b03f-b3faeb86a585
+query: banner:SSH-2.0-ROSSSH OR banner:SSH-1.99-ROSSSH
+  OR banner.bg:SSH-2.0-OpenSSH_ AND banner.lk:_Mikrotik_v
+  OR banner.bg:SSH-1.99-OpenSSH_ AND banner.lk:_Mikrotik_v
+tags:
+- proto:ssh
+- vendor:mikrotik
+- product:mikrotik-ssh
+references:
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L3573
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L3719
+- https://github.com/projectdiscovery/nuclei-templates/blob/284011e2bdb299c882d62a3fb6466f73a3b8d4e8/network/detection/mikrotik-ssh-detect.yaml
+version: 20261113T100714Z

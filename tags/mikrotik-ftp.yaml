@@ -1,0 +1,12 @@
+name: mikrotik-ftp
+description: Detect MikroTik FTP server
+uuid: 6eae65ee-66b4-4a3c-b152-efda15dd7bc9
+# The greeting's server name can be customized; retain the MikroTik product marker.
+query: banner.bg:220 AND banner.lk:"FTP server (MikroTik"
+tags:
+- proto:ftp
+- vendor:mikrotik
+- product:mikrotik-ftp
+references:
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L875
+version: 20261113T100714Z

@@ -1,0 +1,15 @@
+name: mikrotik-routeros-http
+description: Detect MikroTik RouterOS HTTP management
+uuid: fab06ffe-f509-4c81-9b5b-46d8018e0a33
+query: http_title.bg:"RouterOS router configuration page"
+  OR http_title.bg:"MikroTik RouterOS Managing Webpage"
+  OR http_title.bg:"mikrotik routeros > administration"
+tags:
+- proto:http
+- vendor:mikrotik
+- product:routeros
+references:
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L7232
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L7668
+- https://github.com/projectdiscovery/nuclei-templates/blob/284011e2bdb299c882d62a3fb6466f73a3b8d4e8/http/iot/routeros-login.yaml
+version: 20261113T100714Z
