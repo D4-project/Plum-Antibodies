@@ -1,0 +1,14 @@
+name: cisco-web-interface
+description: Detect Cisco web interface
+uuid: 90864c9f-c213-4c71-b5df-012907141938
+# These shared icons do not establish IOS XE or a specific device family.
+query: http_favicon_mmhash:1414189533 OR http_favicon_mmhash:-299287097
+tags:
+- proto:http
+- vendor:cisco
+- product:cisco-device
+references:
+- https://www.shodan.io/search?query=http.favicon.hash%3A1414189533
+- https://www.shodan.io/search?query=http.favicon.hash%3A-299287097
+- https://github.com/sansatart/scrapts/blob/master/shodan-favicon-hashes.csv
+version: 20261113T091946Z
