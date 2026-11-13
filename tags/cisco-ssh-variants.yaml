@@ -1,0 +1,13 @@
+name: cisco-ssh-variants
+description: Detect Cisco SSH banner variants
+uuid: fe30ea98-2670-4747-9500-e1fe8431ab7f
+# Service banners identify Cisco SSH without establishing a device family.
+query: banner.bg:ssh-1.99-cisco- OR banner.bg:ssh-2.0-ciscoios_
+  OR banner.bg:ssh-1.99-ciscoios_
+tags:
+- proto:ssh
+- vendor:cisco
+- product:cisco-ssh
+references:
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L3627
+version: 20261113T094159Z
