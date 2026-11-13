@@ -1,0 +1,13 @@
+name: cisco-ios-certificate
+description: Detect Cisco IOS self-signed certificate
+uuid: d2b184ca-354e-4563-a5e7-cd69d06d7e9e
+# IOS and IOS XE share this CN prefix, which may have a device-specific suffix.
+query: x509_subject_cn.bg:IOS-Self-Signed-Certificate
+tags:
+- proto:tls
+- vendor:cisco
+- product:ios
+references:
+- https://www.shodan.io/search?query=ssl.cert.subject.cn%3A%22IOS-Self-Signed-Certificate%22
+- https://www.cisco.com/
+version: 20261113T091946Z
