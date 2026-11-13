@@ -1,0 +1,13 @@
+name: mikrotik-httpproxy
+description: Detect MikroTik HTTP proxy
+uuid: 6bc2ae14-fe69-4fb4-971a-be5793db83fd
+query: http_server:"Mikrotik HttpProxy"
+tags:
+- proto:http
+- vendor:mikrotik
+- product:mikrotik-httpproxy
+- type:proxy
+references:
+- https://github.com/nmap/nmap/blob/68739db8e4ec139c3865a33073c76c6fd13fb96c/nmap-service-probes#L5832
+- https://github.com/projectdiscovery/nuclei-templates/blob/284011e2bdb299c882d62a3fb6466f73a3b8d4e8/http/technologies/mikrotik-httpproxy.yaml
+version: 20261113T100714Z
