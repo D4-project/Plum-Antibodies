@@ -1,0 +1,12 @@
+name: apache-kyuubi
+description: Detect Apache Kyuubi
+uuid: 6672c6d5-243d-4158-beb3-f81f81f14ddf
+query: http_title.bg:"Apache Kyuubi Dashboard"
+tags:
+- proto:http
+- vendor:apache
+- product:kyuubi
+references:
+- https://kyuubi.apache.org/
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-kyuubi-detect.yaml
+version: 20261117T133947Z
