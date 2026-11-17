@@ -1,0 +1,14 @@
+name: apache-karaf
+description: Detect Apache Karaf web console (application server)
+uuid: ef7849cd-c916-4f8c-8d64-953332b2befc
+query: http_headval:www-authenticate.lk:'realm="karaf"'
+tags:
+- type:application-server
+- lang:java
+- proto:http
+- vendor:apache
+- product:karaf
+references:
+- https://karaf.apache.org
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-karaf-panel.yaml
+version: 20261117T141319Z
