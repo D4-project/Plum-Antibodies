@@ -1,0 +1,12 @@
+name: apache-james-imap
+description: Detect Apache James IMAP server
+uuid: 3e51eb16-0e9c-4901-8293-40f6cb5942a1
+query: banner.bg:"* OK JAMES IMAP4rev1 Server"
+tags:
+- proto:imap
+- vendor:apache
+- product:james
+references:
+- https://james.apache.org
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L1766
+version: 20261117T133947Z

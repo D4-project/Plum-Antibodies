@@ -1,0 +1,12 @@
+name: apache-james-pop3
+description: Detect Apache James POP3 server
+uuid: 5c98b697-f964-44c7-a8bc-2191f3808685
+query: banner.bg:"+OK" AND banner.lk:"(JAMES POP3 Server"
+tags:
+- proto:pop3
+- vendor:apache
+- product:james
+references:
+- https://james.apache.org
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L2613
+version: 20261117T133947Z

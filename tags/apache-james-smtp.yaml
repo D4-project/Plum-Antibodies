@@ -1,0 +1,12 @@
+name: apache-james-smtp
+description: Detect Apache James SMTP server
+uuid: e82af499-9392-45a0-af0e-937fc22aba1d
+query: banner.bg:220 AND banner.lk:"(JAMES SMTP Server"
+tags:
+- proto:smtp
+- vendor:apache
+- product:james
+references:
+- https://james.apache.org
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L3263
+version: 20261117T133947Z
