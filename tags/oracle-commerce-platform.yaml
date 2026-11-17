@@ -1,0 +1,16 @@
+name: oracle-commerce-platform
+description: Detect Oracle Commerce Platform ATG
+uuid: b5ace056-c1d9-4b93-a339-382ac9fb503f
+query: http_header:x-atg-version OR http_cookiename:ATG_SESSION_ID OR http_title.bg:"Oracle Commerce Business Control
+  Center"
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-commerce-platform
+- type:ecommerce
+references:
+- https://www.oracle.com/cx/ecommerce/
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/oracle/oracle-atg-commerce.yaml
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/exposed-panels/oracle-business-control.yaml
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/fingerprinters/oracle_commerce.go
+version: 20261117T155749Z
