@@ -1,0 +1,11 @@
+name: oracle-access-manager
+description: Detect Oracle Access Management login
+uuid: d235dc7d-22b9-450d-9056-8923e60ceb4e
+query: http_title.bg:"Login - Oracle Access Management" OR http_title.bg:"Oracle Access Management"
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-access-manager
+references:
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/exposed-panels/oracle-access-management.yaml
+version: 20261117T153754Z
