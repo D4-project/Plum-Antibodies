@@ -1,0 +1,11 @@
+name: apache-zookeeper
+description: Detect Apache ZooKeeper statistics banner
+uuid: 068adb9c-fe35-4cd2-abc1-e3d20bb3b8a0
+query: banner.bg:"Zookeeper version:"
+tags:
+- vendor:apache
+- product:zookeeper
+references:
+- https://zookeeper.apache.org/
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L15846
+version: 20261117T133947Z
