@@ -1,0 +1,17 @@
+name: oracle-weblogic
+description: Detect Oracle WebLogic Server
+uuid: f289a9eb-6704-4ab5-a4a4-f1e6b87fae86
+query: http_server.bg:WebLogic OR http_title.lk:"Oracle WebLogic Server Administration Console" OR http_title.lk:"WebLogic
+  Server Console Login" OR http_cookiename:ADMINCONSOLESESSION
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-weblogic
+- type:application-server
+- lang:java
+references:
+- https://www.oracle.com/java/weblogic/
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L6969
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/weblogic/weblogic.go
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/bea-weblogic-server.rb
+version: 20261117T155906Z

@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #326: Add Oracle WebLogic Server detection; reviewed type:application-server, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #325: Add Oracle WebCenter Sites detection; reviewed type:cms, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #324: Add Oracle WebCenter Portal detection; reviewed type:portal, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #323: Add Oracle WebCenter Content detection; reviewed type:cms, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
