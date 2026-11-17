@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #229: Add Apache Gravitino detection; reviewed type:data-catalog, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #228: Add Apache Dubbo detection; reviewed type:dashboard, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #227: Add Apache CouchDB detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #226: Add Apache Cocoon detection; reviewed type:framework, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
