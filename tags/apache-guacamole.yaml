@@ -1,0 +1,16 @@
+name: apache-guacamole
+description: Detect Apache Guacamole stock favicon (remote access)
+uuid: 4c004fff-5b34-47a2-a585-47646c06c571
+query: http_favicon_md5:5c5316f3754e232545c2f9aba4683f31 OR http_favicon_sha256:cdc89365738962526dd7d37afec4621691a0b6a05b01e0ce0b81e880f4e029eb
+  OR http_favicon_mmhash:222844289
+tags:
+- type:remote-access
+- lang:java
+- proto:http
+- vendor:apache
+- product:guacamole
+references:
+- https://guacamole.apache.org
+- https://github.com/apache/guacamole-client/blob/a8daafeb38b60b0acb4059c5218e6d5bacfaeb8f/guacamole/src/main/frontend/src/images/logo-64.png
+- https://github.com/apache/guacamole-client/blob/a8daafeb38b60b0acb4059c5218e6d5bacfaeb8f/guacamole/src/main/frontend/src/index.html
+version: 20261117T141655Z
