@@ -1,0 +1,14 @@
+name: apache-spark
+description: Detect Apache Spark standalone management
+uuid: c7c4bf1a-28af-48a3-8b28-f15176515b1c
+query: http_title.bg:"Spark Master at" OR http_title.bg:"Spark Worker at"
+tags:
+- proto:http
+- vendor:apache
+- product:spark
+references:
+- https://spark.apache.org
+- https://github.com/apache/spark/blob/4657a4b328b95f5ff633273aeb1926ea13b2fe04/core/src/main/scala/org/apache/spark/deploy/master/ui/MasterPage.scala
+- https://github.com/apache/spark/blob/4657a4b328b95f5ff633273aeb1926ea13b2fe04/core/src/main/scala/org/apache/spark/deploy/worker/ui/WorkerPage.scala
+- https://github.com/apache/spark/blob/4657a4b328b95f5ff633273aeb1926ea13b2fe04/core/src/main/scala/org/apache/spark/ui/UIUtils.scala
+version: 20261117T133947Z
