@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #236: Add Apache ShenYu detection; reviewed type:api-gateway, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #235: Add Apache Pinot detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #234: Add Apache Ozone detection; reviewed type:storage, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #233: Add Apache OFBiz detection; reviewed type:erp, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
