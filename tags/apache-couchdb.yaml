@@ -1,0 +1,15 @@
+name: apache-couchdb
+description: Detect Apache CouchDB (database)
+uuid: 339c99fc-bc91-43b2-8986-7db7d7db701c
+query: http_server.bg:CouchDB/ OR http_title.bg:"Project Fauxton"
+tags:
+- type:database
+- proto:http
+- vendor:apache
+- product:couchdb
+references:
+- https://couchdb.apache.org/
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/exposed-panels/couchdb-exposure.yaml
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/exposed-panels/couchdb-fauxton.yaml
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L8996
+version: 20261117T141247Z
