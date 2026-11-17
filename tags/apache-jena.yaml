@@ -1,0 +1,14 @@
+name: apache-jena
+description: Detect Apache Jena (database)
+uuid: 6a1d14ad-3130-49a2-afdf-a3cf760e13d5
+query: http_title.bg:"Apache Jena Fuseki UI"
+tags:
+- type:database
+- lang:java
+- proto:http
+- vendor:apache
+- product:jena-fuseki
+references:
+- https://jena.apache.org
+- https://github.com/apache/jena/blob/15862978b9af989967902dcadebd13a497f53b32/jena-fuseki2/jena-fuseki-ui/index.html
+version: 20261117T141509Z
