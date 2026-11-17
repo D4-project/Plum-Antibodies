@@ -1,0 +1,10 @@
+name: oracle-database-tns
+description: Detect Oracle TNS Listener version banner
+uuid: 3d7c998f-7dae-4240-bb01-12b77cb467b0
+query: banner.lk:"TNSLSNR for"
+tags:
+- vendor:oracle
+- product:oracle-tns-listener
+references:
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L15532
+version: 20261117T153754Z
