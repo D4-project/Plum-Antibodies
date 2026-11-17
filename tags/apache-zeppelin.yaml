@@ -1,0 +1,15 @@
+name: apache-zeppelin
+description: Detect Apache Zeppelin stock favicon (notebook)
+uuid: 2e53f18d-3588-41cf-82b7-5dd27be4b2b1
+query: http_favicon_md5:47ae3f34d2d9c47f6a5de5501cff6983 OR http_favicon_sha256:562604c03f109555e90c95025bb8a7b76000ac07b73af4ceaf3d448c2580c3dc
+tags:
+- type:notebook
+- lang:java
+- proto:http
+- vendor:apache
+- product:zeppelin
+references:
+- https://zeppelin.apache.org/
+- https://github.com/apache/zeppelin/blob/3ce7b63e3593aceb21dc0aa9b1a886c553d99dbf/zeppelin-web-angular/src/assets/images/zeppelin.png
+- https://github.com/apache/zeppelin/blob/3ce7b63e3593aceb21dc0aa9b1a886c553d99dbf/zeppelin-web-angular/src/index.html
+version: 20261117T141659Z
