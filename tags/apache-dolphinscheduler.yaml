@@ -1,0 +1,14 @@
+name: apache-dolphinscheduler
+description: Detect Apache DolphinScheduler (workflow)
+uuid: 6bb55507-95e2-4215-ae47-7d668ba33497
+query: http_title.bg:"Dolphin Scheduler Admin"
+tags:
+- type:workflow
+- lang:java
+- proto:http
+- vendor:apache
+- product:dolphinscheduler
+references:
+- https://dolphinscheduler.apache.org
+- https://github.com/apache/dolphinscheduler/blob/c27cf64964fb05a84a94e0502ba85603b3f24a20/dolphinscheduler-ui/index.html
+version: 20261117T141526Z
