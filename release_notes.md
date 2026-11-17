@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #246: Add Apache Druid detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #245: Add Apache NiFi detection; reviewed type:data-integration, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #244: Add Apache HTTP Server detection; reviewed protocol/product classification without a redundant asset type, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #243: Add Apache HugeGraph detection; reviewed type:database-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.

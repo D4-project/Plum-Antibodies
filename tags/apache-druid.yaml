@@ -1,0 +1,14 @@
+name: apache-druid
+description: Detect Apache Druid (database)
+uuid: 05a8ec1e-7dbc-4a7d-a344-88522fa38f43
+query: http_title.bg:"Apache Druid"
+tags:
+- type:database
+- lang:java
+- proto:http
+- vendor:apache
+- product:druid
+references:
+- https://druid.apache.org/
+- https://github.com/apache/druid/blob/cd7b1028212933478776a92d2d53651d95857dee/web-console/unified-console.html
+version: 20261117T141455Z
