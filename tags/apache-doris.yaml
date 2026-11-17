@@ -1,0 +1,14 @@
+name: apache-doris
+description: Detect Apache Doris (database)
+uuid: b9573eff-f5ce-4121-860b-69beaf40857a
+query: http_title.bg:"Apache Doris"
+tags:
+- type:database
+- lang:java
+- proto:http
+- vendor:apache
+- product:doris
+references:
+- https://doris.apache.org/
+- https://github.com/apache/doris/blob/e04a785e20a87ef910ec756ff6b4d269298addb6/ui/index.html
+version: 20261117T141520Z

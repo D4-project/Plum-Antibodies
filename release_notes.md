@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #249: Add Apache Doris detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #248: Add Apache SkyWalking detection; reviewed type:monitoring, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #247: Add Apache Jena detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #246: Add Apache Druid detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
