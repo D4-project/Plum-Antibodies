@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #241: Add Apache Solr detection; reviewed type:search-engine, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #240: Add Apache Shiro detection; reviewed type:framework, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #239: Add Apache Syncope detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #238: Add Apache StreamPipes detection; reviewed type:data-processing, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
