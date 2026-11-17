@@ -1,0 +1,11 @@
+name: oracle-siebel
+description: Detect Oracle Siebel session cookie
+uuid: 3522547f-f7d0-4b79-bda4-5a48fef9e9bc
+query: http_cookiename:_sweEntryPoint
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-siebel
+references:
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/oraclejdesiebel/oraclejdesiebel.go
+version: 20261117T153754Z
