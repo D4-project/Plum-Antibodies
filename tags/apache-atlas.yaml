@@ -1,0 +1,15 @@
+name: apache-atlas
+description: Detect Apache Atlas stock favicon (data catalog)
+uuid: df84ba10-686b-4fb0-898f-c3ce24443d2a
+query: http_favicon_md5:03dd8eb0337ffcb87147f4021051402d OR http_favicon_sha256:327fc572c84ff2c654e5bd1171bfd96d0462a7dbf8ec7b453450066354d4822d
+tags:
+- type:data-catalog
+- lang:java
+- proto:http
+- vendor:apache
+- product:atlas
+references:
+- https://atlas.apache.org
+- https://github.com/apache/atlas/blob/8b3f674e0f2502ba6c95201d9ff4c90435e4bbe0/dashboard/public/favicon.ico
+- https://github.com/apache/atlas/blob/8b3f674e0f2502ba6c95201d9ff4c90435e4bbe0/dashboard/index.html
+version: 20261117T141707Z

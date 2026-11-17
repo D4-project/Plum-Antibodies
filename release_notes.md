@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #261: Add Apache Atlas detection; reviewed type:data-catalog, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #260: Add Apache Zeppelin detection; reviewed type:notebook, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #259: Add Apache Guacamole detection; reviewed type:remote-access, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #258: Add Apache Superset detection; reviewed type:analytics, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
