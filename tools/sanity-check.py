@@ -74,39 +74,103 @@ class RuleError(ValueError):
     """A rule is not valid for the Plum-Island importer or search parser."""
 
 
-def split_groups(query: str) -> list[list[str]]:
-    try:
-        parts = shlex.split(query)
-    except ValueError as error:
-        raise RuleError(f"invalid quoting: {error}") from error
+def tokenize_query(query: str) -> list[tuple[str, str]]:
+    """Decode terms while keeping unquoted parentheses as runtime syntax tokens."""
+    tokens: list[tuple[str, str]] = []
+    start = 0
+    quote = None
+    escaped = False
 
-    if not parts:
-        raise RuleError("empty query")
+    def emit(stop: int) -> None:
+        """Decode one original token without reinterpreting its quoted contents."""
+        raw = query[start:stop]
+        if raw:
+            try:
+                value = shlex.split(raw)[0]
+            except ValueError as error:
+                raise RuleError(f"invalid quoting: {error}") from error
+            kind = value.upper() if value.upper() in {"AND", "OR", "NOT"} else "TERM"
+            tokens.append((kind, value))
 
-    groups: list[list[str]] = []
-    current: list[str] = []
-    previous = None
-    for part in parts:
-        operator = part.upper()
-        if operator == "OR":
-            if not current:
-                raise RuleError("OR cannot start, end, or follow another OR")
-            groups.append(current)
-            current = []
-        elif operator == "AND":
-            if not current or previous in {"AND", "OR"}:
-                raise RuleError("AND must join two search terms")
-        else:
-            current.append(part)
-        previous = operator
+    for position, char in enumerate(query):
+        if escaped:
+            escaped = False
+        elif char == "\\" and quote != "'":
+            escaped = True
+        elif quote:
+            if char == quote:
+                quote = None
+        elif char in {"'", '"'}:
+            quote = char
+        elif char.isspace() or char in "()":
+            emit(position)
+            if char in "()":
+                tokens.append((char, char))
+            start = position + 1
+    emit(len(query))
+    return tokens
 
-    if not current:
-        raise RuleError("query cannot end with OR")
-    groups.append(current)
-    return groups
+
+class QueryValidator:
+    """Validate one-level Boolean groups without expanding their combinations."""
+
+    def __init__(self, tokens: list[tuple[str, str]]) -> None:
+        """Initialize validation over quote-aware tokens with a shared cursor."""
+        self.tokens = tokens
+        self.position = 0
+
+    def peek(self) -> str:
+        """Return the next token kind, or END when input has been consumed."""
+        return (
+            self.tokens[self.position][0] if self.position < len(self.tokens) else "END"
+        )
+
+    def parse_or(self, grouped: bool = False) -> bool:
+        """Validate OR branches and report whether every path has a positive bound."""
+        bounds = [self.parse_and(grouped)]
+        while self.peek() == "OR":
+            self.position += 1
+            bounds.append(self.parse_and(grouped))
+        return all(bounds)
+
+    def parse_and(self, grouped: bool) -> bool:
+        """Validate explicit/implicit conjunctions and report any positive bound."""
+        positive = False
+        expect_operand = True
+        while self.peek() not in {"END", "OR", ")"}:
+            kind = self.peek()
+            if kind == "AND":
+                if expect_operand:
+                    raise RuleError("AND must join two search terms or groups")
+                self.position += 1
+                expect_operand = True
+                continue
+            if kind == "(":
+                if grouped:
+                    raise RuleError("nested parentheses are not supported")
+                self.position += 1
+                bounded = self.parse_or(grouped=True)
+                if self.peek() != ")":
+                    raise RuleError("missing closing parenthesis")
+                self.position += 1
+                positive = positive or bounded
+            else:
+                negated = kind == "NOT"
+                if negated:
+                    self.position += 1
+                    if self.peek() != "TERM":
+                        raise RuleError("NOT must be followed by a field:value term")
+                validate_term(self.tokens[self.position][1], negated=negated)
+                self.position += 1
+                positive = positive or not negated
+            expect_operand = False
+        if expect_operand:
+            raise RuleError("missing search term or empty group")
+        return positive
 
 
 def validate_http_headval(term: str) -> None:
+    """Validate the special header:value term and its value-matching modifier."""
     payload = term[len("http_headval:") :]
     if ":" not in payload:
         raise RuleError("http_headval requires header:value")
@@ -126,6 +190,7 @@ def validate_http_headval(term: str) -> None:
 
 
 def validate_term(term: str, negated: bool = False) -> None:
+    """Validate a field/value term, including allowed modifiers and negation."""
     if term.lower().startswith("http_headval:"):
         validate_http_headval(term)
         return
@@ -155,23 +220,26 @@ def validate_term(term: str, negated: bool = False) -> None:
 
 
 def validate_query(query: object) -> None:
+    """Reject malformed queries using the runtime's quote and group semantics."""
     if not isinstance(query, str):
         raise RuleError("query must be a string")
-
-    for group in split_groups(query):
-        positive_terms = []
-        tokens = iter(group)
-        for token in tokens:
-            if token.upper() == "NOT":
-                operand = next(tokens, None)
-                if operand is None or operand.upper() in {"AND", "OR", "NOT"}:
-                    raise RuleError("NOT must be followed by a field:value term")
-                validate_term(operand, negated=True)
-            else:
-                positive_terms.append(token)
-                validate_term(token)
-        if not positive_terms:
-            raise RuleError("each OR group containing NOT needs a positive term")
+    tokens = tokenize_query(query)
+    if not tokens:
+        raise RuleError("empty query")
+    validator = QueryValidator(tokens)
+    try:
+        bounded = validator.parse_or()
+        if validator.peek() != "END":
+            raise RuleError("unexpected closing parenthesis")
+        if not bounded:
+            raise RuleError("each OR path needs a positive search term")
+    except RuleError as error:
+        if any(kind in {"(", ")"} for kind, _ in tokens):
+            raise RuleError(
+                f"{error}; quote literal parentheses in field values, "
+                'for example banner.lk:"(Debian)" or http_title.lk:"phpinfo()"'
+            ) from error
+        raise
 
 
 def normalize_tags(raw_tags: object) -> list[str]:

@@ -11,7 +11,28 @@ http_favicon_mmhash:747250914 AND http_title.bg:Vault
 http_server.bg:"Apache/" OR banner.lk:"OpenSSH"
 ```
 
-Use quotes for values containing spaces. Every `OR` group must contain a positive term.
+Use quotes for values containing spaces or literal parentheses. Unquoted
+parentheses are query group syntax, even when attached to a value:
+
+```text
+banner.lk:"(Debian)"
+http_title.lk:"phpinfo()"
+http_server.lk:"(Win64)"
+```
+
+The unquoted forms `banner.lk:(Debian)`, `http_title.lk:phpinfo()` and
+`http_server.lk:(Win64)` are invalid and fail the sanity checker.
+
+One level of parenthesized groups is supported, including sibling groups:
+
+```text
+(http_server:Apache OR http_server:nginx) AND port:443
+(port:80 OR port:443) AND (http_server:Apache OR http_server:nginx)
+```
+
+Nested groups, empty groups and `NOT (group)` are unsupported. Every OR path
+must have a positive search term; an outside positive term can bound exclusions
+inside a group, for example `port:443 AND (NOT banner:x OR NOT banner:y)`.
 
 ## Value matching
 

@@ -1,9 +1,12 @@
 """Unit tests for the Plum-Antibodies sanity-check implementation."""
 
 import importlib.util
+import subprocess
+import sys
 from pathlib import Path
 
 import pytest
+import yaml
 
 SCRIPT_PATH = Path(__file__).parents[1] / "tools" / "sanity-check.py"
 SPEC = importlib.util.spec_from_file_location("sanity_check", SCRIPT_PATH)
@@ -69,6 +72,8 @@ def test_valid_rule_returns_normalized_tags(tmp_path):
     """Validate a complete synthetic rule and return its applied tags."""
     rule_path = tmp_path / "example.yaml"
     rule_path.write_text(
+        "name: example\n"
+        "uuid: 61f5f651-504e-46ec-83d7-8c38ee61bc99\n"
         "description: Example\n"
         "query: http_server.bg:Example\n"
         "tags:\n"
@@ -80,7 +85,10 @@ def test_valid_rule_returns_normalized_tags(tmp_path):
         encoding="utf-8",
     )
 
-    assert sanity_check.validate_rule(rule_path) == ["product:example", "type:service"]
+    assert sanity_check.validate_rule(rule_path) == (
+        ["product:example", "type:service"],
+        "61f5f651-504e-46ec-83d7-8c38ee61bc99",
+    )
 
 
 @pytest.mark.parametrize("references", ["https://example.com", ["ftp://example.com"]])
@@ -88,6 +96,8 @@ def test_invalid_references_are_rejected(tmp_path, references):
     """Reject non-list references and links outside HTTP(S)."""
     rule_path = tmp_path / "invalid-references.yaml"
     rule_path.write_text(
+        "name: example\n"
+        "uuid: 61f5f651-504e-46ec-83d7-8c38ee61bc99\n"
         "description: Example\n"
         "query: banner:Example\n"
         "tags:\n"
@@ -97,7 +107,7 @@ def test_invalid_references_are_rejected(tmp_path, references):
         encoding="utf-8",
     )
 
-    with pytest.raises(sanity_check.RuleError, match="references"):
+    with pytest.raises(sanity_check.RuleError, match="reference"):
         sanity_check.validate_rule(rule_path)
 
 
@@ -105,9 +115,101 @@ def test_rule_without_version_is_rejected(tmp_path):
     """Require a version so imports can apply the update policy safely."""
     rule_path = tmp_path / "missing-version.yaml"
     rule_path.write_text(
+        "name: example\nuuid: 61f5f651-504e-46ec-83d7-8c38ee61bc99\n"
         "description: Example\nquery: banner:Example\ntags:\n- type:service\n",
         encoding="utf-8",
     )
 
     with pytest.raises(sanity_check.RuleError, match="missing required field: version"):
         sanity_check.validate_rule(rule_path)
+
+
+@pytest.mark.parametrize(
+    "query",
+    ["banner.lk:(Debian)", "http_title.lk:phpinfo()", "http_server.lk:(Win64)"],
+)
+def test_unquoted_literal_parentheses_are_rejected(query):
+    """Reject literal parentheses interpreted as malformed runtime group syntax."""
+    with pytest.raises(sanity_check.RuleError, match="quote literal parentheses"):
+        sanity_check.validate_query(query)
+
+
+@pytest.mark.parametrize(
+    "query",
+    [
+        'banner.lk:"(Debian)"',
+        'http_title.lk:"phpinfo()"',
+        'http_server.lk:"(Win64)"',
+        "banner.lk:'(Debian)'",
+        r"http_title.lk:phpinfo\(\)",
+        'http_headval:server.lk:"Apache (Debian)"',
+        "(http_server:Apache OR http_server:nginx) AND port:443",
+        "port:443 (http_server:Apache OR http_server:nginx)",
+        "(port:80 OR port:443) AND (http_server:Apache OR http_server:nginx)",
+        "port:443 AND (NOT banner:x OR NOT banner:y)",
+        "(port:443 AND NOT banner:x) OR port:80",
+        'http_title:"Literal \\"quoted\\" (text)"',
+    ],
+)
+def test_quotes_escapes_and_runtime_groups_remain_valid(query):
+    """Preserve literal values, one-level sibling groups and bounded exclusions."""
+    sanity_check.validate_query(query)
+
+
+@pytest.mark.parametrize(
+    "query",
+    [
+        "()",
+        "port:443 AND ()",
+        "(port:443 OR)",
+        "(port:443",
+        "port:443)",
+        "((port:443))",
+        "NOT (port:443)",
+        "(NOT port:443) OR port:80",
+        "(port:443 OR NOT port:80)",
+        "port:443 AND",
+        "port:443 AND OR port:80",
+        'http_title:"unterminated',
+        "NOT NOT port:443",
+        "port:443 AND NOT port.nt:80",
+    ],
+)
+def test_invalid_runtime_groups_are_rejected(query):
+    """Reject empty, nested, unbalanced and unbounded Boolean expressions."""
+    with pytest.raises(sanity_check.RuleError):
+        sanity_check.validate_query(query)
+
+
+@pytest.mark.parametrize(
+    "query",
+    ["banner.lk:(Debian)", "http_title.lk:phpinfo()", "http_server.lk:(Win64)"],
+)
+@pytest.mark.parametrize("quoted", [False, True])
+def test_cli_exit_status_for_literal_parentheses(tmp_path, query, quoted):
+    """Fail the CLI for invalid literals and succeed after quoting each value."""
+    if quoted:
+        field, value = query.split(":", 1)
+        query = f'{field}:"{value}"'
+    payload = {
+        "name": "example",
+        "description": "Detect example",
+        "uuid": "61f5f651-504e-46ec-83d7-8c38ee61bc99",
+        "query": query,
+        "tags": ["product:example"],
+        "version": "20261117T000000Z",
+    }
+    (tmp_path / "example.yaml").write_text(yaml.safe_dump(payload), encoding="utf-8")
+    result = subprocess.run(
+        [sys.executable, str(SCRIPT_PATH), str(tmp_path)],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    assert result.returncode == (0 if quoted else 1)
+    if quoted:
+        assert "1 OK, 0 warning(s)" in result.stdout
+    else:
+        assert "OK example.yaml" not in result.stdout
+        assert "example.yaml" in result.stderr
+        assert "quote literal parentheses" in result.stderr
