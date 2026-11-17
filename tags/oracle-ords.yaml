@@ -1,0 +1,15 @@
+name: oracle-ords
+description: Detect Oracle REST Data Services
+uuid: a3fae682-a729-4a7c-89aa-017f7e697ad3
+query: http_server:Oracle-REST-Data-Services OR http_server.bg:Oracle-REST-Data-Services/ OR http_header:x-ords-status-code
+  OR http_header:x-ords-forward
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-ords
+- type:api-server
+- lang:java
+references:
+- https://www.oracle.com/database/technologies/appdev/rest.html
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/oracleords/oracleords.go
+version: 20261117T155743Z
