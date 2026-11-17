@@ -1,0 +1,13 @@
+name: oracle-database-xdb-ftp
+description: Detect Oracle Database XML DB FTP service
+uuid: 0d6e7df2-4573-48db-b62a-8e4f46abb2d1
+query: banner.lk:"FTP Server (Oracle XML DB/"
+tags:
+- proto:ftp
+- vendor:oracle
+- product:oracle-database
+- type:database
+references:
+- https://www.oracle.com/database/
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L855
+version: 20261117T155730Z
