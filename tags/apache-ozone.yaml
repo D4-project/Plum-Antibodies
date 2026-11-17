@@ -1,0 +1,12 @@
+name: apache-ozone
+description: Detect Apache Ozone
+uuid: 7d59d509-482d-4e53-9a28-48e3111aa6bf
+query: http_title.lk:"Apache Ozone"
+tags:
+- proto:http
+- vendor:apache
+- product:ozone
+references:
+- https://ozone.apache.org/
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-ozone-detect.yaml
+version: 20261117T133947Z
