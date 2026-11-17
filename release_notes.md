@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #228: Add Apache Dubbo detection; reviewed type:dashboard, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #227: Add Apache CouchDB detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #226: Add Apache Cocoon detection; reviewed type:framework, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #225: Add Apache CloudStack detection; reviewed type:cloud-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.

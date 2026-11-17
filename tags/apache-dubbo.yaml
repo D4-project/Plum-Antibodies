@@ -1,0 +1,13 @@
+name: apache-dubbo
+description: Detect Apache Dubbo administration (dashboard)
+uuid: b68af9dc-4386-48ea-a362-e82969750c86
+query: http_headval:www-authenticate:'Basic realm="dubbo"'
+tags:
+- type:dashboard
+- proto:http
+- vendor:apache
+- product:dubbo-admin
+references:
+- https://dubbo.apache.org/
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-dubbo-detect.yaml
+version: 20261117T141252Z
