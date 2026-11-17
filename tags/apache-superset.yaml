@@ -1,0 +1,15 @@
+name: apache-superset
+description: Detect Apache Superset stock favicon (analytics)
+uuid: 8ff039e6-cb14-4d91-af4f-9ff48d6af9f0
+query: http_favicon_md5:0629ce6bd8a86ff6b5dbb2a24c040849 OR http_favicon_sha256:e186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e
+tags:
+- type:analytics
+- lang:python
+- proto:http
+- vendor:apache
+- product:superset
+references:
+- https://superset.apache.org
+- https://github.com/apache/superset/blob/18430a95f7da90dd848bc4ed988db58dd8c3362d/superset-frontend/src/assets/images/favicon.png
+- https://github.com/apache/superset/blob/18430a95f7da90dd848bc4ed988db58dd8c3362d/superset/config.py
+version: 20261117T141649Z
