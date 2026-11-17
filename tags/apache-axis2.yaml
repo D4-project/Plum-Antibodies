@@ -1,0 +1,16 @@
+name: apache-axis2
+description: Detect Apache Axis2 Java
+uuid: 7345ddf3-0dd2-45ef-8b56-c8a62bba4602
+query: http_title.bg:"Axis 2 - Home"
+  OR http_title.bg:"Axis2 Happiness Page"
+tags:
+- proto:http
+- product:apache-axis2
+- vendor:apache
+- lang:java
+- type:framework
+references:
+- https://axis.apache.org/axis2/java/core/
+- https://github.com/apache/axis-axis2-java-core/blob/master/modules/webapp/src/main/webapp/axis2-web/index.jsp
+- https://github.com/apache/axis-axis2-java-core/blob/master/modules/webapp/src/main/webapp/axis2-web/HappyAxis.jsp
+version: 20261117T133731Z

@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Apache Axis2 Java framework detection from the official home and happiness-page title prefixes; source-based signatures without a confirmed live or historical Plum example.
 - Add lang:java to 42 existing Java server/application/framework rules, with official technology references and refreshed versions; preserve every detection query. Exclude documentation-only fingerprints and ambiguous vendor/platform signatures that do not establish a Java engine.
 - Add Payara application-server detection from its embedded X-Powered-By product marker and extend generic Java detection with the exact JSESSIONID cookie, confirmed together in a historical Plum scan.
 - Extend GlassFish detection with its stock server-running title prefix as an independent alternative, confirmed in the same historical Plum sample.
