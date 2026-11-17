@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #254: Add Apache HertzBeat detection; reviewed type:monitoring, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #253: Add Apache Pulsar detection; reviewed type:message-queue, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #252: Add Apache OpenMeetings detection; reviewed type:videoconferencing, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #251: Add Apache Hadoop detection; reviewed type:storage, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
