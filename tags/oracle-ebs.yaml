@@ -1,0 +1,11 @@
+name: oracle-ebs
+description: Detect Oracle E-Business Suite landing and redirect
+uuid: ae0e3ac3-d4ad-4cb6-a7fb-24bee255b73b
+query: http_title.bg:"E-Business Suite Home Page Redirect" OR http_headval:location.bg:/OA_HTML/
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-ebusiness-suite
+references:
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/oracle-ebs.rb
+version: 20261117T153754Z
