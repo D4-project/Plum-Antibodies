@@ -1,0 +1,14 @@
+name: payara
+description: Detect Payara Java application server
+uuid: a5e638f7-b746-4bcb-abb1-b852e6877019
+query: http_headval:x-powered-by.lk:"(Payara Server"
+tags:
+- proto:http
+- product:payara
+- vendor:payara
+- lang:java
+- type:application-server
+references:
+- https://www.payara.fish/
+- https://docs.payara.fish/community/docs/6.2025.1/Technical%20Documentation/Payara%20Server%20Documentation/General%20Administration/Administering%20HTTP%20Connectivity.html
+version: 20261117T132235Z
