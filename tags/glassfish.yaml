@@ -3,6 +3,7 @@ description: Detect GlassFish Java application server
 uuid: 1ace39ae-7254-49c8-bcf1-000aff39b44e
 query: http_server.bg:"GlassFish Server"
   OR http_headval:x-powered-by.lk:"(GlassFish Server"
+  OR http_title.bg:"GlassFish Server - Server Running"
 tags:
 - proto:http
 - product:glassfish
@@ -13,4 +14,4 @@ references:
 - https://glassfish.org/
 - https://glassfish.org/docs/latest/reference-manual.pdf
 - https://glassfish.org/docs/5.1.0/application-deployment-guide/dd-elements.html
-version: 20261117T131639Z
+version: 20261117T131943Z

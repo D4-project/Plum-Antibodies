@@ -1,5 +1,6 @@
 # Release notes
 
+- Extend GlassFish detection with its stock server-running title prefix as an independent alternative, confirmed in the same historical Plum sample.
 - Add generic Java classification from the Servlet X-Powered-By prefix and independent GlassFish application-server detection from Server or X-Powered-By headers, confirmed in a historical Plum scan.
 - Add Apache Axis 1 Java detection from its stock welcome and happiness-page title prefixes, with HTTP/framework classification and official references.
 - Fix Debian, PHP Info and Windows rule loading by quoting literal parentheses; align sanity-check tokenization and one-level grouping validation with runtime syntax, with regression and CLI exit-status coverage.
