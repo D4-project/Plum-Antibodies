@@ -1,0 +1,12 @@
+name: apache-hertzbeat
+description: Detect Apache HertzBeat
+uuid: 52404648-d13e-4dfb-a33e-66d3ffa5a8ff
+query: http_title.bg:"HertzBeat"
+tags:
+- proto:http
+- vendor:apache
+- product:hertzbeat
+references:
+- https://hertzbeat.apache.org/
+- https://github.com/apache/hertzbeat/blob/a937e40666838e305b26e27ef9e2e48d37a27534/web-app/index.html
+version: 20261117T133947Z
