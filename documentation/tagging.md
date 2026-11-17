@@ -59,11 +59,23 @@ Tags use normalized `<namespace>:<value>` values. Common namespaces:
 - `product:*` — product, service, or device family.
 - `type:*` — broad asset family, such as `firewall`, `router`, `cms`, or `vpn`.
 - `proto:*` — protocol, such as `http`, `ssh`, or `ftp`.
+- `lang:*` — language associated with the identified technology, such as `java` or `php`.
 - `vuln:*` — vulnerability-oriented classification.
 
 Do not store `tag:` in a YAML tag: it belongs to the search field and Kvrocks key prefix. Do not add new `soft:*` or `hard:*` tags.
 
 Favicon detections normally apply `product:*` and `vendor:*`; add `type:*` when the favicon identifies an asset family. Protocol-only detections should apply `proto:*` unless the signal identifies a specific product.
+
+Language classification has the same evidence limitations as the detection that
+produces it. A favicon associated with Java documentation or a Java library can
+classify that technology as `lang:java`, but does not establish a running JVM,
+the implementation language of the HTTP server serving the asset, or an installed
+Java version. In particular, the historical Ant/POI and SwarmCache favicon rules
+identify associated artifacts; their legacy release labels are not independently
+verified by the icon. Their official project references establish the technology's
+language, while the historical favicon database records the existing attribution.
+For runtime investigations, inspect the matched predicate and corroborate artifact
+matches with servlet headers or other application-specific runtime evidence.
 
 ## Sources
 
