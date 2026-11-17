@@ -1,0 +1,13 @@
+name: oracle-hyperion-planning
+description: Detect Oracle Hyperion Planning title
+uuid: 8c5c5bdd-0617-48ef-b267-848ffdace75d
+query: http_title.lk:"Oracle Hyperion Planning"
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-hyperion-planning
+- type:analytics
+references:
+- https://docs.oracle.com/en/applications/enterprise-performance-management/11.2/hitis/planning_ports.html
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/oraclehyperion/oraclehyperion.go
+version: 20261117T155924Z

@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #329: Add Oracle Hyperion Planning detection; reviewed type:analytics, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #328: Add Oracle Business Intelligence Enterprise Edition detection; reviewed type:analytics, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #327: Add Oracle BI Publisher detection; reviewed type:analytics, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #326: Add Oracle WebLogic Server detection; reviewed type:application-server, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
