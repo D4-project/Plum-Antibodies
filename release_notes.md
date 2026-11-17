@@ -1,5 +1,6 @@
 # Release notes
 
+- Add lang:java to 42 existing Java server/application/framework rules, with official technology references and refreshed versions; preserve every detection query. Exclude documentation-only fingerprints and ambiguous vendor/platform signatures that do not establish a Java engine.
 - Add Payara application-server detection from its embedded X-Powered-By product marker and extend generic Java detection with the exact JSESSIONID cookie, confirmed together in a historical Plum scan.
 - Extend GlassFish detection with its stock server-running title prefix as an independent alternative, confirmed in the same historical Plum sample.
 - Add generic Java classification from the Servlet X-Powered-By prefix and independent GlassFish application-server detection from Server or X-Powered-By headers, confirmed in a historical Plum scan.

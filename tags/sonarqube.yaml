@@ -3,7 +3,10 @@ description: Detect SonarQube
 uuid: 3b7109c3-ecea-538e-aa0c-edeb8ac6e11c
 query: http_favicon_mmhash:1485257654
 tags:
+- lang:java
 - proto:http
 - product:sonarqube
 - vendor:sonarqube
-version: 20260918T053418Z
+references:
+- https://docs.sonarsource.com/sonarqube-server/2026.1/server-update-and-maintenance/lta-to-lta-release-notes
+version: 20261117T132913Z

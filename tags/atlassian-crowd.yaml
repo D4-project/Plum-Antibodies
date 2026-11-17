@@ -3,9 +3,11 @@ description: Detect Atlassian Crowd
 uuid: b8aacae7-b559-53db-bdf5-c131076ccebf
 query: http_favicon_md5:1275AFC920A53A9679D2D0E8A5C74054
 tags:
+- lang:java
 - proto:http
 - product:atlassian-crowd
 - vendor:atlassian
 references:
+- https://confluence.atlassian.com/crowd044/supported-platforms-1085203787.html
 - https://www.atlassian.com/
-version: 20260918T053418Z
+version: 20261117T132913Z

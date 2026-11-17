@@ -3,7 +3,10 @@ description: Detect Jetty 404
 uuid: df20d9c8-51b6-5ebe-8af2-8fc53713bf5c
 query: http_favicon_mmhash:-629047854
 tags:
+- lang:java
 - proto:http
 - product:jetty-404
 - vendor:jetty
-version: 20260918T053418Z
+references:
+- https://jetty.org/
+version: 20261117T132913Z

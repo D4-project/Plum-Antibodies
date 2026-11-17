@@ -3,7 +3,10 @@ description: Detect CrushFTP
 uuid: 1d0dd713-7c38-5245-92ea-02666c9394e7
 query: http_favicon_mmhash:-1022206565 OR http_server.lk:"crushftp"
 tags:
+- lang:java
 - proto:http
 - product:crushftp
 - vendor:crushftp
-version: 20260918T053418Z
+references:
+- https://crushftp.com/crush11wiki/Wiki.jsp?page=Linux+Install
+version: 20261117T132913Z

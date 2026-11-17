@@ -3,9 +3,11 @@ description: Detect Xerox DocuShare
 uuid: f01140be-2b2b-5f04-acfb-938190da8010
 query: http_favicon_md5:28893699241094742C3C2D4196CD1ACB
 tags:
+- lang:java
 - proto:http
 - product:xerox-docushare
 - vendor:xerox
 references:
+- https://download.support.xerox.com/pub/docs/docushare/userdocs/any-os/en_GB/install_gde.pdf
 - https://www.xerox.com/
-version: 20260918T053418Z
+version: 20261117T132913Z

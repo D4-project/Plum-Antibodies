@@ -3,7 +3,10 @@ description: Detect SimpleHelp (Remote Support)
 uuid: 1e255c85-9e4b-5e85-9ee2-233f4c796a4c
 query: http_favicon_mmhash:1117165781
 tags:
+- lang:java
 - proto:http
 - product:simplehelp-remote-support
 - vendor:simplehelp
-version: 20260918T053418Z
+references:
+- https://backend.simple-help.com/install---macos
+version: 20261117T132913Z

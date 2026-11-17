@@ -3,7 +3,10 @@ description: Detect Niagara Web Server / Tridium
 uuid: b6f541f3-79f8-5ef5-a0a6-c333c0e530d4
 query: http_favicon_mmhash:1991562061
 tags:
+- lang:java
 - proto:http
 - product:niagara-web-server-tridium
 - vendor:niagara
-version: 20260918T053418Z
+references:
+- https://www.tridium.com/content/dam/tridium/en/documents/events/tri-tridiumtalk-upgrading-niagara-containers-en.pdf
+version: 20261117T132913Z
