@@ -1,0 +1,11 @@
+name: oracle-mft
+description: Detect Oracle Managed File Transfer console redirect
+uuid: 528c21c8-35e5-42a3-8230-5ebe95684da4
+query: http_headval:location.bg:/mftconsole/faces/
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-managed-file-transfer
+references:
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/oraclemft/oraclemft.go
+version: 20261117T153754Z
