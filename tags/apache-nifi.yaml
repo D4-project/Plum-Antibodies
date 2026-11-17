@@ -1,0 +1,13 @@
+name: apache-nifi
+description: Detect Apache NiFi
+uuid: 58076e44-7568-4911-80b9-90ecd1b03375
+query: http_title.bg:"NiFi"
+tags:
+- proto:http
+- vendor:apache
+- product:nifi
+references:
+- https://nifi.apache.org/
+- https://github.com/apache/nifi/blob/a8473d374c976660e4ef3aa932936adaa1e21dbd/nifi-frontend/src/main/frontend/apps/nifi/src/index.html
+- https://github.com/apache/nifi/blob/a8473d374c976660e4ef3aa932936adaa1e21dbd/nifi-frontend/src/main/frontend/apps/nifi-registry/src/index.html
+version: 20261117T133947Z
