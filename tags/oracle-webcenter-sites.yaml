@@ -1,0 +1,11 @@
+name: oracle-webcenter-sites
+description: Detect Oracle WebCenter Sites title
+uuid: 4457fb17-c036-41cd-9780-0498cf8c51f1
+query: http_title.lk:"Oracle WebCenter Sites"
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-webcenter-sites
+references:
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/webcenter/webcenter.go
+version: 20261117T153754Z
