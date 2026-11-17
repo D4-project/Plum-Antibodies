@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #223: Add Apache ActiveMQ detection; reviewed type:message-queue, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Complete issue #219 Java technology classification for the Ant/POI and SwarmCache artifact rules, add upstream/provenance references, and document that artifact language tags do not establish a running JVM; Spring and both Tomcat rules already carry lang:java.
 - Add Apache Axis2 Java framework detection from the official home and happiness-page title prefixes; source-based signatures without a confirmed live or historical Plum example.
 - Add lang:java to 42 existing Java server/application/framework rules, with official technology references and refreshed versions; preserve every detection query. Exclude documentation-only fingerprints and ambiguous vendor/platform signatures that do not establish a Java engine.
