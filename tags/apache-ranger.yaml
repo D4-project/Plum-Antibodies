@@ -1,0 +1,12 @@
+name: apache-ranger
+description: Detect Apache Ranger
+uuid: 44e4cb76-8e74-4ffa-ad4c-5b1357d06578
+query: http_title.bg:"Ranger - Sign In" OR http_favicon_mmhash:1302629996
+tags:
+- proto:http
+- vendor:apache
+- product:ranger
+references:
+- https://ranger.apache.org
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/ranger-detection.yaml
+version: 20261117T133947Z
