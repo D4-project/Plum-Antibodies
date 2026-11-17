@@ -1,0 +1,12 @@
+name: apache-shiro
+description: Detect Apache Shiro Quickstart application
+uuid: 142353f7-abec-4570-83f5-a33f5c1e6849
+query: http_title.bg:"Apache Shiro Quickstart"
+tags:
+- proto:http
+- vendor:apache
+- product:shiro-quickstart
+references:
+- https://shiro.apache.org/
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/default-apache-shiro.yaml
+version: 20261117T133947Z
