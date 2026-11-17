@@ -1,0 +1,14 @@
+name: apache-openmeetings
+description: Detect Apache OpenMeetings (videoconferencing)
+uuid: 4435a4e9-4640-4ade-b083-f44831d38758
+query: http_title.bg:"Redirect to openmeetings"
+tags:
+- type:videoconferencing
+- lang:java
+- proto:http
+- vendor:apache
+- product:openmeetings
+references:
+- https://openmeetings.apache.org/
+- https://github.com/apache/openmeetings/blob/f2abd5688b2041b047caa88e5abf77805d329ea4/openmeetings-server/src/main/assembly/ROOT/index.html
+version: 20261117T141538Z
