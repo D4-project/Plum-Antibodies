@@ -1,0 +1,13 @@
+name: apache-airflow
+description: Detect Apache Airflow stock favicon
+uuid: 55bdeeff-607f-4c56-97fe-dac65aa8583c
+query: http_favicon_md5:4f21edb50ae95a99bbd4aa0a956a179e OR http_favicon_sha256:5e56a23472220ff6b3b763de3ffe11df1458ea53dbbe17dc650fdaee0bf569d3
+tags:
+- proto:http
+- vendor:apache
+- product:airflow
+references:
+- https://airflow.apache.org
+- https://github.com/apache/airflow/blob/3b35135afe9549e99088c4d557c62e5deafb125b/airflow-core/src/airflow/ui/public/pin_32.png
+- https://github.com/apache/airflow/blob/3b35135afe9549e99088c4d557c62e5deafb125b/airflow-core/src/airflow/ui/index.html
+version: 20261117T133947Z
