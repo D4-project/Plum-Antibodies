@@ -1,0 +1,11 @@
+name: oracle-hyperion-workspace
+description: Detect Oracle Hyperion EPM Workspace title
+uuid: 4389acaf-ff3f-4bc4-9cf3-12bfb6e66cd2
+query: http_title.lk:"Enterprise Performance Management System Workspace"
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-hyperion-workspace
+references:
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/oraclehyperion/oraclehyperion.go
+version: 20261117T153754Z
