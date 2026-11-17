@@ -1,0 +1,12 @@
+name: apache-shenyu
+description: Detect Apache ShenYu
+uuid: 4a9eb624-9992-484e-bbef-21cee56cbdf2
+query: http_title.bg:"Apache ShenYu Gateway"
+tags:
+- proto:http
+- vendor:apache
+- product:shenyu
+references:
+- https://shenyu.apache.org
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-shenyu-detect.yaml
+version: 20261117T133947Z
