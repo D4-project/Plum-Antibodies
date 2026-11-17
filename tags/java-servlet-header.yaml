@@ -1,0 +1,10 @@
+name: java-servlet-header
+description: Detect Java Servlet technology
+uuid: 6b19ab92-a5be-49e8-8d66-bca37ee75498
+query: http_headval:x-powered-by.bg:Servlet/
+tags:
+- proto:http
+- lang:java
+references:
+- https://glassfish.org/docs/latest/reference-manual.pdf
+version: 20261117T131639Z
