@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #239: Add Apache Syncope detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #238: Add Apache StreamPipes detection; reviewed type:data-processing, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #237: Add Apache StreamPark detection; reviewed type:data-processing, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #236: Add Apache ShenYu detection; reviewed type:api-gateway, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
