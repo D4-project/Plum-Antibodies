@@ -1,0 +1,15 @@
+name: apache-httpd
+description: Detect Apache HTTP Server default and test pages
+uuid: f9ee58b9-bf00-44f0-b8d6-e00be57d3e65
+query: 'http_title.bg:"Apache2 Debian Default Page: It works" OR http_title.bg:"Apache2 Ubuntu Default Page: It
+  works" OR http_title.bg:"Apache HTTP Server Test Page powered by CentOS"'
+tags:
+- proto:http
+- vendor:apache
+- product:httpd-default-page
+references:
+- https://httpd.apache.org/
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/default-apache2-page.yaml
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/default-apache2-ubuntu-page.yaml
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/default-apache-test-page.yaml
+version: 20261117T133947Z
