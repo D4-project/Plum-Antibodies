@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #265: Add Apache Traffic Server detection; reviewed type:proxy, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #264: Add Apache Ambari detection; reviewed type:cluster-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #263: Add Apache Kylin detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #262: Add Apache HBase detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
