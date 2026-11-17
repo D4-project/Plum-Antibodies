@@ -1,0 +1,14 @@
+name: apache-pinot
+description: Detect Apache Pinot (database)
+uuid: f0219bff-bde8-4afe-8dbc-618ae322fa1d
+query: http_title.bg:"Apache Pinot"
+tags:
+- type:database
+- lang:java
+- proto:http
+- vendor:apache
+- product:pinot
+references:
+- https://pinot.apache.org
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-pinot-detect.yaml
+version: 20261117T141341Z
