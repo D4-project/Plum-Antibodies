@@ -1,0 +1,14 @@
+name: oracle-adf-rest
+description: Detect Oracle ADF REST media type
+uuid: a95956a9-cbab-41c6-9d43-0ead8f50c998
+query: http_headval:content-type.bg:application/vnd.oracle.adf.
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-adf
+- type:framework
+- lang:java
+references:
+- https://www.oracle.com/database/technologies/developer-tools/adf/
+- https://github.com/oracle/Fusion-Setup-Configuration-Registry/blob/4490cc9e3638ea0f2b2b04822737fe4c2b304b82/pillars/hcm/global-payroll/payroll-tools/user-defined-tables/ora-resource/ora_reference_lookups.md#L21
+version: 20261117T155830Z
