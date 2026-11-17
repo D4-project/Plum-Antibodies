@@ -1,0 +1,14 @@
+name: apache-rocketmq
+description: Detect Apache RocketMQ (message queue)
+uuid: d45cdfb4-6c25-443e-9cc7-2d2cd104e599
+query: http_title.bg:"RocketMQ Studio"
+tags:
+- type:message-queue
+- lang:java
+- proto:http
+- vendor:apache
+- product:rocketmq-dashboard
+references:
+- https://rocketmq.apache.org
+- https://github.com/apache/rocketmq-dashboard/blob/6fc4f0ec32c8581b8adbfc6ac87e1a30eb7269e0/web/index.html
+version: 20261117T141632Z
