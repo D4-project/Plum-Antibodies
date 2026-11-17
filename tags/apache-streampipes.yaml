@@ -1,0 +1,14 @@
+name: apache-streampipes
+description: Detect Apache StreamPipes (data processing)
+uuid: c628b4c8-66ce-46e3-aaca-35948d7a1b58
+query: http_title.bg:"Apache StreamPipes"
+tags:
+- type:data-processing
+- lang:java
+- proto:http
+- vendor:apache
+- product:streampipes
+references:
+- https://streampipes.apache.org
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-streampipes-detect.yaml
+version: 20261117T141358Z
