@@ -1,0 +1,12 @@
+name: apache-skywalking
+description: Detect Apache SkyWalking
+uuid: 6629f4a5-bf57-499d-afa7-1dbb8d9b5219
+query: http_title.bg:"Apache SkyWalking"
+tags:
+- proto:http
+- vendor:apache
+- product:skywalking
+references:
+- https://skywalking.apache.org
+- https://github.com/apache/skywalking-booster-ui/blob/2d2eeb4da79a96d356bd4bd0e7c44d61a850b5a5/index.html
+version: 20261117T133947Z
