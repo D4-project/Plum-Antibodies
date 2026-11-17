@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #263: Add Apache Kylin detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #262: Add Apache HBase detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #261: Add Apache Atlas detection; reviewed type:data-catalog, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #260: Add Apache Zeppelin detection; reviewed type:notebook, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.

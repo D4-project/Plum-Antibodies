@@ -1,0 +1,15 @@
+name: apache-kylin
+description: Detect Apache Kylin stock favicon (database)
+uuid: 08370706-5288-4277-8073-3e60a5d6b226
+query: http_favicon_md5:4828ff27c40b1d6e45837055623c8d97 OR http_favicon_sha256:2f180c166be25295acc1b2af8d5042d1a24566646f3b13072dddbcc5fdb9b6c7
+tags:
+- type:database
+- lang:java
+- proto:http
+- vendor:apache
+- product:kylin
+references:
+- https://kylin.apache.org
+- https://github.com/apache/kylin/blob/f8943c59c05cd62327b71911d24038e1e71353de/kystudio/src/assets/img/favicon.png
+- https://github.com/apache/kylin/blob/f8943c59c05cd62327b71911d24038e1e71353de/kystudio/build/webpack.prod.conf.js
+version: 20261117T141726Z
