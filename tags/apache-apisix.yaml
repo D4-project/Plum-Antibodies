@@ -1,0 +1,12 @@
+name: apache-apisix
+description: Detect Apache APISIX gateway
+uuid: 82c88a51-41b2-4620-b469-8051154496a7
+query: http_server:APISIX OR http_server.bg:APISIX/
+tags:
+- proto:http
+- vendor:apache
+- product:apisix
+references:
+- https://apisix.apache.org/
+- https://github.com/apache/apisix/blob/64d831f4f389ad652eb9b180fd4fd5f9c794b5b0/apisix/init.lua
+version: 20261117T133947Z

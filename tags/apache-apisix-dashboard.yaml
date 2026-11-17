@@ -1,0 +1,12 @@
+name: apache-apisix-dashboard
+description: Detect Apache APISIX Dashboard
+uuid: 16f5fa39-cd40-4d86-a84d-f14be72b52b1
+query: http_title.bg:"Apache APISIX Dashboard"
+tags:
+- proto:http
+- vendor:apache
+- product:apisix-dashboard
+references:
+- https://apisix.apache.org/
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/exposed-panels/apache/apache-apisix-panel.yaml
+version: 20261117T133947Z
