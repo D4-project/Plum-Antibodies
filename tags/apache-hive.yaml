@@ -1,0 +1,14 @@
+name: apache-hive
+description: Detect Apache HiveServer2 web interface (database)
+uuid: 310fb57f-b126-4e16-82d7-f1ae70ead7ce
+query: http_title.bg:HiveServer2
+tags:
+- type:database
+- lang:java
+- proto:http
+- vendor:apache
+- product:hive
+references:
+- https://hive.apache.org
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-hive-detect.yaml
+version: 20261117T141304Z
