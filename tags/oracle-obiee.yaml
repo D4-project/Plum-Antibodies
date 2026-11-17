@@ -1,0 +1,14 @@
+name: oracle-obiee
+description: Detect Oracle Business Intelligence login
+uuid: 40715a3b-e73d-43f5-8f1b-1add69d01c64
+query: http_title.bg:"Oracle Business Intelligence"
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-obiee
+- type:analytics
+references:
+- https://www.oracle.com/business-analytics/business-intelligence/technologies/bi.html
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/exposed-panels/oracle-business-intelligence.yaml
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/oracleobiee/oracleobiee.go
+version: 20261117T155918Z
