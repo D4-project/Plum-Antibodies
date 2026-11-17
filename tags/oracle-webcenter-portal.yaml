@@ -1,0 +1,13 @@
+name: oracle-webcenter-portal
+description: Detect Oracle WebCenter Portal title
+uuid: b73b928a-43c1-4cf6-8b24-a2cc2666b3bd
+query: http_title.lk:"Oracle WebCenter Portal"
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-webcenter-portal
+- type:portal
+references:
+- https://docs.oracle.com/middleware/1221/core/INSWC/GUID-687C42BB-C2C1-40DE-BFB7-75D01B7BA811.htm
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/webcenter/webcenter.go
+version: 20261117T155853Z

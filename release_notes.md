@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #324: Add Oracle WebCenter Portal detection; reviewed type:portal, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #323: Add Oracle WebCenter Content detection; reviewed type:cms, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #322: Add Oracle Managed File Transfer detection; reviewed type:file-transfer, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #321: Add Oracle HTTP Server detection; reviewed protocol/product classification without a redundant asset type, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
