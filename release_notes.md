@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #233: Add Apache OFBiz detection; reviewed type:erp, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #232: Add Apache Kyuubi detection; reviewed type:query-engine, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #231: Add Apache Karaf detection; reviewed type:application-server, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #230: Add Apache Hive detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
