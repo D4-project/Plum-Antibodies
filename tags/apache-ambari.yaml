@@ -1,0 +1,15 @@
+name: apache-ambari
+description: Detect Apache Ambari stock favicon (cluster management)
+uuid: 4a04f145-0ad3-4344-aacb-e5ea6b412652
+query: http_favicon_md5:3819a64b89755e70244987571478d77e OR http_favicon_sha256:7cd1b456e8a56ba7a85e1529987e5800300036e8f941ae8dead28c32d2557f77
+tags:
+- type:cluster-management
+- lang:java
+- proto:http
+- vendor:apache
+- product:ambari
+references:
+- https://ambari.apache.org
+- https://github.com/apache/ambari/blob/5228d583569012468ec40f5780f1377c514ac14e/ambari-web/classic/app/assets/img/logo.png
+- https://github.com/apache/ambari/blob/5228d583569012468ec40f5780f1377c514ac14e/ambari-web/classic/app/assets/index.html
+version: 20261117T141732Z
