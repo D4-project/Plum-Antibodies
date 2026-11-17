@@ -1,0 +1,14 @@
+name: apache-pulsar
+description: Detect Apache Pulsar (message queue)
+uuid: ffac8d9e-0ef6-46c6-9ac8-f02dbeac6552
+query: http_title.bg:"Pulsar Admin UI"
+tags:
+- type:message-queue
+- lang:java
+- proto:http
+- vendor:apache
+- product:pulsar-manager
+references:
+- https://pulsar.apache.org/
+- https://github.com/apache/pulsar-manager/blob/8b645da514866d146711b32b8966424cbfdfcab0/front-end/index.html
+version: 20261117T141544Z
