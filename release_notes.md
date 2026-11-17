@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #251: Add Apache Hadoop detection; reviewed type:storage, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #250: Add Apache DolphinScheduler detection; reviewed type:workflow, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #249: Add Apache Doris detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #248: Add Apache SkyWalking detection; reviewed type:monitoring, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
