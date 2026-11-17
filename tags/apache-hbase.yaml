@@ -1,0 +1,15 @@
+name: apache-hbase
+description: Detect Apache HBase stock favicon (database)
+uuid: 7a8f4b9f-93b6-45fc-9ea1-83cc155c6fd7
+query: http_favicon_md5:0c60fec66e58e0642980fe29c3b7726b OR http_favicon_sha256:ea41ae9fabc15d793e59d9a658a1eef2c2029d511a4f40698e8e9cc2d45d5b73
+tags:
+- type:database
+- lang:java
+- proto:http
+- vendor:apache
+- product:hbase
+references:
+- https://hbase.apache.org
+- https://github.com/apache/hbase/blob/dcd112b85972660312476e0b46d093b61e19f566/hbase-server/src/main/resources/hbase-webapps/static/favicon.ico
+- https://github.com/apache/hbase/blob/dcd112b85972660312476e0b46d093b61e19f566/hbase-server/src/main/resources/hbase-webapps/master/header.jsp
+version: 20261117T141713Z
