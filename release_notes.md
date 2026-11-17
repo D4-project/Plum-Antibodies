@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #313: Add Oracle APEX detection; reviewed type:framework, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #312: Add Oracle Database Server detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #269: Extend Apache Tomcat detection; reviewed type:application-server, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #268: Add Apache APISIX detection; reviewed type:api-gateway, type:dashboard, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.

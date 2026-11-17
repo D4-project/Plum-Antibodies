@@ -1,0 +1,13 @@
+name: oracle-apex
+description: Detect Oracle APEX response headers
+uuid: 1470bbed-4cba-46f6-9f06-8c51168faf79
+query: http_header:x-apex-status-code OR http_header:x-apex-forward
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-apex
+- type:framework
+references:
+- https://apex.oracle.com/
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/oracleords/oracleords.go
+version: 20261117T155737Z
