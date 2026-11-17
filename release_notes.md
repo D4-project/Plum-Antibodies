@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #316: Add Primavera Unifier detection; reviewed type:project-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #315: Add Oracle Commerce Platform detection; reviewed type:ecommerce, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #314: Add Oracle REST Data Services detection; reviewed type:api-server, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #313: Add Oracle APEX detection; reviewed type:framework, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.

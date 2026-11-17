@@ -1,0 +1,13 @@
+name: oracle-primavera-unifier
+description: Detect Oracle Primavera Unifier login
+uuid: eaf8e6f7-d1b5-400d-99c2-84cea967dd9e
+query: http_title.bg:"Primavera Unifier Login"
+tags:
+- proto:http
+- vendor:oracle
+- product:primavera-unifier
+- type:project-management
+references:
+- https://www.oracle.com/construction-engineering/primavera-unifier-project-controls-asset-management/
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/fingerprinters/oracle_primavera_unifier.go
+version: 20261117T155755Z
