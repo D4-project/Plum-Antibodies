@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #331: Add PeopleSoft Enterprise PeopleTools detection; reviewed type:framework, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #330: Add Oracle Hyperion Workspace detection; reviewed type:analytics, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #329: Add Oracle Hyperion Planning detection; reviewed type:analytics, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #328: Add Oracle Business Intelligence Enterprise Edition detection; reviewed type:analytics, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
