@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #321: Add Oracle HTTP Server detection; reviewed protocol/product classification without a redundant asset type, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #320: Add Oracle Application Development Framework (ADF) detection; reviewed type:framework, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #319: Add Oracle Access Manager detection; reviewed type:access-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #318: Add Oracle Enterprise Manager Base Platform detection; reviewed type:monitoring, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
