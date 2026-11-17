@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #243: Add Apache HugeGraph detection; reviewed type:database-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #242: Add Apache Ranger detection; reviewed type:access-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #241: Add Apache Solr detection; reviewed type:search-engine, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #240: Add Apache Shiro detection; reviewed type:framework, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
