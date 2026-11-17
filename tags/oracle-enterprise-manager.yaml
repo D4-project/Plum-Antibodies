@@ -1,0 +1,14 @@
+name: oracle-enterprise-manager
+description: Detect Oracle Enterprise Manager agent or Cloud Control redirect
+uuid: 7bc5d6a7-d6b3-4e8e-8055-dac8330248ac
+query: http_header:x-orcl-emsv OR http_headval:location.bg:/em/faces/logon/
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-enterprise-manager
+- type:monitoring
+references:
+- https://www.oracle.com/enterprise-manager/
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L11503
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/oracleem/oracleem.go
+version: 20261117T155817Z
