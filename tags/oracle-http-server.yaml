@@ -1,0 +1,15 @@
+name: oracle-http-server
+description: Detect Oracle HTTP Server
+uuid: cb808e46-ecce-4fb2-b781-66c40bbdd5a8
+query: http_server:Oracle-HTTP-Server OR http_server.bg:Oracle-HTTP-Server/ OR http_server.bg:"Oracle HTTP Server"
+  OR http_server.lk:" Oracle-HTTP-Server" OR http_title.bg:"Oracle HTTP Server 12c"
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-http-server
+references:
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L7097
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L7356
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/oracle-httpserver-12c.yaml
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/oracle-http-server.rb
+version: 20261117T153754Z
