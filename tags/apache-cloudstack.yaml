@@ -1,0 +1,14 @@
+name: apache-cloudstack
+description: Detect Apache CloudStack (cloud management)
+uuid: 30a9ad71-e83b-4848-95db-14ae95bb0609
+query: http_title.bg:"Apache CloudStack"
+tags:
+- type:cloud-management
+- lang:java
+- proto:http
+- vendor:apache
+- product:cloudstack
+references:
+- https://cloudstack.apache.org
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-cloudstack-detect.yaml
+version: 20261117T141235Z
