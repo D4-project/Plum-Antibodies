@@ -1,0 +1,11 @@
+name: oracle-webcenter-content
+description: Detect Oracle WebCenter Content
+uuid: 5970cb83-c10f-43e9-84db-2c87132db9e4
+query: http_title.lk:"Oracle WebCenter Content" OR http_cookiename:IdcLocale OR http_cookiename:IntradocAuth
+tags:
+- proto:http
+- vendor:oracle
+- product:oracle-webcenter-content
+references:
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/services/webcenter/webcenter.go
+version: 20261117T153754Z
