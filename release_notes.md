@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Apache Axis 1 Java detection from its stock welcome and happiness-page title prefixes, with HTTP/framework classification and official references.
 - Fix Debian, PHP Info and Windows rule loading by quoting literal parentheses; align sanity-check tokenization and one-level grouping validation with runtime syntax, with regression and CLI exit-status coverage.
 - Add Shopware PHP ecommerce detection from its exact cache cookie or three official storefront favicon fingerprints, recovering a historical application sample while excluding branded hosting panels.
 - Extend Roundcube webmail detection with its stock login-title prefix, preserving all cookie and favicon alternatives and adding official references.

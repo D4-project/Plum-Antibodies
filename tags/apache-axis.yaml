@@ -1,0 +1,16 @@
+name: apache-axis
+description: Detect Apache Axis Java
+uuid: 2243da04-8130-4611-b860-1335102f6315
+query: http_title.bg:Apache-Axis
+  OR http_title.bg:"Axis Happiness Page"
+tags:
+- proto:http
+- product:apache-axis
+- vendor:apache
+- lang:java
+- type:framework
+references:
+- https://axis.apache.org/axis/
+- https://github.com/apache/axis-axis1-java/blob/master/axis-war/src/main/webapp/index.jsp
+- https://github.com/apache/axis-axis1-java/blob/master/axis-war/src/main/webapp/happyaxis.jsp
+version: 20261117T125629Z
