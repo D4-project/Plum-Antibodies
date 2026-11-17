@@ -1,0 +1,12 @@
+name: apache-syncope
+description: Detect Apache Syncope
+uuid: e02c0708-12eb-4c10-b916-469f8b82b91d
+query: http_title.bg:"Apache Syncope"
+tags:
+- proto:http
+- vendor:apache
+- product:syncope
+references:
+- https://syncope.apache.org/
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/apache/apache-syncope-detect.yaml
+version: 20261117T133947Z
