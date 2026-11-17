@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #334: Extend MySQL Server protocol detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #333: Add MySQL Cluster detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #332: Add Siebel Applications detection; reviewed type:crm, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #331: Add PeopleSoft Enterprise PeopleTools detection; reviewed type:framework, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
