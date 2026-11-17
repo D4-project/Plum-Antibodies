@@ -1,0 +1,16 @@
+name: mysql-cluster
+description: Detect MySQL NDB Cluster SQL-node build
+uuid: 15422691-ac60-4809-b0e5-f24209c57b12
+query: banner.lk:-cluster AND banner.lk:caching_sha2_password AND NOT banner.lk:MariaDB AND NOT banner.lk:Percona
+  OR banner.lk:-cluster AND banner.lk:mysql_native_password AND NOT banner.lk:MariaDB AND NOT banner.lk:Percona
+tags:
+- proto:sql
+- vendor:mysql
+- product:mysql-cluster
+- type:database
+references:
+- https://www.mysql.com/products/cluster/
+- https://github.com/mysql/mysql-server/blob/9fc8d60003b4eee32767c1e30942f222c3508c31/cmake/mysql_version.cmake#L152
+- https://github.com/mysql/mysql-server/blob/9fc8d60003b4eee32767c1e30942f222c3508c31/sql/mysqld.cc#L11246
+- https://github.com/mysql/mysql-server/blob/9fc8d60003b4eee32767c1e30942f222c3508c31/sql/auth/sql_authentication.cc#L1698
+version: 20261117T155949Z
