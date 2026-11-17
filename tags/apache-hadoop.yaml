@@ -1,0 +1,12 @@
+name: apache-hadoop
+description: Detect Apache Hadoop
+uuid: 5b45d03e-6202-4e60-90c0-e0482435056d
+query: http_title.bg:"Namenode information"
+tags:
+- proto:http
+- vendor:apache
+- product:hadoop-hdfs
+references:
+- https://hadoop.apache.org/
+- https://github.com/apache/hadoop/blob/aff670a9b19041254e192da52aaca5a2adb24084/hadoop-hdfs-project/hadoop-hdfs/src/main/webapps/hdfs/dfshealth.html
+version: 20261117T133947Z
