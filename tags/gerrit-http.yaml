@@ -1,0 +1,17 @@
+name: gerrit-http
+description: Detect Gerrit Code Review HTTP interface
+uuid: 40b9e103-9581-55e0-a3ff-479a9302a88b
+query: http_title.bg:"Gerrit Code Review" OR http_header:x-gerrit-trace OR http_favicon_md5:9b67ee27ad29bd721c0c1f5e5a1a5211
+  OR http_favicon_sha256:fcb7a1cc7f5600556ec7c4df349ba3271e251b9020e2786b4321a5a06558653c
+tags:
+- proto:http
+- lang:java
+- vendor:gerrit
+- product:gerrit
+- type:code-review
+references:
+- https://github.com/GerritCodeReview/gerrit/blob/55ef824f802b249ad1c8ae3c6f7d0e6f3fd0b683/resources/com/google/gerrit/httpd/raw/LegacyGerrit.html
+- https://github.com/GerritCodeReview/gerrit/blob/55ef824f802b249ad1c8ae3c6f7d0e6f3fd0b683/resources/com/google/gerrit/httpd/auth/ldap/LoginForm.html
+- https://github.com/GerritCodeReview/gerrit/blob/55ef824f802b249ad1c8ae3c6f7d0e6f3fd0b683/Documentation/rest-api.txt#L230
+- https://github.com/GerritCodeReview/gerrit/blob/55ef824f802b249ad1c8ae3c6f7d0e6f3fd0b683/polygerrit-ui/app/favicon.ico
+version: 20261118T095624Z

@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #407: Add Gerrit detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #405: Extend Apache Solr detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #406: Add Elasticsearch detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR. Add the documented default HTTP CA issuer alternative confirmed in stored Elasticsearch certificates.
 - Integrate PR #404: Add Apache Kafka Broker detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
