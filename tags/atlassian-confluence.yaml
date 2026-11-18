@@ -1,13 +1,19 @@
 name: atlassian-confluence
-description: Detect Atlassian - Confluence
+description: Detect Atlassian Confluence wiki
 uuid: adad8a0d-3efe-52d4-b066-79e8c6412d7c
-query: http_favicon_mmhash:-305179312 OR http_favicon_mmhash:-1642532491
+query: http_favicon_mmhash:-305179312 OR http_favicon_mmhash:-1642532491 OR http_header:x-confluence-request-time
+  OR http_header:x-confluence-cluster-node OR http_title.bg:"Dashboard - Confluence" OR http_title.bg:"Log
+  In - Confluence"
 tags:
 - lang:java
 - proto:http
 - product:atlassian-confluence
 - vendor:atlassian
+- type:wiki
 references:
 - https://confluence.atlassian.com/conf720/supported-platforms-1168862619.html
 - https://www.atlassian.com/
-version: 20261117T132913Z
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/confluence.rb
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/fingerprinters/confluence.go
+version: 20261118T094908Z
