@@ -1,0 +1,14 @@
+name: redhat-jboss-eap
+description: Detect explicit JBoss EAP welcome titles and server branding
+uuid: 6a57672d-460f-5be2-b2c4-f3ebbdd3da2e
+query: http_server.bg:JBoss-EAP/ OR http_title.bg:"Welcome to JBoss EAP" OR http_title.bg:"JBoss EAP "
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-jboss-eap
+- type:application-server
+- lang:java
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml
+version: 20261118T083201Z
