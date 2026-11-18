@@ -1,0 +1,13 @@
+name: dell-powerstore
+description: Detect Dell PowerStore management API response metadata
+uuid: 761aaf53-b45d-4e1b-956f-57f5ed5e5e53
+query: http_header:dell-emc-token AND http_cookiename:auth_cookie
+tags:
+- proto:http
+- vendor:dell
+- product:powerstore
+- type:storage-management
+references:
+- https://github.com/dell/python-powerstore/blob/6fc5e03b8335bfd4697bc439b532d52378cc1655/PyPowerStore/client.py#L114
+- https://github.com/dell/gopowerstore/blob/7a1d011963a0d42ba424de2992ae9ccca37091c6/api/api.go#L537
+version: 20261118T124530Z
