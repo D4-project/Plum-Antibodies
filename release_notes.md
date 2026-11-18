@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #377: Add Red Hat Developer Hub detection; reviewed type:portal, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #375: Add Quay container registry family detection; reviewed type:container-registry, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #374: Extend JBoss AS upstream application server detection; reviewed type:application-server, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #371: Add Red Hat Satellite detection; reviewed type:systems-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.

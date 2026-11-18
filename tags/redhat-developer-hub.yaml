@@ -1,0 +1,14 @@
+name: redhat-developer-hub
+description: Detect Red Hat Developer Hub default page title
+uuid: 1f7eb7fd-33c5-5cdc-ad2b-f2e279c6f0d9
+query: http_title.bg:"Red Hat Developer Hub"
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-developer-hub
+- type:portal
+references:
+- https://developers.redhat.com/products/rhdh
+- https://github.com/redhat-developer/rhdh/blob/ed69c999e20931506462d62f6ad48c1b1584abf2/packages/app/public/index.html
+- https://github.com/redhat-developer/rhdh/blob/ed69c999e20931506462d62f6ad48c1b1584abf2/app-config.production.yaml
+version: 20261118T082908Z
