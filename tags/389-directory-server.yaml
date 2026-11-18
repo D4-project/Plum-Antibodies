@@ -1,0 +1,13 @@
+name: 389-directory-server
+description: Detect 389 Directory Server LDAP root DSE branding
+uuid: f5f2096a-02de-5330-9a6d-6c27c9960c95
+query: banner.lk:vendorName AND banner.lk:vendorVersion AND banner.lk:389-Directory/ OR banner.lk:vendorName
+  AND banner.lk:vendorVersion AND banner.lk:Fedora-Directory/
+tags:
+- proto:ldap
+- vendor:fedoraproject
+- product:389-directory-server
+- type:identity-management
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/ldap_searchresult.xml
+version: 20261118T072908Z
