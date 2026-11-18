@@ -1,0 +1,15 @@
+name: redhat-openshift
+description: Detect Red Hat OpenShift console branding
+uuid: f4be7786-c5ee-5b5b-9387-d430347ca64c
+query: http_title:"Red Hat OpenShift" OR http_title.bg:"Red Hat OpenShift Online" OR http_title.bg:"Red
+  Hat OpenShift Dedicated" OR http_title.bg:"Azure Red Hat OpenShift" OR http_title.bg:"Red Hat OpenShift
+  Service on AWS" OR http_favicon_md5:872df0c91711a24a19ef21d8e3b560b8 OR http_favicon_sha256:9fd697c3a13e458ea03e11a95d989c8b1aca7b2ae8eba9af445cccc789b0fffc
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-openshift
+- type:container-platform
+references:
+- https://github.com/openshift/console/blob/98bf26733ca1f580ff8171f801e22425ebe4d33d/frontend/public/index.html
+- https://github.com/openshift/console/blob/98bf26733ca1f580ff8171f801e22425ebe4d33d/frontend/public/imgs/openshift-favicon.png
+version: 20261118T072908Z
