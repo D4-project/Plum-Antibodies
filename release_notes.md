@@ -1,5 +1,6 @@
 # Release notes
 
+- Consolidate the two verified Elasticsearch favicon hashes from `elastic-database.yaml` into `elasticsearch.yaml`, preserving its UUID and canonical product/vendor/Java/search-engine tags. Add `retired_rules.yaml` with the exact names, retired UUIDs and replacement UUIDs for this consolidation and the previous Jira cleanup; automatic SQL retirement remains tracked in Plum-Island #282.
 - Integrate PR #408: Add Netflix Spinnaker detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR. Split Deck favicon detection from the Java Gate API condition to avoid inferring Java from frontend assets.
 - Integrate PR #407: Add Gerrit detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #405: Extend Apache Solr detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.

@@ -1,8 +1,8 @@
 name: elasticsearch
-description: Detect Elasticsearch HTTP product header or HTTP CA
+description: Detect Elasticsearch search engine
 uuid: 39de06b7-6eb7-5e07-8be9-b0ac4a1bac89
 query: http_headval:x-elastic-product:Elasticsearch OR x509_issuer_cn:"Elasticsearch security auto-configuration
-  HTTP CA"
+  HTTP CA" OR http_favicon_mmhash:1611729805 OR http_favicon_mmhash:1552860581
 tags:
 - proto:http
 - lang:java
@@ -13,4 +13,6 @@ references:
 - https://github.com/elastic/elasticsearch/blob/b769a697c7dde911916aa59e42c999776d0c344f/server/src/main/java/org/elasticsearch/rest/RestController.java#L92
 - https://github.com/elastic/elasticsearch/blob/b769a697c7dde911916aa59e42c999776d0c344f/server/src/main/java/org/elasticsearch/rest/RestController.java#L427
 - https://www.elastic.co/guide/en/elasticsearch/reference/8.19/configuring-stack-security.html
-version: 20261118T094931Z
+- https://github.com/elastic/elasticsearch/blob/b769a697c7dde911916aa59e42c999776d0c344f/server/src/main/resources/config/favicon.ico
+- https://github.com/elastic/elasticsearch/blob/v2.4.6/core/src/main/resources/config/favicon.ico
+version: 20261118T101138Z

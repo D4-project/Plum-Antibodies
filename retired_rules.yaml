@@ -1,0 +1,12 @@
+# Retired rule identities; this file is not an active detection rule.
+# Automatic source-aware retirement is tracked in Plum-Island #282.
+retired_rules:
+- name: atlassian-jira
+  uuid: bb226460-8e5c-52ad-a2e0-ddd9de8425f4
+  replaced_by: bb9e4d87-89a3-5e73-856d-8202171d9b4b
+- name: atlassian-jira-bug-tracke
+  uuid: 89aa48b6-dd2f-56cf-972e-7195948616a3
+  replaced_by: bb9e4d87-89a3-5e73-856d-8202171d9b4b
+- name: elastic-database
+  uuid: 6e569407-9ed6-501c-8660-aefee60f2136
+  replaced_by: 39de06b7-6eb7-5e07-8be9-b0ac4a1bac89

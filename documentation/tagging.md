@@ -64,8 +64,12 @@ ordinary full import therefore does not, by itself, remove those old producers.
 Source-aware automatic retirement, preservation of manual rules and migration of
 existing installations are tracked in
 [Plum-Island #282](https://github.com/D4-project/Plum-Island/issues/282).
-The retirement record below is migration documentation, not an automatically
-consumed deletion manifest.
+The machine-readable [retirement register](../retired_rules.yaml) records each
+removed rule's exact YAML `name`, canonical `uuid` and replacement UUID in
+`replaced_by`. UUID is the identity; names are descriptive and may repeat. The
+register includes the Jira retirements below and subsequent consolidations.
+It is migration metadata until the source-aware importer in #282 consumes it;
+publishing this file does not itself delete SQL rules.
 
 Once a producer is removed or deactivated in SQL, the current scheduler-supervised
 reconciliation engine recomputes its contributions and publishes the updated tag
@@ -95,6 +99,24 @@ Updating the retained rule also replaces its previous `vendor:jira` contribution
 Existing installations need the retained definition imported and the two retired
 SQL producers removed or deactivated before reconciliation can eliminate all
 three obsolete tag values. Preserve unrelated manual rules and shared tags.
+
+### Elasticsearch consolidation, 2026-11-18
+
+Retained rule: `tags/elasticsearch.yaml`, UUID
+`39de06b7-6eb7-5e07-8be9-b0ac4a1bac89`. Both favicon predicates from the retired
+rule are preserved as `OR` alternatives alongside the HTTP product header and
+HTTP CA issuer. Their bytes were verified against official Elasticsearch assets.
+The canonical tags are `product:elasticsearch`, `vendor:elastic`, `lang:java`,
+`type:search-engine` and `proto:http`.
+
+| Removed rule name | Removed definition | Retired rule UUID | Obsolete unique tag |
+| --- | --- | --- | --- |
+| `elastic-database` | `elastic-database.yaml` | `6e569407-9ed6-501c-8660-aefee60f2136` | `product:elastic-database` |
+
+The same identity/replacement mapping is maintained in `retired_rules.yaml`.
+Existing installations need the retained definition imported and the retired SQL
+producer removed or deactivated before reconciliation can eliminate the old
+product tag. Shared `vendor:elastic` contributions must survive.
 
 ## Tag names
 
