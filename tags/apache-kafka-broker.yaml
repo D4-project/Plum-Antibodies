@@ -1,0 +1,16 @@
+name: apache-kafka-broker
+description: Detect Kafka broker SASL authentication error response
+uuid: ccc125cc-86be-53e4-bca1-2424c0f19422
+query: banner.lk:"Unexpected Kafka request of type PRODUCE during SASL authentication."
+tags:
+- proto:kafka
+- lang:java
+- vendor:apache
+- product:kafka
+- type:message-queue
+references:
+- https://github.com/apache/kafka/blob/5cf3237139a2d94ab0ff6248fadf6cc789d73100/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java#L449
+- https://github.com/apache/kafka/blob/5cf3237139a2d94ab0ff6248fadf6cc789d73100/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java#L164
+- https://github.com/apache/kafka/blob/5cf3237139a2d94ab0ff6248fadf6cc789d73100/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java#L38
+- https://github.com/apache/kafka/blob/5cf3237139a2d94ab0ff6248fadf6cc789d73100/clients/src/main/resources/common/message/ProduceResponse.json#L75
+version: 20261118T094925Z
