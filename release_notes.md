@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #401: Add JFrog Artifactory detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #400: Extend Atlassian Confluence detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #399: Extend Atlassian Jira detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #402 and strengthen Jenkins detection with three observed product-specific response headers or the three stock favicon hashes; verify MD5/SHA-256 against the pinned upstream asset, classify as automation, retain Java and the stable UUID, and refresh the UTC version.
