@@ -1,0 +1,12 @@
+name: redhat-acm
+description: Detect Red Hat Advanced Cluster Management console title
+uuid: e27463af-b2bd-55d9-b296-682351fb4039
+query: http_title.bg:"Red Hat Advanced Cluster Management for Kubernetes"
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-acm
+- type:container-management
+references:
+- https://github.com/stolostron/console/blob/abe9314586d0429ae342cc7eb04cda28049e92cc/frontend/public/index.html
+version: 20261118T072908Z
