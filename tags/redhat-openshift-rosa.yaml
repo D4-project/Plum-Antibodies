@@ -1,0 +1,12 @@
+name: redhat-openshift-rosa
+description: Detect Red Hat OpenShift Service on AWS console branding
+uuid: cabedbf5-789b-57cb-8dce-8d4568a64458
+query: http_title.bg:"Red Hat OpenShift Service on AWS"
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-openshift-rosa
+- type:container-platform
+references:
+- https://github.com/openshift/console/blob/98bf26733ca1f580ff8171f801e22425ebe4d33d/frontend/public/index.html
+version: 20261118T072908Z
