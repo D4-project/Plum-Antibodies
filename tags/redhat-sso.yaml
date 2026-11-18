@@ -1,0 +1,13 @@
+name: redhat-sso
+description: Detect Red Hat Single Sign-On account console branding
+uuid: ffb7bc65-3a5f-55e6-9819-e5b5e7e21139
+query: http_title.bg:"RH-SSO Account Management"
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-sso
+- type:identity-management
+references:
+- https://github.com/redhat-developer/redhat-sso-quickstarts/blob/e4069f5f54b730f9833533dd5459b3d4d5eacdfe/app-profile-jee-jsp/src/test/java/org/keycloak/quickstart/ArquillianProfileJeeJspTest.java#L163
+- https://github.com/redhat-developer/redhat-sso-quickstarts/blob/e4069f5f54b730f9833533dd5459b3d4d5eacdfe/productize.sh#L32
+version: 20261118T072908Z
