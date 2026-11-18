@@ -1,0 +1,12 @@
+name: redhat-directory-server
+description: Detect Red Hat Directory Server LDAP root DSE branding
+uuid: dc83f13f-06af-55ab-a830-de0449af3509
+query: banner.lk:vendorName AND banner.lk:vendorVersion AND banner.lk:"Red Hat-Directory/"
+tags:
+- proto:ldap
+- vendor:redhat
+- product:redhat-directory-server
+- type:identity-management
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/ldap_searchresult.xml
+version: 20261118T072908Z
