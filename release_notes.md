@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #361: Add FreeIPA identity family detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #360: Add 389 Directory Server family detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #359: Add Red Hat Directory Server detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #357: Add Red Hat Single Sign-On (RH-SSO) detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.

@@ -1,0 +1,12 @@
+name: freeipa
+description: Detect FreeIPA web interface stock favicon
+uuid: 903e5bbd-7475-5ddc-9ec0-17a6a8e014f7
+query: http_favicon_md5:302d581cc243a164ab0c0c9d701a8332 OR http_favicon_sha256:9afc1d95440b7ac31a73b3506707964f716e6f816ae64d5db142f4a8eae4d2a8
+tags:
+- proto:http
+- vendor:freeipa
+- product:freeipa
+- type:identity-management
+references:
+- https://github.com/freeipa/freeipa/blob/96a77c4f3a45aa2dad54b24b3b8e8b74dc47fd4d/install/ui/favicon.ico
+version: 20261118T082842Z
