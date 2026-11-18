@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #379: Add Red Hat OpenStack Platform Director detection; reviewed type:cloud-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #378: Add Red Hat OpenShift AI detection; reviewed type:machine-learning-platform, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #377: Add Red Hat Developer Hub detection; reviewed type:portal, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #375: Add Quay container registry family detection; reviewed type:container-registry, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
