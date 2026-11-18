@@ -1,7 +1,7 @@
 name: jenkins
 description: Detect Jenkins
 uuid: 59c19b2c-fd82-5d64-ac3c-b0309bff1b3e
-query: http_favicon_mmhash:81586312
+query: http_favicon_mmhash:81586312 OR http_header:x-jenkins OR http_header:x-jenkins-session
 tags:
 - lang:java
 - proto:http
@@ -10,4 +10,6 @@ tags:
 references:
 - https://www.jenkins.io/doc/book/platform-information/support-policy-java/
 - https://www.jenkins.io/
-version: 20261117T132913Z
+- https://github.com/jenkinsci/jenkins/blob/1302bbe246f9a3484b1a5b46f6538f0f4913bbf6/core/src/main/java/hudson/Functions.java#L2703
+- https://github.com/jenkinsci/jenkins/blob/1302bbe246f9a3484b1a5b46f6538f0f4913bbf6/core/src/main/java/hudson/model/Api.java#L309
+version: 20261118T090641Z
