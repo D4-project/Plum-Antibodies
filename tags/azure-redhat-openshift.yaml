@@ -1,0 +1,12 @@
+name: azure-redhat-openshift
+description: Detect Azure Red Hat OpenShift console branding
+uuid: ab8ecc54-8e45-54d4-a3db-ca6829f68051
+query: http_title.bg:"Azure Red Hat OpenShift"
+tags:
+- proto:http
+- vendor:redhat
+- product:azure-redhat-openshift
+- type:container-platform
+references:
+- https://github.com/openshift/console/blob/98bf26733ca1f580ff8171f801e22425ebe4d33d/frontend/public/index.html
+version: 20261118T072908Z
