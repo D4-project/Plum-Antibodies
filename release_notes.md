@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #364: Add Azure Red Hat OpenShift detection; reviewed type:container-platform, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #363: Add Red Hat OpenShift Dedicated detection; reviewed type:container-platform, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #362: Add Red Hat OpenShift console family detection; reviewed type:container-platform, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #358: Extend Keycloak identity family detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
