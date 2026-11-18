@@ -51,6 +51,51 @@ malformed, or duplicate UUIDs.
 
 Plum-Island replaces an existing database rule only when YAML version is newer. Update `version` whenever changing `description`, `query`, or `tags`.
 
+## Retiring and consolidating rules
+
+Preserve the retained rule's UUID, combine equivalent signatures with `OR`, and
+increase its version. Record removed UUIDs and their replacement so existing
+installations can retire the correct SQL definitions. Rule UUIDs identify rules;
+scan UIDs identify captures and must not be deleted as part of rule cleanup.
+
+The current Plum-Island importer inserts or updates YAML rules by UUID but does
+not retire SQL rows merely because their files disappeared. A Git update or an
+ordinary full import therefore does not, by itself, remove those old producers.
+Source-aware automatic retirement, preservation of manual rules and migration of
+existing installations are tracked in
+[Plum-Island #282](https://github.com/D4-project/Plum-Island/issues/282).
+The retirement record below is migration documentation, not an automatically
+consumed deletion manifest.
+
+Once a producer is removed or deactivated in SQL, the current scheduler-supervised
+reconciliation engine recomputes its contributions and publishes the updated tag
+indexes. Tags still produced by another active rule survive. Catalogue candidates
+with no remaining indexed captures are filtered from display; per-worker caches
+may retain the previous display for up to 60 seconds. This requires the automatic
+reconciliation scheduler to be enabled, running and able to complete its work.
+See Plum-Island's
+[automatic indexing](https://github.com/D4-project/Plum-Island/blob/main/documentation/automatic-indexing.md)
+and [tag management](https://github.com/D4-project/Plum-Island/blob/main/documentation/tools.md#tag_mgmtpy)
+documentation for operational status and existing deletion commands. Repository
+maintenance does not execute production SQL changes or index cleanup.
+
+### Jira consolidation, 2026-11-18
+
+Retained rule: `tags/jira.yaml`, UUID
+`bb9e4d87-89a3-5e73-856d-8202171d9b4b`. It contains all five previous favicon
+predicates and produces `product:jira`, `vendor:atlassian`, `type:issue-tracker`,
+`lang:java` and `proto:http`.
+
+| Removed definition | Retired rule UUID | Obsolete unique tag |
+| --- | --- | --- |
+| `atlassian-jira.yaml` | `bb226460-8e5c-52ad-a2e0-ddd9de8425f4` | `product:atlassian-jira` |
+| `atlassian-jira-bug-tracker.yaml` | `89aa48b6-dd2f-56cf-972e-7195948616a3` | `product:atlassian-jira-bug-tracker` |
+
+Updating the retained rule also replaces its previous `vendor:jira` contribution.
+Existing installations need the retained definition imported and the two retired
+SQL producers removed or deactivated before reconciliation can eliminate all
+three obsolete tag values. Preserve unrelated manual rules and shared tags.
+
 ## Tag names
 
 Tags use normalized `<namespace>:<value>` values. Common namespaces:

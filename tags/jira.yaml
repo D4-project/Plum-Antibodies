@@ -1,12 +1,18 @@
 name: jira
-description: Detect JIRA
+description: Detect Atlassian Jira issue tracker
 uuid: bb9e4d87-89a3-5e73-856d-8202171d9b4b
 query: http_favicon_mmhash:855273746
+  OR http_favicon_mmhash:981867722
+  OR http_favicon_mmhash:552727997
+  OR http_favicon_mmhash:-1581907337
+  OR http_favicon_md5:04d89d5b7a290334f5ce37c7e8b6a349
 tags:
 - lang:java
 - proto:http
 - product:jira
-- vendor:jira
+- vendor:atlassian
+- type:issue-tracker
 references:
+- https://www.atlassian.com/software/jira
 - https://confluence.atlassian.com/security/supported-platforms-in-jira-1409092896.html
-version: 20261117T132913Z
+version: 20261118T071926Z
