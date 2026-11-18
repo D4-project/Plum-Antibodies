@@ -1,0 +1,14 @@
+name: gerrit-ssh
+description: Detect Gerrit Code Review SSH service identification
+uuid: 9105bb11-b310-5b66-b7fe-810f810e4686
+query: banner.bg:SSH-2.0-GerritCodeReview_
+tags:
+- proto:ssh
+- lang:java
+- vendor:gerrit
+- product:gerrit
+- type:code-review
+references:
+- https://github.com/GerritCodeReview/gerrit/blob/55ef824f802b249ad1c8ae3c6f7d0e6f3fd0b683/java/com/google/gerrit/sshd/SshDaemon.java#L184
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L3738
+version: 20261118T090641Z
