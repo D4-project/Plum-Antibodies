@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #370: Add Ansible AWX upstream family detection; reviewed type:automation, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #369: Add Ansible Tower (legacy) detection; reviewed type:automation, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #379: Add Red Hat OpenStack Platform Director detection; reviewed type:cloud-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #378: Add Red Hat OpenShift AI detection; reviewed type:machine-learning-platform, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
