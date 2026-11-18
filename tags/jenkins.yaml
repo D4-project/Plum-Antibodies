@@ -1,13 +1,22 @@
 name: jenkins
-description: Detect Jenkins
+description: Detect Jenkins automation server
 uuid: 59c19b2c-fd82-5d64-ac3c-b0309bff1b3e
-query: http_favicon_mmhash:81586312
+query: http_header:x-jenkins
+  OR http_header:x-jenkins-session
+  OR http_header:x-jenkins-language
+  OR http_favicon_mmhash:81586312
+  OR http_favicon_md5:23e8c7bd78e8cd826c5a6073b15068b1
+  OR http_favicon_sha256:4fec1ee82f0dc4a8e4e9bb26954cf54cf9bf1e6a009516cb6c49ff16924e8caa
 tags:
 - lang:java
 - proto:http
 - product:jenkins
 - vendor:jenkins
+- type:automation
 references:
 - https://www.jenkins.io/doc/book/platform-information/support-policy-java/
 - https://www.jenkins.io/
-version: 20261117T132913Z
+- https://github.com/jenkinsci/jenkins/blob/1302bbe246f9a3484b1a5b46f6538f0f4913bbf6/core/src/main/java/hudson/Functions.java#L2703
+- https://github.com/jenkinsci/jenkins/blob/1302bbe246f9a3484b1a5b46f6538f0f4913bbf6/core/src/main/java/hudson/model/Api.java#L309
+- https://github.com/jenkinsci/jenkins/blob/1302bbe246f9a3484b1a5b46f6538f0f4913bbf6/war/src/main/webapp/favicon.ico
+version: 20261118T091449Z
