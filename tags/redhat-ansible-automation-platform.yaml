@@ -1,0 +1,13 @@
+name: redhat-aap
+description: Detect Red Hat Ansible Automation Platform API product header
+uuid: f558ce9b-9af2-5812-8eb6-8fc2819a9d70
+query: http_headval:x-api-product-name:"Red Hat Ansible Automation Platform"
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-ansible-automation-platform
+- type:automation
+references:
+- https://github.com/ansible/awx/blob/8a6af80c3dc1415dd919b16a769ce203addbc5e8/awx/api/generics.py#L287
+- https://github.com/ansible/awx/blob/8a6af80c3dc1415dd919b16a769ce203addbc5e8/awx_collection/test/awx/test_module_utils.py#L13
+version: 20261118T072908Z
