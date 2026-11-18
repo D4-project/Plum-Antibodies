@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #371: Add Red Hat Satellite detection; reviewed type:systems-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #367: Add Red Hat Advanced Cluster Management for Kubernetes detection; reviewed type:cluster-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #361: Add FreeIPA identity family detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #360: Add 389 Directory Server family detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
