@@ -1,0 +1,13 @@
+name: redhat-openstack-director
+description: Detect Red Hat OpenStack Platform Director title
+uuid: fe8d7efa-63c2-5fb2-acc8-fe1cdfdaf55f
+query: http_title.bg:"Red Hat OpenStack Platform Director" OR http_title.bg:"Red Hat OpenStack Director"
+  OR http_title.bg:"Red Hat&reg; OpenStack Director" OR http_title.bg:"Red Hat® OpenStack Director"
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-openstack-director
+- type:cloud-management
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml
+version: 20261118T072908Z
