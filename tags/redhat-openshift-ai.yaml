@@ -1,0 +1,14 @@
+name: redhat-openshift-ai
+description: Detect Red Hat OpenShift AI dashboard title
+uuid: b9e81803-472a-50f2-b986-09d730d74d95
+query: http_title.bg:"Red Hat OpenShift AI"
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-openshift-ai
+- type:machine-learning-platform
+references:
+- https://github.com/opendatahub-io/odh-dashboard/blob/122edb05499327336b4081d1ac4199dff0910f11/Dockerfile#L38
+- https://github.com/opendatahub-io/odh-dashboard/blob/122edb05499327336b4081d1ac4199dff0910f11/frontend/config/rspack.common.js#L196
+- https://github.com/opendatahub-io/odh-dashboard/blob/122edb05499327336b4081d1ac4199dff0910f11/frontend/src/index.html
+version: 20261118T072908Z
