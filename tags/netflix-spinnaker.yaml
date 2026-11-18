@@ -1,0 +1,15 @@
+name: netflix-spinnaker
+description: Detect Spinnaker Deck favicon or Gate CORS response metadata
+uuid: 87a4a3af-e6b5-5604-8d1d-6a301a2e9bfb
+query: http_favicon_md5:5f9b7a00e54c6e11dd0395e93e608258 OR http_favicon_sha256:f46b4a9b3b7244d403be32818257c35b14df92917b28aba8b9fe140c27caa616
+  OR http_headval:access-control-allow-headers.lk:X-Spinnaker-Priority AND http_headval:access-control-allow-headers.lk:X-RateLimit-App
+tags:
+- proto:http
+- vendor:spinnaker
+- product:spinnaker
+- type:continuous-delivery
+references:
+- https://github.com/spinnaker/deck/blob/d820af08d0960ca9c6da0946ea3f66809616d7c0/packages/app/icons/prod-favicon.ico
+- https://github.com/spinnaker/deck/blob/d820af08d0960ca9c6da0946ea3f66809616d7c0/packages/app/webpack.config.js#L39
+- https://github.com/spinnaker/gate/blob/914a9151017676386658f6de7e3b2b41e2f523e8/gate-core/src/main/java/com/netflix/spinnaker/gate/filters/CorsFilter.java#L57
+version: 20261118T090641Z
