@@ -1,18 +1,18 @@
 name: keycloak
 description: Detect Keycloak identity and access management
 uuid: 773e6190-aaf5-47ef-b9a8-672a89620a5f
-query: http_title.bg:"Keycloak Administration Console"
-  OR http_favicon_mmhash:-533488376
-  OR http_favicon_md5:30a0bfae805d6ba13cca7e18dc1176fb
-  OR http_favicon_sha256:0322bce1a9f2409cdee4a2921e287e112f277a6e7774b983f8fcd32fbae19285
+query: http_title.bg:"Keycloak Administration Console" OR http_favicon_mmhash:-533488376 OR http_favicon_md5:30a0bfae805d6ba13cca7e18dc1176fb
+  OR http_favicon_sha256:0322bce1a9f2409cdee4a2921e287e112f277a6e7774b983f8fcd32fbae19285 OR http_cookiename:KEYCLOAK_IDENTITY
+  OR http_cookiename:KEYCLOAK_SESSION OR http_cookiename:KEYCLOAK_IDENTITY_LEGACY OR http_cookiename:KEYCLOAK_SESSION_LEGACY
 tags:
 - proto:http
 - vendor:keycloak
 - product:keycloak
-- type:identity-management
 - lang:java
+- type:identity-management
 references:
 - https://www.keycloak.org/
 - https://www.keycloak.org/getting-started/getting-started-zip
 - https://github.com/keycloak/keycloak/blob/eeceb5aed7dd7216be9611b4d7ba1586640187f5/js/apps/admin-ui/public/favicon.svg
-version: 20261118T070740Z
+- https://github.com/keycloak/keycloak/blob/eeceb5aed7dd7216be9611b4d7ba1586640187f5/server-spi-private/src/main/java/org/keycloak/cookie/CookieType.java
+version: 20261118T080835Z
