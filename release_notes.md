@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #373: Extend WildFly upstream application server detection; reviewed type:application-server, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #366: Add Red Hat OpenShift Online (legacy) detection; reviewed type:container-platform, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #365: Add Red Hat OpenShift Service on AWS (ROSA) detection; reviewed type:container-platform, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #364: Add Azure Red Hat OpenShift detection; reviewed type:container-platform, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
