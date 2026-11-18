@@ -1,0 +1,14 @@
+name: quay
+description: Detect Quay registry stock favicon
+uuid: 931ddbff-4363-50fe-95d1-9c7758fe0853
+query: http_favicon_md5:24a2b7fb24959d77c08c20ccb8fe9e45 OR http_favicon_sha256:4ddeda05adea03f48e503624a0cd045a9bc9193731cf437c5a46f3ce16636f26
+  OR http_favicon_path.bg:/static/img/quay_favicon.png
+tags:
+- proto:http
+- vendor:quay
+- product:quay
+- type:container-registry
+references:
+- https://github.com/quay/quay/blob/5f124ff23be4e18c43f8efa065459c90a6baaeb1/static/img/quay_favicon.png
+- https://github.com/quay/quay/blob/5f124ff23be4e18c43f8efa065459c90a6baaeb1/templates/base.html#L31
+version: 20261118T082902Z
