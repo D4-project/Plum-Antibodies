@@ -1,11 +1,10 @@
 name: jira
 description: Detect Atlassian Jira issue tracker
 uuid: bb9e4d87-89a3-5e73-856d-8202171d9b4b
-query: http_favicon_mmhash:855273746
-  OR http_favicon_mmhash:981867722
-  OR http_favicon_mmhash:552727997
-  OR http_favicon_mmhash:-1581907337
-  OR http_favicon_md5:04d89d5b7a290334f5ce37c7e8b6a349
+query: http_favicon_mmhash:855273746 OR http_favicon_mmhash:981867722 OR http_favicon_mmhash:552727997
+  OR http_favicon_mmhash:-1581907337 OR http_favicon_md5:04d89d5b7a290334f5ce37c7e8b6a349 OR http_title.bg:"System
+  Dashboard - Jira" OR http_title.bg:"System Dashboard - " AND http_cookiename:atlassian.xsrf.token OR
+  http_headval:location.bg:/secure/SetupMode!default.jspa AND http_header:x-arequestid
 tags:
 - lang:java
 - proto:http
@@ -15,4 +14,7 @@ tags:
 references:
 - https://www.atlassian.com/software/jira
 - https://confluence.atlassian.com/security/supported-platforms-in-jira-1409092896.html
-version: 20261118T071926Z
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/atlassian-jira.rb
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L10509
+version: 20261118T090641Z
