@@ -1,0 +1,12 @@
+name: redhat-satellite
+description: Detect Red Hat Satellite login title
+uuid: 8298d129-d1ac-5f83-ae9c-a6f1174eea4d
+query: http_title.bg:"Red Hat Satellite - Login"
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-satellite
+- type:systems-management
+references:
+- https://github.com/RedSiege/EyeWitness/blob/c3286fb71406e0b55b85a7c38dac76ee50b0f955/Python/categories.txt#L552
+version: 20261118T072908Z
