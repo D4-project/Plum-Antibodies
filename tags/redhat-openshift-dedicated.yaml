@@ -1,0 +1,12 @@
+name: openshift-dedicated
+description: Detect Red Hat OpenShift Dedicated console branding
+uuid: de6a67ec-7311-52c5-b879-a6d2626756f2
+query: http_title.bg:"Red Hat OpenShift Dedicated"
+tags:
+- proto:http
+- vendor:redhat
+- product:redhat-openshift-dedicated
+- type:container-platform
+references:
+- https://github.com/openshift/console/blob/98bf26733ca1f580ff8171f801e22425ebe4d33d/frontend/public/index.html
+version: 20261118T080845Z
