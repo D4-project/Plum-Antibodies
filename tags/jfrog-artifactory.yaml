@@ -1,0 +1,16 @@
+name: jfrog-artifactory
+description: Detect JFrog Artifactory server and API response metadata
+uuid: ba3583f9-e772-5251-9054-f80036602ee0
+query: http_server.bg:Artifactory/ OR http_header:x-artifactory-id OR http_header:x-artifactory-node-id
+  OR http_headval:x-jfrog-version.bg:Artifactory/ OR http_headval:content-type.bg:application/vnd.org.jfrog.artifactory
+tags:
+- proto:http
+- lang:java
+- vendor:jfrog
+- product:artifactory
+- type:artifact-repository
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml
+- https://github.com/praetorian-inc/nerva/blob/a8e483323df3d3f885ef5c64264a6dbeba5b8d93/pkg/plugins/fingerprinters/artifactory.go
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/misconfiguration/jfrog-artifactory-exposure.yaml
+version: 20261118T090641Z
