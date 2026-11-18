@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #362: Add Red Hat OpenShift console family detection; reviewed type:container-platform, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #358: Extend Keycloak identity family detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Consolidate all five historical Jira favicon predicates in `jira.yaml`, preserve its UUID, normalize to `product:jira`, `vendor:atlassian` and `type:issue-tracker`, and retire the two duplicate definitions. Record their UUIDs and the repository-import cleanup gap tracked in Plum-Island #282; deleting YAML alone does not retire existing SQL rules.
 - Add Keycloak identity and access management detection using the administration console title or stock SVG favicon hashes, verified against a stored Plum sample and the official upstream asset.
