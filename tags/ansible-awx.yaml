@@ -1,0 +1,13 @@
+name: ansible-awx
+description: Detect Ansible AWX API product header
+uuid: e1e0febe-e919-5273-8bcf-4586180a76b4
+query: http_headval:x-api-product-name:AWX
+tags:
+- proto:http
+- vendor:ansible
+- product:ansible-awx
+- type:automation
+references:
+- https://github.com/ansible/awx/blob/8a6af80c3dc1415dd919b16a769ce203addbc5e8/awx/api/generics.py#L287
+- https://github.com/ansible/awx/blob/8a6af80c3dc1415dd919b16a769ce203addbc5e8/awx_collection/test/awx/test_module_utils.py#L12
+version: 20261118T072908Z
