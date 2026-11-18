@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #357: Add Red Hat Single Sign-On (RH-SSO) detection; reviewed type:identity-management, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #368: Add Red Hat Ansible Automation Platform detection; reviewed type:automation, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #376: Extend Red Hat Enterprise Linux HTTP Server branding detection; reviewed protocol/product classification without a redundant asset type, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #373: Extend WildFly upstream application server detection; reviewed type:application-server, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
