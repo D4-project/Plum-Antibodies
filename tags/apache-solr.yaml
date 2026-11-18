@@ -1,14 +1,16 @@
 name: apache-solr
 description: Detect Apache Solr (search engine)
 uuid: 7d71684b-4613-49cc-9561-e9e1b026e72a
-query: http_title.bg:"Solr Admin"
+query: http_title.bg:"Solr Admin" OR http_header:x-solr-authdata
 tags:
-- type:search-engine
 - lang:java
 - proto:http
 - vendor:apache
 - product:solr
+- type:search-engine
 references:
 - https://solr.apache.org/
 - https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/exposed-panels/solr-panel-exposure.yaml
-version: 20261117T141428Z
+- https://github.com/apache/solr/blob/4890215acc8db102f293df50fd635c7270f0e59e/solr/core/src/java/org/apache/solr/security/AuthenticationPlugin.java#L43
+- https://github.com/apache/solr/blob/4890215acc8db102f293df50fd635c7270f0e59e/solr/modules/jwt-auth/src/java/org/apache/solr/security/jwt/JWTAuthPlugin.java#L849
+version: 20261118T095617Z
