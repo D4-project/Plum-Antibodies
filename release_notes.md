@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #403: Add PingFederate detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #401: Add JFrog Artifactory detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #400: Extend Atlassian Confluence detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #399: Extend Atlassian Jira detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.

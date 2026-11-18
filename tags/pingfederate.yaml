@@ -1,0 +1,13 @@
+name: pingfederate
+description: Detect PingFederate persistent-session response cookie
+uuid: 448d47d6-e70c-5c0c-a8bc-61e35140594a
+query: http_cookiename:PF.PERSISTENT
+tags:
+- proto:http
+- lang:java
+- vendor:pingidentity
+- product:pingfederate
+- type:identity-management
+references:
+- https://github.com/pingidentity/pingidentity-docker-builds/blob/fee79cefc79365a65f786bc53f78556e78cec1eb/pingfederate/opt/staging/instance/server/default/conf/log4j2.xml.subst.default#L158
+version: 20261118T094918Z
