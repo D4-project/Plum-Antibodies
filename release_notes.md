@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #408: Add Netflix Spinnaker detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR. Split Deck favicon detection from the Java Gate API condition to avoid inferring Java from frontend assets.
 - Integrate PR #407: Add Gerrit detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #405: Extend Apache Solr detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR.
 - Integrate PR #406: Add Elasticsearch detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR. Add the documented default HTTP CA issuer alternative confirmed in stored Elasticsearch certificates.

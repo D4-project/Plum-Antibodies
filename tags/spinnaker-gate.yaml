@@ -1,0 +1,13 @@
+name: spinnaker-gate
+description: Detect Spinnaker Gate API gateway
+uuid: 85c4fe88-e69a-45c7-9aeb-2217d3a021ea
+query: http_headval:access-control-allow-headers.lk:X-Spinnaker-Priority AND http_headval:access-control-allow-headers.lk:X-RateLimit-App
+tags:
+- proto:http
+- lang:java
+- vendor:spinnaker
+- product:spinnaker
+- type:api-gateway
+references:
+- https://github.com/spinnaker/gate/blob/914a9151017676386658f6de7e3b2b41e2f523e8/gate-core/src/main/java/com/netflix/spinnaker/gate/filters/CorsFilter.java#L57
+version: 20261118T095630Z
