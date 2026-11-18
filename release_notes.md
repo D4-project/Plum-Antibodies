@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Keycloak identity and access management detection using the administration console title or stock SVG favicon hashes, verified against a stored Plum sample and the official upstream asset.
 - Integrate PR #334: Extend MySQL Server protocol detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #333: Add MySQL Cluster detection; reviewed type:database, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
 - Integrate PR #332: Add Siebel Applications detection; reviewed type:crm, preserved stable rule identifiers and documented Plum example coverage in the PR follow-up.
