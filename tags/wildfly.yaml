@@ -1,7 +1,7 @@
 name: wildfly
 description: Detect WildFly
 uuid: 3a4170e5-114e-5a24-bfa5-cbd6206595be
-query: http_favicon_mmhash:-1666561833
+query: http_favicon_mmhash:-1666561833 OR http_title.bg:"Welcome to WildFly" OR http_favicon_md5:d9c04e84269281a37e8f024578ffd4f3
 tags:
 - lang:java
 - proto:http
@@ -9,4 +9,6 @@ tags:
 - vendor:wildfly
 references:
 - https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/7.2/pdf/introduction_to_jboss_eap/Red_Hat_JBoss_Enterprise_Application_Platform-7.2-Introduction_to_JBoss_EAP-en-US.pdf
-version: 20261117T132913Z
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/favicons.xml
+version: 20261118T072908Z
