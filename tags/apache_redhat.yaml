@@ -1,12 +1,12 @@
 name: apache-redhat
-description: Detect Apache on Redhat
+description: Detect Apache HTTPD with Red Hat branding
 uuid: a53fa66a-2119-5520-a743-4524bdc0b60b
-query: http_favicon_md5:71E30C507CA3FA005E2D1322A5AA8FB2 OR http_server.lk:"Red Hat
-  Enterprise Linux" OR http_server.lk:RedHat
+query: http_favicon_md5:71e30c507ca3fa005e2d1322a5aa8fb2 OR http_server.bg:Apache/ AND http_server.lk:"Red Hat Enterprise Linux" OR http_server.bg:Apache/ AND http_server.lk:RedHat OR http_title.bg:"Test Page for the Apache HTTP Server on Red Hat Enterprise Linux"
 tags:
 - proto:http
 - product:httpd
 - vendor:redhat
 references:
 - https://www.redhat.com/
-version: 20260918T053418Z
+- https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/default-redhat-test-page.yaml
+version: 20261118T080912Z
