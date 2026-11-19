@@ -1,0 +1,13 @@
+name: energyict-rtu
+description: Identify the EnergyICT remote terminal unit family from its HTTP server identity
+uuid: 73be6153-376a-4e79-aefe-f57e9db5208b
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND http_server.bg:"EnergyICT RTU
+  101-"
+tags:
+- proto:http
+- vendor:energyict
+- product:energyict-rtu
+- type:rtu
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L3346-L3351
+version: 20261119T223232Z
