@@ -1,0 +1,12 @@
+name: tac-xenta
+description: Identify TAC Xenta building controllers from their branded HTTP server identity
+uuid: e2071bc8-3dd4-4ab3-9257-043eb13bbed3
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND http_server.bg:"TAC/Xenta"
+tags:
+- proto:http
+- vendor:tac
+- product:xenta
+- type:building-controller
+references:
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/tac-xenta-controller.rb#L24-L30
+version: 20261119T223620Z
