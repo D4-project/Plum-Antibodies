@@ -1,0 +1,14 @@
+name: hypercorn
+description: Detect Hypercorn from its protocol-specific HTTP Server headers
+uuid: 09a449b1-6077-4c8d-a439-6b4cd4d804b3
+query: http_server:hypercorn-h11 OR http_server:hypercorn-h2 OR http_server:hypercorn-h3
+tags:
+- proto:http
+- product:hypercorn
+- lang:python
+references:
+- https://github.com/pgjones/hypercorn/blob/0e2311f1ad2ae587aaa590f3824f59aa5dc0e770/src/hypercorn/config.py#L285
+- https://github.com/pgjones/hypercorn/blob/0e2311f1ad2ae587aaa590f3824f59aa5dc0e770/src/hypercorn/protocol/h11.py#L124
+- https://github.com/pgjones/hypercorn/blob/0e2311f1ad2ae587aaa590f3824f59aa5dc0e770/src/hypercorn/protocol/h2.py#L205
+- https://github.com/pgjones/hypercorn/blob/0e2311f1ad2ae587aaa590f3824f59aa5dc0e770/src/hypercorn/protocol/h3.py#L76
+version: 20261119T162938Z
