@@ -1,0 +1,14 @@
+name: rapid-scada
+description: Identify Rapid SCADA from the English web login title
+uuid: 5a387ca6-43f8-4991-a6e9-9bc549320c08
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND http_title:"Login - Rapid SCADA"
+tags:
+- proto:http
+- product:rapid-scada
+- type:scada
+references:
+- https://github.com/RapidScada/scada-v6/blob/e5abc30c42dc39e13272c868128b8a0a33b8075b/ScadaWeb/ScadaWeb/ScadaWeb/Pages/Shared/_BasicLayout.cshtml#L7
+- https://github.com/RapidScada/scada-v6/blob/e5abc30c42dc39e13272c868128b8a0a33b8075b/ScadaWeb/ScadaWeb/ScadaWeb/Pages/Login.cshtml#L6
+- https://github.com/RapidScada/scada-v6/blob/e5abc30c42dc39e13272c868128b8a0a33b8075b/ScadaWeb/ScadaWeb/ScadaWebCommon/Lang/ScadaWeb.en-GB.xml#L94
+- https://github.com/RapidScada/scada-v6/blob/e5abc30c42dc39e13272c868128b8a0a33b8075b/ScadaCommon/ScadaCommon/Lang/CommonPhrases.cs#L152
+version: 20261119T223232Z
