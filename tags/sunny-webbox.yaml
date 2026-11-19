@@ -1,9 +1,12 @@
 name: sunny-webbox
-description: Detect Sunny WebBox
+description: Identify the SMA Sunny WebBox data logger from its favicon or named HTTP service
 uuid: a0817e45-c93f-52b1-84eb-b59746fde5a5
-query: http_favicon_mmhash:1975413433
+query: http_favicon_mmhash:1975413433 OR (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7)
+  AND http_server:"Sunny WebBox"
 tags:
 - proto:http
 - product:sunny-webbox
-- vendor:sunny
-version: 20260918T053418Z
+- vendor:sma
+version: 20261119T223232Z
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L3329-L3339
