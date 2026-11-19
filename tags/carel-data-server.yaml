@@ -1,0 +1,12 @@
+name: carel-data-server
+description: Identify CAREL Data Server from its branded HTTP server token
+uuid: 1d818c9c-8cfb-4bb3-8f1f-dc6851cf7db0
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND http_server.bg:CarelDataServer/
+tags:
+- proto:http
+- vendor:carel
+- product:carel-data-server
+- type:industrial-web-interface
+references:
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/carel-data-server.rb#L35
+version: 20261119T223620Z
