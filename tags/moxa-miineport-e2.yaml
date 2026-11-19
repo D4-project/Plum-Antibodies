@@ -1,0 +1,13 @@
+name: moxa-miineport-e2
+description: Identify MiiNePort E2 embedded serial servers from the model-name field
+uuid: f4c389b5-dfda-4c55-8af6-316086ba7ca2
+query: '(net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND (banner:"Model name          :
+  MiiNePort E2" OR banner.bg:"Model name          : MiiNePort E2\\x0D")'
+tags:
+- proto:telnet
+- vendor:moxa
+- product:miineport-e2
+- type:serial-device-server
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/telnet_banners.xml#L1036-L1052
+version: 20261119T223232Z
