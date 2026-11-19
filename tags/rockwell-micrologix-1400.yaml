@@ -1,0 +1,14 @@
+name: rockwell-micrologix-1400
+description: Identify a MicroLogix 1400 controller by its 1766-L32BXB management title
+uuid: 9c44cbf6-275e-448f-a2af-baf256e6379c
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND http_title.bg:"1766-L32BXB
+  B/"
+tags:
+- proto:http
+- vendor:rockwell-automation
+- product:micrologix-1400
+- type:plc
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1708-L1715
+- https://www.rockwellautomation.com/en-us/products/details.1766-L32BXB.html
+version: 20261119T223232Z
