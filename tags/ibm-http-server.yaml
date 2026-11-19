@@ -1,0 +1,12 @@
+name: ibm-http-server
+description: Detect IBM HTTP Server from its branded HTTP Server header
+uuid: c623fbc9-0028-4b77-a083-d8a4207f855f
+query: http_server:IBM_HTTP_Server OR http_server.bg:IBM_HTTP_Server/ OR http_server:IBM-HTTP-Server OR http_server.bg:IBM-HTTP-Server/
+tags:
+- proto:http
+- vendor:ibm
+- product:ibm-http-server
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L1241-L1252
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L1263-L1280
+version: 20261119T162938Z
