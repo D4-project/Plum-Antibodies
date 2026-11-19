@@ -5,5 +5,5 @@ query: http_favicon_mmhash:-2125083197
 tags:
 - proto:http
 - product:windows-azure
-- vendor:windows
-version: 20260918T053418Z
+- vendor:microsoft
+version: 20261119T093035Z

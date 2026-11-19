@@ -10,6 +10,6 @@ tags:
 - proto:http
 - product:owa
 - type:webmail
-- vendor:windows
+- vendor:microsoft
 - product:outlook
-version: 20260918T053418Z
+version: 20261119T093035Z

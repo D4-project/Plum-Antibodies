@@ -4,6 +4,6 @@ uuid: 703c7215-dcfb-53bd-a64c-e1e062649aa7
 query: banner.lk:"microsoft ftp service"
 tags:
 - proto:ftp
-- vendor:windows
+- vendor:microsoft
 - product:microsoft-ftp-service
-version: 20260918T053418Z
+version: 20261119T093035Z

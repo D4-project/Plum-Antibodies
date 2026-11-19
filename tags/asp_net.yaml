@@ -6,6 +6,6 @@ query: http_favicon_mmhash:1772087922 OR http_headval:x-powered-by.bg:asp.net OR
 tags:
 - proto:http
 - lang:asp
-- vendor:windows
+- vendor:microsoft
 - product:asp-net
-version: 20260918T053418Z
+version: 20261119T093035Z

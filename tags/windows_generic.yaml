@@ -4,6 +4,6 @@ uuid: ec9dc89a-450e-505b-9dbc-1cc210138468
 query: http_server.lk:"(Win64)" or http_server.bg:microsoft-iis
 tags:
 - proto:http
-- vendor:windows
+- vendor:microsoft
 - product:windows
-version: 20261117T124040Z
+version: 20261119T093035Z
