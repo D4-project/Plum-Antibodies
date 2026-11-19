@@ -1,0 +1,12 @@
+name: werkzeug
+description: Detect the Werkzeug development server from its versioned HTTP Server header
+uuid: 3d16faf2-4b16-4b2b-9a32-e0794e0421e6
+query: http_server.bg:Werkzeug/
+tags:
+- proto:http
+- vendor:pallets
+- product:werkzeug
+- lang:python
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L4658-L4665
+version: 20261119T162938Z
