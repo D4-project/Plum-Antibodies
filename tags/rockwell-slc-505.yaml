@@ -1,0 +1,14 @@
+name: rockwell-slc-505
+description: Identify SLC 5/05 controllers by the catalog number in the page title
+uuid: 973e1763-5fea-4a1b-b3a6-9aea42260540
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND (http_title:"1747-L551 Home
+  Page" OR http_title:"1747-L551/C Home Page" OR http_title:"1747-L552/C Home Page")
+tags:
+- proto:http
+- vendor:rockwell-automation
+- product:slc-5-05
+- type:plc
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1697-L1706
+- https://www.rockwellautomation.com/en-us/products/details.1747-L551.html
+version: 20261119T223232Z
