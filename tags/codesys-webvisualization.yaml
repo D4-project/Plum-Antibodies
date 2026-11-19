@@ -1,0 +1,12 @@
+name: codesys-webvisualization
+description: Identify the CODESYS WebVisualization application from its branded page title
+uuid: 0d1498f1-e86c-488c-9247-ec57da523812
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND http_title:"CoDeSys WebVisualization"
+tags:
+- proto:http
+- vendor:codesys
+- product:codesys-webvisualization
+- type:hmi
+references:
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/codesys-web-visualization.rb#L33
+version: 20261119T223232Z
