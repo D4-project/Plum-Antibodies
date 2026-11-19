@@ -1,0 +1,14 @@
+name: ignition-gateway
+description: Identify Ignition Gateway from its branded title and matching favicon
+uuid: 686caafe-d340-4754-b46a-707ebb952c69
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND http_title.lk:"- Ignition Gateway"
+  AND http_favicon_md5:245864156f187bf99b1562a30d1c1c97
+tags:
+- proto:http
+- vendor:inductive-automation
+- product:ignition-gateway
+- type:scada
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L2917-L2923
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/favicons.xml#L613-L618
+version: 20261119T223232Z
