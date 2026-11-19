@@ -1,0 +1,13 @@
+name: abb-robotics-ftp
+description: Identify the ABB Robotics FTP service from its branded greeting
+uuid: 0e5768b3-7e51-48be-9b0b-6dfeff4d0c3c
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND banner.bg:"220 ABB Robotics
+  FTP server ("
+tags:
+- proto:ftp
+- vendor:abb
+- product:abb-robotics-ftp
+- type:ftp-server
+references:
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L779
+version: 20261119T223232Z
