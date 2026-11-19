@@ -1,0 +1,12 @@
+name: fuxa
+description: Identify FUXA from its shipped page title and favicon
+uuid: 52f03d3f-7d8e-4a58-b261-aea5e7632d9a
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND http_title:"FUXA" AND http_favicon_sha256:eb5d788ce0908609e5114dcc6c1a8fb6e0c34b84e04900f2321de65233cc5e96
+tags:
+- proto:http
+- product:fuxa
+- type:scada
+references:
+- https://github.com/frangoteam/FUXA/blob/f176fb057d9e3c0d5e37b81e5aef70ccff9d752c/client/dist/index.html#L7
+- https://github.com/frangoteam/FUXA/blob/f176fb057d9e3c0d5e37b81e5aef70ccff9d752c/client/dist/favicon.ico
+version: 20261119T223232Z
