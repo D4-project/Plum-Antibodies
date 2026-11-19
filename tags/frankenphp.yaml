@@ -1,0 +1,11 @@
+name: frankenphp
+description: Detect the packaged FrankenPHP welcome page
+uuid: 68c5a24a-838b-49cc-b661-b2ae6c71ced3
+query: http_title:"FrankenPHP | Welcome!"
+tags:
+- proto:http
+- product:frankenphp
+- lang:php
+references:
+- https://github.com/php/frankenphp/blob/97478e2e08bf86b0cb8ee2492aedc074a6763808/package/content/index.php#L7
+version: 20261119T162938Z
