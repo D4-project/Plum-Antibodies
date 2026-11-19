@@ -1,0 +1,11 @@
+name: fasthttp
+description: Detect the Go fasthttp server from its HTTP Server header
+uuid: d40cd9e7-20b8-4262-8fe3-1e40871dcb0b
+query: http_server:fasthttp
+tags:
+- proto:http
+- product:fasthttp
+- lang:go
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L4595-L4600
+version: 20261119T162938Z
