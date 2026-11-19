@@ -1,0 +1,11 @@
+name: rompager
+description: Detect Allegro RomPager from its versioned HTTP Server header
+uuid: d4bd76ef-984f-4b4b-9659-a619a9ee6160
+query: http_server.bg:RomPager/ OR http_server.bg:Allegro-Software-RomPager/ OR http_server.bg:Allegro-Software-RomPager-Digi/
+tags:
+- proto:http
+- vendor:allegro-software
+- product:rompager
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L2119-L2131
+version: 20261119T162938Z
