@@ -1,0 +1,12 @@
+name: tinyproxy
+description: Detect Tinyproxy from its versioned HTTP Server header
+uuid: 0d770c48-55f1-4004-8755-226f92adf24b
+query: http_server.bg:tinyproxy/
+tags:
+- proto:http
+- vendor:tinyproxy
+- product:tinyproxy
+- type:proxy
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L4550
+version: 20261119T162938Z
