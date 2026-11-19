@@ -1,0 +1,11 @@
+name: ecom100
+description: Identify the ECOM100 communication module from its main-page title
+uuid: 4ed1d29e-c65a-4e89-b9da-70d37b5a3bd4
+query: (net:10.0.0.0/8 OR net:172.16.0.0/12 OR net:192.168.0.0/16 OR net:fc00::/7) AND http_title:"ECOM100 Main"
+tags:
+- proto:http
+- product:ecom100
+- type:communication-module
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1661-L1668
+version: 20261119T223232Z
