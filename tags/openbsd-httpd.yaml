@@ -1,0 +1,11 @@
+name: openbsd-httpd
+description: Detect OpenBSD httpd from its HTTP Server header
+uuid: dbc6578e-a737-434c-853f-a9c872f8220f
+query: http_server:"OpenBSD httpd"
+tags:
+- proto:http
+- vendor:openbsd
+- product:openbsd-httpd
+references:
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L10849
+version: 20261120T075936Z
