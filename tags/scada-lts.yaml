@@ -1,0 +1,13 @@
+name: scada-lts
+description: Identify Scada-LTS from the default application title
+uuid: e3da4fc3-2e82-4498-a79b-8e4d58d83ae0
+query: http_title.bg:"Scada-LTS"
+tags:
+- proto:http
+- product:scada-lts
+- type:scada
+- lang:java
+references:
+- https://github.com/Scada-LTS/Scada-LTS/blob/f1cf088585cabd6f5a457698a764e0fc07cf98ee/WebContent/WEB-INF/tags/page.tag#L32
+- https://github.com/Scada-LTS/Scada-LTS/blob/f1cf088585cabd6f5a457698a764e0fc07cf98ee/webapp-resources/messages_en.properties#L2270
+version: 20261120T082038Z
