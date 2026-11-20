@@ -1,0 +1,12 @@
+name: moxa-ne-4110s
+description: Identify the Moxa NE-4110S embedded serial module from its reported model
+uuid: a8a65b28-0f10-4eb5-92e8-ba1c5d6364b6
+query: 'banner:"Model name       : NE-4110S" OR banner.bg:"Model name       : NE-4110S\\x0D"'
+tags:
+- proto:telnet
+- vendor:moxa
+- product:ne-4110s
+- type:serial-device-server
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/telnet_banners.xml#L1011-L1030
+version: 20261120T081929Z
