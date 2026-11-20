@@ -1,0 +1,13 @@
+name: mitsubishi-qnudvcpu
+description: Identify the MELSEC-Q QnUDVCPU family from its FTP service greeting
+uuid: 6a989059-7140-4d3e-b413-fbd5cc93aff3
+query: banner.bg:"220 QnUDVCPU FTP server ready."
+tags:
+- proto:ftp
+- vendor:mitsubishi-electric
+- product:qnudvcpu
+- type:plc
+references:
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L1326
+- https://www.mitsubishielectric.com/fa/products/cnt/plcq/items/index.html
+version: 20261120T081749Z
