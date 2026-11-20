@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #449: Add Allen-Bradley SLC 5/05 detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Remove the private-address gate: this passive product signature applies to public and private stored captures. Preserve the product-specific predicate(s). Use complete product-specific title prefixes to tolerate scanner path annotations; redirect messages do not start with those titles.
 - Integrate PR #448: Add thttpd HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #447: Add mini_httpd HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #446: Add RomPager HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
