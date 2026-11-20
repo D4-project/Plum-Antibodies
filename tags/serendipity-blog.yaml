@@ -1,0 +1,12 @@
+name: serendipity-blog
+description: Detect Serendipity blog session cookie
+uuid: 14420912-26c3-49cf-9e3e-abf544962c4a
+query: http_cookiename.bg:s9y_
+tags:
+- type:cms
+- lang:php
+- proto:http
+- product:serendipity-blog-system
+references:
+- https://docs.s9y.org/docs/users/getting-started/fresh-installation.html
+version: 20261120T154240Z

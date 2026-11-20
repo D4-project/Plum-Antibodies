@@ -1,0 +1,12 @@
+name: hesk
+description: Detect HESK help desk page
+uuid: 22a617bb-de45-404b-89e5-f80141a15c15
+query: http_title:"Powered by HESK"
+tags:
+- type:helpdesk
+- lang:php
+- proto:http
+- product:hesk
+references:
+- https://www.hesk.com/download.php
+version: 20261120T154240Z

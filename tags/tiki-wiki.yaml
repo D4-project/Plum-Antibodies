@@ -1,0 +1,12 @@
+name: tiki-wiki
+description: Detect Tiki Wiki installer-disabled page
+uuid: bc5a9090-43e1-4a00-ab89-b7c8e20e30c8
+query: http_title:"Tiki Installer Disabled"
+tags:
+- type:cms
+- lang:php
+- proto:http
+- product:tiki-wiki-cms-groupware
+references:
+- https://doc.tiki.org/PHP-8
+version: 20261120T154240Z
