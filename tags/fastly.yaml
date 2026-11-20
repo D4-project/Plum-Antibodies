@@ -1,0 +1,13 @@
+name: fastly
+description: Detect Fastly CDN responses carrying cache debugging headers
+uuid: 6dff478d-98b6-428c-8989-2d34a7752ee9
+query: http_header:fastly-debug-digest AND http_header:fastly-debug-path
+tags:
+- proto:http
+- vendor:fastly
+- product:fastly
+- type:proxy
+references:
+- https://www.fastly.com/documentation/reference/http/http-headers/Fastly-Debug-Digest/
+- https://www.fastly.com/documentation/reference/http/http-headers/Fastly-Debug-Path/
+version: 20261120T071904Z
