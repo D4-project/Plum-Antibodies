@@ -1,0 +1,15 @@
+name: cyberstrikeai
+description: Detect the CyberStrikeAI operator dashboard by its official favicon
+uuid: 65e88a03-628f-5dd8-90a6-9d132faa6a9e
+query: http_favicon_sha256:483ddc84a99698971d21d4ac6eb6057fbedb575ab12d7cff51434b305665d4b7
+tags:
+- proto:http
+- product:cyberstrikeai
+- vendor:aipentest
+- type:c2
+references:
+- https://github.com/AIPentest/CyberStrikeAI/blob/af6cf7500c8eff357cc6c3f50e7c7b150fcfa836/web/templates/index.html
+- https://github.com/AIPentest/CyberStrikeAI/blob/af6cf7500c8eff357cc6c3f50e7c7b150fcfa836/web/static/favicon.ico
+- https://github.com/AIPentest/CyberStrikeAI/blob/af6cf7500c8eff357cc6c3f50e7c7b150fcfa836/cmd/server/main.go
+- https://github.com/AIPentest/CyberStrikeAI/blob/af6cf7500c8eff357cc6c3f50e7c7b150fcfa836/LICENSE
+version: 20261120T095021Z

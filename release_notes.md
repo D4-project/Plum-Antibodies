@@ -1,5 +1,10 @@
 # Release notes
 
+- Add RedAmon operator console detection from an ONYPHE-confirmed source fingerprint, independent of port (issue #535).
+- Add CyberStrikeAI operator console detection from an ONYPHE-confirmed source fingerprint, independent of port (issue #530).
+- Add PentAGI operator console detection from an ONYPHE-confirmed source fingerprint, independent of port (issue #529).
+- Add CyberStrike operator console detection from an ONYPHE-confirmed source fingerprint, independent of port (issue #528).
+- Add Cairn operator console detection from an ONYPHE-confirmed source fingerprint, independent of port (issue #527).
 - Add Strix operator dashboard detection from its stock title or HTTP Server header, independent of port (issue #537).
 - Add BugTraceAI CLI operator API detection from its Swagger UI title, independent of port (issue #539).
 - Add HexStrike AI operator API detection from the observed branded HTTP Basic realm, independent of port (issue #542).

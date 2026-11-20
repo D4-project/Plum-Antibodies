@@ -1,0 +1,14 @@
+name: redamon
+description: Detect the RedAmon operator dashboard
+uuid: 1e324208-4d7a-50ac-ba73-d650f62a2d2d
+query: http_title:RedAmon
+tags:
+- proto:http
+- product:redamon
+- vendor:samugit83
+- type:c2
+references:
+- https://github.com/samugit83/redamon/blob/73ca9d38ced026be6d88d1dc526c72317e7d193c/README.md
+- https://github.com/samugit83/redamon/blob/73ca9d38ced026be6d88d1dc526c72317e7d193c/docker-compose.yml
+- https://github.com/samugit83/redamon/blob/73ca9d38ced026be6d88d1dc526c72317e7d193c/LICENSE
+version: 20261120T095021Z

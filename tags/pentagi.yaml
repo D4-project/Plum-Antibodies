@@ -1,0 +1,15 @@
+name: pentagi
+description: Detect the PentAGI operator dashboard by its official favicon
+uuid: 87944b01-fead-58e6-9bb1-d5f2c4255a96
+query: http_favicon_sha256:2a620e3c5f7b49dfc6f5278352607f7931f8c38ef9d4689908af65538dd95366
+tags:
+- proto:http
+- product:pentagi
+- vendor:vxcontrol
+- type:c2
+references:
+- https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/frontend/index.html
+- https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/frontend/public/favicon/favicon-96x96.png
+- https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/docker-compose.yml
+- https://github.com/vxcontrol/pentagi/blob/cffed9485aa1cca70762cd08a57ac62a80406258/LICENSE
+version: 20261120T095021Z

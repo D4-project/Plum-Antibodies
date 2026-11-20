@@ -1,0 +1,15 @@
+name: cairn
+description: Detect the Cairn agent coordination console by title and official favicon
+uuid: 7a4246c0-8c16-51fc-9100-0a196fd5c5c2
+query: http_title:Cairn AND http_favicon_sha256:8600d99b56c62e2cb159a6cae0a3bf543906602507770c8e67b85b90fb1473bb
+tags:
+- proto:http
+- product:cairn
+- vendor:oritera
+- type:c2
+references:
+- https://github.com/oritera/Cairn/blob/8e7e0ea67552383851dfcabfba0c4e9c8d007878/cairn/src/cairn/server/static/index.html
+- https://github.com/oritera/Cairn/blob/8e7e0ea67552383851dfcabfba0c4e9c8d007878/cairn/src/cairn/server/static/favicon.svg
+- https://github.com/oritera/Cairn/blob/8e7e0ea67552383851dfcabfba0c4e9c8d007878/cairn/src/cairn/cli.py
+- https://github.com/oritera/Cairn/blob/8e7e0ea67552383851dfcabfba0c4e9c8d007878/LICENSE
+version: 20261120T095021Z

@@ -1,0 +1,15 @@
+name: cyberstrike
+description: Detect the CyberStrike operator dashboard by its official favicon
+uuid: 845b5e2e-2047-5525-8a6f-a2a6035e3345
+query: http_favicon_sha256:68d1688cf4c8459acd2938927a61ec70e60fb321c918c94fbe37150f8416a229
+tags:
+- proto:http
+- product:cyberstrike
+- vendor:cyberstrikeus
+- type:c2
+references:
+- https://github.com/CyberStrikeus/CyberStrike/blob/eb5e8850c9c391d2ff7dfd3ec3bfab4350f5d159/packages/app/index.html
+- https://github.com/CyberStrikeus/CyberStrike/blob/eb5e8850c9c391d2ff7dfd3ec3bfab4350f5d159/packages/app/public/favicon-v3.svg
+- https://github.com/CyberStrikeus/CyberStrike/blob/eb5e8850c9c391d2ff7dfd3ec3bfab4350f5d159/packages/cyberstrike/src/cli/network.ts
+- https://github.com/CyberStrikeus/CyberStrike/blob/eb5e8850c9c391d2ff7dfd3ec3bfab4350f5d159/LICENSE
+version: 20261120T095021Z
