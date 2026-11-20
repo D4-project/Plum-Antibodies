@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #422: Add Tinyproxy HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain type:proxy.
 - Integrate PR #421: Add Fastly HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Classify the CDN edge as type:proxy; keep the debug header pair in AND.
 - Integrate PR #420: Extend Cloudflare HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Classify the CDN edge as type:proxy; retain both response header predicates in AND.
 - Integrate PR #419: Extend Amazon CloudFront HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Classify the CDN edge as type:proxy; retain both response header predicates in AND.
