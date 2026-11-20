@@ -1,0 +1,13 @@
+name: rockwell-flex-1794-aentr
+description: Identify the 1794-AENTR FLEX I/O Ethernet adapter from its model and role
+uuid: 13d6d60d-ee35-43cd-9123-5cc3a8d61299
+query: http_title.bg:"1794-AENTR FLEX Ethernet Adapter"
+tags:
+- proto:http
+- vendor:rockwell-automation
+- product:1794-aentr
+- type:io-adapter
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1670-L1677
+- https://www.rockwellautomation.com/en-us/products/details.1794-AENTR.html
+version: 20261120T081758Z
