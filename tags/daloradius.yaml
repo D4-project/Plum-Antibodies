@@ -1,0 +1,17 @@
+name: daloradius
+description: Detect the daloRADIUS web management login
+uuid: c369b42a-9984-5704-bad0-416c42d00c64
+query: 'http_title.bg:"daloRADIUS :: Login" OR http_cookiename:daloradius_operator_sid OR http_cookiename:daloradius_user_sid'
+tags:
+- proto:http
+- product:daloradius
+- vendor:daloradius
+- type:network-management
+- lang:php
+references:
+- https://github.com/lirantal/daloradius/blob/ace45161041f8ccd7ebfced6217ed7a7c53457d0/app/operators/login.php
+- https://github.com/lirantal/daloradius/blob/ace45161041f8ccd7ebfced6217ed7a7c53457d0/app/users/login.php
+- https://github.com/lirantal/daloradius/blob/ace45161041f8ccd7ebfced6217ed7a7c53457d0/app/operators/library/sessions.php
+- https://github.com/lirantal/daloradius/blob/ace45161041f8ccd7ebfced6217ed7a7c53457d0/app/users/library/sessions.php
+- https://github.com/lirantal/daloradius/blob/ace45161041f8ccd7ebfced6217ed7a7c53457d0/LICENSE
+version: 20261120T110214Z
