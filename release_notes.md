@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #417: detect Traefik Proxy through corroborated dashboard title prefixes or the exact default TLS certificate subject CN. Verify the upstream favicon and certificate marker, confirm stored Plum certificate samples, retain the rule UUID and proxy classification, and refresh the UTC version.
 - Correct eight `vendor:windows` classifications: use `vendor:microsoft` for Microsoft products and Windows OpenSSH, and `vendor:bitvise` for Bitvise SSH Server. Refresh all eight UTC rule versions while preserving their identities, predicates and other tags.
 - Consolidate the two verified Elasticsearch favicon hashes from `elastic-database.yaml` into `elasticsearch.yaml`, preserving its UUID and canonical product/vendor/Java/search-engine tags. Add `retired_rules.yaml` with the exact names, retired UUIDs and replacement UUIDs for this consolidation and the previous Jira cleanup; automatic SQL retirement remains tracked in Plum-Island #282.
 - Integrate PR #408: Add Netflix Spinnaker detection; review component types and Java metadata, retain rule identities, refresh UTC versions and record Plum sample coverage in the PR. Split Deck favicon detection from the Java Gate API condition to avoid inferring Java from frontend assets.

@@ -1,0 +1,17 @@
+name: traefik
+description: Detect Traefik Proxy from its dashboard or default TLS certificate
+uuid: 2341f23b-e38c-4f4d-ba2b-b1e032c06f9d
+query: http_title.bg:"Traefik Proxy" AND http_favicon_sha256:7b9791c66bfb2e701f143209ffe38cf6da4d0f3300f425ee370c9923881d193c
+  OR http_title.bg:"Traefik Proxy" AND http_headval:content-security-policy.bg:"frame-src 'self' https://traefik.io https://*.traefik.io;"
+  OR x509_subject_cn:"TRAEFIK DEFAULT CERT"
+tags:
+- proto:http
+- vendor:traefik
+- product:traefik
+- type:proxy
+references:
+- https://github.com/traefik/traefik/blob/36b2bd1bd4538dec67b2e7ca6eb395eae47396ee/webui/index.html#L24
+- https://github.com/traefik/traefik/blob/36b2bd1bd4538dec67b2e7ca6eb395eae47396ee/webui/public/favicon.ico
+- https://github.com/traefik/traefik/blob/36b2bd1bd4538dec67b2e7ca6eb395eae47396ee/pkg/api/dashboard/dashboard.go#L108
+- https://github.com/traefik/traefik/blob/36b2bd1bd4538dec67b2e7ca6eb395eae47396ee/pkg/tls/generate/generate.go#L18
+version: 20261120T065836Z
