@@ -1,0 +1,13 @@
+name: aapanel
+description: Detect the aaPanel Linux hosting panel
+uuid: 9e078d2c-b4c1-5202-b792-d1507127cae7
+query: 'http_title:"aaPanel Linux panel"'
+tags:
+- proto:http
+- product:aapanel
+- vendor:aapanel
+- type:hosting-panel
+references:
+- https://github.com/aaPanel/aaPanel/tree/38bf35903b37b50d9654f47c4ad904ca3369715f
+- https://www.aapanel.com/
+version: 20261120T110741Z
