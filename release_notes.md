@@ -1,5 +1,6 @@
 # Release notes
 
+- Match Moxa NE-4110S, MiiNePort E2, and MGate MB3180 model banners after Telnet negotiation bytes, as confirmed by ONYPHE (issues #507, #506, #505).
 - Add RedAmon operator console detection from an ONYPHE-confirmed source fingerprint, independent of port (issue #535).
 - Add CyberStrikeAI operator console detection from an ONYPHE-confirmed source fingerprint, independent of port (issue #530).
 - Add PentAGI operator console detection from an ONYPHE-confirmed source fingerprint, independent of port (issue #529).
