@@ -1,0 +1,12 @@
+name: schneider-modbus-bridge
+description: Identify the Schneider Automation Modbus Bridge from its named terminal greeting
+uuid: ccec1b07-e5bf-49ed-866d-059028717841
+query: banner.lk:"Schneider Automation, Inc. - Modbus Bridge ("
+tags:
+- proto:telnet
+- vendor:schneider
+- product:modbus-bridge
+- type:protocol-gateway
+references:
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L4683
+version: 20261120T081947Z
