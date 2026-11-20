@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #431: Extend Gunicorn HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Add lang:python; retain both exact and version-prefix Server forms, without a web-server type.
 - Integrate PR #430: Add FrankenPHP HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Use a full-brand title prefix to tolerate scanner title metadata, OR the exact observed Server value. Retain lang:php.
 - Integrate PR #429: Add OpenBSD httpd HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. No web-server type or inferred operating-system tag is added.
 - Integrate PR #428: Add NGINX Unit HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Add the source-confirmed exact Server: Unit alternative; retain type:application-server without inferring any optional application language.
