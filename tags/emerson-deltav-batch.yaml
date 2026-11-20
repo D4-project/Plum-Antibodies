@@ -1,0 +1,12 @@
+name: emerson-deltav-batch
+description: Identify the DeltaV Batch Runtime Server from its self-reported name
+uuid: d79a0113-b4d2-4825-9983-89809225e5bb
+query: banner.lk:"DeltaV Batch Runtime Server"
+tags:
+- proto:telnet
+- vendor:emerson
+- product:deltav-batch-runtime-server
+- type:application-server
+references:
+- https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L4864
+version: 20261120T082246Z
