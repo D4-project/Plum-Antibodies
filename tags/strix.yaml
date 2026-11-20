@@ -1,0 +1,15 @@
+name: strix
+description: Detect the Strix local results and operator dashboard
+uuid: e5c0b419-6bc2-561d-b75b-33c07473efb7
+query: 'http_title.bg:"Strix Results" OR http_server.bg:"StrixViewer/"'
+tags:
+- proto:http
+- product:strix
+- vendor:usestrix
+- type:c2
+references:
+- https://github.com/usestrix/strix/blob/a1ccf777d80e812edf23fc8b82bdc17def6143ac/strix/interface/viewer/static/index.html
+- https://github.com/usestrix/strix/blob/a1ccf777d80e812edf23fc8b82bdc17def6143ac/strix/interface/viewer/server.py
+- https://github.com/usestrix/strix/blob/a1ccf777d80e812edf23fc8b82bdc17def6143ac/docs/usage/viewer.mdx
+- https://github.com/usestrix/strix/blob/a1ccf777d80e812edf23fc8b82bdc17def6143ac/LICENSE
+version: 20261120T093954Z
