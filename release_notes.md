@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #415: Add Envoy HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain type:proxy and exact product-specific Server values.
 - Integrate PR #414: Add Dell PowerStore management API detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Classify enterprise storage as type:storage.
 - Integrate PR #417: detect Traefik Proxy through corroborated dashboard title prefixes or the exact default TLS certificate subject CN. Verify the upstream favicon and certificate marker, confirm stored Plum certificate samples, retain the rule UUID and proxy classification, and refresh the UTC version.
 - Correct eight `vendor:windows` classifications: use `vendor:microsoft` for Microsoft products and Windows OpenSSH, and `vendor:bitvise` for Bitvise SSH Server. Refresh all eight UTC rule versions while preserving their identities, predicates and other tags.

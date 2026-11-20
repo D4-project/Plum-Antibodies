@@ -1,0 +1,12 @@
+name: envoy
+description: Detect the Envoy proxy from its HTTP Server header
+uuid: e9d30b8c-0b36-4818-b0be-9a0831267108
+query: http_server:envoy OR http_server:istio-envoy
+tags:
+- proto:http
+- vendor:envoyproxy
+- product:envoy
+- type:proxy
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L53-L66
+version: 20261120T071806Z
