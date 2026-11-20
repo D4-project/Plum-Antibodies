@@ -1,0 +1,12 @@
+name: rockwell-1761-net-eniw
+description: Identify the 1761-NET-ENIW Ethernet interface from its catalog-number title
+uuid: 4e033ca0-8b30-471d-bfbf-9fa07166d054
+query: http_title.bg:"1761-NET-ENIW"
+tags:
+- proto:http
+- vendor:rockwell-automation
+- product:1761-net-eniw
+- type:industrial-interface
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1731-L1738
+version: 20261120T081816Z
