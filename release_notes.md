@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #448: Add thttpd HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #447: Add mini_httpd HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #446: Add RomPager HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #445: Add Embedthis Appweb HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.

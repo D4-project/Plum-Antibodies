@@ -1,0 +1,11 @@
+name: thttpd
+description: Detect ACME thttpd from its HTTP Server header
+uuid: c74e52f0-fb85-4071-92e0-442b72a4adbc
+query: http_server:thttpd OR http_server.bg:thttpd/
+tags:
+- proto:http
+- vendor:acme
+- product:thttpd
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L1525-L1537
+version: 20261120T080351Z
