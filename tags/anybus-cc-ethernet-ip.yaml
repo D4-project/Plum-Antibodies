@@ -1,0 +1,12 @@
+name: anybus-cc-ethernet-ip
+description: Identify the Anybus CompactCom EtherNet/IP communication interface
+uuid: cbec1e76-6b87-434d-bc76-6743f8fcd2d0
+query: http_title.bg:"Anybus-CC EtherNet/IP"
+tags:
+- proto:http
+- vendor:hms-networks
+- product:anybus-compactcom-ethernet-ip
+- type:communication-module
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1679-L1686
+version: 20261120T081835Z
