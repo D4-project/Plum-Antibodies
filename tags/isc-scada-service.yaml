@@ -1,0 +1,11 @@
+name: isc-scada-service
+description: Identify ISC SCADA Service from its named HTTP service identity
+uuid: db2cf96d-4e33-4802-8a69-58a1ec183fc9
+query: http_server:"ISC SCADA Service HTTPserv:00001"
+tags:
+- proto:http
+- product:isc-scada-service
+- type:scada
+references:
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/isc-scada-service.rb#L23
+version: 20261120T082239Z
