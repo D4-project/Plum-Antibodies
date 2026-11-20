@@ -1,0 +1,12 @@
+name: fledge-gui
+description: Identify Fledge GUI from its shipped page title and favicon
+uuid: 1979feef-3738-405e-b8bd-2dec69468749
+query: http_favicon_sha256:01432bdd058cd7a2ec1caee1552f9b168fea628926e903bbc969e0131b1ba146 AND http_title.bg:"Fledge"
+tags:
+- proto:http
+- product:fledge-gui
+- type:industrial-edge
+references:
+- https://github.com/fledge-iot/fledge-gui/blob/c128730359b88e240bd4e197bcd86308640c4304/src/fledge.html#L6
+- https://github.com/fledge-iot/fledge-gui/blob/c128730359b88e240bd4e197bcd86308640c4304/src/assets/favicon.ico
+version: 20261120T082107Z
