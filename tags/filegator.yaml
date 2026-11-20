@@ -1,0 +1,13 @@
+name: filegator
+description: Detect FileGator file manager
+uuid: f3c645de-8a9c-40a7-8cc0-042c4779d13c
+query: 'http_cookiename:filegator AND http_title.bg:FileGator'
+tags:
+- proto:http
+- product:filegator
+- vendor:filegator
+- type:file-sharing
+- lang:php
+references:
+- https://docs.filegator.io/install.html
+version: 20261120T114101Z

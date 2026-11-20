@@ -1,0 +1,13 @@
+name: leantime
+description: Detect Leantime project management interface
+uuid: 9b13342b-970b-4e2e-9b40-1e037376b3e8
+query: 'http_cookiename:leantime_session AND http_title.bg:Leantime'
+tags:
+- proto:http
+- product:leantime
+- vendor:leantime
+- type:project-management
+- lang:php
+references:
+- https://github.com/Leantime/leantime
+version: 20261120T114101Z

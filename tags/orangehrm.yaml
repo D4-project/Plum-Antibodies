@@ -1,0 +1,13 @@
+name: orangehrm
+description: Detect OrangeHRM human resources interface
+uuid: 4d9c7f7a-0ea9-4cd2-9c08-6043cf8d1442
+query: 'http_cookiename:orangehrm AND http_title.bg:OrangeHRM'
+tags:
+- proto:http
+- product:orangehrm
+- vendor:orangehrm
+- type:hrm
+- lang:php
+references:
+- https://github.com/orangehrm/orangehrm
+version: 20261120T114101Z

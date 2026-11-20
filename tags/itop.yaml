@@ -1,0 +1,13 @@
+name: itop
+description: Detect iTop service management login
+uuid: ce8650be-b910-4e65-bb21-cbd4e384ee77
+query: 'http_cookiename.bg:itop- AND http_title.bg:"iTop login"'
+tags:
+- proto:http
+- product:itop
+- vendor:combodo
+- type:helpdesk
+- lang:php
+references:
+- https://github.com/Combodo/iTop
+version: 20261120T114101Z

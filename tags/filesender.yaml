@@ -1,0 +1,13 @@
+name: filesender
+description: Detect FileSender file transfer interface
+uuid: 9470f5c8-57ca-452d-82ba-3f1f5f6e3792
+query: 'http_title.bg:FileSender'
+tags:
+- proto:http
+- product:filesender
+- vendor:filesender
+- type:file-sharing
+- lang:php
+references:
+- https://docs.filesender.org/filesender/v3.0/install/
+version: 20261120T114101Z

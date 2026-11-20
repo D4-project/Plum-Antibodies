@@ -1,5 +1,6 @@
 # Release notes
 
+- Add ten ONYPHE-confirmed file sharing, HR, project, helpdesk, and billing detections (issues #108, #107, #106, #103, #101, #100, #99, #97, #94, #92).
 - Add ONYPHE-confirmed VuFind, Omeka S, Omeka Classic, and AtoM collection detections (issues #124, #123, #122, #120).
 - Add ONYPHE-confirmed REDCap, CollectiveAccess Providence, ILIAS, Part-DB, SeedDMS, and ProjectSend detections (issues #127, #121, #117, #114, #113, #110).
 - Add ONYPHE-confirmed phpPgAdmin, Observium, Centreon, and Adiscon LogAnalyzer detections (issues #141, #138, #130, #129).

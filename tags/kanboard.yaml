@@ -1,0 +1,13 @@
+name: kanboard
+description: Detect Kanboard project management login
+uuid: d5b2ceda-5b18-40e1-b444-7ae95a6d9df8
+query: 'http_cookiename:KB_SID AND http_title.lk:kanboard'
+tags:
+- proto:http
+- product:kanboard
+- vendor:kanboard
+- type:project-management
+- lang:php
+references:
+- https://docs.kanboard.org/v1/admin/requirements/
+version: 20261120T114101Z

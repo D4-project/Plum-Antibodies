@@ -1,0 +1,13 @@
+name: faveo-helpdesk
+description: Detect Faveo Helpdesk entry page
+uuid: b1c24030-fd44-4e87-9b2c-3480a3789657
+query: 'http_title.bg:"Faveo HELPDESK"'
+tags:
+- proto:http
+- product:faveo-helpdesk
+- vendor:faveo
+- type:helpdesk
+- lang:php
+references:
+- https://docs.faveohelpdesk.com/docs/installation/providers/community/ubuntu-apache/
+version: 20261120T114101Z

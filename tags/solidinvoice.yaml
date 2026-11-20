@@ -1,0 +1,13 @@
+name: solidinvoice
+description: Detect SolidInvoice billing login
+uuid: 3c0ed5e3-3791-4e62-93bc-e6a3a9d30067
+query: 'http_cookiename:SOLIDINVOICE_APP AND http_title.bg:SolidInvoice'
+tags:
+- proto:http
+- product:solidinvoice
+- vendor:solidinvoice
+- type:billing
+- lang:php
+references:
+- https://github.com/SolidInvoice/SolidInvoice
+version: 20261120T114101Z

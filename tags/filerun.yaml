@@ -1,0 +1,13 @@
+name: filerun
+description: Detect FileRun file manager login
+uuid: a13805d5-ecc7-46b4-953d-c82db7bb0af2
+query: 'http_cookiename:FileRunSID AND http_title.lk:FileRun'
+tags:
+- proto:http
+- product:filerun
+- vendor:filerun
+- type:file-sharing
+- lang:php
+references:
+- https://docs.filerun.com/requirements
+version: 20261120T114101Z

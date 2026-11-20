@@ -1,0 +1,13 @@
+name: uvdesk
+description: Detect UVdesk Community Edition installer
+uuid: 2f8714f3-a8d2-4252-b2c4-02715c5a7e1d
+query: 'http_title.bg:"UVDesk Helpdesk Community Edition - Installation Wizard"'
+tags:
+- proto:http
+- product:uvdesk
+- vendor:uvdesk
+- type:helpdesk
+- lang:php
+references:
+- https://github.com/uvdesk/community-skeleton
+version: 20261120T114101Z
