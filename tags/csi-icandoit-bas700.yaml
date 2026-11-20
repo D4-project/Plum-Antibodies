@@ -1,0 +1,12 @@
+name: csi-icandoit-bas700
+description: Identify the BAS-700 remote I/O product from its full terminal greeting
+uuid: 3e7291ed-ad22-42d3-bbfc-1ba61a8dd824
+query: banner.bg:"Welcome to i.CanDoIt BAS-700 ReMOTE I/O v"
+tags:
+- proto:telnet
+- vendor:control-solutions
+- product:icandoit-bas-700
+- type:remote-io
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/telnet_banners.xml#L2178-L2185
+version: 20261120T081938Z
