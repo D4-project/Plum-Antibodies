@@ -1,0 +1,14 @@
+name: omeka-classic
+description: Detect Omeka Classic browse interface
+uuid: 4e731e0d-6228-4540-b97a-681125561cff
+query: 'http_title.bg:"Browse Items &middot; Omeka"'
+tags:
+- proto:http
+- product:omeka-classic
+- vendor:omeka
+- type:collection-management
+- lang:php
+references:
+- https://github.com/omeka/Omeka
+- https://omeka.org/classic/docs/Installation/System_Requirements/
+version: 20261120T113403Z

@@ -1,0 +1,14 @@
+name: omeka-s
+description: Detect Omeka S site list
+uuid: a556c9bd-cf35-4c8d-a10b-3580c2919191
+query: 'http_title.bg:"Sites · Omeka S"'
+tags:
+- proto:http
+- product:omeka-s
+- vendor:omeka
+- type:collection-management
+- lang:php
+references:
+- https://github.com/omeka/omeka-s
+- https://omeka.org/s/docs/user-manual/install/
+version: 20261120T113403Z

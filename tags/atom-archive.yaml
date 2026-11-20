@@ -1,0 +1,14 @@
+name: atom-archive
+description: Detect AtoM archival collection interface
+uuid: 7dbe89ce-d357-46fb-b5bf-d7252cef7d66
+query: 'http_cookiename:atom_culture AND http_title.lk:AtoM'
+tags:
+- proto:http
+- product:atom
+- vendor:artefactual
+- type:collection-management
+- lang:php
+references:
+- https://www.accesstomemory.org/
+- https://accesstomemory.org/en/docs/2.9/admin-manual/installation/requirements/
+version: 20261120T113403Z
