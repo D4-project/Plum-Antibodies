@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Packagist repository detection from same-response ONYPHE title and session cookie (issue #166).
 - Add Shaarli, TeamPass, and SimpleRisk detections using same-response ONYPHE title and cookie evidence (issues #169, #164, #163).
 - Add Phalcon application page and API Platform documentation detections from matching ONYPHE title and header evidence (issues #178, #173).
 - Add aaPanel Linux panel detection from its exact ONYPHE-confirmed title, distinct from BT Panel favicon coverage (issue #186).

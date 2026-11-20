@@ -1,0 +1,14 @@
+name: packagist-org
+description: Detect Packagist package repository interface
+uuid: 9f96716c-9e55-49cf-8724-395ca3984d4f
+query: 'http_title.bg:Packagist AND http_cookiename:packagist'
+tags:
+- proto:http
+- product:packagist-org
+- vendor:composer
+- type:package-management
+- lang:php
+references:
+- https://github.com/composer/packagist
+- https://github.com/composer/packagist/blob/main/README.md
+version: 20261120T111504Z
