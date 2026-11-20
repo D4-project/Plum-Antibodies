@@ -1,0 +1,13 @@
+name: sylius
+description: Detect Sylius administration login
+uuid: 68b76952-7574-4809-89c6-38e3de1d2c3c
+query: 'http_title.bg:"Sylius | "'
+tags:
+- proto:http
+- product:sylius
+- vendor:sylius
+- type:ecommerce
+- lang:php
+references:
+- https://docs.sylius.com/public/getting-started/before-you-begin
+version: 20261120T114808Z

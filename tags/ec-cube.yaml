@@ -1,0 +1,13 @@
+name: ec-cube
+description: Detect EC-CUBE ecommerce storefront
+uuid: 9ee58be6-72ca-4dbb-8fb7-d2b8ac2ea92c
+query: 'http_cookiename:eccube AND http_title.bg:"EC-CUBE SHOP"'
+tags:
+- proto:http
+- product:ec-cube
+- vendor:ec-cube
+- type:ecommerce
+- lang:php
+references:
+- https://github.com/EC-CUBE/ec-cube
+version: 20261120T114808Z

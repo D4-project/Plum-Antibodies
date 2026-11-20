@@ -1,0 +1,13 @@
+name: aimeos
+description: Detect Aimeos ecommerce storefront
+uuid: 1262051a-f4eb-4a9d-884d-0ac06334d0f8
+query: 'http_cookiename:aimeos_session AND http_title.lk:Aimeos'
+tags:
+- proto:http
+- product:aimeos
+- vendor:aimeos
+- type:ecommerce
+- lang:php
+references:
+- https://github.com/aimeos/aimeos-laravel
+version: 20261120T114808Z

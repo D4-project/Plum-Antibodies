@@ -1,0 +1,13 @@
+name: virtuemart
+description: Detect VirtueMart sample storefront
+uuid: 262f794a-799f-403c-93be-b1c9a020e839
+query: 'http_title.bg:"Welcome to VirtueMart 3 Sample store"'
+tags:
+- proto:http
+- product:virtuemart
+- vendor:virtuemart
+- type:ecommerce
+- lang:php
+references:
+- https://virtuemart.net/component/content/article/what-is-virtuemart?Itemid=144&catid=159
+version: 20261120T114808Z

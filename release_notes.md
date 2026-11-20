@@ -1,5 +1,6 @@
 # Release notes
 
+- Add ONYPHE-confirmed VirtueMart, Sylius, OpenMage, EC-CUBE, and Aimeos ecommerce detections (issues #73, #70, #63, #58, #54).
 - Add ONYPHE-confirmed InvoicePlane, HostBill, Blesta, FrontAccounting, YetiForce, EspoCRM, and Zen Cart detections (issues #91, #89, #86, #85, #82, #78, #76).
 - Add ten ONYPHE-confirmed file sharing, HR, project, helpdesk, and billing detections (issues #108, #107, #106, #103, #101, #100, #99, #97, #94, #92).
 - Add ONYPHE-confirmed VuFind, Omeka S, Omeka Classic, and AtoM collection detections (issues #124, #123, #122, #120).

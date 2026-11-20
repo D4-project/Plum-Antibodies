@@ -1,0 +1,13 @@
+name: openmage
+description: Detect OpenMage installation wizard
+uuid: 84561f86-76b9-4240-9b48-2e4f6307dd0e
+query: 'http_title.bg:"OpenMage Installation Wizard"'
+tags:
+- proto:http
+- product:openmage
+- vendor:openmage
+- type:ecommerce
+- lang:php
+references:
+- https://docs.openmage.org/users/requirements/
+version: 20261120T114808Z
