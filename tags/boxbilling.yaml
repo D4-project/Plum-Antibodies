@@ -1,0 +1,12 @@
+name: boxbilling
+description: Detect BoxBilling client session cookie
+uuid: 6f2c7c8b-6afa-4ed2-ac94-b5994ab4772b
+query: http_cookiename:BOXSID
+tags:
+- type:billing
+- lang:php
+- proto:http
+- product:boxbilling
+references:
+- https://github.com/boxbilling/boxbilling
+version: 20261120T154240Z

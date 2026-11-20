@@ -1,0 +1,13 @@
+name: icinga-web
+description: Detect Icinga Web session cookie
+uuid: f7f8c343-1542-418a-9ba9-e9e705fa079d
+query: http_cookiename:Icingaweb2
+tags:
+- type:monitoring
+- lang:php
+- proto:http
+- vendor:icinga
+- product:icinga-web
+references:
+- https://icinga.com/docs/icinga-web/latest/doc/02-Installation/From-Source/
+version: 20261120T154240Z
