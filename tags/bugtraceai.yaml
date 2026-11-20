@@ -1,0 +1,14 @@
+name: bugtraceai
+description: Detect the BugTraceAI CLI operator API documentation
+uuid: 49aa2d4b-a4fc-5985-85eb-c6b01edb105f
+query: 'http_title.bg:"BugTraceAI API - Swagger UI"'
+tags:
+- proto:http
+- product:bugtraceai
+- vendor:bugtraceai
+- type:c2
+references:
+- https://github.com/BugTraceAI/BugTraceAI-CLI/blob/b96ccccf682b6e1ab0ff84fd7831a87bcce802be/bugtrace/api/main.py
+- https://github.com/BugTraceAI/BugTraceAI-CLI/blob/b96ccccf682b6e1ab0ff84fd7831a87bcce802be/README.md
+- https://github.com/BugTraceAI/BugTraceAI-CLI/blob/b96ccccf682b6e1ab0ff84fd7831a87bcce802be/LICENSE
+version: 20261120T093201Z

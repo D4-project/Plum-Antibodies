@@ -1,5 +1,6 @@
 # Release notes
 
+- Add BugTraceAI CLI operator API detection from its Swagger UI title, independent of port (issue #539).
 - Add HexStrike AI operator API detection from the observed branded HTTP Basic realm, independent of port (issue #542).
 - Integrate PR #486: Add Emerson DeltaV Batch Runtime Server detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Remove the private-address gate: this passive product signature applies to public and private stored captures. Preserve the product-specific predicate(s). Normalize the runtime service to type:application-server.
 - Integrate PR #485: Add ISC SCADA Service detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Remove the private-address gate: this passive product signature applies to public and private stored captures. Preserve the product-specific predicate(s).
