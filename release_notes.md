@@ -1,5 +1,6 @@
 # Release notes
 
+- Add FortiADC management interface detection from its ONYPHE-confirmed exact title (issue #187).
 - Add Nagios XI and Nagios Fusion web detection from same-response ONYPHE fingerprints (issues #185, #184).
 - Add daloRADIUS detection from its source-defined login title and session cookie names, confirmed by ONYPHE (issue #182).
 - Extend PrestaShop detection with verified official favicon MMH3, MD5, and SHA-256 alternatives (issue #213).

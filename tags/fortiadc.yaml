@@ -1,0 +1,13 @@
+name: fortiadc
+description: Detect the FortiADC management interface
+uuid: 935f0157-ab2a-5cd1-a304-672e66f0f5e2
+query: http_title:FortiADC
+tags:
+- proto:http
+- product:fortiadc
+- vendor:fortinet
+- type:load-balancer
+references:
+- https://www.fortinet.com/products/application-delivery-controller/fortiadc
+- https://docs.fortinet.com/product/fortiadc
+version: 20261120T110529Z
