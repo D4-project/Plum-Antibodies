@@ -1,0 +1,11 @@
+name: pnpscada
+description: Identify PnPSCADA by its branded login title
+uuid: 532b9c78-a21c-4d69-9eb8-f572bf760914
+query: http_title.bg:"Login - PnPSCADA"
+tags:
+- proto:http
+- product:pnpscada
+- type:scada
+references:
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/pnpscada.rb#L31
+version: 20261120T082158Z
