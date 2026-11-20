@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #446: Add RomPager HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #445: Add Embedthis Appweb HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #444: Add Cesanta Mongoose HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #443: Extend Boa HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
