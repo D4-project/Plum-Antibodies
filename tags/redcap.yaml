@@ -1,0 +1,13 @@
+name: redcap
+description: Detect REDCap research platform
+uuid: 7b2d7a47-be97-4f58-9070-210d97f1a471
+query: 'http_title.bg:REDCap AND http_header:REDCap-Random-Text'
+tags:
+- proto:http
+- product:redcap
+- vendor:redcap
+- type:research-management
+- lang:php
+references:
+- https://projectredcap.org/software/requirements/
+version: 20261120T113005Z

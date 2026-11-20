@@ -1,5 +1,6 @@
 # Release notes
 
+- Add ONYPHE-confirmed REDCap, CollectiveAccess Providence, ILIAS, Part-DB, SeedDMS, and ProjectSend detections (issues #127, #121, #117, #114, #113, #110).
 - Add ONYPHE-confirmed phpPgAdmin, Observium, Centreon, and Adiscon LogAnalyzer detections (issues #141, #138, #130, #129).
 - Add ONYPHE-confirmed VitalPBX, FusionPBX, ASTPP, HestiaCP, phpVirtualBox, FusionDirectory, and RaspAP detections (issues #157, #154, #153, #152, #148, #144, #143).
 - Add Packagist repository detection from same-response ONYPHE title and session cookie (issue #166).

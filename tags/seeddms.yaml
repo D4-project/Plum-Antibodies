@@ -1,0 +1,13 @@
+name: seeddms
+description: Detect SeedDMS document interface
+uuid: 90103d74-6cb8-4d6d-ab12-2d28ebd7ed1f
+query: 'http_title.lk:"SeedDMS: Sign in"'
+tags:
+- proto:http
+- product:seeddms
+- vendor:seeddms
+- type:dms
+- lang:php
+references:
+- https://www.seeddms.org/about/
+version: 20261120T113005Z

@@ -1,0 +1,13 @@
+name: collectiveaccess
+description: Detect CollectiveAccess Providence interface
+uuid: a1cbadf4-502f-4211-9fd3-3bce25e5dfb5
+query: 'http_cookiename:collectiveaccess AND http_title.lk:"CollectiveAccess System"'
+tags:
+- proto:http
+- product:collectiveaccess-providence
+- vendor:collectiveaccess
+- type:collection-management
+- lang:php
+references:
+- https://docs.collectiveaccess.org/providence/user/setup/systemReq
+version: 20261120T113005Z

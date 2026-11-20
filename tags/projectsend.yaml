@@ -1,0 +1,13 @@
+name: projectsend
+description: Detect ProjectSend file sharing login
+uuid: e8824174-9b21-4c5d-af6c-d68fb32e423c
+query: 'http_title.bg:"Log in &raquo; ProjectSend"'
+tags:
+- proto:http
+- product:projectsend
+- vendor:projectsend
+- type:file-sharing
+- lang:php
+references:
+- https://github.com/projectsend/projectsend
+version: 20261120T113005Z

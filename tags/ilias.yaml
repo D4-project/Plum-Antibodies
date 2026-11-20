@@ -1,0 +1,13 @@
+name: ilias
+description: Detect ILIAS learning platform login
+uuid: 4e4ea472-4ea9-46f9-9bac-f333acdd4dc9
+query: 'http_cookiename:ilClientId AND http_title.bg:"Login to ILIAS:"'
+tags:
+- proto:http
+- product:ilias
+- vendor:ilias
+- type:lms
+- lang:php
+references:
+- https://github.com/ILIAS-eLearning/ILIAS
+version: 20261120T113005Z

@@ -1,0 +1,13 @@
+name: part-db
+description: Detect Part-DB asset manager
+uuid: 25b641a4-11a9-4541-ae26-e5b235410a29
+query: 'http_title.bg:Part-DB'
+tags:
+- proto:http
+- product:part-db
+- vendor:part-db
+- type:asset-management
+- lang:php
+references:
+- https://github.com/Part-DB/Part-DB-server
+version: 20261120T113005Z
