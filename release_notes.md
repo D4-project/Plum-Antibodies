@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #440: Add WEBrick HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:ruby; add vendor:ruby-lang based on the source fingerprint, without a web-server type.
 - Integrate PR #439: Add Cowboy HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:erlang and vendor:ninenines; no web-server type.
 - Integrate PR #438: Add aiohttp HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:python and both required Server components in AND; no web-server type.
 - Integrate PR #437: Add Twisted Web HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:python; the Twisted/ variant must also contain TwistedWeb/ in AND.
