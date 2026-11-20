@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #418: Add Azure Application Gateway HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain type:slb and vendor:microsoft.
 - Integrate PR #416: Add HAProxy HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain type:slb; retain the exact title and the boundary-aware on-prefix alternative.
 - Integrate PR #415: Add Envoy HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain type:proxy and exact product-specific Server values.
 - Integrate PR #414: Add Dell PowerStore management API detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Classify enterprise storage as type:storage.

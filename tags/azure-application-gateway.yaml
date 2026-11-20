@@ -1,0 +1,12 @@
+name: azure-application-gateway
+description: Detect Microsoft Azure Application Gateway from its HTTP Server header
+uuid: 6061c25a-5407-42b5-8551-ef7729573874
+query: http_server.bg:Microsoft-Azure-Application-Gateway/
+tags:
+- proto:http
+- vendor:microsoft
+- product:azure-application-gateway
+- type:slb
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L3221
+version: 20261120T071828Z
