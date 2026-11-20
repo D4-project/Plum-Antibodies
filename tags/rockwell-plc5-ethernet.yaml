@@ -1,0 +1,13 @@
+name: rockwell-plc5-ethernet
+description: Identify the PLC-5 Ethernet interface from its base-page title
+uuid: 998c3874-4ae4-4e53-9d12-334e36ac2ff9
+query: http_title.bg:"PLC-5 Ethernet Base Page" OR http_title.bg:"1785-ENET Ethernet Base Page"
+tags:
+- proto:http
+- vendor:rockwell-automation
+- product:plc-5-ethernet-interface
+- type:industrial-interface
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1720-L1728
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1741-L1748
+version: 20261120T081807Z
