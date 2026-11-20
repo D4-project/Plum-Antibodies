@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Phalcon application page and API Platform documentation detections from matching ONYPHE title and header evidence (issues #178, #173).
 - Add aaPanel Linux panel detection from its exact ONYPHE-confirmed title, distinct from BT Panel favicon coverage (issue #186).
 - Add FortiADC management interface detection from its ONYPHE-confirmed exact title (issue #187).
 - Add Nagios XI and Nagios Fusion web detection from same-response ONYPHE fingerprints (issues #185, #184).

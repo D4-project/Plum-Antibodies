@@ -1,0 +1,14 @@
+name: api-platform
+description: Detect API Platform documentation interface
+uuid: d42b3751-2358-4bc8-b9f6-c9bebaa71ba4
+query: 'http_title.lk:"API Platform" AND http_headval:link.lk:"docs.jsonld"'
+tags:
+- proto:http
+- product:api-platform
+- vendor:api-platform
+- type:framework
+- lang:php
+references:
+- https://github.com/api-platform/core
+- https://api-platform.com/docs/symfony/caddy/
+version: 20261120T111056Z

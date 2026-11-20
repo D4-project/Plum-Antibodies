@@ -1,0 +1,14 @@
+name: phalcon
+description: Detect a Phalcon PHP Framework application page
+uuid: 715e573c-6f39-4947-8acf-fcd3f0be0d9c
+query: 'http_title.bg:"Phalcon PHP Framework"'
+tags:
+- proto:http
+- product:phalcon
+- vendor:phalcon
+- type:framework
+- lang:php
+references:
+- https://github.com/phalcon/cphalcon
+- https://docs.phalcon.io/
+version: 20261120T111056Z
