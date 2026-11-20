@@ -1,0 +1,11 @@
+name: appweb
+description: Detect Embedthis Appweb from branded HTTP Server headers
+uuid: 40731eb2-f580-47da-83cf-0094956c69e1
+query: http_server.bg:Mbedthis-Appweb/ OR http_server:Embedthis-Appweb OR http_server.bg:Embedthis-Appweb/
+tags:
+- proto:http
+- vendor:embedthis
+- product:appweb
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L2760-L2779
+version: 20261120T080331Z
