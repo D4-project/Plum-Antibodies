@@ -1,0 +1,12 @@
+name: simatic-net-it-cp
+description: Identify the SIMATIC NET IT-CP communication processor from its product title
+uuid: 9bd9dfd3-303f-44db-9ad7-2a55e24ee143
+query: http_title.bg:"SIMATIC NET IT-CP"
+tags:
+- proto:http
+- vendor:siemens
+- product:simatic-net-it-cp
+- type:communication-module
+references:
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/siemens-simatic.rb#L67
+version: 20261120T082116Z
