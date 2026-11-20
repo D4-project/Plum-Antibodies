@@ -1,0 +1,11 @@
+name: fasthttp
+description: Detect fasthttp from its HTTP Server header or HTTP response banner
+uuid: d40cd9e7-20b8-4262-8fe3-1e40871dcb0b
+query: 'http_server:fasthttp OR banner.bg:"HTTP/" AND banner.lk:"Server: fasthttp\\x0D\\x0A"'
+tags:
+- proto:http
+- product:fasthttp
+- lang:go
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L4595-L4600
+version: 20261120T080303Z
