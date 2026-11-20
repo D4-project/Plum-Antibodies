@@ -1,0 +1,12 @@
+name: nagios-xi
+description: Detect the Nagios XI web interface by title and observed stock favicon
+uuid: c057351b-c242-513a-b603-10bb1eed22ce
+query: 'http_title.bg:"Nagios XI" AND (http_favicon_md5:8e1494dd4bff0fc523a2e2a15ed59d84 OR http_favicon_md5:1c2afb6185f49732bad51cd3613452a1)'
+tags:
+- proto:http
+- product:nagios-xi
+- vendor:nagios
+- type:monitoring
+references:
+- https://www.nagios.com/products/nagios-xi/
+version: 20261120T110359Z

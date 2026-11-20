@@ -1,0 +1,12 @@
+name: nagios-fusion
+description: Detect the Nagios Fusion login by product cookie and title
+uuid: f115af32-2563-5150-813c-6a3edb5ab1af
+query: 'http_cookiename:nagiosfusion AND http_title.lk:"Nagios Fusion"'
+tags:
+- proto:http
+- product:nagios-fusion
+- vendor:nagios
+- type:monitoring
+references:
+- https://assets.nagios.com/downloads/nagiosfusion/docs/Fusion_Manual_Installation_Instructions.pdf
+version: 20261120T110359Z
