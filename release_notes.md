@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #425: Add Tengine HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain vendor:taobao; no web-server type.
 - Integrate PR #424: Add Jetty HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:java and type:application-server; keep the project-level vendor across historical Mort Bay and Eclipse releases.
 - Integrate PR #423: Add IBM HTTP Server HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain IBM vendor and omit a web-server type, following repository convention.
 - Integrate PR #422: Add Tinyproxy HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain type:proxy.

@@ -1,0 +1,11 @@
+name: tengine
+description: Detect the Tengine HTTP server from its Server header
+uuid: a3f703af-ad22-4267-92e7-883ccaa8d25d
+query: http_server:Tengine OR http_server.bg:Tengine/
+tags:
+- proto:http
+- vendor:taobao
+- product:tengine
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L1068-L1075
+version: 20261120T072603Z
