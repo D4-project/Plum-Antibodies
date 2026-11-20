@@ -1,0 +1,13 @@
+name: phpvirtualbox
+description: Detect phpVirtualBox web console
+uuid: 6de9acb0-4e97-4e5a-959b-09a225a42b7e
+query: 'http_title.bg:"phpVirtualBox - VirtualBox Web Console"'
+tags:
+- proto:http
+- product:phpvirtualbox
+- vendor:phpvirtualbox
+- type:virtualization-management
+- lang:php
+references:
+- https://github.com/phpvirtualbox/phpvirtualbox
+version: 20261120T111846Z

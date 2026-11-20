@@ -1,0 +1,13 @@
+name: astpp
+description: Detect ASTPP VoIP billing login
+uuid: 4794f906-6c78-47a0-9b60-20b2bd2b8d7a
+query: 'http_title.bg:"Log In | ASTPP - Open Source Voip Billing Solution" AND http_cookiename:ITPLATPci_session'
+tags:
+- proto:http
+- product:astpp
+- vendor:astpp
+- type:telephony
+- lang:php
+references:
+- https://astppbilling.org/
+version: 20261120T111846Z

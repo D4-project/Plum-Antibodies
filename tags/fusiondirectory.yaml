@@ -1,0 +1,13 @@
+name: fusiondirectory
+description: Detect FusionDirectory identity interface
+uuid: e6edf0aa-dd63-48b1-b2a7-a41e411ecbca
+query: 'http_cookiename:FusionDirectory AND http_title.bg:FusionDirectory'
+tags:
+- proto:http
+- product:fusiondirectory
+- vendor:fusiondirectory
+- type:directory-management
+- lang:php
+references:
+- https://github.com/fusiondirectory/fusiondirectory
+version: 20261120T111846Z

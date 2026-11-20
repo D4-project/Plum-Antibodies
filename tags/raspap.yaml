@@ -1,0 +1,13 @@
+name: raspap
+description: Detect RaspAP admin panel
+uuid: 8c7fcc61-8a2b-4aef-bcad-0a66ebea5331
+query: 'http_title.bg:"RaspAP Admin Panel"'
+tags:
+- proto:http
+- product:raspap
+- vendor:raspap
+- type:network-management
+- lang:php
+references:
+- https://github.com/RaspAP/raspap-webgui
+version: 20261120T111846Z

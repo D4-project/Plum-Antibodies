@@ -1,5 +1,6 @@
 # Release notes
 
+- Add ONYPHE-confirmed VitalPBX, FusionPBX, ASTPP, HestiaCP, phpVirtualBox, FusionDirectory, and RaspAP detections (issues #157, #154, #153, #152, #148, #144, #143).
 - Add Packagist repository detection from same-response ONYPHE title and session cookie (issue #166).
 - Add Shaarli, TeamPass, and SimpleRisk detections using same-response ONYPHE title and cookie evidence (issues #169, #164, #163).
 - Add Phalcon application page and API Platform documentation detections from matching ONYPHE title and header evidence (issues #178, #173).

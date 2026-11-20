@@ -1,0 +1,13 @@
+name: fusionpbx
+description: Detect FusionPBX login interface
+uuid: 9c3edb86-bf41-4a16-badc-a36083123254
+query: 'http_title.bg:"Login - FusionPBX"'
+tags:
+- proto:http
+- product:fusionpbx
+- vendor:fusionpbx
+- type:telephony
+- lang:php
+references:
+- https://github.com/fusionpbx/fusionpbx
+version: 20261120T111846Z

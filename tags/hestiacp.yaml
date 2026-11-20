@@ -1,0 +1,12 @@
+name: hestiacp
+description: Detect HestiaCP hosting panel
+uuid: f1f99ea4-4387-4fb2-8100-fb0f6ee7a553
+query: 'http_cookiename:HESTIASID AND http_title.bg:"HestiaCP logo"'
+tags:
+- proto:http
+- product:hestiacp
+- vendor:hestiacp
+- type:hosting-panel
+references:
+- https://github.com/hestiacp/hestiacp
+version: 20261120T111846Z

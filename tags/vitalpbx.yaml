@@ -1,0 +1,12 @@
+name: vitalpbx
+description: Detect VitalPBX management interface
+uuid: 539a0f5b-cd51-48fe-9c2a-d077dc639a65
+query: 'http_title.bg:VitalPBX'
+tags:
+- proto:http
+- product:vitalpbx
+- vendor:vitalpbx
+- type:telephony
+references:
+- https://vitalpbx.com/
+version: 20261120T111846Z
