@@ -1,7 +1,7 @@
 name: winter-cms
-description: Detect Winter CMS session cookie or demonstration page
+description: Detect Winter CMS session cookie or branded page title
 uuid: d5a99ee7-a54f-4a70-9302-5ecc693fa99d
-query: http_cookiename:winter_session OR http_cookiename:winter_cms_session OR http_title:"Winter CMS - Demonstration"
+query: http_cookiename:winter_session OR http_cookiename:winter_cms_session OR http_title.bg:"Winter CMS -"
 tags:
 - type:cms
 - lang:php
@@ -9,4 +9,4 @@ tags:
 - product:winter-cms
 references:
 - https://wintercms.com/docs/v1.2/docs/setup/installation
-version: 20261120T161215Z
+version: 20261120T164415Z
