@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #420: Extend Cloudflare HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Classify the CDN edge as type:proxy; retain both response header predicates in AND.
 - Integrate PR #419: Extend Amazon CloudFront HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Classify the CDN edge as type:proxy; retain both response header predicates in AND.
 - Integrate PR #418: Add Azure Application Gateway HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain type:slb and vendor:microsoft.
 - Integrate PR #416: Add HAProxy HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain type:slb; retain the exact title and the boundary-aware on-prefix alternative.
