@@ -1,0 +1,12 @@
+name: thelia
+description: Detect Thelia ecommerce cart cookie
+uuid: 604dd1a7-7459-496e-986c-8ea72a9a7899
+query: http_cookiename:thelia_cart
+tags:
+- type:ecommerce
+- lang:php
+- proto:http
+- product:thelia
+references:
+- https://doc.thelia.net/docs/3.0/getting-started/installation
+version: 20261120T154240Z

@@ -1,0 +1,12 @@
+name: totara
+description: Detect Totara LMS session cookie
+uuid: 374f1d25-c07f-46a8-9bd1-eafa89f973a3
+query: http_cookiename:TotaraSession
+tags:
+- type:lms
+- lang:php
+- proto:http
+- product:totara
+references:
+- https://totara.help/docs/server-system-requirements
+version: 20261120T154240Z
