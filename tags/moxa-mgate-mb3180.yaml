@@ -1,0 +1,12 @@
+name: moxa-mgate-mb3180
+description: Identify the MGate MB3180 protocol gateway from its reported model name
+uuid: 271e2af9-1484-4f3e-b33b-38d73ceb04eb
+query: 'banner:"Model name       : MGate MB3180" OR banner.bg:"Model name       : MGate MB3180\\x0D"'
+tags:
+- proto:telnet
+- vendor:moxa
+- product:mgate-mb3180
+- type:protocol-gateway
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/telnet_banners.xml#L990-L1006
+version: 20261120T081911Z
