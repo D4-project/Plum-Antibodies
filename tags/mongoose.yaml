@@ -1,0 +1,11 @@
+name: mongoose
+description: Detect the Mongoose embedded HTTP server from its versioned Server header
+uuid: 48adb70f-2fa6-4b38-9071-c63f44dd6d17
+query: http_server:Mongoose OR http_server.bg:Mongoose/
+tags:
+- proto:http
+- vendor:cesanta
+- product:mongoose
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L4641-L4647
+version: 20261120T080327Z
