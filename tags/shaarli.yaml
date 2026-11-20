@@ -1,0 +1,14 @@
+name: shaarli
+description: Detect Shaarli bookmark application
+uuid: e63f3bb5-bd28-42e7-9076-424201d4e599
+query: 'http_cookiename:shaarli AND http_title.lk:Shaarli'
+tags:
+- proto:http
+- product:shaarli
+- vendor:shaarli
+- type:bookmark-manager
+- lang:php
+references:
+- https://github.com/shaarli/Shaarli
+- https://github.com/shaarli/Shaarli/blob/master/CHANGELOG.md
+version: 20261120T111318Z

@@ -1,0 +1,14 @@
+name: simplerisk
+description: Detect SimpleRisk risk management interface
+uuid: 0b605554-018c-4d93-aa0e-ede0b8443539
+query: 'http_cookiename:SimpleRisk AND http_title.bg:"SimpleRisk: Enterprise Risk Management Simplified"'
+tags:
+- proto:http
+- product:simplerisk
+- vendor:simplerisk
+- type:risk-management
+- lang:php
+references:
+- https://github.com/simplerisk/code
+- https://www.simplerisk.com/
+version: 20261120T111318Z

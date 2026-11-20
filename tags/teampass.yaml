@@ -1,0 +1,13 @@
+name: teampass
+description: Detect TeamPass password manager interface
+uuid: 924e31d8-7188-4680-9f44-f327d25e3026
+query: 'http_cookiename:teampass_session AND http_title.bg:Teampass'
+tags:
+- proto:http
+- product:teampass
+- vendor:teampass
+- type:password-manager
+- lang:php
+references:
+- https://github.com/nilsteampassnet/TeamPass
+version: 20261120T111318Z
