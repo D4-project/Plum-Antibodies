@@ -1,0 +1,13 @@
+name: waitress
+description: Detect the Waitress WSGI server from its HTTP Server header
+uuid: 4d8dee0c-fd58-433e-bef4-595844cebf09
+query: http_server:waitress
+tags:
+- proto:http
+- vendor:pylons
+- product:waitress
+- lang:python
+references:
+- https://github.com/Pylons/waitress/blob/2b43237e9caa66f906d0f652f2519cc79ef969a5/src/waitress/adjustments.py#L206
+- https://github.com/Pylons/waitress/blob/2b43237e9caa66f906d0f652f2519cc79ef969a5/src/waitress/task.py#L262
+version: 20261120T075951Z
