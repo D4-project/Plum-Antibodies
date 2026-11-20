@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #443: Extend Boa HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #442: Extend GoAhead HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain product/vendor classification and omit a generic web-server type.
 - Integrate PR #441: Add fasthttp HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:go and add a boundary-aware HTTP response banner fallback for the confirmed stored sample.
 - Integrate PR #440: Add WEBrick HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:ruby; add vendor:ruby-lang based on the source fingerprint, without a web-server type.
