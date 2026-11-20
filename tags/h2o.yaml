@@ -1,0 +1,12 @@
+name: h2o
+description: Detect the H2O HTTP server from its versioned Server header
+uuid: 61f01361-cc1a-43e6-aff1-10551ab40e26
+query: http_server.bg:h2o/
+tags:
+- proto:http
+- vendor:h2o
+- product:h2o
+references:
+- https://github.com/h2o/h2o/blob/d3e43fcf00c3e6b17826b95d2d362d646185918a/lib/core/config.c#L179
+- https://github.com/h2o/h2o/blob/d3e43fcf00c3e6b17826b95d2d362d646185918a/t/50servername.t#L21
+version: 20261120T072618Z
