@@ -1,5 +1,6 @@
 # Release notes
 
+- Extend PrestaShop detection with verified official favicon MMH3, MD5, and SHA-256 alternatives (issue #213).
 - Recognize observed Oracle HTTP Server hyphenated version banners and Oracle REST Data Services space-separated banners (issues #344, #337).
 - Require MoxaHttp with the NPort console title after ONYPHE showed the same title on unrelated synthetic pages (issue #504).
 - Match Moxa NE-4110S, MiiNePort E2, and MGate MB3180 model banners after Telnet negotiation bytes, as confirmed by ONYPHE (issues #507, #506, #505).

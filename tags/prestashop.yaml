@@ -1,7 +1,7 @@
 name: prestashop
 description: Detect PrestaShop ecommerce
 uuid: 3b9ce87e-772b-4e83-8083-36502f37640d
-query: http_cookiename.bg:PrestaShop-
+query: http_cookiename.bg:PrestaShop- OR http_favicon_mmhash:-1512303098 OR http_favicon_md5:405c73d6f817f70063510189eee2c6ec OR http_favicon_sha256:f19dd2ce9b988f797f2c817adb8129b736361669e80cd0469f03b8ba78c4b1ad
 tags:
 - proto:http
 - product:prestashop
@@ -12,4 +12,5 @@ references:
 - https://prestashop.com/
 - https://github.com/PrestaShop/PrestaShop
 - https://github.com/PrestaShop/PrestaShop/blob/develop/classes/Cookie.php
-version: 20261023T115851Z
+- https://github.com/PrestaShop/PrestaShop/blob/7f0b59476f7ce9dbce3ed774761c552129aab906/img/favicon.ico
+version: 20261120T105739Z
