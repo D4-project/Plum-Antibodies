@@ -1,0 +1,14 @@
+name: haproxy
+description: Detect the built-in HAProxy HTTP statistics page
+uuid: 669f2f50-6fe5-4d58-a20b-00a284de5abe
+query: http_title:"Statistics Report for HAProxy" OR http_title.bg:"Statistics Report for HAProxy on "
+tags:
+- proto:http
+- vendor:haproxy
+- product:haproxy
+- type:slb
+references:
+- https://github.com/haproxy/haproxy/blob/9c3a95c2c6485e46aeafd9a6a9975d5d00a14c1a/src/stats-html.c#L65
+- https://github.com/haproxy/haproxy/blob/9c3a95c2c6485e46aeafd9a6a9975d5d00a14c1a/src/stats-html.c#L217
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1829
+version: 20261120T071815Z
