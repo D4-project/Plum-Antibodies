@@ -1,0 +1,13 @@
+name: textpattern-cms
+description: Detect Textpattern CMS login
+uuid: 951fe863-0f6e-48dc-9fbd-0e254bd35cac
+query: 'http_cookiename:txp_test_cookie AND http_title.lk:"Textpattern CMS"'
+tags:
+- proto:http
+- product:textpattern-cms
+- vendor:textpattern
+- type:cms
+- lang:php
+references:
+- https://textpattern.com/about/system-requirements
+version: 20261120T115154Z

@@ -1,0 +1,13 @@
+name: pluxml
+description: Detect PluXml CMS interface
+uuid: 258e5761-417b-4550-b918-d14876ce8baa
+query: 'http_title.bg:"PluXml - "'
+tags:
+- proto:http
+- product:pluxml
+- vendor:pluxml
+- type:cms
+- lang:php
+references:
+- https://wiki.pluxml.org/docs/install/install.html
+version: 20261120T115154Z

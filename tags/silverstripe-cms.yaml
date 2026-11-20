@@ -1,0 +1,13 @@
+name: silverstripe-cms
+description: Detect Silverstripe CMS login
+uuid: 822d6ed3-0645-4bff-986e-e30a2919f6f7
+query: 'http_title.bg:"Silverstripe CMS"'
+tags:
+- proto:http
+- product:silverstripe-cms
+- vendor:silverstripe
+- type:cms
+- lang:php
+references:
+- https://docs.silverstripe.org/en/6/getting_started/server_requirements/
+version: 20261120T115154Z

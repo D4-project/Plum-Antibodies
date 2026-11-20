@@ -1,0 +1,13 @@
+name: mybb
+description: Detect MyBB forum installer or error page
+uuid: 9c444b14-edd8-4bb6-95ab-fcf5a25485fd
+query: 'http_title.bg:"MyBB Installation Wizard &gt; Welcome" OR http_title.bg:"MyBB SQL Error" OR http_title.bg:"MyBB - Internal Error"'
+tags:
+- proto:http
+- product:mybb
+- vendor:mybb
+- type:forum
+- lang:php
+references:
+- https://docs.mybb.com/1.8/install/requirements/
+version: 20261120T115154Z
