@@ -1,0 +1,12 @@
+name: moxa-nport
+description: Identify Moxa NPort serial device servers from the branded console title
+uuid: 97d6b635-92f7-4197-9db3-4dec98ccbfb2
+query: http_title.bg:"NPort Web Console"
+tags:
+- proto:http
+- vendor:moxa
+- product:nport
+- type:serial-device-server
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L823-L829
+version: 20261120T081902Z
