@@ -1,0 +1,11 @@
+name: genohm-scada
+description: Identify the GenOHM SCADA launcher from its full product title
+uuid: 019ddec7-2545-4c7a-991d-3b6109aabcc5
+query: http_title.bg:"GenOHM Scada Launcher"
+tags:
+- proto:http
+- product:genohm-scada
+- type:scada
+references:
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/genohm-scada.rb#L30
+version: 20261120T082148Z
