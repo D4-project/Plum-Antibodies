@@ -1,0 +1,12 @@
+name: slim-framework
+description: Detect Slim Framework application error page
+uuid: f1e7f5cf-6b0e-4617-b423-2eccd4125b89
+query: http_title:"Slim Application Error"
+tags:
+- type:framework
+- lang:php
+- proto:http
+- product:slim
+references:
+- https://www.slimframework.com/
+version: 20261120T154240Z

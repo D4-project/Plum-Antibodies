@@ -1,0 +1,12 @@
+name: fossbilling
+description: Detect FOSSBilling application error page
+uuid: b18b970f-d322-4bd8-b372-ee49ea31b560
+query: http_title.bg:"FOSSBilling Error"
+tags:
+- type:billing
+- lang:php
+- proto:http
+- product:fossbilling
+references:
+- https://docs.fossbilling.org/getting-started/requirements/
+version: 20261120T154240Z

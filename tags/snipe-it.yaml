@@ -1,0 +1,12 @@
+name: snipe-it
+description: Detect Snipe-IT asset management interface
+uuid: 0d22a919-4104-4d61-ac41-a10f6fa4473c
+query: http_title.lk:"Snipe-IT Asset Management"
+tags:
+- type:asset-management
+- lang:php
+- proto:http
+- product:snipe-it
+references:
+- https://snipe-it.readme.io/docs/requirements
+version: 20261120T154240Z

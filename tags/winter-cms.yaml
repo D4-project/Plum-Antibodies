@@ -1,0 +1,12 @@
+name: winter-cms
+description: Detect Winter CMS demonstration page
+uuid: d5a99ee7-a54f-4a70-9302-5ecc693fa99d
+query: http_title:"Winter CMS - Demonstration"
+tags:
+- type:cms
+- lang:php
+- proto:http
+- product:winter-cms
+references:
+- https://wintercms.com/docs/v1.2/docs/setup/installation
+version: 20261120T154240Z

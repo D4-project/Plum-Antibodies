@@ -1,0 +1,13 @@
+name: open-monograph-press
+description: Detect Open Monograph Press installation page
+uuid: 3d223e0f-2a9b-4c42-8d1d-b90125fca178
+query: http_title:"OMP Installation | Open Monograph Press"
+tags:
+- type:publishing
+- lang:php
+- proto:http
+- vendor:pkp
+- product:open-monograph-press
+references:
+- https://github.com/pkp/omp
+version: 20261120T154240Z

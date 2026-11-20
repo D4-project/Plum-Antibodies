@@ -1,0 +1,13 @@
+name: bagisto
+description: Detect Bagisto installer
+uuid: 91623104-d266-4cbd-a8c6-d805cf369c7f
+query: http_title:"Bagisto Installer"
+tags:
+- type:ecommerce
+- lang:php
+- proto:http
+- vendor:webkul
+- product:bagisto
+references:
+- https://devdocs.bagisto.com/getting-started/installation
+version: 20261120T154240Z
