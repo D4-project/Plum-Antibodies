@@ -1,0 +1,13 @@
+name: tine
+description: Detect Tine 2.0 groupware interface
+uuid: e744deae-a85b-49b0-b237-59df4d2ebba1
+query: 'http_headval:x-api.lk:tine20.org/apidocs/tine20/ AND http_title.bg:"Tine 2.0"'
+tags:
+- proto:http
+- product:tine
+- vendor:metaways
+- type:webmail
+- lang:php
+references:
+- https://docs.tine-groupware.de/main/operators/System_Requirements/
+version: 20261120T115636Z

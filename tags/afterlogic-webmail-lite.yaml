@@ -1,0 +1,13 @@
+name: afterlogic-webmail-lite
+description: Detect AfterLogic WebMail Lite
+uuid: 7be5d788-892f-4540-8a76-3b4455811899
+query: 'http_cookiename:PHPWEBMAILSESSID AND http_title.bg:"AfterLogic WebMail Lite"'
+tags:
+- proto:http
+- product:afterlogic-webmail-lite
+- vendor:afterlogic
+- type:webmail
+- lang:php
+references:
+- https://afterlogic.com/docs/webmail-lite/system-requirements
+version: 20261120T115636Z

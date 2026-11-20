@@ -1,0 +1,13 @@
+name: kopano-webapp
+description: Detect Kopano WebApp webmail interface
+uuid: 3b3351e2-b158-41c6-8a56-63ee3270a64a
+query: 'http_cookiename.lk:KOPANO_WEBAPP AND http_title.bg:"Kopano WebApp"'
+tags:
+- proto:http
+- product:kopano-webapp
+- vendor:kopano
+- type:webmail
+- lang:php
+references:
+- https://github.com/Kopano-dev/kopano-webapp
+version: 20261120T115636Z

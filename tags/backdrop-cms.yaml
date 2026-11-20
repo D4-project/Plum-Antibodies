@@ -1,0 +1,13 @@
+name: backdrop-cms
+description: Detect Backdrop CMS installer
+uuid: fa322d4f-66d5-47f1-84fb-c98fb9d82f43
+query: 'http_headval:x-generator.bg:"Backdrop CMS" AND http_title.bg:"Choose language | Backdrop CMS"'
+tags:
+- proto:http
+- product:backdrop-cms
+- vendor:backdrop
+- type:cms
+- lang:php
+references:
+- https://docs.backdropcms.org/documentation/system-requirements
+version: 20261120T115636Z

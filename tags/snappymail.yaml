@@ -1,0 +1,13 @@
+name: snappymail
+description: Detect SnappyMail webmail interface
+uuid: b37dcfbc-c1ad-4a19-b8a1-0500abc4f80b
+query: 'http_server:SnappyMail OR http_favicon_path.bg:/snappymail/'
+tags:
+- proto:http
+- product:snappymail
+- vendor:snappymail
+- type:webmail
+- lang:php
+references:
+- https://github.com/the-djmaze/snappymail
+version: 20261120T115636Z
