@@ -1,0 +1,13 @@
+name: ibh-link-s7-plus-plus
+description: Identify the IBH Link S7++ gateway from its product title
+uuid: dfab201b-044c-470d-ad10-72be437a7315
+query: http_title.bg:"IBHLink S7++"
+tags:
+- proto:http
+- vendor:ibhsoftec
+- product:ibh-link-s7-plus-plus
+- type:protocol-gateway
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/html_title.xml#L1759-L1766
+- https://www.ibhsoftec.com/IBH-Link-S7-PP-Eng
+version: 20261120T081844Z
