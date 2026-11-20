@@ -1,0 +1,12 @@
+name: apc-infrastruxure-manager
+description: Identify APC InfraStruXure Manager from its branded application title
+uuid: eaa31a39-5148-49b5-bdca-81f5fbc4ad1f
+query: http_title.bg:"APC | InfraStruXure Manager"
+tags:
+- proto:http
+- vendor:apc
+- product:infrastruxure-manager
+- type:infrastructure-management
+references:
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/apc-infrastruxure-manager.rb#L22
+version: 20261120T082232Z
