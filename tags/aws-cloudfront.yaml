@@ -1,11 +1,14 @@
 name: aws-cloudfront
-description: Detect Amazon CloudFront
+description: Detect Amazon CloudFront from its HTTP Server header or paired edge response headers
 uuid: 4846b323-46f4-59c0-bbf4-f39a67c169d8
-query: http_server:cloudfront
+query: http_server:cloudfront OR http_header:x-amz-cf-pop AND http_header:x-amz-cf-id
 tags:
 - proto:http
 - product:cloudfront
 - vendor:amazon
+- type:proxy
 references:
 - https://aws.amazon.com/cloudfront/
-version: 20260918T053418Z
+- https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/understanding-response-headers-policies.html
+- https://github.com/urbanadventurer/WhatWeb/blob/d279d93042d034f3fd29d5a893d44ccc0595d3f8/plugins/cloudfront.rb
+version: 20261120T071840Z
