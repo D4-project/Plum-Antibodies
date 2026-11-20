@@ -1,0 +1,12 @@
+name: fidelix-control-web
+description: Identify the Fidelix control web service from its branded HTTP server identity
+uuid: de5bb330-bde7-4f78-8d4e-bd6cea3f637a
+query: http_server.bg:"Microsoft WinCE Fidelix v"
+tags:
+- proto:http
+- vendor:fidelix
+- product:fidelix-control-web-server
+- type:industrial-web-interface
+references:
+- https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L3422-L3434
+version: 20261120T082005Z
