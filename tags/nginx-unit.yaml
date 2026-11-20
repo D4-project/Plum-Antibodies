@@ -1,0 +1,13 @@
+name: nginx-unit
+description: Detect NGINX Unit from its versioned HTTP Server header
+uuid: ccbbb4cb-b65f-4678-adff-de638978adc4
+query: http_server:Unit OR http_server.bg:Unit/
+tags:
+- proto:http
+- vendor:nginx
+- product:nginx-unit
+- type:application-server
+references:
+- https://github.com/nginx/unit/blob/76b39e928bd29f09278b60c3878b9f3d032b45b6/src/nxt_main.h#L14
+- https://github.com/nginx/unit/blob/76b39e928bd29f09278b60c3878b9f3d032b45b6/src/nxt_http_request.c#L711
+version: 20261120T072626Z

@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #428: Add NGINX Unit HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Add the source-confirmed exact Server: Unit alternative; retain type:application-server without inferring any optional application language.
 - Integrate PR #427: Add H2O HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain the implementation-level H2O product tag; no web-server type. Sample evidence does not imply the version of H2O or DNSdist.
 - Integrate PR #426: Extend Angie HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain the exact unversioned value and slash-prefixed versioned form; no web-server type.
 - Integrate PR #425: Add Tengine HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain vendor:taobao; no web-server type.
