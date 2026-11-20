@@ -1,0 +1,13 @@
+name: centreon
+description: Detect Centreon monitoring login
+uuid: 4741058f-df0e-4e7e-837b-f6a9407c9c80
+query: 'http_title.bg:"Centreon - IT & Network Monitoring"'
+tags:
+- proto:http
+- product:centreon
+- vendor:centreon
+- type:monitoring
+- lang:php
+references:
+- https://github.com/centreon/centreon
+version: 20261120T112310Z

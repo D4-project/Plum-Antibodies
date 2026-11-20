@@ -1,0 +1,13 @@
+name: phppgadmin
+description: Detect phpPgAdmin database interface
+uuid: 9447c692-3c2f-4e2f-9d32-0c77c9a0c366
+query: 'http_title.bg:phpPgAdmin AND http_cookiename:PPA_ID'
+tags:
+- proto:http
+- product:phppgadmin
+- vendor:phppgadmin
+- type:database-management
+- lang:php
+references:
+- https://github.com/phppgadmin/phppgadmin
+version: 20261120T112310Z

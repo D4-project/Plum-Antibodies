@@ -1,0 +1,13 @@
+name: observium
+description: Detect Observium monitoring interface
+uuid: 16a6bd1d-b777-4665-a2ac-a7585ddfa058
+query: 'http_cookiename:OBSID AND http_title.lk:Observium'
+tags:
+- proto:http
+- product:observium
+- vendor:observium
+- type:monitoring
+- lang:php
+references:
+- https://docs.observium.org/
+version: 20261120T112310Z

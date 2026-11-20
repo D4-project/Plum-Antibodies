@@ -1,0 +1,13 @@
+name: adiscon-loganalyzer
+description: Detect Adiscon LogAnalyzer login
+uuid: b0f16fb8-d8ec-483f-94ff-d0df4abb3fbb
+query: 'http_title.bg:"Adiscon LogAnalyzer :: Login"'
+tags:
+- proto:http
+- product:adiscon-loganalyzer
+- vendor:adiscon
+- type:monitoring
+- lang:php
+references:
+- https://loganalyzer.adiscon.com/
+version: 20261120T112310Z
