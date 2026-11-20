@@ -1,5 +1,6 @@
 # Release notes
 
+- Integrate PR #437: Add Twisted Web HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:python; the Twisted/ variant must also contain TwistedWeb/ in AND.
 - Integrate PR #436: Add Tornado HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:python and the product-specific slash prefix; no web-server type.
 - Integrate PR #435: Add Werkzeug HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain vendor:pallets and lang:python; no web-server type.
 - Integrate PR #434: Add Daphne HTTP detection; verify source signatures and product types, retain rule identities, refresh UTC versions and document historical Plum coverage. Retain lang:python and exact Server matching; no web-server type.
