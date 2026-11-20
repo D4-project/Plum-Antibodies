@@ -1,0 +1,13 @@
+name: invoiceplane
+description: Detect InvoicePlane billing interface
+uuid: 50703b3e-e77d-4408-a64b-dead88160855
+query: 'http_cookiename:ip_csrf_cookie AND http_title.bg:InvoicePlane'
+tags:
+- proto:http
+- product:invoiceplane
+- vendor:invoiceplane
+- type:billing
+- lang:php
+references:
+- https://github.com/InvoicePlane/InvoicePlane
+version: 20261120T114419Z

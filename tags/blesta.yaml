@@ -1,0 +1,13 @@
+name: blesta
+description: Detect Blesta billing interface
+uuid: ae483c9b-9b15-43fc-8ca5-916b17ec9f88
+query: 'http_cookiename:blesta_sid AND http_title.bg:Blesta'
+tags:
+- proto:http
+- product:blesta
+- vendor:blesta
+- type:billing
+- lang:php
+references:
+- https://docs.blesta.com/installation/
+version: 20261120T114419Z

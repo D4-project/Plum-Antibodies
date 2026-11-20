@@ -1,0 +1,13 @@
+name: hostbill
+description: Detect HostBill billing interface
+uuid: ba4c3251-3b01-4f7f-93bd-d0ca38386ab4
+query: 'http_title.bg:"HostBill - "'
+tags:
+- proto:http
+- product:hostbill
+- vendor:hostbill
+- type:billing
+- lang:php
+references:
+- https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/53745197/System%2Brequirements
+version: 20261120T114419Z

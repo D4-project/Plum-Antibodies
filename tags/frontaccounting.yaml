@@ -1,0 +1,13 @@
+name: frontaccounting
+description: Detect FrontAccounting login
+uuid: 948b0978-46ca-4fa7-a04f-59e5b4fbeb1c
+query: 'http_cookiename.bg:FA AND http_title.lk:FrontAccounting'
+tags:
+- proto:http
+- product:frontaccounting
+- vendor:frontaccounting
+- type:erp
+- lang:php
+references:
+- https://github.com/FrontAccountingERP/FA
+version: 20261120T114419Z

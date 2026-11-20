@@ -1,5 +1,6 @@
 # Release notes
 
+- Add ONYPHE-confirmed InvoicePlane, HostBill, Blesta, FrontAccounting, YetiForce, EspoCRM, and Zen Cart detections (issues #91, #89, #86, #85, #82, #78, #76).
 - Add ten ONYPHE-confirmed file sharing, HR, project, helpdesk, and billing detections (issues #108, #107, #106, #103, #101, #100, #99, #97, #94, #92).
 - Add ONYPHE-confirmed VuFind, Omeka S, Omeka Classic, and AtoM collection detections (issues #124, #123, #122, #120).
 - Add ONYPHE-confirmed REDCap, CollectiveAccess Providence, ILIAS, Part-DB, SeedDMS, and ProjectSend detections (issues #127, #121, #117, #114, #113, #110).

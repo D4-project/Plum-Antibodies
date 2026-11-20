@@ -1,0 +1,13 @@
+name: yetiforce
+description: Detect YetiForce CRM interface
+uuid: b0cc117a-6126-4fdf-bb5c-048926882fd8
+query: 'http_cookiename:YTSID AND http_title.bg:YetiForce'
+tags:
+- proto:http
+- product:yetiforce
+- vendor:yetiforce
+- type:crm
+- lang:php
+references:
+- https://github.com/YetiForceCompany/YetiForceCRM
+version: 20261120T114419Z

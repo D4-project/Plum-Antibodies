@@ -1,0 +1,13 @@
+name: espocrm
+description: Detect EspoCRM application interface
+uuid: f6c05de5-7ce9-4c8e-ba16-3b81b9ecc1c1
+query: 'http_title.bg:EspoCRM'
+tags:
+- proto:http
+- product:espocrm
+- vendor:espocrm
+- type:crm
+- lang:php
+references:
+- https://docs.espocrm.com/administration/server-configuration/
+version: 20261120T114419Z

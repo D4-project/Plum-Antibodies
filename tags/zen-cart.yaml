@@ -1,0 +1,13 @@
+name: zen-cart
+description: Detect Zen Cart ecommerce storefront
+uuid: e3754046-857d-4427-a7c1-43309dd0a275
+query: 'http_cookiename:zenid AND http_title.lk:"Zen Cart"'
+tags:
+- proto:http
+- product:zen-cart
+- vendor:zen-cart
+- type:ecommerce
+- lang:php
+references:
+- https://docs.zen-cart.com/user/first_steps/server_requirements/
+version: 20261120T114419Z
