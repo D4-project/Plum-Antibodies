@@ -22,6 +22,13 @@ def test_valid_query_supports_groups_modifiers_and_not():
     )
 
 
+def test_scanner_engine_is_exact_and_observed_service_is_supported():
+    """Keep scanner provenance and observed services aligned with Island."""
+    sanity_check.validate_query("engine:masscan AND service:ftp OR engine:nmap")
+    with pytest.raises(sanity_check.RuleError):
+        sanity_check.validate_query("engine.lk:masscan")
+
+
 @pytest.mark.parametrize(
     "query",
     [

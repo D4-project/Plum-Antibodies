@@ -1,0 +1,7 @@
+name: tls
+description: Detect an observed TLS protocol response
+uuid: 92c33e4e-7de5-4cc5-b255-f66c159a32b1
+query: service:ssl OR service:tls
+tags:
+- proto:tls
+version: 20261120T203837Z

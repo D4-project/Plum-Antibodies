@@ -79,3 +79,11 @@ Plum-Island. The scheduler also reconciles them when exporting parser
 configuration. Import the rules and reindex existing scans to apply the new
 collection settings to historical documents; see
 [Plum-Island operations](operations.md).
+
+## Scanner provenance
+
+`engine:masscan` selects explicitly marked Masscan reports; `engine:nmap` selects
+all other candidate reports, including legacy unmarked scans. Engine matching is
+exact-only. Only Masscan is physically marked, avoiding a bulk history migration.
+`service:ftp` and other service terms require observed protocol evidence; an open
+port alone never determines the application protocol.

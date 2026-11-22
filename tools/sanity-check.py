@@ -60,10 +60,12 @@ ALLOWED_FIELDS = {
     "x509_subject_cn",
     "x509_san",
     "banner",
+    "service",
+    "engine",
 }
 ALLOWED_MODIFIERS = {".lk", ".like", ".bg", ".begin", ".not", ".nt"}
 VALUE_MODIFIERS = {".lk", ".like", ".bg", ".begin"}
-EXACT_ONLY_FIELDS = {"tag"}
+EXACT_ONLY_FIELDS = {"tag", "engine"}
 VERSION_RE = re.compile(r"^\d{8}T\d{6}Z$")
 HTTP_HEADER_RE = re.compile(r"^[!#$%&'*+\-.^_`|~0-9a-z]+$")
 LINK_RE = re.compile(r"^https?://\S+$", re.IGNORECASE)

@@ -84,17 +84,17 @@ The currently allowed rule fields are:
 
 - `ip`, `net`, `port`;
 - `fqdn`, `fqdn_requested`, `host`, `domain`, `domain_requested`, `tld`;
-- `tag`;
+- `tag`, `engine`;
 - `http_title`, `http_favicon_path`, `http_favicon_mmhash`,
   `http_favicon_md5`, `http_favicon_sha256`;
 - `http_cookiename`, `http_etag`, `http_header`, `http_headval`, `http_server`;
 - `x509_issuer`, `x509_issuer_cn`, `x509_md5`, `x509_sha1`, `x509_sha256`,
   `x509_subject`, `x509_subject_cn`, `x509_san`;
-- `banner`.
+- `banner`, `service`.
 
 Supported value modifiers are `.lk`/`.like` for substring matching,
 `.bg`/`.begin` for prefix matching, and `.not`/`.nt` for exact negation. The
-`tag` field is exact-only. The special `http_headval` form is
+`tag` and `engine` fields are exact-only. The special `http_headval` form is
 `http_headval:header:value`, with optional `.lk`, `.like`, `.bg`, or `.begin`
 on the header expression.
 
