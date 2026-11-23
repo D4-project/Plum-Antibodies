@@ -6,7 +6,6 @@ tags:
 - proto:http
 - vendor:cisco
 - product:cisco-expressway
-- product:expressway
 references:
-- https://www.cisco.com/
-version: 20260918T053418Z
+- https://www.cisco.com/c/en/us/products/unified-communications/expressway-series/index.html
+version: 20261123T164958Z
