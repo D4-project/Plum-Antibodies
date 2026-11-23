@@ -1,0 +1,12 @@
+name: ecstatic
+description: Detect Ecstatic HTTP static-file middleware
+uuid: e77769e2-ddb5-4195-a513-a3c313eda0f6
+query: http_server.bg:"ecstatic-"
+tags:
+- proto:http
+- product:ecstatic
+references:
+- https://github.com/jfhbrook/node-ecstatic
+- https://github.com/jfhbrook/node-ecstatic/blob/c2de337332a5137944c117000b13d368ce6e24f6/lib/ecstatic.js#L225-L227
+- https://github.com/jfhbrook/node-ecstatic/blob/c2de337332a5137944c117000b13d368ce6e24f6/package.json
+version: 20261123T165058Z
