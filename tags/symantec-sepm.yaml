@@ -1,0 +1,12 @@
+name: symantec-sepm
+description: Detect Symantec Endpoint Protection Manager
+uuid: c54d143a-b1a5-41e0-b0dd-b3c7c9149584
+query: http_server:"Symantec Endpoint Protection Manager"
+tags:
+- proto:http
+- vendor:symantec
+- product:symantec-endpoint-protection-manager
+- type:systems-management
+references:
+- https://knowledge.broadcom.com/external/article/151377/creating-and-assigning-a-management-serv.html
+version: 20261123T164949Z

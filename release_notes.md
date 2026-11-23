@@ -1,5 +1,6 @@
 # Release notes
 
+- Add Symantec Endpoint Protection Manager detection from its exact HTTP Server header, confirmed in a stored Plum service capture (issue #544).
 - Match Winter CMS branded title prefixes instead of requiring the Demonstration suffix, preserving both session-cookie alternatives and refreshing the UTC rule version. Confirm examples through passive MODAT service observations.
 - Add ONYPHE-confirmed Backdrop CMS, Tine, SnappyMail, Kopano WebApp, and AfterLogic WebMail Lite detections (issues #20, #19, #17, #15, #13).
 - Add ONYPHE-confirmed MyBB, Textpattern, Silverstripe CMS, and PluXml detections (issues #50, #40, #36, #33).
