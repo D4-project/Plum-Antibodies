@@ -1,5 +1,6 @@
 # Release notes
 
+- Add the ARTEX console title detector using the case-insensitive Autonomous Penetration Testing Console substring, covering observed punctuation and branding variants; preserve the rule identity and refresh its UTC version.
 - Add Ecstatic HTTP middleware detection from its version-independent Server header prefix, verified against pinned upstream source and stored Plum samples (issue #546).
 - Canonicalize Cisco Expressway to `product:cisco-expressway`, preserving its UUID and both Server signatures. Import the newer rule and use normal reconciliation to remove only its old `product:expressway` contribution; preserve independent/manual producers. Restoring the alias requires another newer rule version and reconciliation.
 - Add Symantec Endpoint Protection Manager detection from its exact HTTP Server header, confirmed in a stored Plum service capture (issue #544).

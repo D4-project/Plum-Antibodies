@@ -1,0 +1,13 @@
+name: c2-artex
+description: Detect ARTEX web console
+uuid: d82c5a7d-92b6-4e16-94b0-775d8af16f09
+query: 'http_title.lk:"Autonomous Penetration Testing Console"'
+tags:
+- proto:http
+- product:artex
+- vendor:artex
+- type:c2
+references:
+- https://github.com/BaaRai/ARTEX/blob/main/web/src/config/app-config.ts
+- https://github.com/BaaRai/ARTEX/blob/main/web/src/app/layout.tsx
+version: 20261125T162004Z
