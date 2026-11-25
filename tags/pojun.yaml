@@ -1,0 +1,14 @@
+name: pojun
+description: Detect the Pojun operator console
+uuid: dd41e77b-74da-5e15-8906-0735f67235ee
+query: http_favicon_md5:e3359c0c947d1eea350bbbd3d9bd2625 OR http_favicon_md5:d0fde1ee4a5676a747cedcaac26ee9bb OR http_favicon_md5:a393272e2601d999c6024630da3e0344 OR http_favicon_sha256:3990cc3d5cbfc4fcddaa94dbec6ce97616bfd0e44cae2b5b9187c3d47a50953c OR http_favicon_mmhash:1045559192
+tags:
+- proto:http
+- product:pojun
+- vendor:chu0119
+- type:c2
+references:
+- https://github.com/chu0119/Pojun
+- https://offensive.agency/cluster/pojun
+- https://github.com/chu0119/Pojun/blob/main/web/src/app/favicon.ico
+version: 20261125T170536Z

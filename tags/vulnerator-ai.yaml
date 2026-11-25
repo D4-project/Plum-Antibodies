@@ -1,0 +1,13 @@
+name: vulnerator-ai
+description: Detect the Vulnerator AI operator console
+uuid: 5789c96c-21f8-5520-a99a-c5cd836dedd3
+query: http_title.lk:"Vulnerator Console" OR http_favicon_md5:f27e45fa2a7d35d46111f1ca15f27c43
+tags:
+- proto:http
+- product:vulnerator-ai
+- vendor:irraz
+- type:c2
+references:
+- https://github.com/irraz/vulnerator-ai
+- https://offensive.agency/agent/vulnerator-ai
+version: 20261125T164212Z

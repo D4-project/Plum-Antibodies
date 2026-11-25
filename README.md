@@ -11,3 +11,4 @@ Rules live in [`tags/`](tags/). Plum-Island consumes this repository as the `web
 - [Sanity checker](documentation/sanity-check.md)
 - [Plum-Island operations](documentation/operations.md)
 - [Tag validation library](documentation/tag-validation.md)
+- [Offensive agent detection coverage](documentation/offensive-agency.md)

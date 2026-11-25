@@ -1,0 +1,13 @@
+name: sapper-v2
+description: Detect the sapper-v2 operator console
+uuid: 8937a7cc-d3a4-544b-b07f-e241421ed894
+query: http_title.lk:"sapper" AND http_title.lk:"engagement graph"
+tags:
+- proto:http
+- product:sapper-v2
+- vendor:n1neman
+- type:c2
+references:
+- https://github.com/N1nEmAn/sapper-v2
+- https://offensive.agency/agent/sapper-v2
+version: 20261125T164212Z

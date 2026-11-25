@@ -1,0 +1,15 @@
+name: open-kritt
+description: Detect the open-kritt operator console
+uuid: cfef6a2f-97b7-5a84-87da-6d88e2665196
+query: http_favicon_md5:2df232e29387b904996ae39123f79362 OR http_title:"open·kritt" OR http_favicon_sha256:c8bc9abe1567b51eef670f4d2a4c514a291300869f634d032991a895433c3a23
+tags:
+- proto:http
+- product:open-kritt
+- vendor:kritt-ai
+- type:c2
+references:
+- https://github.com/Kritt-ai/open-kritt
+- https://offensive.agency/agent/open-kritt
+- https://github.com/Kritt-ai/open-kritt/blob/main/frontend/index.html
+- https://github.com/Kritt-ai/open-kritt/blob/main/frontend/public/favicon.svg
+version: 20261125T170536Z

@@ -1,7 +1,7 @@
 name: hexstrike-ai
 description: Detect HexStrike AI operator API protected by a branded HTTP Basic realm
 uuid: 0d2acab9-34f8-574d-82a2-5ea29b3f0a4a
-query: "http_headval:www-authenticate:'Basic realm=\"HexStrike AI\"'"
+query: http_headval:www-authenticate:'Basic realm="HexStrike AI"' OR http_title.lk:"HexStrike"
 tags:
 - proto:http
 - product:hexstrike-ai
@@ -10,4 +10,5 @@ tags:
 references:
 - https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/hexstrike_server.py
 - https://github.com/0x4m4/hexstrike-ai/blob/d689933ff579d839c676c82b231f8e98326c5f04/LICENSE
-version: 20261120T092408Z
+- https://offensive.agency/agent/hexstrike
+version: 20261125T164212Z

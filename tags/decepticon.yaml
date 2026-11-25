@@ -1,0 +1,13 @@
+name: decepticon
+description: Detect the Decepticon operator console
+uuid: 90c46956-68a8-5a57-a2ec-066ccb1f45a5
+query: http_title.lk:"Decepticon" AND http_title.lk:"Autonomous Red Team Platform" OR http_favicon_md5:0d9eb87ab032844a4bed864085981964
+tags:
+- proto:http
+- product:decepticon
+- vendor:bittersecurity
+- type:c2
+references:
+- https://github.com/BitterSecurity/Decepticon
+- https://offensive.agency/agent/decepticon
+version: 20261125T164212Z

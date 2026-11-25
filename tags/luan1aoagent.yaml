@@ -1,0 +1,13 @@
+name: luan1aoagent
+description: Detect the LuaN1aoAgent operator console
+uuid: 99841db9-db89-5ada-8aaf-49c25f0c834a
+query: http_title.lk:"鸾鸟渗透智能体"
+tags:
+- proto:http
+- product:luan1aoagent
+- vendor:sanmuzzzzz
+- type:c2
+references:
+- https://github.com/SanMuzZzZz/LuaN1aoAgent
+- https://offensive.agency/agent/luan1aoagent
+version: 20261125T164212Z

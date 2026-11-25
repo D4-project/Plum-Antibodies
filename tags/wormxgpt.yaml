@@ -1,0 +1,13 @@
+name: wormxgpt
+description: Detect the WormXGPT operator console
+uuid: 08e316cc-b5b6-5530-9fd3-c7a36812aa4d
+query: http_title.lk:"WormGPT Red Terminal" OR http_title.lk:"WormGPT Terminal" OR http_favicon_md5:5be0a3173f6fc54a7862dda9fe1d223f
+tags:
+- proto:http
+- product:wormxgpt
+- vendor:gaur-avvv
+- type:c2
+references:
+- https://github.com/gaur-avvv/wormxgpt
+- https://offensive.agency/agent/wormxgpt
+version: 20261125T164212Z

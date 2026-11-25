@@ -1,0 +1,13 @@
+name: aida
+description: Detect the AIDA operator console
+uuid: 0bc75c9a-2893-5ee4-80cc-e12541d95761
+query: http_title.lk:"AIDA - AI-Driven Security Assessment" OR http_favicon_md5:d4be6f9e5330cbc5606bd101256e94fa
+tags:
+- proto:http
+- product:aida
+- vendor:vasco0x4
+- type:c2
+references:
+- https://github.com/Vasco0x4/AIDA
+- https://offensive.agency/agent/aida
+version: 20261125T164212Z

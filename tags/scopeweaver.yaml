@@ -1,0 +1,13 @@
+name: scopeweaver
+description: Detect the ScopeWeaver operator console
+uuid: 0dfdd3f8-1350-5192-9e8f-839fcbb23e63
+query: http_title.lk:"ScopeWeaver"
+tags:
+- proto:http
+- product:scopeweaver
+- vendor:cskwork
+- type:c2
+references:
+- https://github.com/cskwork/scopeweaver
+- https://offensive.agency/cluster/scopeweaver
+version: 20261125T164212Z

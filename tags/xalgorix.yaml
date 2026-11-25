@@ -1,0 +1,13 @@
+name: xalgorix
+description: Detect the Xalgorix operator console
+uuid: 5d88276e-3565-5fd9-bf38-7f32d867e733
+query: http_title.lk:"Xalgorix" OR http_favicon_md5:7ce3d0eeae5c13ad1cf02ed0062c99b9 OR http_favicon_md5:152b1831875335f7fa32473e5edcd414 OR http_favicon_md5:27835995c192828ab5401a58242701ed OR http_favicon_md5:64c97a7738b2e2b00760ccd6d276e97b
+tags:
+- proto:http
+- product:xalgorix
+- vendor:xalgorix
+- type:c2
+references:
+- https://github.com/xalgorix/xalgorix
+- https://offensive.agency/agent/xalgorix
+version: 20261125T164212Z

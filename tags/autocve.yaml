@@ -1,0 +1,13 @@
+name: autocve
+description: Detect the AutoCVE operator console
+uuid: bde54e69-a34b-549d-ab8c-0115d323c49e
+query: http_title.lk:"AutoCVE" OR http_favicon_md5:f20edcc49f7b035d4ff0b7dd62d67eae
+tags:
+- proto:http
+- product:autocve
+- vendor:larlarua
+- type:c2
+references:
+- https://github.com/larlarua/AutoCVE
+- https://offensive.agency/agent/autocve
+version: 20261125T164212Z

@@ -1,0 +1,13 @@
+name: neurosploit
+description: Detect the NeuroSploit operator console
+uuid: b14893a4-6df4-5454-a6ce-647fee91f0a1
+query: http_title.lk:"NeuroSploit" OR http_favicon_md5:f8fb482e183c10bb03aaf940dde7b18c
+tags:
+- proto:http
+- product:neurosploit
+- vendor:joasasantos
+- type:c2
+references:
+- https://github.com/JoasASantos/NeuroSploit
+- https://offensive.agency/agent/neurosploit
+version: 20261125T164212Z

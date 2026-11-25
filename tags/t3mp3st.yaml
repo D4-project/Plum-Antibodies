@@ -1,0 +1,13 @@
+name: t3mp3st
+description: Detect the T3MP3ST operator console
+uuid: f769c68f-8347-53c7-9fc7-4410c59a40d2
+query: http_title.lk:"T3MP3ST" AND http_title.lk:"Dashboard"
+tags:
+- proto:http
+- product:t3mp3st
+- vendor:elder-plinius
+- type:c2
+references:
+- https://github.com/elder-plinius/T3MP3ST
+- https://offensive.agency/agent/t3mp3st
+version: 20261125T164212Z

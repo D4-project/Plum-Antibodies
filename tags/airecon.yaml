@@ -1,0 +1,13 @@
+name: airecon
+description: Detect the AIRecon operator console
+uuid: aa48cc82-fc69-59a8-975d-94ba64060a76
+query: http_title.lk:"AIRecon Search"
+tags:
+- proto:http
+- product:airecon
+- vendor:pikpikcu
+- type:c2
+references:
+- https://github.com/pikpikcu/airecon
+- https://offensive.agency/agent/airecon
+version: 20261125T164212Z

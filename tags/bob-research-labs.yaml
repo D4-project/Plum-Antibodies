@@ -1,0 +1,13 @@
+name: bob-research-labs
+description: Detect the Bob Research Labs operator console
+uuid: 0024f227-2677-51bb-8c25-a9f198c01f13
+query: http_title.lk:"Bob Research Labs" OR http_title.lk:"coming to root your server" OR x509_subject_cn:bobresearchlabs.com
+tags:
+- proto:http
+- product:bob-research-labs
+- vendor:khadafigans
+- type:c2
+references:
+- https://github.com/khadafigans/Bob-Research-Labs
+- https://offensive.agency/cluster/bob-research-labs
+version: 20261125T164212Z

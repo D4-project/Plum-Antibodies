@@ -1,7 +1,7 @@
 name: c2-artex
 description: Detect ARTEX web console
 uuid: d82c5a7d-92b6-4e16-94b0-775d8af16f09
-query: 'http_title.lk:"Autonomous Penetration Testing Console"'
+query: http_title.lk:"Autonomous Penetration Testing Console" OR http_title:ARTEX OR http_title.lk:"自主渗透测试控制台" OR http_title.lk:"자율 침투 테스트 콘솔" OR http_title.lk:"自律型ペネトレーションテストコンソール" OR http_title:WSARTEX OR http_favicon_md5:cd3ebd16437d6d3963592f7365dd3980 OR http_favicon_md5:885700bddad47ba6c1e891db12ad6640 OR http_favicon_md5:c416658c5ae3079994527189bc6e3810
 tags:
 - proto:http
 - product:artex
@@ -10,4 +10,5 @@ tags:
 references:
 - https://github.com/BaaRai/ARTEX/blob/main/web/src/config/app-config.ts
 - https://github.com/BaaRai/ARTEX/blob/main/web/src/app/layout.tsx
-version: 20261125T162004Z
+- https://offensive.agency/agent/artex
+version: 20261125T164212Z

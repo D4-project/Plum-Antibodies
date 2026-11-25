@@ -1,7 +1,7 @@
 name: redamon
 description: Detect the RedAmon operator dashboard
 uuid: 1e324208-4d7a-50ac-ba73-d650f62a2d2d
-query: http_title:RedAmon
+query: http_title:RedAmon OR http_favicon_md5:620b55364a1b370943ceeab58e1f49a3 OR http_favicon_md5:dca9c654ddce6aa63d1187c509a89345 OR http_favicon_mmhash:964522141 OR http_favicon_sha256:94309d127e1669150c5fd002b4dfd5c7168ee654d4022f6ecb8ad376d92e8ac5 OR http_favicon_mmhash:-1953467025 OR http_favicon_sha256:ee50a0eb4fc75bda9e004889c2d3c43b0b4c15178aeea66e2eda52e338674201
 tags:
 - proto:http
 - product:redamon
@@ -11,4 +11,7 @@ references:
 - https://github.com/samugit83/redamon/blob/73ca9d38ced026be6d88d1dc526c72317e7d193c/README.md
 - https://github.com/samugit83/redamon/blob/73ca9d38ced026be6d88d1dc526c72317e7d193c/docker-compose.yml
 - https://github.com/samugit83/redamon/blob/73ca9d38ced026be6d88d1dc526c72317e7d193c/LICENSE
-version: 20261120T095021Z
+- https://offensive.agency/agent/redamon
+- https://github.com/samugit83/redamon/blob/73ca9d38ced026be6d88d1dc526c72317e7d193c/webapp/public/favicon.ico
+- https://github.com/samugit83/redamon/blob/73ca9d38ced026be6d88d1dc526c72317e7d193c/webapp/public/favicon.png
+version: 20261125T170536Z

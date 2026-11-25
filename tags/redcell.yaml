@@ -1,0 +1,13 @@
+name: redcell
+description: Detect the REDCELL operator console
+uuid: 91232f80-6988-55ba-90ac-6f630c51ba56
+query: http_favicon_md5:82d9011327979643168e73a45a394420
+tags:
+- proto:http
+- product:redcell
+- vendor:martian56
+- type:c2
+references:
+- https://github.com/martian56/redcell
+- https://offensive.agency/agent/redcell
+version: 20261125T164212Z

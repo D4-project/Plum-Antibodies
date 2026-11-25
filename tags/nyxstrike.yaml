@@ -1,0 +1,13 @@
+name: nyxstrike
+description: Detect the NyxStrike operator console
+uuid: 72f0c155-e5e0-5b77-ae66-4aacf715383a
+query: http_title.lk:"NyxStrike"
+tags:
+- proto:http
+- product:nyxstrike
+- vendor:commonhuman-lab
+- type:c2
+references:
+- https://github.com/CommonHuman-Lab/nyxstrike
+- https://offensive.agency/agent/nyxstrike
+version: 20261125T164212Z

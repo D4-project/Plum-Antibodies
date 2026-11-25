@@ -1,0 +1,13 @@
+name: z3r0
+description: Detect the Z3r0 operator console
+uuid: 5b9ee33c-5366-554a-a3e5-f1a2c2fed682
+query: http_title.lk:"Z3r0 Console" OR http_favicon_md5:0f2b5d1d65422072b373cbc3e720dd80
+tags:
+- proto:http
+- product:z3r0
+- vendor:yv1ing
+- type:c2
+references:
+- https://github.com/yv1ing/Z3r0
+- https://offensive.agency/agent/z3r0
+version: 20261125T164212Z
