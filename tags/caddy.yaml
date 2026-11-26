@@ -4,8 +4,9 @@ uuid: 498aff7f-8167-5106-9d79-82ee5c758599
 query: http_server:caddy
 tags:
 - proto:http
+- type:webserver
 - product:caddy
 - vendor:caddy
 references:
 - https://caddyserver.com/docs/
-version: 20261014T083357Z
+version: 20261124T175110Z

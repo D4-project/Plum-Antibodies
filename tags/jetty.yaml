@@ -4,6 +4,7 @@ uuid: 5335cd06-f036-4000-9692-31b159288c02
 query: http_server.bg:"Jetty(" OR http_server.bg:Jetty/
 tags:
 - proto:http
+- type:webserver
 - vendor:jetty
 - product:jetty
 - lang:java
@@ -11,4 +12,4 @@ tags:
 references:
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L1449-L1467
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L1480-L1489
-version: 20261120T072555Z
+version: 20261124T175110Z

@@ -4,9 +4,10 @@ uuid: 3954e7f5-d0c0-485d-82ca-d3d40521ca5d
 query: http_server.bg:WEBrick/
 tags:
 - proto:http
+- type:webserver
 - product:webrick
 - lang:ruby
 - vendor:ruby-lang
 references:
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L3008-L3014
-version: 20261120T080257Z
+version: 20261124T175110Z

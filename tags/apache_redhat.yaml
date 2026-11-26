@@ -4,9 +4,10 @@ uuid: a53fa66a-2119-5520-a743-4524bdc0b60b
 query: http_favicon_md5:71e30c507ca3fa005e2d1322a5aa8fb2 OR http_server.bg:Apache/ AND http_server.lk:"Red Hat Enterprise Linux" OR http_server.bg:Apache/ AND http_server.lk:RedHat OR http_title.bg:"Test Page for the Apache HTTP Server on Red Hat Enterprise Linux"
 tags:
 - proto:http
+- type:webserver
 - product:httpd
 - vendor:redhat
 references:
 - https://www.redhat.com/
 - https://github.com/projectdiscovery/nuclei-templates/blob/91be390cf10100eb3c418877a857be9a0060b1aa/http/technologies/default-redhat-test-page.yaml
-version: 20261118T080912Z
+version: 20261124T175110Z

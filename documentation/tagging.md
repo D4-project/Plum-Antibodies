@@ -51,6 +51,17 @@ malformed, or duplicate UUIDs.
 
 Plum-Island replaces an existing database rule only when YAML version is newer. Update `version` whenever changing `description`, `query`, or `tags`.
 
+## Web server classification
+
+Rules that identify an HTTP server implementation carry `type:webserver` and
+one canonical `product:*` tag. CMS, CDN, and proxy rules do not gain this type
+solely because they answer over HTTP. Plum Island can read active imported rule
+rows to derive the web-server product catalogue without a hard-coded product
+list. A scan document may still have several `type:*` and `product:*` tags from
+different matching rules; downstream rankings must intersect observed products
+with this rule-derived catalogue rather than treating every product on a
+`type:webserver` port as a web server.
+
 ## Retiring and consolidating rules
 
 Preserve the retained rule's UUID, combine equivalent signatures with `OR`, and

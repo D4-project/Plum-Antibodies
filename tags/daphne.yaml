@@ -4,9 +4,10 @@ uuid: 4e659761-e8d5-4b36-a27a-5a7c9e5244ee
 query: http_server:daphne
 tags:
 - proto:http
+- type:webserver
 - product:daphne
 - lang:python
 references:
 - https://github.com/django/daphne/blob/d7a005258cce3ad7893a759274647f46331d782e/daphne/server.py#L69
 - https://github.com/django/daphne/blob/d7a005258cce3ad7893a759274647f46331d782e/daphne/http_protocol.py#L258
-version: 20261120T080102Z
+version: 20261124T175110Z

@@ -4,10 +4,11 @@ uuid: c481be64-bbf3-54a3-9e72-14d563c26251
 query: http_server:gunicorn OR http_server.bg:gunicorn/
 tags:
 - proto:http
+- type:webserver
 - product:gunicorn
 - vendor:gunicorn
 - lang:python
 references:
 - https://gunicorn.org/
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L967-L981
-version: 20261120T075945Z
+version: 20261124T175110Z

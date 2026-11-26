@@ -4,9 +4,10 @@ uuid: 57e13b4b-e9d1-4d80-a9fc-4c68d0a87e43
 query: http_server:mini_httpd OR http_server.bg:mini_httpd/
 tags:
 - proto:http
+- type:webserver
 - vendor:acme
 - product:mini-httpd
 references:
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L930
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L2856
-version: 20261120T080347Z
+version: 20261124T175110Z

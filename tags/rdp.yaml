@@ -1,7 +1,7 @@
 name: rdp
-description: Detect an RDP server from the X.224 response reported by banner.nse
+description: Detect observed Remote Desktop Protocol responses from a banner or an RDP probe
 uuid: 278e3f3b-0b61-4ac1-8b24-9fbdca47b8ae
-query: 'banner.bg:"rdp|server|"'
+query: 'banner.bg:"rdp|server|" OR service:rdp OR nse.body:rdp.lk:"tag: _plum_tag_:proto:rdp"'
 tags:
-  - proto:rdp
-version: 20261125T000000Z
+- proto:rdp
+version: 20261126T054749Z

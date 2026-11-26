@@ -4,9 +4,10 @@ uuid: fb506071-cd8f-4e64-a2e9-0a1d99bf9b6e
 query: http_headval:via.bg:"1.1 caddy" OR http_headval:via.bg:"2.0 caddy"
 tags:
 - proto:http
+- type:webserver
 - product:caddy
 - type:proxy
 - vendor:caddy
 references:
 - https://caddyserver.com/docs/caddyfile/directives/reverse_proxy
-version: 20261014T083448Z
+version: 20261124T175110Z

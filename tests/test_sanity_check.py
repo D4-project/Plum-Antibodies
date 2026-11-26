@@ -50,6 +50,14 @@ def test_http_headval_accepts_header_and_value_modifiers():
     sanity_check.validate_query('http_headval:content-type.lk:"application/json"')
 
 
+def test_nse_body_accepts_script_scopes_and_value_modifiers():
+    """Accept the NSE result matching syntax used by the RDP rule."""
+    sanity_check.validate_query('nse.body:rdp.lk:"tag: _plum_tag_:proto:rdp"')
+    sanity_check.validate_query('nse.body.lk:"target_name: gateway"')
+    with pytest.raises(sanity_check.RuleError, match="modifier"):
+        sanity_check.validate_query("nse.body:rdp.invalid:example")
+
+
 def test_normalize_tags_matches_runtime_tag_normalization():
     """Normalize case and legacy tag prefixes before reporting applied tags."""
     assert sanity_check.normalize_tags(["TAG:Vendor:Cisco", "type:Router"]) == [

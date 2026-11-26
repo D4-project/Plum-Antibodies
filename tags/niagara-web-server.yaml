@@ -5,9 +5,10 @@ query: http_favicon_mmhash:-676077969 OR http_server.bg:"Niagara Web Server/"
 tags:
 - lang:java
 - proto:http
+- type:webserver
 - product:niagara-web-server
 - vendor:tridium
 references:
 - https://www.tridium.com/content/dam/tridium/en/documents/events/tri-tridiumtalk-upgrading-niagara-containers-en.pdf
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L3412-L3419
-version: 20261120T082023Z
+version: 20261124T175110Z

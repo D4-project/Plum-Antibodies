@@ -4,10 +4,11 @@ uuid: 58ee843b-cf3b-5a10-acdd-00ed1bbe0606
 query: http_server:angie OR http_server.bg:Angie/
 tags:
 - proto:http
+- type:webserver
 - product:angie
 - vendor:angie
 references:
 - https://angie.software/en/
 - https://github.com/webserver-llc/angie/blob/6c933695b8fb79c8c1aed493aa3936bda4d8fda4/src/core/angie.h#L13
 - https://github.com/webserver-llc/angie/blob/6c933695b8fb79c8c1aed493aa3936bda4d8fda4/src/http/ngx_http_header_filter_module.c#L51
-version: 20261120T072610Z
+version: 20261124T175110Z

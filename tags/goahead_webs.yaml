@@ -5,10 +5,11 @@ query: http_server.lk:"goahead-webs" OR http_server:GoAhead-http OR http_server.
   OR http_server.bg:GoAhead/
 tags:
 - proto:http
+- type:webserver
 - vendor:embedthis
 - product:goahead-webs
 references:
 - https://github.com/embedthis/goahead/blob/59795409ac499288ede9c4a59ea8078e97376c77/src/http.c#L3453
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L2738-L2751
 - https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L10739
-version: 20261120T080311Z
+version: 20261124T175110Z

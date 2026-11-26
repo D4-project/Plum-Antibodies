@@ -1,5 +1,11 @@
 # Release notes
 
+- Classify HTTP server implementations as `type:webserver` using their
+  existing product rules.
+
+- Detect RDP from the X.224 banner, observed service metadata or an
+  RDP-scoped NSE marker. Keep the existing rule UUID.
+
 - Review all 83 offensive.agency agents: cover the 25 published detection sections, reuse nine existing rule UUIDs, add 16 agent rules and three requested ARTEX fork rules, and document unsupported indicators and attribution. Extend RedAmon with verified favicon fingerprints.
 
 - Add the ARTEX console title detector using the case-insensitive Autonomous Penetration Testing Console substring, covering observed punctuation and branding variants; preserve the rule identity and refresh its UTC version.

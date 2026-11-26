@@ -4,9 +4,10 @@ uuid: f616a689-d6fd-4156-bd44-ae5569adcc07
 query: http_server.bg:TornadoServer/
 tags:
 - proto:http
+- type:webserver
 - vendor:tornadoweb
 - product:tornado
 - lang:python
 references:
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L2589
-version: 20261120T080114Z
+version: 20261124T175110Z

@@ -4,8 +4,9 @@ uuid: d8706a3d-97d5-54f6-bf1d-be5dc349d13b
 query: http_server.bg:cloudhttpd
 tags:
 - proto:http
+- type:webserver
 - product:cloudhttpd
 - vendor:pcloud
 references:
 - https://www.pcloud.com/
-version: 20260918T053418Z
+version: 20261124T175110Z

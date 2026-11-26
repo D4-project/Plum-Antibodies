@@ -7,6 +7,7 @@ query: http_title.bg:"Apache Tomcat" OR http_server.bg:"Apache Tomcat/" OR http_
 tags:
 - type:application-server
 - proto:http
+- type:webserver
 - lang:java
 - product:tomcat
 - vendor:apache
@@ -15,4 +16,4 @@ references:
 - https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L6990
 - https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L7012
 - https://github.com/nmap/nmap/blob/7d19be12f357bbca02b43ba4041073a20e0b7df2/nmap-service-probes#L10371
-version: 20261117T141758Z
+version: 20261124T175110Z

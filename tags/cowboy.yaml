@@ -4,9 +4,10 @@ uuid: 3b30365e-6de5-4c0c-a8db-781e9c9064ff
 query: http_server:Cowboy
 tags:
 - proto:http
+- type:webserver
 - vendor:ninenines
 - product:cowboy
 - lang:erlang
 references:
 - https://github.com/rapid7/recog/blob/f1191e24332c51d6a3d98457f64fba8dec340784/xml/http_servers.xml#L85-L90
-version: 20261120T080252Z
+version: 20261124T175110Z

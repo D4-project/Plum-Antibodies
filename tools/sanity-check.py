@@ -191,10 +191,30 @@ def validate_http_headval(term: str) -> None:
         raise RuleError(f"invalid HTTP header name: {header_expr!r}")
 
 
+def validate_nse_body(term: str) -> None:
+    """Validate an exact or script-scoped NSE result term."""
+    key, _, value = term.partition(":")
+    key = key.lower()
+    modifier = key.removeprefix("nse.body")
+    if key == "nse.body" and ":" in value:
+        scope, _, value = value.partition(":")
+        script, dot, mode = scope.lower().partition(".")
+        if not re.fullmatch(r"[a-z0-9_-]+", script):
+            raise RuleError("invalid NSE script name")
+        modifier = dot + mode
+    if modifier and modifier not in VALUE_MODIFIERS:
+        raise RuleError("invalid nse.body modifier")
+    if not value.strip():
+        raise RuleError("nse.body requires non-empty output text")
+
+
 def validate_term(term: str, negated: bool = False) -> None:
     """Validate a field/value term, including allowed modifiers and negation."""
     if term.lower().startswith("http_headval:"):
         validate_http_headval(term)
+        return
+    if term.lower().startswith(("nse.body:", "nse.body.")):
+        validate_nse_body(term)
         return
 
     if ":" not in term:

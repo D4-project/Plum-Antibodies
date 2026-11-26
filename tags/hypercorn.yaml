@@ -5,6 +5,7 @@ query: 'http_server:hypercorn-h11 OR http_server:hypercorn-h2 OR http_server:hyp
   AND banner.lk:"server: hypercorn-"'
 tags:
 - proto:http
+- type:webserver
 - product:hypercorn
 - lang:python
 references:
@@ -12,4 +13,4 @@ references:
 - https://github.com/pgjones/hypercorn/blob/0e2311f1ad2ae587aaa590f3824f59aa5dc0e770/src/hypercorn/protocol/h11.py#L124
 - https://github.com/pgjones/hypercorn/blob/0e2311f1ad2ae587aaa590f3824f59aa5dc0e770/src/hypercorn/protocol/h2.py#L205
 - https://github.com/pgjones/hypercorn/blob/0e2311f1ad2ae587aaa590f3824f59aa5dc0e770/src/hypercorn/protocol/h3.py#L76
-version: 20261120T080057Z
+version: 20261124T175110Z
