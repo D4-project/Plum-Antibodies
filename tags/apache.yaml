@@ -1,7 +1,10 @@
 name: apache
-description: Detect Apache HTTPD
+description: Detect Apache HTTPD from HTTP headers or Apache mod_status NSE output
 uuid: 977cf105-2447-59c5-8b2e-3af15005c504
-query: http_server:apache OR http_server.bg:"Apache/"
+query: >-
+  http_server:apache OR http_server.bg:"Apache/"
+  OR nse.body:http-apache-server-status.lk:"Heading: Apache Server Status"
+  OR nse.body:http-apache-server-status.lk:"Server Version: Apache/"
 tags:
 - proto:http
 - type:webserver
@@ -9,4 +12,4 @@ tags:
 - vendor:apache
 references:
 - https://httpd.apache.org/
-version: 20261124T175110Z
+version: 20261127T000000Z

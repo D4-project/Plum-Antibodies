@@ -1,0 +1,9 @@
+name: server-info
+description: Detect exposed Apache mod_status information reported by the Plum NSE script
+uuid: 37b3d106-4059-4538-959b-f76b3608aa75
+query: 'nse.body:http-apache-server-status.lk:"_plum_tag_:vuln:server-info"'
+tags:
+- vuln:server-info
+references:
+- https://httpd.apache.org/docs/2.4/mod/mod_status.html
+version: 20261127T000000Z
